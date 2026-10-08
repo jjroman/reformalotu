@@ -1,0 +1,158 @@
+El amaestramiento de las puertas siempre 
+nos suscita algunos problemas respecto  
+de procedimientos y de cuestiones de seguridad.
+Vamos a intentar dejarlo claro en este tutorial.
+Para entender conceptos como el 
+amaestramiento o el igualamiento de las  
+puertas, yo creo que lo que es importante es que 
+entendamos cuál es el funcionamiento que tienen  
+los cilindros, porque esto nos va a permitir 
+comprender mucho mejor cómo se hace todo  
+ese proceso. Las llaves que nosotros manejamos 
+habitualmente son, o bien llaves de serreta, o bien  
+llaves planas que tienen una serie de orificios. 
+Esos promontorios que tienen las serretas o los  
+orificios que tienen las llaves planas nos 
+sirven para que, cuando las introducimos dentro  
+del cilindro, se adapten los elementos móviles que 
+llevan en el interior a esas formas. Esos son los  
+pitones que van cayendo y van colocándose en la 
+posición precisa, por lo tanto nos dan distintas  
+combinaciones posibles en una cerradura. Por esto, 
+cuando se hacen amaestramientos que nos obligan  
+a tener combinaciones donde tenemos llaves que 
+abren unos u otros cilindros, muchos cilindros  
+distintos, es importante que podamos 
+tener también muchas combinaciones posibles  
+para que no se repitan estas aperturas. Por 
+esta razón se utilizan cilindros que tienen  
+una cantidad alta de pitones.
+¿Qué posibilidades tengo para reducir llaves?
+La primera puede ser el igualamiento.
+El igualamiento es que yo 
+tengo aquí cilindros que todos tienen la misma combinación.
+Se abren con la misma llave porque, 
+en definitiva, estoy repitiendo la misma apertura  
+en cada cilindro. Puedo tener el mismo 
+cilindro en la puerta de mi casa, en la puerta  
+de una segunda vivienda, en el trastero, incluso en el buzón. Por lo tanto, con una llave, lo abro todo.
+Otra opción distinta es el amaestramiento. Para que lo veamos de una manera muy sencilla,  
+por ejemplo en esta maqueta que tenemos aquí 
+veríamos que tenemos dos llaves de dos vecinos.   
+Con esta llave que yo tengo de mi casa también puedo 
+abrir la llave del portal, hay un amaestramiento. 
+Mi vecino tiene su llave que abre su casa y el portal.
+Y el conserje, por ejemplo, del edificio tiene la  
+llave con la que abre el portal pero, por supuesto, 
+con esa llave no puede abrir las viviendas. 
+¿Qué se  hace para hacer amaestramientos cuando tenemos que 
+trabajar en urbanizaciones grandes, por ejemplo?  
+Pues ahí, lógicamente, lo que se crea es un cuadro con 
+distintos niveles de permisos. Habrá los permisos  
+más específicos que son, por ejemplo, para un empleado que tiene que entrar para el  
+mantenimiento de piscina. Tendrá la entrada general de la urbanización y la de la zona de piscina.  
+O el personal de limpieza, que entrará directamente al cuarto de limpieza. Luego tenemos el  
+siguiente nivel que será, por ejemplo, el encargado del edificio. Ése tiene que tener acceso con su  
+llave a todos los elementos comunes de servicio 
+del edificio. Y luego entraríamos en un siguiente  
+nivel de permisos que serían los propietarios 
+que, además de tener todos los que necesiten de  
+la parte de servicios -como la entrada, 
+por supuesto, a la urbanización-, van a tener la de su  
+propia casa, la de su buzón, la de su trastero...las que sean necesarias. De esta manera, tenemos  
+la garantía de que la llave que maneja cada uno 
+le da acceso solamente a los sitios donde hay  
+permiso y no tengo el riesgo de que nadie pueda 
+utilizar su llave para entrar en mi vivienda. 
+Fíjate, desde el punto de vista práctico, 
+en la importancia que tiene esto. Éste sería un manojo  
+básico de un propietario. Tiene que entrar por la puerta de la calle como decíamos, tiene  
+que entrar en el portal, tiene puertas de servicio, tiene puertas de garaje, tiene la puerta de su casa...  
+tiene la puerta de un montón de sitios posibles de 
+la urbanización. Y, si es el encargado del edificio,  
+ni te digo pero, si es alguien de mantenimiento que 
+trabaja además en distintas urbanizaciones, tiene  
+que ir prácticamente como los antiguos serenos. 
+Ésta, evidentemente, es la solución lógica que se  
+va imponiendo por esta razón.
+Vamos a pensar en un caso práctico a nivel usuario, 
+un caso muy sencillo para que lo pueda hacer uno mismo. Imagínate que ésta es la puerta de la casa  
+de mi hermana, la puerta de mi casa y la de la casa de mis padres. Nosotros queremos tener llave de la  
+casa de mis padres y queremos unificarlo todo. ¿Qué ocurre? Pues que,  como mis padres tienen  
+personal que va y viene para entrar en su casa, para atenderlos, no queremos que con esa llave  
+puedan entrar en mi casa ni en la de mi hermana. 
+¿Cómo hacemos el procedimiento? Pues lo primero  
+de todo, desmontamos el cilindro y vemos las características que tiene.  
+Ponemos la llave por el interior para que 
+no nos moleste el escudo, soltamos el cilindro y  
+lo extraemos girando un poco la leva para que quede liberada.
+Aquí nos vamos a fijar directamente en la medida que tenemos 
+de los dos lados del 
+cilindro. Éste sería, por ejemplo, un cilindro 30/30.  
+Y también tenemos que fijarnos -esto lo hablamos siempre- en el tamaño de la leva. Cuando las levas  
+son largas llegan hasta abajo y hay levas cortas 
+que se quedan un poco más cortas. Este dato  
+también tenemos que saberlo. Si no, lo más sencillo 
+es -si podemos dejar esto así- llevarnos a  
+la tienda nuestro cilindro, que es la 
+manera más sencilla.
+Pero, si no lo podemos hacer,  estos son los datos.
+Para montarlo, exactamente 
+igual que cuando lo hemos desmontado. Alineamos la leva,
+lo introducimos hasta que llegue a su posición y 
+le ponemos el tornillo para atornillarlo. Esto lo  
+tenemos que hacer con cada una de las puertas en las que los vamos a sustituir por cilindros amaestrados.
+Éste sería el resultado con los nuevos 
+cilindros. Yo con mi llave puedo, por supuesto, abrir  
+y cerrar mi casa y puedo abrir y cerrar la casa de mis padres, pero no puedo entrar a casa de mi cuñado.
+Mi cuñado, por supuesto, y mi hermana pueden 
+entrar en su casa y en la de mis padres. 
+Y la llave de mis padres y del personal que viene a atenderlos sirve para entrar en su casa  
+pero tampoco va a servir para entrar en ninguna de nuestras casas. Con estas características, me  
+voy al distribuidor TESA y él me da todos los cilindros amaestrados y perfectamente identificados.
+Además de esto, yo ya con mi nueva 
+llave y mi nuevo cilindro, sobre esta llave lo  
+que puedo hacer es igualamientos si quiero tener más puertas. Con lo cual, si además quiero tener  
+en una segunda vivienda la misma llave,  hago el igualamiento que te explicaba antes  
+y voy a mantener la misma llave. No varía absolutamente nada.
+Respecto de la seguridad. El amaestramiento tiene exactamente
+la misma que los cilindros individuales, porque se basa  
+en que no se pueden hacer copias de las llaves 
+sin control y en la resistencia de los propios cilindros.
+Algo muy importante que tener 
+en cuenta con el tema del amaestramiento. 
+Aunque se haya hecho, por ejemplo a nivel comunitario, el cambio 
+y el amaestramiento de los cilindros, 
+nosotros tenemos que conservar siempre  
+necesariamente la tarjeta que corresponda al 
+nuestro, porque es un elemento que 
+nos van a exigir siempre a la hora de hacer 
+una copia de llave. Si no tenemos la tarjeta y  
+el número de llave, no hay copia posible. Con lo cual, cada uno tenemos que guardarla con mucho cuidado. 
+Desde el punto de vista de la actividad 
+profesional, cuando se hace este tipo de cambios  
+en comunidades grandes, por ejemplo, lo que se envía directamente a TESA es la información  
+de las puertas, sus posiciones, los tamaños y características de todos los cilindros y qué  
+servicio necesitan cada uno de ellos. Con lo cual 
+luego lo que ya se recibe es en una caja todo  
+perfectamente organizado. Todos los cilindros, las llaves, los elementos identificativos para  
+saber exactamente dónde corresponde cada una y se 
+tiene luego también la posibilidad de descargar  
+el cuadro con todas las funcionalidades 
+que tiene cada una de las cerraduras, para  
+que quien administre sepa lo que tiene que repartir o no de llaves en cada caso. Y eso mismo  
+ocurriría también a nivel familiar. Es decir, si yo hago un pedido de estos amaestramientos,  
+recibiré unificado y perfectamente identificado 
+cada uno de los cilindros que yo haya  
+pedido para hacer los cambios. Si tienes interés en un amaestramiento, te dejamos abajo en  
+la descripción un enlace para conseguirlo con un descuento especial.
+Espero con esto haber sido capaz de aclarar un poco todas
+las dudas que existen tradicionalmente sobre este tema de los  
+amaestramientos. El resumen es que con una sola llave merece la pena mejorar la seguridad y que  
+es algo imprescindible, sobre todo cuando estamos 
+hablando de oficinas, de colegios, de comunidades...  
+realmente va por ahí el mundo y hay que tenerlo en cuenta.
+Bueno, espero como siempre que nos hayamos
+ganado tu "like", que te suscribas al Canal si no lo estás todavía -acuérdate de dar a la campanita  
+para recibir notificaciones- y que compartas este vídeo
+con todos tus amigos a los que les guste el mundo del bricolaje.

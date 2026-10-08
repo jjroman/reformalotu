@@ -1,0 +1,281 @@
+En este tutorial vamos a hablar de la
+instalación de extractores.
+En principio, hay extractores que son muy
+sencillos, que basta con conectarlos al
+mismo sitio en el que tenemos una lámpara y funcionan y ¡ya está! Éste que hemos
+traído nosotros es un poco más complejo,
+porque es un extractor temporizador.
+También tienes otros que son higrómetros. En cualquier caso, vamos a
+ver cómo se hace la parte eléctrica que
+es lo que generalmente nos crea dudas
+a la hora de hacerlo. Este extractor nos lo han enviado unos amigos, la gente de
+Alcosan Online. Y me gustaría decir respecto de este tipo de empresas  e-commerce que hay por
+la red alguna cosa importante. Porque,
+fíjate, en este momento es verdad que en
+aspectos como la electricidad está
+habiendo una proliferación de ofertas en
+Internet. Lo hacen plataformas que, por
+supuesto, no tienen ningún conocimiento de
+producto y, además, lo hacen con productos con los que nos están vendiendo la
+idea de que tú puedes comprar por 1 lo
+que habitualmente vale 5.
+Bueno, esto lo cierto es que no es verdad.
+No es verdad porque en general, sobre
+todo en el campo de temas que tiene que
+ver con electricidad y electrónica,
+las diferencias de calidades son muy
+importantes y las diferencias de
+seguridad también. Porque hay muchos
+productos que no están homologados. Por
+eso, sí que nos interesa mucho apoyar
+y trabajar con empresas, como en este
+caso Alcosan Online por ejemplo, que son gente que llevan muchísimos años trabajando en
+el campo de los suministros eléctricos y,
+ahora, lo que hacen es abrir una página
+en Internet que puede vender a
+particulares, una tienda online donde tienes
+las mejores marcas, donde tienes precios, 
+rapidez de servicio... Es decir, todas las
+características que te dan las grandes
+plataformas pero tiene, por supuesto,
+menos publicidad. Pero para quienes sí
+nos dedicamos en serio a trabajar
+con materiales de electricidad y, por
+supuesto, para los profesionales, ese tipo
+de sitios es donde te van a dar realmente
+el producto que hace falta. Lo digo
+porque en esto está habiendo mucho
+engaño y conviene que lo vayamos
+centrando y buscando aquellos sitios
+donde realmente hay seriedad y, como en
+este caso, tienes la información
+necesaria porque, si tienes cualquier
+duda, también te la resuelven porque son
+especialistas en esto.
+Bueno, ¡vamos allá! Extractores. Lo primero
+de todo, ¿para qué nos sirve un extractor?
+Un extractor nos sirve para quitar malos
+olores y para quitar humedad. Son las dos
+funciones que tienen este tipo de
+equipos. Nosotros tenemos que tener
+cuidado con una cosa. Generalmente, en el cuarto de baño, es
+verdad que no tenemos muchas salidas
+posibles para poner un extractor.
+¿Qué es lo que está pasando? Y ¿por qué en algunos pisos, en las comunidades de
+vecinos, hay olores en los cuartos de
+baño? Fíjate, el sistema de
+ventilación que tenemos en el cuarto de
+baño es una gran canalización ascendente,
+a través de la casa, a la que tienen acceso todas las rejillas de
+ventilación de los baños. ¿Qué ocurre? Pues que siempre, aunque la norma
+dice que hay que pedir permiso a la
+comunidad para poner un extractor, hay
+gente que no lo hace. Cuando algún vecino
+coloca un extractor eléctrico
+en un piso alto, lo que se produce allí
+es una presión de aire que hace que toda
+esa ventilación natural, que tendría que
+estar ascendiendo a través del shunt, no
+funcione. En estos casos lo lógico sería
+evitar que nadie lo ponga pero, cuando
+alguien lo pone, sí que es verdad que en
+muchos casos la única solución que le
+queda a los demás vecinos es hacer lo
+mismo y poner un sistema forzado de
+ventilación, de extracción de aire, que al
+final lo que hace es ir cargando de
+presión y haciendo que vaya más deprisa
+todo el aire. Es un poco chapuza, es la
+verdad, pero es lo que está pasando, para
+qué os voy a engañar. En otros casos sí
+que es verdad que tenemos cuartos de baño o habitaciones en los que
+podemos tener canalizaciones con tubos y
+demás que nos llevan al exterior el aire
+que vamos sacando. Yo no voy a entrar en
+lo que es correcto o incorrecto, os
+cuento la verdad de las cosas, cómo
+funcionan, y os explico cómo se instala.
+Vosotros luego ya decidid aquello que
+os parezca conveniente, siempre
+consultando por supuesto con la
+normativa que tenga la comunidad de
+vecinos, aquellos que viváis en un
+edificio.
+Bueno, ¡vamos con la instalación!
+Fíjate en lo que hemos preparado aquí, en
+esta maqueta, para entender un poco qué
+es lo que nosotros tenemos en el cuarto
+de baño y qué es lo que tenemos que
+buscar. En principio, lo que tenemos aquí
+es una lámpara con un circuito, con una
+conexión. Esto, en general, en los cuartos de baño no lo llevamos en registros
+vistos. Muchas veces tenemos que irnos a
+buscar el cableado en el falso techo que
+está por encima del techo normal en el
+cuarto de baño. Y tenemos por supuesto un
+interruptor. Y hemos traído aquí,
+directamente, nuestro extractor. Esto en
+la vida real lo normal es que esté donde está la rejilla
+de ventilación o que lo pongamos en el
+techo.
+Con todo esto, tenemos que ir buscando dónde están los cables y las conexiones
+correctas para dar servicio a esta
+instalación. Tenemos que ir buscando cada
+uno de los puntos. Fíjate, nosotros
+tenemos aquí una primera
+letra que nos pone una L. Éste es el cable de fase de alimentación
+que tenemos que ir a buscar donde lo
+tengamos. En este caso, nosotros lo
+tenemos aquí representado en este cuadro,
+mira.
+Como ya te hemos mostrado en los
+tutoriales de electricidad, aquí tenemos
+la caja de registro donde nos llegan
+cables de distintos sitios. Por supuesto,
+acuérdate siempre, antes de manipularla,
+de desconectar la luz.
+Nosotros tenemos una entrada de cables
+que nos vienen directamente del cuadro y,
+en este caso, para dar servicio a la
+lámpara, fíjate en que estamos
+tomando aquí un cable que nos viene con
+la corriente desde el cuadro, la fase, y
+otro que nos viene, el neutro. Bueno, en
+este caso, nosotros vamos a robar
+el cable de fase del que nos viene directamente desde el cuadro a
+la instalación. Es con el que tenemos que
+dar servicio. Vamos a cogerlo ya.
+Pelamos el cable
+y aprovechamos la clema que ya tiene, la
+regleta, para conectarlo en su sitio.
+El siguiente cable que voy a buscar, 
+fíjate en que tengo aquí una N. La N siempre
+corresponde al neutro. Pues vamos a
+buscar un neutro porque éste sí que no
+tengo problema para localizarlo, porque
+efectivamente no hace más que un viaje
+muy sencillo. Éste no tiene pérdida, cable
+azul, donde tengas una conexión al cable
+azul, sacamos el cable para dar servicio al aparato.
+Cortamos los cables siempre a la medida
+necesaria y, así, ya los tenemos
+disponibles para trabajar más
+cómodamente con ellos.
+Y tenemos que buscar nuestra tercera
+conexión para estas letras que pone aquí
+SL, que quiere decir que es un cable de
+fase pero la S de switch significa
+que viene de fase pero a través de un interruptor. Entonces
+tenemos que ir a buscarlo en un punto
+donde esté detrás del interruptor. Fíjate
+que aquí esto lo tenemos relativamente
+fácil de ver. En nuestra instalación,
+tenemos aquí esta entrada que nos viene directamente desde el
+cuadro. De todas maneras, para entender
+bien esto, te recomiendo, lo tienes aquí
+arriba señalado donde puedes pinchar para 
+ir al tutorial de electricidad
+básica en el que hablamos
+específicamente de cómo se hace esta
+instalación para que esto lo entiendas
+bien, porque si no es más complicado
+entender lo que vamos a ver ahora.Yo sé
+siempre que los cables marrones que
+tengo en mi instalación, en este caso de
+esta instalación, son aquellos que vienen
+directamente del cuadro. Lo devuelvo, sin
+embargo, con un cable negro que es el que
+viaja directamente a la lámpara. Como ves, 
+aquí continuamos con negro. Eso quiere decir
+que los cables negros que tengo en mi 
+instalación son cables de fase que están
+conmutados a través del interruptor. A mí lo que me está pidiendo mi aparato es que
+le mande un cable de fase pero que
+esté pasado por el conmutador. Así que
+es lo que voy a hacer. Voy a aprovechar aquí, justo donde tengo la vuelta que viene de
+mi interruptor, y voy a darle servicio
+conectándolo directamente
+en la regleta correspondiente.
+Bueno, pues tenemos aquí ya nuestro
+manojo con los tres cables que
+necesitamos para dar servicio al extractor. Fíjate. Nosotros, lógicamente,
+este extractor no lo tenemos ahí delante
+en el cuarto de baño, en la cocina o donde
+o vayamos a poner. Lo tenemos
+siempre en la misma línea de la pared o en
+el techo. En este caso lo habitual es que
+yo intente llevar, en el caso del techo
+sobre todo, por encima del falso techo
+los cables. Cuando tengo que llevarlos
+por superficie, lo que hago es utilizar canaletas.
+En este tutorial que te estoy indicando
+aquí, si quieres pinchar en él, te
+explicamos cómo se utilizan este tipo de
+canaletas que van sobre la pared. Yo
+evito repetir las mismas cosas. Si necesitas información, vete al tutorial y lo
+tienes ahí. Bueno, en este caso, tal como
+lo hemos representado nosotros, estarían
+llegando directamente los cables por
+encima del falso techo, por ejemplo en
+este caso, o por detrás de la pared,
+y lo que haríamos sería hacerlos emerger
+directamente desmontando el extractor,
+soltando los tornillos, y los pondríamos directamente por la
+entrada de los cables que tenemos aquí.
+Vamos a ir dando aquí servicio a
+cada uno de los cables.
+Vamos ahora con el neutro
+y, por último, metemos el cable de fase
+que nos viene ya directamente conmutado
+a través del interruptor.
+Pues, una vez que tenemos ya esto
+montado, vamos a ver directamente si
+funciona o no, que es muy importante. Vamos a dar servicio primero,
+que hemos cortado la electricidad.
+Y ahora, teóricamente, cuando ponemos en
+marcha el interruptor, debe saber el
+aparato que queremos que funcione.
+Ves que se pone en marcha el extractor.
+Cuando nosotros apaguemos, va a seguir
+funcionando porque en ese momento sabe
+que nosotros, al cortar el interruptor,
+queremos que no siga funcionando más,
+salvo el tiempo que le hayamos indicado
+de temporizador para que esto funcione.
+Como ves, aunque apaguemos, se queda
+funcionando. Y ahora vamos a ver el
+tiempo que tiene de duración.
+El tiempo de funcionamiento está en
+relación directa con lo que regulemos
+nosotros a través de esta ruedecita.
+Si lo vamos girando en el sentido de las agujas del reloj, lo llevamos hasta el máximo y
+aquí ya estaría el tiempo mínimo de
+funcionamiento una vez que hayamos
+apagado la luz del baño o de la habitación
+que sea. En los que tienen también un
+higrómetro, la regulación está en una ruedecita que tienen en este lado, es la
+única diferencia que verás con respecto
+a estos que tienen
+solamente el temporizador.
+Y, por último, ponemos la tapa que va
+sujeta directamente a estas pestañas
+con estas hendiduras que tiene en los
+laterales.
+Aquí abajo, en la descripción del vídeo,
+te dejamos dos cosas importantes. Una es,
+como te decía antes, el contacto para
+esta tienda online, para que veas precios
+y para que veas las marcas que tiene y que
+es realmente interesante, Alcosan, y te
+dejamos también la fórmula para saber
+qué potencia necesitas de aparato en
+función del volumen que tengas en la
+habitación, para saber cómo elegirlo. Es
+una regla muy sencilla, la tienes también
+aquí abajo porque, a la hora de comprar,
+te va a ser muy útil.
+Bueno, espero que te haya sido interesante este vídeo, que nos hayamos ganado
+como siempre tu "like", que te suscribas, si no estás todavía, y por supuesto
+que compartas este vídeo con
+todos tus amigos
+a los que les gusten estas cosas del bricolaje.

@@ -1,0 +1,256 @@
+En este tutorial vamos a desmontar 
+y a intentar reparar un horno empotrable
+de cocina y, de paso, vamos a ver 
+qué pasa con un problema de instalación  
+que parece ser tuvimos en un vídeo 
+anterior de nuestra placa de inducción.
+El mayor lujo que tenemos en el canal 
+de Bricocrack son los comentarios de los bricocracks  
+especialistas que nos corrigen, nos critican, nos 
+dan informaciones... Todo este tipo de ayudas son  
+muy importantes y en los comentarios también 
+respondemos tus preguntas cuando no las haces.  
+Eso sí, siempre que nos las hagas en el último vídeo 
+que publicamos cada semana. Y, para eso, lo mejor es  
+que estés suscrito, que des a la campanita y así sabes 
+cuándo publicamos nuevos vídeos. 
+Pues esto de los comentarios de los  especialistas es lo que nos pasó
+cuando publicamos el vídeo de la instalación de la placa de inducción.
+Hemos tenido algunos comentarios muy interesantes, por ejemplo, de  
+@jbx720, @CarpinteríaMiguelRuizAlhama, @manuellopezparin-or2bf, @old_newbie, @charcutero_
+Son compañeros que, cuando instalamos esta placa de inducción,
+nos hicieron algunas observaciones, básicamente,  
+en dos líneas. Una, que el consumo en la placa de 
+inducción no está calculado de una manera muy  
+correcta tal como lo hicimos. Bueno, en definitiva, 
+nosotros no queríamos hacer un cálculo de consumo,  
+queríamos ver únicamente cuáles eran los picos 
+máximos que tenía la placa de inducción -tienes  
+ahí el vídeo si lo quieres ver para saber de qué 
+estamos hablando- y, con eso, saber si en su casa  
+uno puede ponerse una placa de inducción, sin 
+miedo a que salte la instalación cuando la pone en  
+marcha. Ése era el principal objetivo que yo creo 
+que sí quedaba claro como habéis dicho también  
+otros muchos bricocracks en los comentarios.
+Pero había un segundo aspecto que sí que era más  
+preocupante que es que, nos decíais también, que no 
+se podía instalar así la placa de inducción porque  
+la placa de inducción necesita tener rejillas. 
+Esto realmente me sorprendió porque  
+en las instrucciones de montaje de la 
+placa de Samsung que montamos no habla  
+para nada de las rejillas. Es verdad que hay pintada una 
+flecha que sale como moviendo aire pero que no se  
+entiende muy bien. Así que nosotros, como hacemos 
+siempre en nuestros tutoriales 
+cada vez que tenemos una duda o 
+cuando vamos a hacer los vídeos, recurrimos 
+a los servicios técnicos de los fabricantes para 
+estar seguros de aquello que contamos.  
+Bueno pues, con Samsung, no hemos tenido suerte. Lo 
+siento mucho, es muy difícil porque hemos hablado  
+con el servicio de atención al cliente, el servicio 
+de atención a grandes consumidores, nos volvieron  
+a remitir a otra oficina suya que cuentan no sé qué, 
+nos mandaron al servicio técnico de Madrid...En el servicio  
+técnico de Madrid, una señora muy amable me dice 
+"es que nosotros no atendemos consultas, nosotros  
+hacemos averías y ya está". Es decir, si tenéis un 
+problema mañana con un aparato de Samsung, más vale  
+que tengáis suerte porque realmente el servicio 
+en este sentido es imposible que nos cuenten nada  
+de información. Porque nuestro problema era decir: 
+a nosotros nos han comentado especialistas que  
+no se pueden instalar así las placas, no lo ponéis 
+en las instrucciones, en las fotografías que  
+hay de instalación no hay ninguna rejilla de  
+ventilación, lo cual nos hace pensar que no hace  
+falta, pero es verdad que lo que se dice es cierto. 
+Y, de hecho, cuando hemos desmontado el  
+horno ahora para esta reparación que os voy a 
+contar hoy, hemos visto que por la  
+parte inferior de la placa hay unas tomas de 
+aire que necesitan ventilación. Lo cual nos hace  
+pensar que los compañeros instaladores tienen toda la razón del mundo.
+Hace falta tener rejillas para ese tipo 
+de placas. ¿Por qué Samsung esconde esa información?  
+¿Por qué en sus fotografías no figura nunca? Bueno, supongo que tiene que ver con la parte estética  
+y la parte de no complicar la instalación. Pero sería de agradecer que las marcas, en vez  
+de dejar que cuando pase el tiempo se acaben 
+estropeando los aparatos fuera de garantía,  
+dieran la solución cuando es necesario. 
+Y sería también muy de agradecer que cuando un  
+Canal como el nuestro...Ya no es por nosotros, es 
+porque, cuando nosotros explicamos, 
+tenemos casi 900.000 suscriptores que tienen 
+derecho a tener una información de una marca.  
+Bueno parece que, en este caso, a la multinacional 
+coreana el asunto de lo que penséis vosotros o  
+yo les importa un comino y les da exactamente igual.
+Así que vamos a centrarnos solamente en aquello  
+que realmente hemos visto como tal que es que, si 
+tiene una entrada de ventilación, 
+habrá que poner una rejilla. En un próximo 
+tutorial pondremos una rejilla y disculpas  
+porque, a la hora de hacer el vídeo, nos 
+fiamos de lo que teníamos
+y, efectivamente, no lo comentamos.
+Pues, como os decía, después del 
+cambio de placa, en esa misma cocina 
+ha surgido un problema con el horno. Cuando se pone en marcha, se queda encendido un tiempo
+pero, inmediatamente, se desconecta. Así que nos hemos decidido a investigar qué le puede  
+pasar a este horno y a ver la dificultad o no que 
+tiene este tipo de reparaciones. Lo primero que  
+hemos hecho, como siempre, ha sido desmontarlo 
+y sacarlo fuera. El cómo se desmonta el horno  
+lo tienes también en el tutorial del que te 
+hablaba antes, el del cambio de placa, con lo  
+cual no vamos a repetirlo, y vemos que ya tenemos aquí nuestro horno colocado en una  
+posición cómoda para poder trabajar. Por supuesto, siempre que hacemos este tipo de trabajos, tenemos  
+que cortar la luz, la alimentación correspondiente 
+a ese aparato con el que estemos trabajando.  
+Desmontar el horno vas a ver que es una cosa sencilla. Es 
+como todas las cosas en esta vida: ir quitando los  
+tornillos de donde están -que habitualmente no 
+hay mucha dificultad para esto- e ir soltando la carcasa.
+Algo importante. Sí que hay que tener una 
+precaución a la hora de hacer estos trabajos que  
+es que siempre, cuando nos encontramos conexiones 
+de cualquier tipo que luego tendremos que volver  
+a montar o pasos que nos parecen complicados de 
+entender -dónde hay un tornillo, dónde no-, hacemos  
+una foto con el teléfono móvil y, así, nos quedamos 
+con la imagen de aquello que luego, cuando tengamos  
+dudas, las vamos a poder resolver fácilmente.
+Una 
+vez que tenemos ya desmontada la cubierta,
+vamos localizando los distintos elementos que 
+tiene el horno. Detrás de uno de los mandos,  
+tenemos el termostato en el que seleccionamos 
+la temperatura a la que queremos que trabaje el  
+horno y, en el otro mando, por la parte de atrás vemos 
+que es la salida de los distintos selectores que  
+tiene el conmutador de posiciones para saber 
+cuáles son las resistencias que queremos que  
+estén funcionando en cada caso en nuestro horno. 
+Si nos vamos a la parte de atrás, veremos que  
+tenemos unas entadas de cable que están como 
+duplicadas. Tenemos dos entradas de la fase y  
+dos salidas, porque ahí es donde están las entradas 
+para alimentar la resistencia superior y la placa  
+de grill. En la parte de abajo, tenemos la entrada 
+de la resistencia inferior que tiene el horno. 
+En el lateral, vemos que esta entrada nos coincide 
+con la zona donde va la bombilla. El ventilador  
+superior, es un horno de aire caliente 
+con lo cual tiene esa pequeña turbina montada en  
+su parte superior. Y vemos también en 
+la parte superior una pequeña conexión que  
+corresponde con el termostato de seguridad del 
+horno. Nosotros lo que vamos a hacer para empezar  
+es ir viendo si realmente no hay nada roto. Nada 
+roto quiere decir que, en algún punto, haya habido  
+una rotura de los materiales que tenemos y no haya 
+continuidad eléctrica o haya un mal contacto que  
+esté produciendo este problema. Así que, directamente con un tester,  
+vamos viendo la continuidad, vamos probando si 
+hay continuidad, por ejemplo, entre los cables de  
+entrada de la resistencia superior y de la salida. 
+Vemos la resistencia inferior y el resultado también  
+es el mismo. Probamos con el termostato general y vemos 
+que el termostato también tiene continuidad. 
+Con lo cual, hasta ahí por lo menos, lo inmediato 
+que podemos localizar que es que haya algún  
+tipo de elemento roto parece que no es el caso. 
+Así que, ante esta situación, podemos pensar  
+que el termostato de seguridad sea 
+el que, cuando empieza a calentarse un poco el  
+horno, nos falla. Bueno, pues vamos a  prescindir del termostato de seguridad, vamos  
+a puentearlo y vamos a unir directamente las 
+dos pletinas que pasan a través de él para que,  
+de esta manera, el termostato esté inhabilitado 
+y sepamos si funciona o no. Ahora sí, una vez que  
+tenemos puenteado el paso de cable de control 
+del termostato de seguridad, vamos a volver a dar  
+la luz de la instalación y a poner en marcha 
+nuestro horno.
+Vemos que, una vez que lo ponemos en marcha,
+se ha reproducido el problema. 
+Esto quiere decir que podemos descartar  
+que el problema sea del termostato de 
+seguridad. Vamos a volver a engancharlo y, en este caso, 
+el siguiente termostato donde suele haber problemas en los hornos es el termostato  
+de control de la temperatura. Éste lo 
+vamos a cambiar. ¿Cómo lo vamos a hacer? Fíjate en que  
+este termostato va conectado directamente desde 
+la posición donde nosotros lo gobernamos a  
+una sonda que se encuentra en el interior del 
+horno. Para sacar la sonda, vamos a desmontar la  
+pletina que lo sujeta a la pared del horno y, de 
+esta manera, es mucho más fácil tirar de la sonda  
+hacia fuera, retirarla por la parte de detrás, ir 
+sacando los cables y desmontar el termostato.  
+Fíjate en que el termostato que nosotros 
+tenemos para hacer el cambio 
+lo hemos comprado en una tienda de repuestos y coincide, por supuesto, con el que tenemos nosotros  
+instalado ahora mismo. La reparación de 
+este tipo de elementos tiene la ventaja de que no  
+suelen ser los recambios piezas 
+costosas. Con lo cual, teniendo en cuenta lo que  
+cuesta la mano de obra y lo que cuesta el 
+propio horno, merece la pena ir probando elementos  
+y cambiándolos para ver lo que pasa. Para desmontar 
+el termostato, tenemos que sacar una chapa donde  
+van alojados los tornillos. Sobre esto no te voy a 
+hacer una explicación muy pormenorizada porque  
+cada horno tendrá sus propias características, 
+pero fíjate que siempre el juego es éste. Suele  
+haber capas distintas de chapas que esconden los 
+tornillos que necesitamos ir desmontando.  
+Con lo cual, vamos quitando los tornillos para 
+desmontar las chapas que nos estorban, fijándonos  
+bien dónde van y vamos soltando las piezas que 
+necesitemos. Es un pequeño rompecabezas en  
+el que es importante que recordemos luego dónde 
+va cada cosa, pero ves que es muy sencillo a la  
+hora de hacer el desmontaje. Ahora ya podemos 
+soltar el termostato directamente del mando. 
+Lo hacemos soltando los tornillos que lo sujetan 
+y tirando directamente del vástago que es el que  
+nos sirve para ir girando con el mando exterior. 
+Sustituimos el termostato antiguo por el nuevo  
+y lo recolocamos en la misma posición que tenía. Vamos guiando el cable y 
+llevando otra vez de vuelta la sonda  
+al interior del horno. La volvemos a colocar 
+en su pletina y volvemos a hacer el montaje  
+exactamente igual que lo teníamos.
+Y, ahora, vamos a 
+probar si funciona o no funciona nuestro horno.
+Lo ponemos en marcha como siempre y esperamos a ver 
+lo que pasa. Vemos que, en este caso, va pasando el  
+tiempo y no se interrumpe. Probamos a cambiar el 
+selector y vamos probando otras posiciones y  
+otras temperaturas. Y si el horno responde, como es 
+el caso, ya sabemos que, efectivamente, el problema  
+es el termostato. El montaje, como siempre. Si ves 
+el vídeo de cómo lo hemos desmontado, ya sabes, es  
+invertir el proceso que hemos seguido y podremos 
+tener el horno nuevamente como estaba al principio.  
+Bueno, ya ves que con esto hemos solucionado 
+parcialmente algo que ha sido descubrir al  
+menos qué pasaba con nuestra famosa placa de 
+inducción. Te explicaremos en un tutorial cómo hacemos  
+la instalación de la rejilla para poder solucionar 
+esto. En caso de que no haya espacio donde meter   
+la rejilla, hablaremos también de cómo solucionarlo para que al menos en el interior 
+de la zona del horno podamos tener un paso de 
+aire suficiente para esa ventilación. Siempre  
+en la parte de atrás, en el casco del mueble, 
+hay sitio para que el aire circule con lo cual  
+hay otras soluciones alternativas cuando no se tiene 
+rejilla. Pero, como te digo, eso lo hablaremos más  
+tranquilamente en un próximo tutorial. Ahora, con 
+esto, espero que nos hayamos ganado tu "like" como  
+siempre y que compartas este vídeo con todos tus amigos
+a los que les guste el mundo del bricolaje.

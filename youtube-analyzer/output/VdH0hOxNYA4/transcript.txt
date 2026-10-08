@@ -1,0 +1,292 @@
+En un tutorial anterior estuvimos ya
+hablando de herramientas neumáticas.
+En ese caso, estuvimos hablando de
+herramientas que no requieren un gran
+caudal de aire y que pueden trabajar
+directamente con un compresor de dos caballos.
+En esta ocasión, vamos a ir avanzando ya
+con herramientas un poquito más
+sofisticadas y que necesitan un
+compresor de tres caballos, porque tienen
+una demanda de caudal de aire más grande.
+Seguimos, como ves, trabajando un poco en torno al catálogo de COFAN. Ya te
+recomendé en el tutorial anterior que, si
+querías ver no solamente herramientas sino
+también accesorios, te dieras una vuelta por él. Y, de todas maneras, de todos
+los datos que yo te voy a dar, luego en
+el post que tenemos en la página te
+damos enlaces, datos más concretos
+y alguna información interesante que no
+te doy aquí para no alargarnos mucho.
+Vas a ver las pruebas que hemos
+estado haciendo con cada una de las
+herramientas para ver su funcionamiento
+y para ver si realmente responden a las 
+expectativas que tenemos de ellas.
+Lo primero que hemos hecho ha sido instalar este filtro de lubricación. Recuerda que
+siempre las herramientas neumáticas
+tienen que llevar una buena lubricación, tanto
+para que su mecanismo funcione bien, como porque tienen que estar conviviendo con
+una carga de aire que, muchas veces, va
+cargado también de humedad,
+con lo cual es muy importante mantener
+está lubricación.
+Así que, lo primero de todo, ponemos el
+filtro de lubricación.
+Para instalar el filtro, tenemos que
+ponerle conectores macho y hembra a cada
+lado para poderlo integrar en el
+circuito. Ponemos primero el conector macho,
+como ya has visto en otras máquinas en el
+anterior tutorial. Y, a continuación, le
+ponemos este acople rápido. Como no
+tenemos en su interior una junta tórica,
+vamos a ponerle un poco de hilo sellante
+para asegurar la estanqueidad.
+Sujetamos el cuerpo del filtro
+ayudándonos con una llave
+para poderlo apretar bien.
+Este filtro lo rellenamos de aceite para
+que pase el aire a través de él y se
+impregne directamente con este
+lubricante.
+La primera herramienta que hemos estado probando es la amoladora.
+11.000 revoluciones por minuto,
+212 litros de consumo, es decir, estamos
+trabajando más o menos con las
+revoluciones que trabajamos con una
+amoladora eléctrica. En ese sentido no
+hay una gran diferencia. Para montar la amoladora, ponemos primero
+la empuñadura. Para sacar las piezas que sujetan los
+discos, tengo que frenar el eje
+utilizando esta herramienta.
+Con esto bloqueamos el husillo y podemos
+girar las piezas. Estas piezas, como
+siempre, tienen posiciones para trabajar con discos rehundidos o discos planos.
+En este caso, como trabajamos con un disco rehundido, vamos
+a ponerlo en esta posición.
+Sujetamos nuevamente el eje con la
+herramienta y, para apretar, utilizamos la
+llave habitual para este tipo de
+herramientas. Aprieta bien fuerte para
+que quede el disco bien fijado.
+Y, para terminar, ponemos el filtro
+lubricante.
+La herramienta tiene un freno de
+seguridad aquí.
+Para trabajar, necesitamos inclinarlo
+para ponerlo en marcha.
+De esta forma.
+De todas maneras, siempre que cambiamos un disco, es imprescindible
+hacerlo con la máquina desconectada.
+La amoladora trabaja a 6.5 kilos de presión. Si no la regulas
+correctamente, lo que te va a pasar es que se queda parada.
+Sencillamente, le sale aire por este
+escape pero no llega a girar. A veces uno
+piensa que está estropeada, no, 
+sencillamente es que no hemos regulado
+correctamente el compresor. Nosotros
+hemos hecho la prueba utilizando
+un disco de corte grueso.
+Con este disco de corte grueso la verdad
+es que a la amoladora le ha costado un
+poquito el estar trabajando. Aunque,
+efectivamente, vemos cómo va cortando y
+hace un corte correcto
+con suficiente potencia.
+La siguiente prueba la hemos hecho ya
+cortando sobre acero y con un disco de
+corte fino. Para un disco plano como éste, damos la
+vuelta a la pieza superior para que
+quede bien sujeto por esa parte.
+En este caso, con el disco de corte fino, 
+el corte es muy sencillo y muy rápido.
+En este sentido, la amoladora, tanto por
+vibraciones como por sensaciones de
+equilibrio y de corte, funciona
+exactamente igual
+que una amoladora eléctrica.
+La siguiente herramienta que hemos
+estado probando es la pistola de impacto.
+Pesa 2.3 kilos. Nosotros la hemos estado utilizando
+también con un filtro de lubricación
+pero, realmente, en el caso de esta
+herramienta no hace falta porque va ya
+con una lubricación constante que
+protege todo el mecanismo interno de
+funcionamiento de la máquina.
+Nos da 7.000 revoluciones y tiene una
+exigencia alta de caudal. Estamos
+hablando de 340 litros pero, claro, es que
+este tipo de pistolas de impacto nos dan
+más de 500 newtons de par de apriete, con
+lo cual es normal que requieran también
+una energía proporcionalmente muy alta.
+Aquí, desde luego, la parte que tiene que
+ver con el coste de producción de
+energía para toda la potencia que nos da
+una máquina es realmente muy favorable para trabajar porque, imagínate, para
+conseguir esta fuerza en una herramienta
+eléctrica hay que tener un consumo
+realmente alto de energía eléctrica. La
+pistola de impacto tiene aquí una
+regulación de torque que corta el giro
+cuando llega ya a la presión que
+queremos. El pasador que lleva el regulador nos
+sirve también -empujándolo a un lado o a 
+otro- para hacer que funcione en un
+sentido o en otro el giro de la máquina.
+Hemos estado probando el consumo de aire
+jugando con estos tornillos gruesos sobre una madera muy dura.
+Así vemos, haciendo avance y retroceso, cuál es el consumo que tiene
+y con cuánta frecuencia se dispara el
+compresor. Vemos que va con
+mucha holgura. Con 50 litros que tiene este compresor,
+llevamos muchísima holgura a la hora de trabajar.
+Donde realmente se demuestra la eficacia
+de una pistola de impacto es, claro está,
+en el trabajo mecánico, por ejemplo, en el
+desmontaje y montaje de las tuercas de las ruedas.
+Como ves, podemos trabajar de una manera continuada y muy rápida.
+La siguiente herramienta que hemos
+estado probando es la llave de carraca.
+Nos sirve para apretar y meter tuercas. Trabaja con 160 revoluciones,
+es decir, el trabajo normal que nosotros hacemos, para no ir
+demasiado forzados y no dejarnos la
+muñeca a la hora de apretar. Porque, claro,
+estamos hablando de 80 newtons y eso nos obliga, lógicamente, a sujetar
+bien la herramienta. Si además vamos muy
+deprisa, nos va a complicar un poco el
+trabajo. Nos exige unos 240 litros de
+caudal. Ésta es la llave de carraca simple,
+es decir, que nos sirve exclusivamente
+para apretar y aflojar tuercas. Tienes
+otras también que son dínamométricas
+ y que ya nos permiten trabajar con
+medidas específicas de apriete que son
+las que utilizamos cuando tenemos que
+hacer trabajos mucho más controlados
+respecto de la presión de apriete que
+necesitamos sobre las piezas. Como es
+normal en las llaves de carraca, el cambio
+de sentido del giro lo hacemos con este
+regulador de arriba.
+Hemos empezado por hacer la prueba con
+tornillos, que están metidos sobre madera
+muy dura, tornillos gruesos y utilizamos
+un vaso del 17. Como ves, podemos hacer un
+trabajo sistemático y continuado, sin que
+notemos ningún tipo de caída en
+cuanto a la potencia por el consumo de
+aire.
+Y luego, sin parar, hemos cambiado
+directamente a trabajar con un vaso del 22
+y vemos exactamente lo mismo. Podemos seguir trabajando, sacando y
+metiendo tornillos muy duros, sin ninguna
+dificultad.
+Nosotros aquí estamos llegando al par de
+apriete que queríamos pero, si
+quisiéramos continuar más, una vez que
+nos llega al final del recorrido con
+el par de apriete que tiene, podemos
+tirar nosotros con el brazo, con lo cual
+lo que hacemos es multiplicar mucho la
+presión que podemos dar para, de esta
+manera, hacer más fuerza a la hora de
+apretar.
+La siguiente herramienta que hemos
+estado utilizando es el atornillador.
+Hay un modelo muy parecido que es el taladro. Este atornillador nos da 800
+revoluciones con una exigencia de unos
+doscientos sesenta y tantos litros de
+consumo de aire. El funcionamiento, igual
+que el eléctrico. Lo que sí que tiene es
+un recorrido más largo en el ajuste del
+torque y esto nos da más posiciones.
+Seleccionamos el avance o el retroceso y
+la regulación de torque la tenemos en el
+cabezal. Vamos subiendo o bajando el
+torque que pedimos
+a la hora de apretar los tornillos.
+Para hacer la inserción o la extracción
+de las puntas,
+avanzamos hacia adelante este anillo.
+Lo primero que hemos estado probando ha sido
+poner tornillos, ver cómo vamos enrasando un poco la cabeza para ir viendo el
+ajuste de torque la diferencia que nos
+da. Sabes que, cuando hacemos un cambio
+de apriete, a veces el tornillo se pasa
+enseguida o hay mucha diferencia entre
+cada uno de los pasos. Aquí, realmente, es
+muy fino el ajuste y podemos ir poco a
+poco ajustando la presión que queremos
+dar a la entrada de cada tornillo.
+La siguiente prueba que hemos querido
+hacer es ver la fuerza que tiene a la
+hora de introducir un tornillo grande en
+un tablero de pino bastante duro como el
+que tenemos nosotros. Como ves, realmente, la capacidad que tiene para hacer que penetre
+el tornillo es más que suficiente.
+Para terminar, lo que hemos hecho es taladrar
+con tornillos autotaladrantes sobre
+estos tubos de gran dureza, que son los
+que utilizamos para estructuras de
+escenarios y para colocar focos, y vemos
+cómo también es muy fácil el trabajo y
+entran perfectamente
+los tornillos con el atornillador.
+Siguiente herramienta: la fresadora.
+Es una fresadora pequeña que nos da 18.000 revoluciones,
+que trabaja con fresas -como por ejemplo éstas que tenemos aquí, que son
+fresas metálicas- y con ella podemos
+hacer trabajos en sitios que muchas
+veces son de muy difícil acceso sobre
+cualquier material. La fresadora no tiene
+ninguna regulación salvo este sistema de
+seguro para su funcionamiento. Y, para
+poner los útiles en ella, tenemos dos
+llaves. Con la parte pequeña sujetamos el
+giro del eje y hacemos el apriete de la
+tuerca con la otra. Trabajamos con
+fresas de 6 milímetros.
+Nosotros hemos estado probándola directamente primero sobre madera. Hemos ido
+un poco contorneando, fresando el
+interior de la madera... y vemos que, aunque
+este tipo de fresas están más pensadas
+para metal,
+funcionan perfectamente en madera.
+Hemos probado también la fresadora sobre esta pieza metálica, que es una chapa un
+poquito gruesa, ampliando el cajeado que tiene hecho y, como ves,
+también podemos trabajar fácilmente con
+ella, con mucho equilibrio y de una
+manera bastante rápida y precisa.
+Como ves, la fresadora nos da bastantes opciones, tanto de corte como
+de desbaste para poder hacer cualquier
+tipo de fresado. Lo que hay que añadir,
+por supuesto, es la mano precisa que
+necesites para la especialización que
+tenga cada trabajo. Bueno, éstas son las opciones que nos han parecido
+más interesantes para probar del
+catálogo tan amplio que tiene COFAN.
+Y, como ves, siempre es una solución
+muy buena si tengo un
+compresor y quiero ir incorporando
+herramientas de ese tipo pues, una vez que
+lo tengo conectado, no tengo más que
+enchufarlas
+y funcionar con ellas. Así de sencillo.
+Espero que esta información te resulte útil,
+nosotros te la vamos a ampliar de todas maneras en el post que
+tenemos en la página, donde te damos
+además enlaces para que puedas
+encontrar las herramientas y algunos
+accesorios. Te vamos a dar una
+información más amplia que siempre es
+útil para quienes estéis interesados en
+este tipo de máquinas. Así que lo que
+esperamos ya es habernos ganado tu "like",
+que te suscribas al Canal si no lo estás
+todavía -acuérdate de darle a la
+campanita para recibir las notificaciones- y, por supuesto, comparte
+este vídeo con todos tus amigos a los
+que les guste el bricolaje.

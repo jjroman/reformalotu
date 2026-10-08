@@ -1,0 +1,602 @@
+Hemos descubierto una fijación para
+
+
+estructuras metálicas con con elementos
+
+
+estructurales o elementos estructurales
+
+
+con otros no estructurales que no
+
+
+conocíamos. Te vamos a contar este
+
+
+tutorial cómo son y cómo se utilizan.
+
+
+[música]
+Para entenderlo fácilmente, imagínate
+
+
+que nosotros tenemos una eh viga en una
+
+
+viga estructural y queremos fijarle un
+
+
+elemento, por ejemplo, como este, un
+
+
+perfil. que es un perfil cerrado. Eh,
+
+
+las soluciones efectivamente puede ser
+
+
+por una parte, yo lo puedo ir mediante
+
+
+soldadura, no deja de tener su parte de
+
+
+complicación y requiere además el el
+
+
+soldar. Muy bien. Segundo, podemos
+
+
+utilizar, eso lo has visto en algunos
+
+
+otros tutoriales, con tornillos o
+
+
+taladrantes [música] que tienen que ser
+
+
+capaces de perforar ajustando la medida
+
+
+a lo que nos exige el espesor tanto de
+
+
+la viga como del elemento que vamos a
+
+
+poner. Si eh recuerdas, en el tutorial
+
+
+que hicimos hablábamos de las
+
+
+dificultades que tiene o de mejor dicho,
+
+
+los requisitos que tiene, que es elegir
+
+
+perfectamente la broca que tenemos para
+
+
+que cubra el espesor. En fin, una serie
+
+
+de reglas que hacen que esto no sea un
+
+
+procedimiento especialmente rápido. La
+
+
+dificultad especial a la que nos
+
+
+enfrentamos es que claro, como yo no
+
+
+puedo el trabajar desde uno de los
+
+
+lados, porque es uno de los lados que es
+
+
+el perfil hueco donde no puedo meter
+
+
+herramientas ni puedo hacer nada,
+
+
+realmente tengo complicaciones porque en
+
+
+los espacios abiertos yo no tengo mayor
+
+
+dificultad. Si yo tengo dos estructuras,
+
+
+dos dos eh dos chapas que están pegadas
+
+
+y tengo exceso dos sitios, no tengo
+
+
+ninguna dificultad porque puedo hacer,
+
+
+por ejemplo, un taladro y directamente
+
+
+meto un tornillo y enrosco por el otro
+
+
+sitio y ya está. De esta manera queda
+
+
+solucionado, pero es algo que
+
+
+efectivamente yo no puedo hacer dentro
+
+
+de estos perfiles cerrados. Pues como te
+
+
+decía hace poco encontré la solución que
+
+
+me llamó la atención del de un producto
+
+
+que tiene index, los stutball. Y vamos a
+
+
+ver cómo son y cómo se instalarán. Como
+
+
+veis, estos stot ball son fijaciones de
+
+
+camisa que tiene en su interior un
+
+
+tornillo que tiene métricas que van
+
+
+desde la métrica 6 hasta la métrica 20.
+
+
+Tienes acabados cincados y también
+
+
+acabados galvanizados. Y las medidas que
+
+
+tienen de longitud son también muy
+
+
+amplias para que podamos elegir siempre
+
+
+en función, por supuesto, del espacio
+
+
+donde tengan que ir metidos a la hora de
+
+
+trabajar. [música] El funcionamiento eh
+
+
+que tiene la la este tipo de tornillo es
+
+
+similar al que teníamos en los tornillos
+
+
+de camisa que ya conocemos para la
+
+
+instalación, por ejemplo, en paredes.
+
+
+De lo que te contamos, acuérdate que
+
+
+siempre las preguntas en el último vídeo
+
+
+que publicamos cada semana. Si estás
+
+
+suscrito, te dirá la campanita, hay
+
+
+vídeo de bicic, hay tu pregunta y hay
+
+
+siempre tu respuesta. ¿Cómo elegimos en
+
+
+la fijación que necesitamos? Yo te dejo
+
+
+abajo eh como siempre el enlace a la
+
+
+hoja técnica. Ahí vas a ver las
+
+
+características que tienes que tener en
+
+
+cuenta para saber qué fijación
+
+
+necesitas.
+
+
+Partimos, por ejemplo, de el
+
+
+recubrimiento. Podemos utilizar eh los
+
+
+que veíamos directamente cincados o los
+
+
+que tienen un acabado Atlantis C3, que
+
+
+me permiten trabajar en exteriores y en
+
+
+situaciones mucho más exigentes.
+
+
+Segundo aspecto que debo tener en
+
+
+cuenta, por supuesto, los espesores que
+
+
+tengo tanto del perfil donde yo voy a
+
+
+alojar el tornillo como el propio
+
+
+espesor de la pieza que voy a fijar,
+
+
+porque también lógicamente tengo que
+
+
+tener en cuenta esto a la hora de
+
+
+decidir la longitud. Una vez que tengo
+
+
+elegido el tornillo, ya puedo ver en la
+
+
+hoja cuál es el diámetro que necesito
+
+
+para hacer el agujero, que ves que son
+
+
+unos rangos, indica entre qué medidas
+
+
+puedo trabajar con ello y también el par
+
+
+de instalación del que no tengo que
+
+
+pasarme. Vamos a hacer la instalación.
+
+
+La vamos a hacer tanto en un espacio,
+
+
+digamos real, que sería el perfil donde
+
+
+va a ir metida la pieza, como en una
+
+
+chapa abierta para que veas cómo se va
+
+
+comportando según va avanzando la
+
+
+apertura del tornillo que estamos
+
+
+metiendo en el otro lado. [música] De
+
+
+esta manera vamos jugando para que veas
+
+
+perfectamente su funcionamiento. Lo
+
+
+primero de todo vamos a hacer un
+
+
+taladro. Las instrucciones nos indican
+
+
+que tenemos que trabajar con una broca
+
+
+de un diámetro entre 13,8 y 15 mm. Como
+
+
+es una medida muy amplia, nosotros vamos
+
+
+a hacer siempre agujeros primero para no
+
+
+cargar mucho el trabajo del taladro con
+
+
+una broca más pequeña. Nos hemos ido una
+
+
+broca entre el siete y el ocho para de
+
+
+esta manera ater más fácilmente el
+
+
+taladro. Como siempre, para este tipo de
+
+
+de taladros utilizamos aceite de corte
+
+
+para que lubrique y facilite la entrada,
+
+
+sobre todo en esas chapas que son un
+
+
+poco gruesas. Estamos trabajando con un
+
+
+espesor de 5 mm, una de ellas que nos da
+
+
+un poquito de trabajo si no le si no lo
+
+
+lubricamos bien. [música]
+Una vez que hemos terminado ya de hacer
+
+
+el taladro pequeño, pasamos ya a cambiar
+
+
+la broca. Y ves que es una broca que
+
+
+tiene el tamaño adecuado para la medida
+
+
+que estamos utilizando nosotros de
+
+
+camisa y ya con ella lo montamos en el
+
+
+taladro y vamos a ir trabajando.
+
+
+Exactamente lo mismo. Aquí es mucho más
+
+
+rápido pues estamos aprovechando ya el
+
+
+trabajo inicial que hemos hecho con la
+
+
+broca más fina y así te será muy
+
+
+sencillo poder traspasar sin ninguna
+
+
+delimitación la chapa. Siguiente paso,
+
+
+vamos a limpiar todas las virutas que
+
+
+nos han quedado porque es importante que
+
+
+nos encajen muy bien en la tuerca
+
+
+exterior que tiene la tuerca grande que
+
+
+lleva el la camisa, que nos quede bien
+
+
+pegada la chapa a la hora de apretar.
+
+
+La tuerca que lleva grande el en la
+
+
+parte exterior el tornillo es para
+
+
+sujetarlo con una llave, en este caso,
+
+
+por ejemplo, la llave del 22 o una llave
+
+
+inglesa y que no gire mientras estamos
+
+
+apretando nuestra eh nuestro tornillo.
+
+
+Nosotros el apliete lo vamos a hacer
+
+
+inicialmente con una máquina eléctrica.
+
+
+Nosotros vamos a utilizar un atornador
+
+
+de impacto para ir más de prisa, pero el
+
+
+ajuste siempre está sujeto a las
+
+
+características que indica también la
+
+
+hoja técnica. Nosotros aquí nos dice la
+
+
+el el manual que tenemos que tener un eh
+
+
+par de 23 Nm como par de apriete para
+
+
+que nos quede perfectamente anclada la
+
+
+pieza
+
+
+y hacemos el remate utilizando nuestra
+
+
+llave dinamométrica.
+
+
+Vamos apretando hasta el momento en que
+
+
+veamos ya nos va costando más y en el
+
+
+momento dado, cuando nos salta ya el
+
+
+tope de nuestra llave, [música] hemos
+
+
+terminado el recorrido y ves que ha ido
+
+
+expandiendo, abriéndose directamente
+
+
+según entraba el tornillo y nos ha
+
+
+quedado una fijación muy sólida, muy
+
+
+firme con eh los el paso exterior, con
+
+
+la camisa exterior totalmente abierta y
+
+
+anclada contra la chapa.
+
+
+Como te decía, este tipo de fijaciones
+
+
+de camisa lo podemos utilizar tanto para
+
+
+fijar elementos estructurales entre sí
+
+
+como para fijar elementos no
+
+
+estructurales a otros que sí que son
+
+
+estructurales. Estamos hablando de una
+
+
+gran capacidad de eh de carga y de
+
+
+resistencia. Tiene nos da más de 900 kg
+
+
+en los de métrica 6 y más de 7700 en los
+
+
+de métrica 20.
+
+
+Como ves, vamos siempre encontrando
+
+
+nuevas soluciones técnicas [música]
+
+
+que nos proporcionan elementos,
+
+
+herramientas útiles que hacen que los
+
+
+trabajos sean mucho más sencillos y nos
+
+
+den además mucha más capacidad, en este
+
+
+caso de resistencia y de carga. Espero
+
+
+que te haya gustado tanto como nosotros
+
+
+conocerlo, que nos hayamos ganado tu
+
+
+like, suscríbete al canal si estás
+
+
+todavía cuenta da la campanita para
+
+
+recibir notificaciones y comparte este
+
+
+vídeo con todos tus amigos que les guste
+
+
+el mundo del bricolaje.
+
+
+[música]
+[música]
+[música]

@@ -1,0 +1,91 @@
+Vamos a montar los emisores de riego.
+Para largo alcance, montaríamos
+aspersores, que tienen un alcance de 10 y
+15 metros y, para menos de 4,5 y
+5 metros, utilizaríamos difusores. Los  difusores riegan en
+cortina y los aspersores tienen un
+movimiento giratorio.
+En este caso,  vamos a montar un aspersor.
+El aspersor debe ir enterrado hasta
+esta marca. Si lo ponemos más abajo, entra tierra en el vástago y se atasca.
+Si lo ponemos demasiado alto sobre el terreno, además de ser antiestético,
+causa problemas a la hora de segar el césped.
+Tropezaríamos con él y se rompería.
+La tubería debe ir enterrada a
+una profundidad entre 20 y 30
+centímetros. Para montar el aspersor,
+necesitamos los siguientes elementos.
+Un collarín de toma, dos codos de 16 mm a 1/2 pulgada y de  3/4" y tubo de 16 mm de presión
+que, como ves, tiene la pared más ancha.
+Para montar el collarín, primero lo desmontamos.
+Lleva dos tornillos.
+En la parte superior, por dentro, vamos a
+encontrar una junta tórica que es la que
+impide que se salga el agua. A veces, se
+sale, por eso es importante que esté en su sitio cuando lo montemos.
+Para montar el collarín, montamos primero
+la parte de abajo. Lo apoyamos sobre la tubería.
+Luego la parte de arriba. Nos aseguramos de que la junta está en su sitio
+y apretamos los tornillos.
+Montamos el collarín apretando las dos
+tuercas, que suelen ser del 13. Vamos a hacerle
+un agujero para que salga el agua hacia
+el aspersor. Para ello, empleamos
+una broca. Las más útiles son las
+brocas de madera porque tienen aquí una
+terminación en punta que nos fija la
+broca en su sitio. Lo hacemos despacito
+porque, si nos pasamos, podemos hacer el agujero por la parte de abajo, que no
+nos interesa. Solamente por la parte de arriba.
+Como ves, sale una viruta de plástico que
+hay que limpiar dentro de la tubería
+para evitar que los emisores se atasquen.
+Para limpiar el interior de la tubería,
+basta con abrir el riego y dejar que
+salga agua. Así, la tubería se limpia de virutas, de tierra, de cualquier
+elemento extraño que nos pueda haber
+entrado.
+Esto hay que hacerlo antes de enterrar la tubería.
+Ahora vamos a montar el aspersor.
+Lo vamos a hacer utilizando los dos
+enlaces acodados y el tubo de presión que te mostré antes.
+Tendremos que poner teflón.
+En el tubo el codo de 1/2 pulgada y en el
+aspersor el de tres cuartos.
+Para introducir el tubo en el codo, se
+puede hacer a rosca, apretando a la vez.
+Debe entrar hasta que no se vea nada de
+la rosca. Este sistema nos permite
+ciertas comodidades a la hora de
+instalar. Por ejemplo, podemos manejar la altura a
+la que poner el aspersor, trabajar en
+esquinas...
+Tampoco hace falta que la tubería vaya cerca de la acera, la podemos separar un poco,
+con lo cual trabajaremos más a gusto
+a la hora de montar el aspersor en su sitio.
+Vamos a montar sobre el aspersor la tobera, que es el elemento por donde
+sale el agua. Para trabajar más cómodamente, lo desmontamos.
+Cuando compramos el aspersor,
+trae un juego de toberas. Hay que elegir la que nos haga falta.
+Cada tobera tiene un caudal y un
+alcance diferente. En nuestro diseño ya
+hemos elegido qué boquilla o qué tobera nos hace falta,
+en nuestro caso, la número 7.
+La colocamos,
+bajamos el tornillo que la fija y
+volvemos a montar.
+Vamos a regular este aspersor a 90 grados.
+Si giramos hacia el "+", el arco se agranda y,
+si giramos hacia el "-", el arco se hace más pequeño.
+¡Ya lo tenemos a 90 grados!
+Llegamos al corazón de nuestra instalación de riego: el programador.
+Es el elemento que controla las electroválvulas.
+En la pantalla vemos los datos que
+introducimos y tenemos una serie de teclas para
+introducir el día de la semana que
+queremos que riegue, a la hora que
+comienza el riego y el tiempo que dura
+cada riego. Para conectar las electroválvulas
+al programador, tenemos una serie
+de cables. Cada electroválvula tiene dos
+cables. Uno va al común y, el otro, a cada una de las fases.

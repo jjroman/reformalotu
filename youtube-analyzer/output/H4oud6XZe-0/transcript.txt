@@ -1,0 +1,224 @@
+En tutoriales anteriores ya hemos hablado de 
+los problemas de mantenimiento del agua de la  
+piscina. De como a veces hay descontrol porque, 
+efectivamente, hay problemas de cloración, y  
+problemas por la presencia de algas. Te decía que es 
+muy importante siempre que tengamos en cuenta que  
+uno de los factores que más influyen en estos 
+problemas es la temperatura media que tiene el  
+agua. Y que eso nos obliga por tanto a incrementar 
+también el número de horas de filtración.   
+Lo que ocurre es que más cantidad de horas de 
+filtración, más consumo eléctrico.  
+La solución que ya te anunciaba, 
+de la que vamos a hablar, es que para esto   
+lo que utilizamos son bombas de velocidad variable. 
+Para conocer cómo son, lo que hemos hecho ha sido  
+irnos a las instalaciones del servicio técnico de 
+QP, para poder ver bombas de distinta gama, y así  
+poderte contar exactamente en qué consiste 
+esto de las bombas de velocidad variable.  
+El funcionamiento de una máquina de 
+este tipo lo podemos ver muy bien  
+sencillamente viendo las funciones del 
+visor de esta máquina de QP,  la PRO VS.  
+Cuando la arrancamos se pone a máximas 
+revoluciones durante un minuto para cebarse,  
+y luego ya se va a adaptar al programa que 
+tengamos elegido o la velocidad que nosotros le podemos  
+introducir directamente. Si no consiguen cebarse
+por un problema de tuberías, aunque esto ocurra  
+en pleno funcionamiento el motor se para. Pero 
+antes que nada vamos a ver para qué sirve una  
+bomba de velocidad variable,  si nos interesa o no 
+nos interesa tener una. Piensa que cuando nosotros  
+nos encontramos con temperaturas muy altas pues 
+puede ser que si seguimos lo habitual, es decir  
+que ponemos unas 8 horas, que es lo que nos va a 
+dar toda la vuelta completa, para filtrar el agua,  
+lo que ocurre es que efectivamente fuera de 
+esas 8 horas, fuera de ese horario, a lo mejor   
+entre las 11 de la mañana y las 7 de la tarde. lo que 
+pasa es que efectivamente sigue estando el agua  
+caliente, siguen proliferando todavía algas 
+y microorganismos que se agrupan y se ponen  
+todos en marcha dispuestos a poder colonizar 
+la piscina. ¿Qué tenemos que hacer entonces? Pues  
+lógicamente, como decíamos cuando 
+hablamos de la desinfección,  tenemos que  
+incrementar el número de horas de filtración. 
+Tenemos que hacer que esté activo más tiempo  
+todo el proceso de limpieza de la piscina. Eso, los 
+cálculos que nosotros te decíamos eran, que de la  
+temperatura que tengamos en grados, la divides 
+entre dos, y es el número de horas que tienes  
+que tener funcionando el filtro. Si tengo el agua a 
+24 grados pues voy a hacer 12 horas de filtración.   
+¿Qué pasa? Pues que efectivamente esto va aumentando 
+porque cuando pasa de 24, la regla no es la  
+mitad de las horas, la mitad de los grados 
+lo voy a dividir en horas. Ahora ya voy  
+a multiplicar por 1.2. Quiere decir que cuando yo 
+tengo, imagínate, 26 grados tengo que calcular que  
+tengo que dividirlo entre 2, 13,  y además multiplicarlo 
+por 1.2, con lo cual me estoy yendo ya a casi 15  
+horas de filtración. ¿Qué pasa? Que efectivamente 
+esto nos lleva a tener en funcionamiento el  
+equipo durante horas, que efectivamente, son 
+consumo y ruido. Así que es cuando realmente se  
+tiene en cuenta la conveniencia de una bomba 
+de este tipo de velocidad variable. De hecho, como  
+la realidad es que los veranos son cada vez más 
+cálidos en todas las zonas del país, lo que está  
+pasando es que cada vez más este tipo de bombas 
+van sustituyendo a las tradicionales. Pero vamos  
+a volver a cómo estábamos haciendo la 
+programación en la bomba, y vamos a ver   
+qué es exactamente este cambio de velocidad que 
+nos ofrece la bomba. Tienes modos de alta, media, y  
+baja velocidad. Es decir entre 2.900  
+revoluciones por minuto, que es la velocidad  
+máxima, y 1400 que es la velocidad más reducida,  
+que se utiliza en la filtración a velocidad baja.  
+Y tienes un programador que te permite elegir las 
+horas del día en que va a funcionar cada velocidad.  
+De este modo ponemos la mayor velocidad 
+en los momentos que hay más problema de  
+contaminación en el agua, es decir básicamente 
+la hora del baño o en días que hay viento muy  
+fuerte y que está cargando mucho de de todo 
+tipo de residuos la piscina, y las velocidades más  
+bajas le vamos a dejar luego para el 
+tiempo que teóricamente es de reposo, 
+para que siga trabajando de una manera muy 
+atenuada en la desinfección de la piscina.  
+Imagínate el caso de una piscina con cloración 
+salina. Nos conviene mucho que nosotros podamos  
+estar inyectando el cloro todo el tiempo que la 
+piscina lo pide. De esta manera si nosotros tenemos  
+funcionando continuamente la bomba, podemos estar 
+inyectando de una manera paulatina, manteniendo un  
+nivel constante y no obligando de alguna forma 
+a que cuando arranco por la mañana y ha tenido una  
+caída de cloro, en piscinas que tienen problemas, 
+por ejemplo, de presencia de microorganismos, tenga  
+que darle un chute de cloro repentino justo en 
+el momento del baño. Y esto ¿por qué lo podemos  
+hacer? Porque, efectivamente, fíjate el cambio 
+radical que se produce en el consumo. A pleno 
+rendimiento, esta bomba consume cerca de 1200 
+vatios, que es lo que consume aproximadamente  
+todo el tiempo una bomba de 1,5 caballos. Es la 
+lectura que aparece encima de la velocidad. Pero  
+si lo ponemos en el régimen bajo de vueltas, observa 
+de qué manera radical cae el consumo.
+Lógicamente cada una de estas posiciones 
+varía la presión de salida
+y la velocidad de agua en la piscina.
+¿Qué supone desde el punto de vista del ahorro en 
+el recibo de la luz está diferencia que ves en el  
+consumo? Pues esto es un cálculo que yo he hecho y 
+que me parece que es muy sencillo. Si consideramos  
+que cada kilovatio/hora cuesta, en España, unos  
+trece céntimos, si multiplicamos por el número de  
+horas adicionales que requerimos utilizar en 
+una bomba cuando tenemos este problema de la  
+subida de temperaturas, en el caso de la bomba 
+de velocidad variable, vamos a ahorrar entre 30 y  
+40 euros al mes. Es el cálculo que a mi me sale 
+con una estimación bastante moderada.  
+El otro aspecto que te decía es el del ruido. 
+Estuvimos haciendo pruebas de sonido para ver  
+cual es la diferencia de ruido y, como puedes apreciar, 
+el ruido que se produce en el régimen alto es  
+este, y sin embargo, cuando baja el régimen de 
+revoluciones, prácticamente es como un susurro.
+Y ahora viene la reflexión del bricolador astuto. 
+Porque, claro, te das cuenta de que si quieres  
+regular un motor eléctrico, lo que haces es instalarle 
+un variador de frecuencia. Así que podríamos pensar,  
+por qué no, poner en una bomba tradicional este 
+variador de frecuencia, acoplarlo, y de esta manera  
+la convertimos en bomba de velocidad variable. Esto es 
+cierto. De hecho, hay bombas que te vas a encontrar  
+en el mercado, que lo que llevan, en realidad, es 
+solamente este medidor de frecuencia y luego  
+llevan algún tipo también de electrónica que 
+nos permite establecer los programas, incluso  
+hacer programación periódica, todo ese tipo de 
+cosas. Pero la realidad es que las bombas de velocidad 
+variable que funcionan, digamos con mejor 
+rendimiento, también han cambiado su  
+tecnología en los motores. Son motores magnéticos,
+aunque también se les llaman motores de imanes  
+permanentes, que no necesitan tanta corriente para 
+producir la inducción eléctrica que hace rotar a  
+ese tipo de motores, con lo cual, efectivamente, 
+no solamente estamos ahorrando desde el punto  
+de vista de menor consumo por el hecho de estar 
+bajando las revoluciones, sino que además esas  
+bajas revoluciones, en el caso de estos motores, 
+se consiguen todavía con menor consumo eléctrico.  
+Así que los factores a la hora de elegir una 
+bomba de velocidad variable para comprobar si  
+el precio que me piden es adecuado para lo que 
+me ofrecen, tendré que tener en cuenta primero,  
+por supuesto, como en todas las bombas, la potencia. 
+Es decir que me dé un caudal suficiente para las  
+necesidades que yo tengo de agua, de cantidad 
+de agua en la piscina. Y la segunda que tenga  
+esta tecnología en el motor que me proporcione 
+también la eficiencia de trabajo que me va a  
+garantizar consumo y mucha más durabilidad. También hay
+factores, por supuesto, como que tenga detrás el  
+respaldo de un servicio técnico y en esto nuestros 
+amigos de QP son unos fenómenos. Otra cosa que  
+también hemos podido averiguar es cómo hacemos 
+el funcionamiento de estas bombas. Es decir, que   
+nos aportan respecto de que sea fácil de programar,
+sobre todo en distancia, que es algo muy importante  
+hoy en día que queremos aprovechar al máximo el que 
+podamos estar regulando el funcionamiento de la  
+piscina incluso aunque no estemos en casa. 
+En este caso la instalación es muy sencilla,  
+porque estas máquinas vienen preparadas ya con un 
+cableado de comando que nos permite llevarlos a  
+un dispositivo exterior, o al propio dispositivo 
+de regulación general que tenemos en la piscina,  
+y hacer allí la conexión de los cables para que, 
+directamente, o bien en la programación local de  
+la piscina, o en los casos donde tenemos la opción 
+de tenerlo conectado a una aplicación de teléfono,  
+podemos estar manejándolo como cualquier otro 
+dispositivo en remoto este tipo de bombas. En  
+resumen, y adelantándome a esa pregunta que nos 
+hacéis mucho, ¿merece entonces la pena utilizar  
+o comprar este producto que nos enseñas? 
+Yo te diría que si uno va a comprar una bomba nueva,  
+por supuesto. Porque al final, aunque el coste 
+sea mayor, el ahorro que tienes en consumo te  
+acaba compensando la inversión que haces. Desde el 
+punto de vista de tener ya una uno funcionando en  
+la piscina, si yo tengo una bomba, no tengo 
+conflictos en la piscina porque ya la tengo encontrada  
+el punto, no le pongo muchas horas, estoy 
+en un clima que no me exige demasiado, pues no  
+hace falta dar el salto a una bomba de velocidad variable, 
+porque realmente no le vas a sacar todo el partido  
+que le va a sacar quien sí que tiene conflictos 
+en su piscina. Sí que es verdad que con el paso  
+del tiempo, todas las bombas acabarán siendo, yo 
+creo, salvo que salga nueva tecnología, este tipo  
+de bombas de velocidad variable. Es lógico, porque 
+no solamente nos van a dar más eficiencia sino  
+que hay un factor también de ahorro energético, 
+un factor medioambiental, que es clave para ese  
+tipo de productos, y estamos todo el mundo 
+en esa línea, ahorrar dinero, y ahorrar también  
+emisiones, esto es lógico. Espero que esto 
+que te he contado haya sido de interés, que  
+nos hayamos ganado tu like, que te suscribas si 
+no estás todavía, acuérdate de la campanita para  
+recibir notificaciones y compartas este vídeo con 
+todos tus amigos a los que les gusta el bricolaje.
+ 

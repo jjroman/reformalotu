@@ -1,0 +1,249 @@
+En los tutoriales de electricidad que hemos ido 
+haciendo, hemos visto aspectos de instalación,  
+hemos visto algunos aspectos teóricos y, siempre, 
+hemos intentado que se viera todo de forma muy  
+didáctica. ¿Qué ocurre? Pues que, a veces, las explicaciones 
+que damos no coinciden exactamente con  
+los esquemas porque, para entender los esquemas, 
+tenemos que presentarlos de una manera que sea muy  
+visible el recorrido que hacen los cables. Nos ha pasado que, aunque nosotros siempre  
+al empalmar los cables lo 
+hemos hecho advirtiendo que los cables se empalman  
+de esta forma, siempre juntos, que los tenemos que 
+meter a partir de empalmarlos así juntos 
+para hacer la conexión en las clemas... 
+Lo cierto es que, en las instalaciones y a la hora de  
+representarlos, siempre los ponemos así para que 
+se entienda de dónde van las instalaciones y de  
+dónde vienen y de esta forma además es más gráfico.
+Bueno, 
+pues hoy vamos a dedicarnos a hablar de los empalmes,
+no solo para aclarar esto que ha producido alguna 
+confusión, sino también para que entendamos cuál es la razón  
+por la cual tenemos que hacerlos correctamente 
+desde el punto de vista de la normativa y desde el punto de  
+vista real de la seguridad. Vamos a ver distintos 
+procedimientos para que nos quede un empalme que,  
+si no siempre va a estar sujeto a lo que dice la 
+normativa, 
+al menos nos asegure que no hacemos ninguna chapuza.
+El primer aspecto que 
+nosotros perseguimos cuando hacemos un empalme
+es que quede suficientemente afianzado para que,
+aún en el caso de que tengamos que tirar de él  
+para guiarlo por cualquier sitio, no se arranque y 
+corramos el riesgo de que estén sueltos los cables  
+y provoquen un cortocircuito. Pero hay un segundo 
+aspecto, también muy importante por supuesto, que es  
+que, si nosotros no tenemos perfectamente afianzado 
+el trenzado de todos los cables, los pequeños  
+cables que nos quedan, lógicamente, como llevan 
+corriente y llevan mucha carga, en ocasiones  
+producen un riesgo real de incendios, porque 
+ese chisporroteo clásico de los malos contactos  
+produce mucha temperatura y produce también 
+riesgo de que eso se inflame y genere un incendio.
+En general la normativa es más rigurosa porque 
+no tiene solamente en cuenta que se pueda  
+producir ese tipo de problemas en el propio empalme. 
+También el hecho real es que, si yo llevo cables  
+descubiertos o tengo conexiones -como es el caso de 
+las clemas- que tienen partes eléctricas en zonas  
+que son accesibles, hay riesgo de electrocución. 
+Por eso la normativa tiene en cuenta que deben estar  
+siempre en sitios donde no haya acceso a que yo 
+pueda tocar sin querer ese conector e, incluso,  
+a que, en caso de que haya de repente una humedad 
+muy fuerte, no haya riesgo de que la presencia  
+de esa humedad o de esa pequeña inundación 
+esté en contacto con los cables y pueda darnos  
+una descarga. Imagínate el caso de los techos de 
+los baños donde las instalaciones desnudas pueden  
+producir un momento dado que la humedad que se 
+va formando sea un elemento para transportar la  
+carga y que, lógicamente, tengamos un problema.
+Vamos a empezar por repasar cómo hacemos los
+empalmes con una regleta, con 
+una clema. Vamos a tomar una medida generosa de  
+cable a la hora de pelarlo y vamos a hacerlo 
+siempre con el pelacables adecuado, de manera que, cuando  
+desnudemos de plástico el cable, no corramos el riesgo de 
+arrancar parte del cobre que lleva en el interior.  
+Cuando tenemos los 
+cables pelados, los trenzamos fuertemente entre sí.
+Fíjate en que nosotros vamos a ponerlos en una 
+medida que nos permita, por una parte, que recorran  
+la suficiente distancia para poderlos apretar 
+en los dos tornillos pero sin que sobresalgan  
+por el otro lado, por supuesto. Así que, cuando 
+sobresale, lo que hacemos es darle un corte.
+Y también podemos aprovechar después de 
+cortarlo para aplastarlo un poco de manera  
+que le demos más consistencia 
+a la unión que acabamos de hacer.
+Fíjate, elegimos siempre una clema que 
+permita que en su embocadura pueda entrar  
+parte del plástico de los cables al hacer 
+la unión para que, de esta manera, no tengamos  
+cobre a la vista por este lado ni, por supuesto, 
+por el otro porque lo hemos recortado. Y ahora ya  
+vamos a apretar con el destornillador los 
+dos tornillos porque va a ser esta doble  
+fijación la que mantenga bien sujeto el cable.
+Al apretar los tornillos, lo hacemos sin miedo
+porque no hay riesgo de rotura, como son 
+muchos cables los que hay, no pasa nada.  
+Esto antiguamente, como utilizábamos a veces 
+cables rígidos, de un solo hilo, sí que había  
+que tener cuidado porque un exceso de presión los partía y nos quedábamos sin conexión.
+Otro aspecto en el que nos han insistido bastantes bricocracks especialistas es en que la forma correcta  
+de poner las clemas es dejando siempre el cable 
+de tierra en medio porque, de esta manera, en caso  
+de que nos quede algún hilo de conexión entre 
+fase y neutro, no corremos el peligro de que haya  
+un cortocircuito sino que vamos a tener una derivación y va a saltar el diferencial.
+La verdad es que, con el lío de cables que hay a veces en las cajas de registro,
+ yo no sé 
+si realmente esto es una solución perfecta porque  
+se conectan casi unas clemas con otras porque 
+están todas apiñadas ahí. En cualquier caso, es  
+una precaución que nunca está mal y, basta con que 
+nos lo digan compañeros especialistas en el asunto,  
+para que nosotros respetemos la norma porque no 
+nos cuesta nada respetar las normas cuando se  
+pueden cumplir como éstas. La normativa lo que nos 
+dice es que todas las conexiones de cables tienen  
+que ir metidas en cajas de registro protegidas 
+para evitar que haya conexiones por cualquier sitio.  
+¿Qué ocurre? Pues que yo, a veces, 
+tengo que prolongar el recorrido de un cable   
+-en un sitio donde no tengo ningún registro y no tengo 
+espacio para meter una clema- tengo que llevarlo,  
+por ejemplo, por el interior de un tubo para que esté protegido. En este caso, podemos  
+hacer empalmes en los cables. Yo, honestamente, 
+no sé si está contemplado por la normativo o no.  
+Los que sois especialistas en esto estaría 
+bien que nos aclararais en los comentarios, si realmente 
+se puede hacer o no desde el 
+punto de vista normativo. Desde el punto de vista
+práctico, se puede hacer y es una 
+unión que está bien protegida.
+Fíjate, en este caso vamos a pelar los dos extremos 
+de los cables,  dejando un margen generoso  
+para poder trabajar con él. Siempre acuérdate de 
+pelarlo como te decía antes, sin
+llevarnos cable al hacer la extracción 
+del plástico envolvente. Trenzamos bien los dos  
+cables para poder trabajar con ellos y los vamos 
+a presentar más o menos a la mitad de distancia  
+de lo que hemos pelado, de forma que enrollemos 
+uno de los cables cuidadosamente encima del otro.
+Y, una vez que hemos terminado de hacer esto, hacemos lo propio con el otro  
+lado del cable. Lo enrollamos en torno a 
+lo que nos queda todavía del otro cable.  
+Ves que es una unión que, aunque le 
+metamos mucha presión y la tensemos, desde el  
+punto de vista mecánico, es una unión muy fuerte.
+¿Inconveniente lógico? Que he dejado descubierto
+este cable y no puedo dejar ningún cable que no 
+vaya protegido por una envolvente que evite el que  
+pueda tener contactos. Hay quien utiliza para estas 
+cosas cinta aislante. ¿Cuál es el inconveniente de  
+la cinta aislante? Pues, desde mi punto de vista, 
+hay dos. El primero es que, para que quede bien  
+protegido, me cuesta mucho irlo  tensando y siempre se  
+produce una especie de engordamiento de toda esta  
+pared que me queda al final aquí -todos tenemos esa experiencia-, queda aquí como 
+un bulto enorme que dificulta mucho el movimiento. 
+Si yo tengo que estar llevando este cable a través  
+de una instalación, la cinta aislante -que, además, 
+acaba volviéndose- es un elemento adhesivo  
+estupendo para que no pueda deslizarse por 
+dentro de ningún tubo. Así que, en principio,  
+la cinta aislante, salvo que sea un sitio muy 
+localizado, yo la descartaría.
+La solución es pasar antes un tubo termoretráctil 
+para que, una 
+vez hecha la unión, lo pongamos encima, 
+le apliquemos calor y nos quede la cobertura 
+de aislamiento que necesitamos. Nosotros lo vamos  
+a hacer con nuestra minipistola de calor de Maker X. Tú lo puedes hacer con cualquier pistola de decapar  
+e, incluso, con un secador de pelo o hasta con un 
+mechero, que es la manera de trabajar con este tipo  
+de elementos termoretráctiles. Ves que nos 
+queda una unión que es totalmente flexible, que está   
+bien cerrada con el tubo y es totalmente lisa con lo 
+cual, a la hora de tirar del cable y deslizarlo, no  
+hay peligro de que se vaya enganchando, como 
+sí que nos suele ocurrir con la cinta aislante. 
+Esta unión que hemos hecho nosotros, que se llama 
+también unión western, hay quien la hace reforzándola  
+con soldadura. En este caso vamos a utilizar nuestro soldador Maker X y lo vamos a poner  
+a una temperatura alta porque estamos trabajando 
+con un cable de 2.5 mm que, una vez que esté trenzado,  
+nos da un grosor bastante importante. Así que 
+le vamos a poner a la máxima temperatura posible.
+En condiciones normales, si trabajamos 
+con cable fino, con cable de 1.5 mm,  
+basta con calentar el 
+propio cable y la soldadura va corriendo alrededor.
+En este caso, como 
+tenemos un cable muy grueso que no va a  
+transmitir fácilmente la temperatura, 
+salvo que estemos durante muchísimo  
+tiempo trabajando, vamos a ir nosotros aplicando 
+el hilo de soldadura por todas las zonas.
+Una vez que hemos terminado, lo dejamos 
+enfriar y lo cubrimos con el tubo 
+termoretráctil como en el otro caso. Lógicamente, 
+lo que ganamos en seguridad a la hora de  
+hacer esta unión lo perdemos en flexibilidad, 
+con lo cual hay que valorar hasta qué punto  
+nos viene bien hacer este tipo 
+de refuerzo o no para esta unión.
+Cuando en falsos techos, o incluso en el exterior,
+no hay más remedio que poner un registro porque  
+no llevamos cubierto el tubo correctamente por 
+lo que sea...Bueno, en estos casos podemos poner  
+una caja de registro como ésta que tiene una IP 
+muy alta, es decir, que resiste tanto la entrada  
+de humedad como la de polvo, y pasar los cables a 
+través de los pasos que lleva en los laterales.  
+Estos pasos de goma en principio están previstos 
+para que metamos los tubos, que es  
+cómo deben ir lógicamente las instalaciones. 
+Si nosotros lo que llevamos son cables y no  
+nos llega el tubo hasta ahí por la razón que sea 
+la hora de instalar, al menos vamos a pasar los  
+cables dentro de la caja -haciendo un pequeño 
+agujero con un cúter-, procuramos que entren  
+bien a presión y siempre teniendo cuidado de que 
+nos quede en el interior de la caja de registro  
+margen suficiente de cable para que podamos operar 
+con facilidad, porque luego, muchas veces, echamos en  
+falta tener la posibilidad de tirar un poco del 
+cable porque va demasiado ajustado. Así que ¡seamos  
+generosos a la hora de pasar los cables! Aquí ya, 
+dentro de la caja, podremos hacer los empalmes,  
+las conexiones o lo que sea y dejar dentro sin 
+dificultad las regletas quedando totalmente  
+estancas y sin peligro de que pueda correr 
+la electricidad por ejemplo en zonas donde  
+haya humedad. Para hacer el cierre definitivo 
+de la goma por donde hemos pasado,  se utiliza  
+silicona o, como en este caso que no tenemos silicona a mano, sencillamente una cola vinílica. La podemos  
+dar, tirar un poco más del cable, que quede bien 
+impregnada y que nos haga una capa de refuerzo  
+para que no haya ningún problema de filtraciones 
+con el paso del cable que hemos hecho. 
+Yo espero que en este tutorial hayamos visto el 
+porqué de las cosas, como siempre intentamos en  
+el Curso de Electricidad Básica, y los procedimientos, al menos los más usuales. Si hay
+otro que se te ocurra, pásalo por este filtro 
+de las cosas que debemos cubrir respecto de los  
+riesgos que tiene cualquier empalme. Así que, con 
+esto, espero que nos hayamos ganado como siempre  
+tu "like", que te suscribas al Canal si no lo estás 
+todavía -acuérdate de dar a la campanita para recibir
+notificaciones- y que compartas este vídeo con todos tus 
+amigos a los que les guste el mundo del bricolaje.

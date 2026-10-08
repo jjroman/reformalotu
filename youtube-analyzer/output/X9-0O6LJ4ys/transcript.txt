@@ -1,0 +1,379 @@
+Vamos a hacer un pequeño invento. No, no es 
+un invento en cuanto al trabajo que vamos a  
+hacer, que es un trabajo normal. Vamos a hacer la 
+colocación de una carga en altura. El invento es  
+porque, como siempre nos decís que os gustaría ver 
+los resultados cada vez que hacemos una colocación  
+de tornillos y demás del peso que aguantan 
+esas cosas... ¿Qué problema tenemos nosotros? Pue que
+trabajamos en maquetas y no hay forma de que podamos 
+poner peso. Así es que hemos pensado que, si colocamos  
+nosotros en unas paredes que sean móviles  
+las cosas y las elevamos en altura y les ponemos  
+lastres, eso nos permite que podamos trabajar de 
+una manera mucho mejor y enseñaros los resultados.  
+Así es que hemos decidido que lo que vamos a hacer es 
+colocar este polipasto ahí arriba y, de esta manera,  
+podemos trabajar sin dificultad, levantar 
+los pesos con la tornillería que tengamos  
+y comprobar si realmente la 
+resistencia que pensamos es real o no es real. 
+Y, con esto, lo que nos ocurre es que nos enfrentamos a un 
+caso que es bastante habitual en el mundo,  
+sobre todo profesional, que es ¿qué hago cuando tengo que
+colocar una carga de este tipo en la pared?  
+Así que nos hemos puesto a analizar las soluciones 
+que tenemos y la verdad es que, en principio, no es  
+especialmente sencillo. Tengo que reconoceros que 
+este tipo de trabajos dan alguna dificultad. 
+¿Cuál es esta dificultad? El maquinillo que 
+te he enseñado, el polipasto, lo vamos a colocar  
+en un brazo como éste, que es un brazo articulado 
+que me permite que gire. Además,  como es una  
+máquina pequeña, lo que me dice el fabricante de 
+la máquina es: te doy 125 kilos de resistencia  
+para subir cargas pero, si quieres tener 250 kg, le vas a 
+añadir una polea más como ésta. Como sabes, el polipasto  
+básicamente es una máquina que lo que hace 
+es utilizar un sistema de poleas y, cada vez que utiliza una polea,
+esa polea desmultiplica el esfuerzo que 
+yo tengo que hacer para levantar una carga. 
+Ésa es la base física del asunto. Entonces 
+me dice, si quieres que te de más carga, separa  
+un poco más el segundo punto de apoyo, 
+pones en dos sitios la carga y que esta   
+polea -entre el motor que viene aquí y el punto de 
+fijación que tienes aquí- te dé de esta manera más  
+resistencia. Con lo cual, nuestro motor se siente 
+muy feliz porque, al desmultiplicar con la polea,
+puede trabajar y darnos más carga. ¿Qué pasa cuando 
+pensamos en el tema de los tornillos?
+Pues que soluciono la carga que necesito con este 
+sistema pero, a cambio, lo que me está ocurriendo es  
+que no estoy poniendo las cargas directamente 
+pegadas a la pared y, cuanto más separo la carga  
+-esto es lo que se llama el momento del par de 
+fuerza en física-, es decir, cuanto  
+más lejos estoy haciendo la fuerza, esto es un sistema de 
+palanca, cuanto más saco la palanca,  
+más fácil me resulta hacer fuerza con algo. Pues a esto 
+le pasa exactamente igual, cuanto más lejos me  
+llevo una carga, más fuerza tiene esa carga para 
+hacer la tracción del tornillo que tengo ahí.
+Esto quiere decir que, para hacer este tipo de estudios, 
+tenemos que ir con un poco de cuidado y siempre  
+tenemos que ir bastante largos en la decisión que 
+tengamos de carga. Se suma además otro problema.  
+Fíjate, estos son problemas que a veces no tenemos en 
+cuenta a la hora de trabajar con los tornillos. Por eso,  
+antes de colocarlo, te explico un poco el 
+proceso de decisión que hemos seguido nosotros.
+Yo quería enseñarte un tipo de tornillos 
+que son éstos, que ya hemos hablado otras veces de ellos.  
+Estos tornillos tienen,  efectivamente, una 
+gran capacidad de carga pero uno de los aspectos  
+críticos que tenemos cuando estamos fijando 
+cargas en las paredes de hormigón es que hay  
+una distancia mínima entre las fijaciones 
+por debajo de la cual yo no puedo poner  
+los tornillos y, aunque yo no los junte tanto 
+-porque estaría haciendo que tenga  
+problemas de resistencia todo el hormigón donde 
+estén los tornillos-,
+sí que es verdad que pierden capacidad de 
+carga. Esto es un problema inevitable. Tenía  
+más problemas con este tipo de tornillos que es 
+que tengo que fijarme bien siempre en que las  
+indicaciones que yo tengo en las cajas de la tornillería me dan datos como por ejemplo cuánto  
+es el espesor máximo que yo tengo posibilidad de 
+meter para poner una carga. ¿Qué me pasaba con esto? 
+Pues que son chapas muy gruesas y estas chapas 
+muy gruesas lo que hacen es que, como la medida  
+que a mí me dan las indicaciones y que me da también 
+la instalación de cuánto tengo que enterrar el  
+tornillo, lo tengo que enterrar tanto para que me 
+dé la resistencia precisa que no me queda espacio  
+para que me pueda entrar un soporte grueso. Así es
+que, como este tipo de tornillos MT no me sirven  
+por este problema, la siguiente posibilidad que 
+yo me planteaba era utilizar estos tornillos CH.
+Éstas son las opciones con las que hemos jugado. 
+El tornillo a CH me daba una ventaja importante  
+que es que era menos complicado el poner juntos 
+-en las cuatro posiciones que yo necesito- este tipo  
+de tornillos. ¿Cuál es la pega que me ha surgido? 
+Pues que, efectivamente, tienen mucha menos capacidad  
+de carga y, como tengo el problema de este soporte 
+que voy tan lejos y que me va a exigir tanto, pues  
+no quiero bajar la posibilidad de carga. Así que 
+me quedaban dos opciones. O irnos a este tipo de  
+tornillo del que ya te hablé en otras ocasiones 
+que es un tornillo que no tiene expansión, 
+sino que va directamente roscado en el hormigón, 
+casi como si 
+fuera madera. ¿Qué ventaja tiene? Pues que no crea  
+un efecto de expansión y permite que vivan cerca 
+las fijaciones sin mayor problema. Este tornillo lo  
+puedo poner mucho más cerca del borde o mucho más 
+cerca entre tornillos de lo que puedo hacer con éstos 
+porque no altera tanto el hormigón, se incrusta. 
+Pues ésta parece que va a ser la
+solución más natural a lo que podemos colocar. Así 
+que vamos a trabajar con él. Tendría también por  
+supuesto la solución del taco químico que me va 
+fenomenal. ¿Qué ocurre? Pues que quiero trabajar  
+con una fijación mecánica como ésta  que es muy 
+habitual para que así vayamos probando un poco de todo.
+Hemos preparado aquí nuestro andamio 
+para poder trabajar en altura con seguridad. Esto  
+es otra cosa en la que también te quería insistir un 
+poco. Por supuesto que yo puedo poner  
+ahí una escalera, me subo y trabajo. ¿Qué 
+ocurre? Pues que no debemos trabajar con peso en  
+una escalera porque es muy fácil que, en lo que estoy 
+colocando y sujetando, perder el equilibrio. Así es que  
+vamos a trabajar siempre con andamio. Si no tiene uno un 
+andamio, pues lo alquila que no es tan complicado.  
+Y fíjate en que nosotros para hacerlo de una manera 
+segura además a este andamio le hemos puesto unos  
+brazos de arriostramiento. Estos brazos van metidos 
+directamente en la pared de
+la nave, en otros casos, en la pared de la 
+fachada. Nosotros siempre los andamios tenemos que  
+sujetarlos a un sitio estático y sólido para que, 
+de esta manera, tengan el menor movimiento posible.  
+Sobre todo, para que no puedan volcar porque éste es un peligro habitual en las cargas. Así que, dicho esto, que es  
+una medida de seguridad que siempre hay que contar,
+vamos a bloquear las ruedas para  
+que se quede fijo y vamos a ir trabajando. 
+Vamos a empezar por marcar el soporte teniendo  
+cuidado de que esté perfectamente horizontal 
+y vamos a hacer  
+agujeros con una broca del 8 para hacer más 
+fácil la entrada de la máquina.
+Ahora que ya tenemos iniciados los agujeros con 
+la broca del 8, vamos a poner  
+los tornillos de forma definitiva. Tenemos 
+siempre que tener cuidado al hacerlo. Hay que  
+fijarse en una serie de aspectos importantes a 
+la hora de poner cualquier tipo de fijación en  
+hormigón, y en general sobre cualquier material, pero
+especialmente en hormigón. Vamos a mirar  
+las características que tiene para ver qué 
+indicaciones nos da a la hora de colocarlo.
+Si te fijas en el cuadro, tenemos un primer dato, este dO = 10 milímetros.  
+Éste es el diámetro que vamos a utilizar de 
+broca. Como hemos empezado con el 8 para hacer  
+más fácil la entrada, vamos a pasarnos ahora a una 
+broca del 10.  
+h1 vemos que es la profundidad a la que tenemos que meter la broca.
+Esto es importante. 
+Debemos evitar hacer agujeros excesivos porque
+lo único que hacemos es debilitar el hormigón. 
+Entonces vamos a hacer solamente el espacio de  
+taladro que necesitemos para que entre la broca.
+En este caso, como nos está pidiendo 85 milímetros,  
+a mí se me queda corto el trabajo habitual con un 
+atornillador como éste y tengo ya que trabajar  
+con un poco más de fuerza. Así que me voy a pasar 
+a hacerlo con un martillo pero, sí que  
+voy a tener la precaución de marcar la medida de 
+85 milímetros y poner un tope para saber que no
+me tengo que pasar de profundidad, que no lo necesito. Y 
+me da otro dato que es muy importante que  
+es tfix = 30 milímetros. Este dato me dice 
+cuánto es el grosor del material que yo  
+puedo sujetar entre la pared y la cabeza del 
+tornillo. Esto es esencial porque, si  pongo  
+más grosor, lo que voy a conseguir es que el tornillo 
+se quede despegado y que no cubra todo  
+el espacio que tiene por dentro. ¿Qué ocurre cuando 
+esto no es exacto? Pues, no te preocupes, no ocurre  
+nada, es decir, nada grave. Sencillamente ocurre que 
+yo no cumplo los requisitos para que me dé toda  
+la carga necesaria el tornillo. Esto quiere decir que, 
+si yo espero que este tornillo me dé 809 kilos,  
+cuando lo pongo muy cerca de otros, pues ya 
+no tengo 809, tengo menos. Si pusiera un poco
+más separado el tornillo, también tendría menos. En 
+general, cuando tengo mucho margen, pues no  
+hay que tener una precisión absoluta. Pero, cuando 
+hacemos cosas como ésta que estamos viendo,
+una carga hacia arriba, que puedo estar pasando a lo 
+mejor por debajo sin darme cuenta cuando está  
+moviéndose la carga o lo que sea, por supuesto, 
+tengo que tener unas garantías absolutas de que  
+se cumpla todo el nivel de seguridad que 
+necesito. Entonces, ahora, lo que voy  
+a hacer es seguir trabajando con la 
+profundidad que necesito con los taladros del 10.
+Vamos a colocar ya el soporte. Fíjate, 
+porque no te lo he explicado, este soporte tiene esta  
+forma tan especial porque está pensado para 
+ponerlo en una barra que nosotros tengamos en  
+algún sitio y sujetarlo con estos tornillos que 
+nos da el fabricante. Con lo cual el fabricante, 
+desde este punto de vista, resuelve perfectamente que 
+quede la sujeción hecha. Claro, se entiende que la  
+barra donde lo pongamos tiene que tener toda 
+la resistencia que necesitamos para la carga.  
+Como habitualmente los seres humanos no tenemos en 
+nuestras vidas barras de acero justo donde vamos a  
+colocar las cosas, nosotros tenemos que renunciar a 
+este sistema de sujeción y poner   
+directamente esto, como si fuera un anclaje normal, con los tornillos. No habíamos utilizado  
+hasta ahora el atornillador de impacto,  así que 
+vamos a utilizarlo aquí. Como necesitamos un par  
+de apriete alto, es la herramienta más adecuada.
+Así que subimos esta pieza, atornillamos nuestros  
+tornillos en la pared y nos ponemos en marcha. 
+Estos tornillos vamos a apretarlos directamente  
+hasta donde nos pida la entrada de la cabeza sin 
+más. No hay que hacer ningún reapriete especial. 
+Como sabes, en otros tornillos -ya hablaremos de esto- 
+hay que darles pares de apriete determinados  
+porque, como estamos haciendo que se 
+ensanche toda la camisa que llevan de acero  
+en su interior, necesitamos que vayan hasta determinado 
+punto sin pasarnos ni quedarnos. Aquí no. Como éste es 
+un tornillo normal, hasta donde llegue el final 
+de recorrido. Ya con el soporte colocado, lo que  
+hacemos es traer la barra y, sencillamente, la 
+colocamos, ponemos el pasador y ya la  tenemos  
+en su sitio. Vamos a poner ahora una 
+barra superior que actúa como un nervio diagonal  
+para apoyar el trabajo del brazo. Vamos a colocar 
+el soporte y lo primero que hacemos es marcar una  
+línea vertical para que nos quede perfectamente 
+alineado con la articulación de abajo.
+Seguimos el mismo procedimiento. 
+Hacemos los taladros,
+colocamos el soporte y lo atornillamos.
+Como has visto, para hacer la colocación de este 
+nervio que tiene aquí en la parte final unos  
+ángulos, lo que hemos hecho ha sido ajustarlo 
+para que nos quede perfectamente apoyado en la  
+barra y buscar cuál es la posición que tiene que 
+tener en altura. Ahora, para hacer la colocación  
+definitiva, sencillamente lo que vamos a hacer es 
+colocar el pasador -centrándolo también con la  
+barra- y vamos a atornillar aquí, en este punto 
+que nos ha quedado, para dejar esta parte fija.  
+Pero no lo vamos a hacer todavía, hasta que no coloquemos 
+la prolongación que tiene esta barra que es donde  
+va la segunda parte del cuerpo. Así es que lo que 
+nos toca ahora es colocar esa segunda parte de  
+la barra y, además, será más fácil seguramente -lo 
+vamos a ver- no cerrar esto  definitivamente hasta  
+que hayamos puesto el polipasto en su lugar. Como ves, 
+esta barra tiene dos posiciones posibles que  
+coinciden también con la perforación que tiene 
+en medio esta barra. Así que esto es para cuando está 
+prolongada y esto para cuando está recogida. Nosotros 
+vamos a dejarla prolongada para preparar la  
+posición posible que utilicemos en el segundo 
+punto. Antes de poner el polipasto,  vamos a  
+poner los tornillos que sujetan los pasadores para 
+que no se puedan salir con las maniobras. Esto es  
+mejor hacerlo a mano. Si lo hacemos con 
+el atornillador de impacto, corremos el riesgo
+-como ha pasado aquí- de que partamos el tornillo. Un 
+nuevo ejercicio que nos queda pendiente el día  
+que queramos sacar el tornillo del interior. Para 
+subir la máquina, como es un poco pesada para  
+pasear con ella por arriba y estarla sujetando, le 
+ponemos ya los soportes aquí abajo, la pasamos a lo  
+largo de la barra y la apretamos directamente 
+sin tener que estar soportando su peso.
+Una vez que llevamos a la barra 
+el maquinillo, lo colocamos
+y vamos apretando los cuatro tornillos de sujeción.
+Los últimos aprietes los hacemos fijándonos en 
+que quede en el sitio correcto en que queramos  
+poner la máquina. Acuérdate siempre de que el 
+polipasto lo tenemos que acercar todo lo  
+posible a la pared para, de esta manera, 
+disminuir la tensión de carga al trabajar.
+Y ahora aprovechamos para colocar el  
+punto de la extensión de la barra y 
+sujetar también el nervio superior.
+Como te explicaba al principio, este polipasto 
+puede cargarnos directamente en esta línea  
+vertical 125 kilos. Si yo quiero utilizarlo para 
+el máximo que me puede prestar que son 250, necesito 
+tener otro punto de anclaje, separado del primero, 
+y poner una polea intermedia para que esa polea me  
+me haga la desmultiplicación y me permita llegar a esa 
+carga. Como no tengo ningún mecanismo para poner el  
+gancho y poder sujetar de esta forma este segundo 
+punto, voy a aprovechar las piezas que me han  
+sobrado de las bridas que estaban previstas para 
+ese tubo de acero que no ha existido en este caso y  
+voy a pasarlo por la barra y lo voy a colocar 
+aproximadamente a un metro de distancia de la base  
+para que de esta forma tenga ese segundo punto de 
+anclaje. ¿Por qué es importante que yo cuide un poco  
+estas distancias? Bueno, en este caso, 
+he pedido al Servicio de Atención Técnica de 
+Index Fixing Systems que me hiciera el cálculo de si es 
+correcto esto o no para verificarlo. Parece que, por  
+todo lo que llevamos de tornillos, es suficiente. Pero nunca está de más, cuando  
+tengas dudas en instalaciones importantes, 
+que hagas este tipo de consultas o que entres en las fichas  
+técnicas a mirarlo. Me han confirmado efectivamente 
+que, con los tornillos que hemos colocado, no  
+tengo ningún problema en esta segunda carga, aunque 
+esté tan lejos del punto de anclaje. Así que me quedo
+tranquilo. Voy a fijarlo y lo voy a poner en marcha. 
+Vamos a meter este mosquetón como una pieza de  
+sujeción para poder engancharlo en el gancho antes 
+de atornillar. Ahora atornillamos con fuerza  
+para que se quede bien sujeto y no se deslice 
+a lo largo de la barra este punto de anclaje.
+Ya hemos conectado el polipasto al enchufe para 
+darle servicio. Como ves, con el sistema que hemos  
+seguido de estos tornillos TH-DEX que son de 
+fijación directa en hormigón la instalación es  
+supersencilla. Lo único que te puede dar un poco de 
+guerra es seguir las instrucciones que es lo que  
+te hemos contado nosotros de la colocación, tanto 
+de la barra como del propio polipasto. Respecto  
+del manejo de este tipo de aparatos, es supersencillo. Tiene este mando que nos permite bajar,
+subir y, cuando lo queremos tener bloqueado, le damos 
+aquí al bloqueo para que accidentalmente no se  
+ponga en marcha si no queremos. Si nosotros 
+subimos más de la cuenta, tampoco pasa nada  
+porque esta pieza que tiene aquí es un resorte 
+de seguro que lo que hace es que, automáticamente,  
+desconecta el motor para evitar que siga 
+tirando cuando ya ha terminado el recorrido. 
+¿Ves?, ahí se para. Ésta sería la posición que 
+nosotros vamos a tener habitualmente para  
+trabajos normales con 125 kilos. Yo no sé lo 
+que vas a hacer tú si tienes un polipasto. La verdad es  
+que nosotros en general vamos con bastante 
+margen. De todas maneras, si yo quiero como te  
+decía antes doblar la posibilidad de carga, le 
+doy un poco más de margen, engancho el gancho  
+de carga directamente en nuestro punto de fijación 
+adicional -vamos a ponerlo aquí- y la polea que me  
+trae como complemento es la que,  desmontando estos 
+tornillos que tiene aquí para que nos pase el  
+cable, es la que correría y sería en 
+la que podríamos hacer la carga doble, sujeto en  
+los dos puntos. Habitualmente nosotros no tenemos 
+por qué tenerlo así si no nos hace falta, 
+para que no esté estorbando y colgando por 
+medio el gancho, cuanto más cerca de la pared 
+éste, menos va a molestarnos. Bueno,  vas a ver cómo le 
+vamos a sacar mucho partido porque para nosotros  
+es muy importante tener un sistema como éste que 
+añadiéndole una balanza nos va a permitir hacer  
+pruebas de carga sabiendo ya los pesos reales 
+que podemos poner en cualquier fijación. Así que  
+espero que nos sea, como te digo, muy útil y espero 
+por supuesto como siempre habernos ganado tu "like",  
+que te suscribas al Canal si no lo estás todavía 
+-dándole a la campanita para recibir notificaciones-  
+y por supuesto que compartas este vídeo con todos 
+tus amigos a los que les guste el bricolaje.

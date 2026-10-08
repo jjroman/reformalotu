@@ -1,0 +1,119 @@
+[
+  {
+    "Author": "@muelaparlante",
+    "Text": "Hola , soy seguidor de sus tutoriales . Pregunto si tienen un tutorial para hacer una mesa de trabajo de electricidad para reparar y hacer instalaciones , si interrumpir el servicio del resto de la casa o departamento",
+    "Likes": 0,
+    "PublishedAt": "2025-08-25T16:48:43+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Vuelvo a disculparme, por si pongo demasiados mensajes, pero es que cuando se me ocurre una consulta o una idea, pues la expongo por si os parece adecuada. \n\nOtra posibilidad que permiten los dispositivos conectados, de Legrand que estaría muy bien explicar, es la posibilidad de controlar los micromodulos de iluminación conectados, con pulsadores mecánicos. \n\nQué me encantaría ver un ejemplo de instalación, en el que se pasa un tercer cable, para conectarlo en un borne específico del micromodulo, y controlarlo con un pulsador mecánico. \n\nQué estación está muy bien, porque al menos en teoría, permite controlar el micromodulo sin necesidad de conectarlo a la red del gateway.\n\nEs una opción más económica, porque te ahorras el interruptor inalámbrico, pero que requiere algo de instalación eléctrica que a mí me gustaría que por favor explicaseis.\n\nPidiendo de nuevo disculpas, ahí os dejo mi sugerencia. \n\nGracias por vuestros tutoriales de electricidad, y por vuestro canal en general. \n\nSaludos",
+    "Likes": 0,
+    "PublishedAt": "2025-08-20T18:01:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Juan, este vídeo tutorial me gusta mucho, entre otras cosas por un pequeño detalle. \n\nCuándo empezaste a hablar de las instalaciones conectadas, y dedicaste un tutorial a explicar cómo se sustituye una conmutada tradicional, por este sistema, dijiste, que a la hora de cablear el interruptor cableado conectado, en las salidas de cable se podría aprovechar una, y la otra estaba reservada para el neutro.\n\nEsa información no era correcta. Entre otras cosas porque posteriormente, como tú muy bien explicas en este tutorial salieron interruptores que en lugar de tener un compensador de carga, se desconecta un cable neutro para poder derivar la corriente que queda sobrante, que permite encender el piloto LED del interruptor, pero sin mantener una bombilla LED encendida aunque el interruptor estuviera apagado. \n\nUn pequeño, pero muy importante detalle. \n\nLo dicho, me encanta este tutorial. \n\nEstos dos últimos tutoriales cómo son el complemento perfecto, a la serie de electricidad básica dedicada a las instalaciones conectadas. \n\n¿Habrá más?.\n\nSaludos.",
+    "Likes": 2,
+    "PublishedAt": "2025-08-16T09:03:29+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias @valenortega6786 por tus comentarios y por tu seguimiento de estos tutoriales. Eres nuestro comentarista de lujo!!!! Seguro que haremos más tutoriales cuando haya que incorporar elementos nuevos. De lo que comentas de abrir red en otro comentario para añadir cada nuevo dispositivo recuerdo que lo dijimos y creo recordar que ha quedado así en la grabación (a veces al editar puede perderse algún detalle...) pero totalmente de acuerdo.",
+        "Likes": 0,
+        "PublishedAt": "2025-08-17T17:45:25+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "​@Bricocrackmuchas gracias por lo que decís de que soy vuestro comentarista de lujo. Para mí es un honor poder participar comentando tutoriales sobre electricidad. \n\nY si aceptáis sugerencias, a mí me gustaría que hicierais algún vídeo en el que explicaré cómo se instalan dos mecanismos nuevos: \n- un interruptor conectado con neutro, pero que es doble, es decir dos interruptores en uno \n- un micromodulo que permite regular la luz.\n\n¿Sería posible?\n\nGracias por vuestra respuesta \n\nSaludos",
+        "Likes": 1,
+        "PublishedAt": "2025-08-17T17:51:56+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "@SoyValenOrtega Nos anotamos tus sugerencias, muchas gracias!!!",
+        "Likes": 0,
+        "PublishedAt": "2025-08-18T14:30:55+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Me parece un tutorial muy interesante. \n\nMe aclara la principal duda que tenía que era la relativa a de dónde sacar el cable neutro necesario para este tipo de interruptores. \n\nPor lo que veo, aunque fuera un mecanismo doble que necesite neutro, la instalación es igual. \n\nY entiendo, salvo que me corrijáis, que el cable neutro lo puedo sacar de cualquier otro que haya en la caja de registro. No tiene por qué ser de un circuito en concreto. Corregidme si me equivoco. \n\nMe ha parecido un tutorial muy interesante, pero yo hubiera añadido, aunque será por hecho pero nunca está de más volver a repetirlo, que después de hacer la instalación cableada lo primero que hay que hacer es añadir esos dispositivos nuevos a la red zigbee mediante el gateway.\n\nPero, lo repito, me ha encantado el tutorial. \n\n¿Habrá más?.",
+    "Likes": 1,
+    "PublishedAt": "2025-08-15T20:39:27+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@opikatube",
+    "Text": "Por favor no digáis ok google ni alexa en los vídeos que empieza a hacerme cosas la casa!",
+    "Likes": 2,
+    "PublishedAt": "2025-08-15T20:05:55+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "😂😂😂 OK @opikatube, aunque va a ser muy difícil explicarlo si no lo decimos. Va a ser mejor que bajes tú el volumen 😊",
+        "Likes": 2,
+        "PublishedAt": "2025-08-16T10:10:43+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@dementez797",
+    "Text": "un saludo y que tengas un gran día y un buen fin de semana 👍👍",
+    "Likes": 1,
+    "PublishedAt": "2025-08-15T19:04:41+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Que sea bueno también para ti, @dementez797 😊",
+        "Likes": 1,
+        "PublishedAt": "2025-08-16T10:11:19+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@sportlol",
+    "Text": "Lo suyo es reemplazar los mecanismos por pulsadores y poner una pastilla inteligente, de esa forma si falla algo solo puede fallar la pastilla y así los mecanismos no parecen de Temu y van unificados con la estética de la casa, además en cableado es más fiable que el inalámbrico",
+    "Likes": 0,
+    "PublishedAt": "2025-08-15T18:51:41+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola @sportlol, pero entonces, estamos hablando ya de otra cosa, ¿no?...",
+        "Likes": 0,
+        "PublishedAt": "2025-08-17T17:47:10+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "Otra opción, es aprovechar la tercera conexión que tiene el micromódulo, para pasar otro cable, y sustituir el interruptor por un pulsador. \n\nDe esa forma conviertes el micromódulo en un televisor, que no es necesario que esté obligatoriamente conectado al gateway, para controlarlo con un pulsador.\n\nEs una opción, quizá algo más de instalación, pero más económica.",
+        "Likes": 0,
+        "PublishedAt": "2025-08-18T14:42:40+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@eb5ua",
+    "Text": "Gracias.",
+    "Likes": 1,
+    "PublishedAt": "2025-08-15T18:37:57+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias a ti por seguirnos, @eb5ua!",
+        "Likes": 0,
+        "PublishedAt": "2025-08-16T10:11:54+00:00",
+        "Replies": []
+      }
+    ]
+  }
+]

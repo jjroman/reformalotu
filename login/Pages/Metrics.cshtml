@@ -1,0 +1,13 @@
+@page
+@model login.Pages.MetricsModel
+@{
+    ViewData["Title"] = "Resumen";
+}
+
+<h1>Resumen del POC</h1>
+<dl class="row">
+    <dt class="col-sm-4">Proyectos creados</dt>
+    <dd class="col-sm-8">@Model.ProjectCount</dd>
+    <dt class="col-sm-4">Aperturas de vídeos</dt>
+    <dd class="col-sm-8">@Model.VideoOpenCount</dd>
+</dl>

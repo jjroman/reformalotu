@@ -1,0 +1,191 @@
+Cuando hablamos del riego en el jardín,
+siempre hablamos de riego inteligente y
+el riego inteligente, lógicamente, es
+darle a cada planta la cantidad de agua
+que necesita en función de las
+condiciones ambientales. Esto, por
+supuesto, nosotros lo controlamos a
+través de los programadores.
+¿Qué es lo que venía pasando con los programadores? Pues los programadores, como pasaba con las
+lavadoras y con tantas otras cosas,
+tenían botones, tenían cosas que se nos
+hacían complicadas y, al final, nos
+llevábamos el primer programador que más
+o menos entendíamos, con independencia de que fuera el que realmente necesitáramos
+para ajustar ese riego a lo que decíamos, 
+a ser un riego inteligente. Las cosas,
+afortunadamente, van evolucionando y
+nosotros lo que hemos hecho en este
+tutorial ha sido coger esta colección de
+programadores de riego de Gardena que,
+seguramente, es una de las marcas más
+representativas y que es más fácil de
+encontrar en el mercado, y vamos a ver
+cómo están pensados para hacernos mucho
+más fácil y mucho más amigable el riego,
+teniendo en cuenta por supuesto cuáles
+son las necesidades que nosotros
+tenemos que cubrir. Así que aquí los
+tenemos expuestos y básicamente lo que
+hemos hecho ha sido dividirlos
+en tres grupos fundamentales. Por una
+parte, tenemos estos dispositivos que son
+analógicos. Son de programación
+muy sencilla porque, directamente, a
+través de una rueda muy fácil de manejar,
+podemos pedirle las funciones más
+habituales que tenemos en un jardín
+normal. Su programación es muy sencilla.
+Aquí voy a decidir, en esta rueda
+interior, cada cuántas horas quiero que
+se active. Por ejemplo, aquí diría "quiero
+que se active una vez al día" y aquí decido
+cuántos minutos de riego cada vez "quiero que sean riegos de 10 minutos y quiero
+que el riego empiece dentro de cuatro
+horas". Aprieto cuatro veces el botón de
+indicar el momento de arranque y me va a
+dar unas luces de parpadeo que indican
+que la programación está hecha.
+Este modelo Easy Plus tiene dos
+funciones: la zona gris es la
+programación de riego y la zona azul es
+la programación del nebulizador que ya
+veremos en otro tutorial.
+Si quiero hacer un riego manual, me
+limito a llevar la ruleta a la posición
+de riego manual y dejo que salga el agua
+de riego.
+Los programadores analógicos cuando los pongo en posición de riego manual, si me
+olvido, no pasa nada porque a los 30
+minutos van a cortar automáticamente
+pero, lógicamente, si lo tengo en posición manual, la programación está
+desactivada. Acuérdate porque,
+efectivamente, no se va a volver a activar
+hasta que tú no lo vuelvas a poner en la
+posición de programación.
+Luego tenemos esta otra serie que serían ya los digitales.
+Por ejemplo, este modelo Flex lo que me
+proporciona es más información y más
+flexibilidad de riego. Lo primero que
+hago es elegir la hora que es en el día.
+Aquí lo que voy a hacer es marcar la
+hora de inicio del riego. Quiero que el
+riego se inicie, por ejemplo, a las 7:30,
+que la duración del riego
+sea de 20 minutos
+y que la frecuencia sea cada 8 horas.
+Le doy al "ON" y, de esta manera, ya tengo
+hecha mi programación. Cuando quiero que
+se ponga en marcha el riego manual, le doy al "OK" y, cuando está funcionando, veo cómo va el
+contador y cómo parpadea la gota que
+quiere decir que está en marcha el riego.
+A la derecha arriba en el display tenemos
+el indicador de la carga de la pila.
+En ocasiones el uso que damos al programador es un uso más complejo.
+No queremos que riegue a determinadas horas algunos días, porque son las de
+utilización del jardín, o queremos
+también tener en cuenta características
+determinadas del clima...En fin, queremos tener más libertad a la hora de
+programar. Ahí ya entran en juego estos
+programadores que me dan posibilidades
+de hacer programaciones donde tengo en
+cuenta muchas más variables.
+En éste, por ejemplo, vamos a seleccionar
+directamente que comience a regar todos
+los días a las 8:10 de la mañana, que
+riegue 15 minutos -ves que en éste puedo
+regular también las horas- y voy a
+pedirle que lo haga de lunes a domingo.
+El programa 2 es un programa con el que
+voy a regar por las tardes. Va a arrancar a las
+ocho de la tarde y voy a elegir que riegue
+durante 20 minutos y lo voy a hacer solamente
+de lunes a viernes, porque durante el fin
+de semana a esas horas es frecuente que
+estemos en el jardín.
+Y el programa 3 me va a regar solamente el sábado y
+el domingo por las noches.
+En ocasiones yo quiero dar un paso más.
+No me vale con hacer una programación
+desde el punto de vista del
+funcionamiento horario de mi jardín, sino
+que lo que quiero también es suplir lo
+que sería el riego tradicional enterrado
+mediante electroválvulas. Esto, cuando tengo prisa por montar un riego y no
+tengo otra solución, pues una solución
+fantástica es utilizar un programador
+de este tipo, el Master, que, además de poder jugar con este tipo de funciones
+en cuanto a horario y periodos de riego,
+me permite también regar distintas zonas
+de mi jardín. Esto tiene que hacerse
+siempre asociado a un distribuidor de riego.
+El distribuidor funciona como un
+conjunto de electroválvulas, con
+la diferencia de que funciona
+mediante un muelle de presión. A medida
+que van saltando los programas en mi
+programador, lo que hace el distribuidor
+es, mediante un muelle cuando hay un
+cambio de presión, salta a la siguiente
+salida. Siempre es imprescindible que yo
+tenga funcionando dos salidas, por eso
+no son regulables, yo siempre tengo que tenerlas abiertas necesariamente.
+Sí que puedo regular las cuatro restantes, que las puedo abrir o cerrar. Cuando las
+cierro, debo poner además un tapón de
+cierre.
+Como el salto entre las salidas de agua
+se activa por presión, algo muy
+importante es que el caudal de agua que
+entra en el distribuidor debe ser mayor
+que el que sale. Si nosotros hacemos que
+se vacíe más deprisa el distribuidor de
+lo que le entra el agua, no va a tener
+presión para que se active este muelle.
+Otra opción que me proporciona este
+programador Master es que yo puedo
+modificar el porcentaje de riego. De esta
+manera en cualquier época del año, sin
+modificar el resto de los parámetros, me
+limito a modificar el porcentaje de agua
+que va a recibir mi riego y, con esto,
+lo puedo adaptar de una manera mucho
+más precisa. Aunque haya diferencias con respecto a la forma de programar, todos
+ellos comparten la tecnología en cuanto
+al sistema de cierre. Es un sistema de
+cierre por membrana, es el mismo que se
+utiliza en el mundo profesional, por
+ejemplo, en el riego de jardines públicos.
+Otra característica que hace más
+inteligentes a los programadores digitales es que todos tienen la posibilidad de
+conectarse a un sensor de humedad. Con
+esto nosotros podemos también incorporar
+como una variable que, en caso de que el
+suelo ya esté húmedo, no se active el
+riego. Y luego, por supuesto, tienes una
+opción que ya conoces porque ya hablamos
+de él en el tutorial que son los
+programadores Smart. Estos programadores
+son programadores conectados que yo
+puedo manejar a través del móvil, que me
+dan todas las funciones que me dan los
+otros, pero con la posibilidad de hacer
+un sistema mucho más completo y jugar
+con muchas más variables y, sobre todo,
+que puedo controlarlo desde cualquier parte del mundo.
+Bueno, espero que con esto hayas visto,
+más o menos, el modelo que se puede adecuar más a tus necesidades y
+hayas visto también de qué forma se ha
+simplificado toda la parte de
+programación. Esto nos da dos ventajas
+muy importantes. Una es que, efectivamente,
+reducimos el consumo de agua porque
+podemos adaptar muy bien la cantidad de
+riego a las necesidades de cada planta y
+en cada momento del año. Y la segunda es que
+nos quitamos un montón de quebraderos de cabeza, porque es mucho más fácil manejar
+estos nuevos programadores. Espero por tanto que la información te haya sido
+útil, que nos hayamos merecido tu "like",
+que te suscribas al Canal, si no lo estás
+todavía, y por supuesto que compartas
+este vídeo con todos tus amigos a los
+que les gusten los temas de jardín.

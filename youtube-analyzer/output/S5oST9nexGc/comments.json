@@ -1,0 +1,1782 @@
+[
+  {
+    "Author": "@antoniomateo2107",
+    "Text": "Me has generado mas dudas que respuestas,viendo el video,supongo que la potencia va relacionada con la longitud de la tira y es eso lo que deberíamos de saber,por ejemplo que medida de tira led se necesita para un transformador de 12v a 20w.",
+    "Likes": 0,
+    "PublishedAt": "2026-08-25T11:35:41+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@sorianoLi",
+    "Text": "Un exelente video gracias🎉",
+    "Likes": 0,
+    "PublishedAt": "2026-08-02T22:57:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@miguelmartinez7140",
+    "Text": "Que color es positivo y negativo de una tira led si tienes 4 colores???",
+    "Likes": 0,
+    "PublishedAt": "2026-07-01T00:19:49+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Davichoyeah",
+    "Text": "disculpa una consulta, yo tengo 33 metros de tiras led neon como harianlaminstalacion asi noncaiga lamtension  yo tengo 4 paneles de 4 metros de tira led en cada panel de un lado y del otro lo mismo, como haria el circuito asi no caiga lamtension",
+    "Likes": 0,
+    "PublishedAt": "2026-06-18T13:06:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@OscarLópezLópez-h4p",
+    "Text": "Por qué mi led cambia de color invirtiendo las conexiones???puede ser por el orden de las fases???un saludo",
+    "Likes": 0,
+    "PublishedAt": "2026-05-22T08:05:33+00:00",
+    "Replies": [
+      {
+        "Author": "@OscarLópezLópez-h4p",
+        "Text": "RGB es sinónimo de RST??la N está claro es de Neutro",
+        "Likes": 0,
+        "PublishedAt": "2026-05-22T08:06:54+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@OscarLópezLópez-h4p",
+    "Text": "Gracias por la explicación, aún que mi duda persiste igualmente....es por culpa del variador.\nSe debe instalar antes o después de conectar el rectificador de la tira???gracias de antemano",
+    "Likes": 0,
+    "PublishedAt": "2026-05-22T08:02:44+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@karinrabbat5952",
+    "Text": "Tengo tiras de esa plásticas recubiertas... es normal q se recaliente y se manchen...?",
+    "Likes": 0,
+    "PublishedAt": "2026-04-22T17:17:47+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ByArkangel",
+    "Text": "Porque calienta tanto el trasformador, es normal, me dijeron q con ese ya iría sobrado y veo q calienta igual q el anterior",
+    "Likes": 0,
+    "PublishedAt": "2026-03-25T02:40:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@nelsonjens",
+    "Text": "Saludos. Tengo una duda, puedo colocar en paralelo 2 tiras de 2 mts cada una con un mismo controlador?",
+    "Likes": 0,
+    "PublishedAt": "2026-03-17T11:07:34+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@rubendestupinan8554",
+    "Text": "Buenas yo lo conecte a uno de 5A pero no me prende  solo intenta prende cuando le tocó una parte con el dedo me puedes decir quesera que sucede",
+    "Likes": 0,
+    "PublishedAt": "2026-03-14T01:06:47+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@MíiansusanaDasilva",
+    "Text": "Ken bron",
+    "Likes": 0,
+    "PublishedAt": "2026-02-08T17:02:43+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@djgrananext",
+    "Text": "Y sin embargo si metes tiras leds de 220 voltios, que no lleva transformador ni nada , eso no pasa, mas que nada porque he instalado 10 metros de luz led a 220 voltios que hace ya tiempo que las hay.",
+    "Likes": 0,
+    "PublishedAt": "2025-12-11T16:38:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ramonguzman1402",
+    "Text": "Yo tengo unas luces RGBic , creo que mi USB no era suficiente para soportar 15 mts dejaron de encender a la 3 vez.  Pero ahora con el vídeo me doy una idea mejor de lo que debo hacer, están nuevas y sin uso, gracias por el video.",
+    "Likes": 0,
+    "PublishedAt": "2025-11-28T00:13:12+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jamzmartinez2574",
+    "Text": "Y para cambiar el color de las luces cuando se conectan en paralelo  al regulador como sería cuando se conectan varias tiras RGB?🤔tengo esa duda me gustaría recibir respuesta se lo agradecería, saludos desde NICARAGÜA",
+    "Likes": 0,
+    "PublishedAt": "2025-10-28T05:06:07+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@johnnycarreracarrera9649",
+    "Text": "Tengo una tira led secuencial de 10 m y a la hora de encender , no se enciende la tira completa cuál sería la solución \nTengo trasformador \nde input AC 180 - 256v.   50/60Hz\n               DC 24v - 4.1A.  CV mode 25/03-lll",
+    "Likes": 1,
+    "PublishedAt": "2025-10-19T19:34:01+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@gustavoojedahidalgo1016",
+    "Text": "Osea una tira Led de 5mt.con su propio transformador normal  puede funcionar un pedazo de tira Led de 30cm con el mismo transformador",
+    "Likes": 0,
+    "PublishedAt": "2025-07-26T15:10:47+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@gerardouriel7",
+    "Text": "Se pueden empalmar los cables ?",
+    "Likes": 0,
+    "PublishedAt": "2025-07-16T23:17:17+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@edercervantes9487",
+    "Text": "Exelente jefe 👍👍",
+    "Likes": 0,
+    "PublishedAt": "2025-07-14T03:58:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@lunesc7027",
+    "Text": "Excelente! Muy bien explicado!",
+    "Likes": 0,
+    "PublishedAt": "2025-06-01T01:03:29+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@NB-om4bh",
+    "Text": "Muy buenas\nDijiste que cada transformador tiene un amperaje. Por ejemplo un transformador me da 60 w.  Es decir que yo puedo alimentar hasta 60 w de tira led. Me pregunto ¿como puedo saber los watios de unos 100 metros de tira led? Y así puedo elegir un transformador con un amperaje mayor.\nMuchas gracias y otros mil por tus videos",
+    "Likes": 0,
+    "PublishedAt": "2025-05-29T09:04:08+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@joseguerrerogonzalez5052",
+    "Text": "Hola ...estoy intentando hacer un rótulo con letras grandes y luminoso...pero me puedes decir alguien como salto de una letra a otra con el cable led y que siga iluminado",
+    "Likes": 0,
+    "PublishedAt": "2025-05-28T06:34:33+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Leon-p1i4p",
+    "Text": "Muchas Gracias, tremendo tutorial!!",
+    "Likes": 0,
+    "PublishedAt": "2025-05-16T04:03:12+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@camilozuluaga8759",
+    "Text": "❤",
+    "Likes": 0,
+    "PublishedAt": "2025-05-13T12:17:54+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@CristianLemus-l3s",
+    "Text": "Una pregunta y con las tiras led de 5 voltios sw2812b ,SMd 5050 RGB de 300 pixeles Se pueden unir asta cuantas tiras?  yo compré de 16 pies de 3 pines pero no use trasformador y cuando uní la segunda se apagaron y el trasformador que trae se calentó y se apagaron necesito unir 30 metros de esas led para mi cuarto que trasformador puedo usar son tiras led de 300led",
+    "Likes": 0,
+    "PublishedAt": "2025-05-09T13:52:56+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@antoniolazo4204",
+    "Text": "Tenía un problema con la caída de tensión e intenté tantas soldaduras y cortes al final me di por vencido y tenía que entregar ese trabajo al final no lo pude entregar y de la frustración vine a ver este video y ahora sé que tengo que hacer",
+    "Likes": 0,
+    "PublishedAt": "2025-05-09T02:51:40+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@felipeamezquitamoreno9573",
+    "Text": "el color azul en mi tira led no funciona, que hago ? es solo el color azul y obviamente los colores que combinados necesitan el azul",
+    "Likes": 0,
+    "PublishedAt": "2025-04-10T03:40:42+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Sergio-bw1br",
+    "Text": "Buenas una pregunta tengo en el espejo el baño unas tiras de led que van con un sensor de movimiento lo tenía conectado a la luz cuando e quitado de la caja central de casa para poner una lampara en el comedor y cuando e vuelto a conectar de la caja central de casa me a empezado a parpadear el led del baño y no va como antes que ha podido pasar y como arreglarlo gracias .",
+    "Likes": 0,
+    "PublishedAt": "2025-03-13T19:56:13+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@natirubi524",
+    "Text": "Quedó muy bonito!!! calentás el cuchillo para cortar? o es alguna hoja en particular? \nqué numero de lija usás? gracias!!",
+    "Likes": 0,
+    "PublishedAt": "2025-03-04T02:49:32+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@luisantonioruizvillalobos1116",
+    "Text": "Se puede  colocar estas tiras  a intemperie  los jardines",
+    "Likes": 0,
+    "PublishedAt": "2025-03-02T23:45:52+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@yvorrojas7328",
+    "Text": "Que cable se recomienda usar",
+    "Likes": 0,
+    "PublishedAt": "2025-02-15T22:01:45+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@frantordesillas410",
+    "Text": "necesito saber porque en mi tv samsung s95c no se me apaga la tira led al apagar el televisor, tengo otros led en otra tv samsung y se apagan y encienden al compás de la tv que puedo hacer?",
+    "Likes": 1,
+    "PublishedAt": "2025-01-31T01:16:57+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pedroluismendezenciso1043",
+    "Text": "Ojalá dieras un curso sobre más opciones de pegamento de las tiras  por se despegan  muy rapido",
+    "Likes": 1,
+    "PublishedAt": "2025-01-24T15:25:38+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@joseantoniosuriandavo6746",
+    "Text": "Todo perfecto,tengo un pero ,la palabra pistola y gatillo m han parecido inadecuadas,hay q cuidar el mundo, se puede sustituir x fundidor y accionador ,.gracias",
+    "Likes": 0,
+    "PublishedAt": "2025-01-22T19:48:48+00:00",
+    "Replies": [
+      {
+        "Author": "@felipe80501",
+        "Text": "Con quién hablas wey?",
+        "Likes": 0,
+        "PublishedAt": "2025-02-03T04:58:26+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@carmenmotero",
+    "Text": "Me encantó. Gracias",
+    "Likes": 0,
+    "PublishedAt": "2025-01-14T20:00:29+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ramarada571",
+    "Text": "Tengo dos tiras led, que dejaron de funcionar al mismo tiempo, conectadas al mismo controlador que va al toma corriente. El otro día llegué a mi casa y estaban apagadas, las prendí todo bien y hoy cuando me desperté estaban nuevamente apagadas y a no volvieron a prender. Puede ser que hayan agotado al mismo tiempo o puede que este fallando el controlador o el transformador que se conecta a la corriente electrica? Gracias.",
+    "Likes": 0,
+    "PublishedAt": "2025-01-05T23:24:14+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@JoseHernandez-ln1rn",
+    "Text": "Buenas, me ha pasado alguna vez de conectar tiras Led y funcionan pero parece como si la luz temblara, vibrara, tiene que ver con el puente rectificador, se tiene que poner algún tipo de filtro?, me lo puede explicar?, ojo que no me refiero al parpadeo. Muchas gracias 😊",
+    "Likes": 0,
+    "PublishedAt": "2025-01-05T06:15:22+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@MrAnToVeLeZ",
+    "Text": "Mis tiras led no tiene marcas para cortar...",
+    "Likes": 0,
+    "PublishedAt": "2024-12-26T08:35:31+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@JoseGregorioGonzalez-ek2of",
+    "Text": "Q pasa cuando colocamos mal la posición",
+    "Likes": 0,
+    "PublishedAt": "2024-12-25T20:30:50+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@BRIANIB001",
+    "Text": "alguien sabe por que el led verde no se apaga? si pongo solo el rojo me lo deja mas tenue el azul igual y el verde siempre a máximo salvo que lo bloque físicamente entonces el rojo y verde briillan bien\nProve con diferentes trozos y tiras led por lo que me lleva al controlador que le puedo hacer es chinorri de 12v",
+    "Likes": 0,
+    "PublishedAt": "2024-12-20T00:01:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@manuelalfaro278",
+    "Text": "Tengo una dudas cada cuantos pies o metros llegaría la luz brillante",
+    "Likes": 0,
+    "PublishedAt": "2024-11-29T22:05:58+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@rafaelmunoz719",
+    "Text": "Dónde puedo comprar el conector codo y unir la union de la tira",
+    "Likes": 0,
+    "PublishedAt": "2024-11-29T02:42:05+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@JessLuix",
+    "Text": "No todas se pueden juntar las de Govee alguns no",
+    "Likes": 0,
+    "PublishedAt": "2024-11-21T11:24:42+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@JorgeNunez-vs6eg",
+    "Text": "ESPECTACULAR, MUCHISIMAS GRACIAS",
+    "Likes": 0,
+    "PublishedAt": "2024-11-18T04:06:00+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@nuviazu",
+    "Text": "Muchas gracias luego que coloque las luces le enviaré mi experiencia saludos y bendiciones 👍👍🙏🙏",
+    "Likes": 0,
+    "PublishedAt": "2024-11-15T02:56:48+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jerusalenestudillo9038",
+    "Text": "Uff gracias. Está súper bien explity me ayudó mucho con mi instalación en el cuarto.",
+    "Likes": 0,
+    "PublishedAt": "2024-11-14T21:31:17+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@mariao.j3797",
+    "Text": "De verdad, los mejores tutoriales ever. 🔝",
+    "Likes": 0,
+    "PublishedAt": "2024-11-11T23:02:02+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@flavian4926",
+    "Text": "Gracias, sin este vídeo probablemente no lo hubiese conseguido",
+    "Likes": 0,
+    "PublishedAt": "2024-10-23T17:36:06+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@AFTrujillo",
+    "Text": "Buenos días, como trabaja las luces tiras led con sensor de movimiento?",
+    "Likes": 0,
+    "PublishedAt": "2024-10-18T14:20:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@dignamarypabon4428",
+    "Text": "Que hago que no enciende las tiras leed",
+    "Likes": 0,
+    "PublishedAt": "2024-10-15T16:55:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@luise.6974",
+    "Text": "Si solo quiero conectar dos tiras de 10 cm a 220v, ¿puedo poner cualquier fuente del voltaje de las luces con los amperios que sean?",
+    "Likes": 0,
+    "PublishedAt": "2024-10-09T22:45:25+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@CarlosAlburqueque-ge2eu",
+    "Text": "Por cada .metro de led cuánto amperio necesito..",
+    "Likes": 0,
+    "PublishedAt": "2024-10-02T20:47:05+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@discomovilhernandezdjjuani6671",
+    "Text": "Si he punteado las tiras leds para un traje de robot ejemplo el muslo prende vien pero para puentear asía la otra extremidad ya empiesa a parpadear , será que tendré que meter muchos cables directos de corriente  directo para refuerzo de Vol. O algún tipo",
+    "Likes": 0,
+    "PublishedAt": "2024-09-24T04:59:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ManweAule",
+    "Text": "Impecable! Pipí cucú",
+    "Likes": 0,
+    "PublishedAt": "2024-09-19T17:24:25+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@denisrosa5288",
+    "Text": "Esa led se la puedo poner a una moto 2 tiempo",
+    "Likes": 0,
+    "PublishedAt": "2024-09-05T05:40:22+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@thesnakeslair5908",
+    "Text": "Mi controlador se quemo, y al conectarlo solo se queda con la luz en morado, compre un controlador nuevo y ahora la luz roja no enciende, pone amarillo en su lugar, se que funciona la roja porque el morado la necesita, pero quisiera reiniciar la tira pero no se como 😢",
+    "Likes": 0,
+    "PublishedAt": "2024-09-02T22:05:35+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@danieloviedo443",
+    "Text": "Mi mayor respeto asía usted, nunca vi una explicación tan perfecta y q todos podemos entender , mis saludos desde Argentina,  un abrazo.",
+    "Likes": 0,
+    "PublishedAt": "2024-08-28T00:55:47+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pablobalaguer2221",
+    "Text": "Muy bueno el video ese y como lo estás explicando también",
+    "Likes": 0,
+    "PublishedAt": "2024-08-23T23:57:49+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@DavidHernandez-dr9lh",
+    "Text": "Mis patitas de colores una está más chica y no enciende bien",
+    "Likes": 0,
+    "PublishedAt": "2024-08-14T03:00:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@irenea.p.80",
+    "Text": "Buenas, al instalar una tira de  led se me rasgo y compré cable y unos conectores de presión, pero algo más anchos y transparentes, son para tiras de 3 pin en este caso, pero la tira empalmada pierde potencia hasta q ya no lucen los led, mi marido y yo creemos q puede ser q el cable sea malo, y no sea cobre estañado sino alguna otra cosa, podría ser? Podrían compartir vínculo a algun empalme para 3 pin mejor? Gracias",
+    "Likes": 0,
+    "PublishedAt": "2024-07-24T21:46:14+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@alejandrozangra5036",
+    "Text": "Excelente explicación, muy útil!! Saludos.",
+    "Likes": 0,
+    "PublishedAt": "2024-07-05T00:01:06+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@LuisCastro-j9e",
+    "Text": "Buenas noches jefe ,muy importante y muy claro Gracias amigo.",
+    "Likes": 0,
+    "PublishedAt": "2024-06-17T23:51:48+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@thomas1203",
+    "Text": "Excelente explicación, muchas gracias \nCuánta potencia es lo máximo de un led blanco y cuantos LED serían .\nGracias.",
+    "Likes": 0,
+    "PublishedAt": "2024-06-17T01:10:07+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@unu4",
+    "Text": "estupendo. falta el caso donde solo hay un controlador de colores, y se puede hacer una tira muy larga de led con un solo controlador y cada X tiras puedes entrar con la corriente de otra fuente de alimentación.",
+    "Likes": 0,
+    "PublishedAt": "2024-06-07T20:58:26+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@larealverdad2144",
+    "Text": "Estimado tengo un letrero led 12 v con una fuente de 100watt x 12 x 8.3 amperios pero me parpadea. Los led que será ?",
+    "Likes": 0,
+    "PublishedAt": "2024-05-01T16:24:22+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@indigo5398",
+    "Text": "Hola!, compré unas luces leds que al checarlas en tienda prendían bien, pero cuando las instalé solo prendían 1 metro de los cinco que son, sabría a qué se debe?, gracias!",
+    "Likes": 0,
+    "PublishedAt": "2024-04-18T21:37:36+00:00",
+    "Replies": [
+      {
+        "Author": "@ernestkon",
+        "Text": "Al colocar las luces las rompiste seguramente, a veces un dobles o un tirón parte la conexión entre secciones de la tira. No porque seas torpe, es porque de fabrica vienen debilitadas. A mi me pasó igual, con lupa vi una grieta en una parte de la tira, donde estaba soldada y tuve que soldarla de nuevo y funcionó.",
+        "Likes": 0,
+        "PublishedAt": "2025-04-17T03:13:56+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@davidr.c.5801",
+    "Text": "Si e soldado unas cuantas tiras Led y compruebo con el tester marca comunicado en alguna soldadura como saber en que soldadura esta comunicado",
+    "Likes": 0,
+    "PublishedAt": "2024-03-25T07:14:13+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@vicentemelquiades1724",
+    "Text": "Buenos dias, corte los led y los uni con uniones de macho y hembra, pero inos prenden otros no y otros combina los colores, que podria hacer?",
+    "Likes": 0,
+    "PublishedAt": "2024-03-20T13:05:17+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@liberassiarg",
+    "Text": "que buen video",
+    "Likes": 0,
+    "PublishedAt": "2024-02-29T02:23:19+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@LAPA-tech",
+    "Text": "¡Excelente video, gracias por compartir! ¿Puedo alimentar una tira led por el medio con un conector en forma de T? Es decir, para hacerlo más gráfico, la alimentación iría por el tramo inferior de la letra T",
+    "Likes": 0,
+    "PublishedAt": "2024-02-24T16:28:38+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@antonioferrepunyed",
+    "Text": "Tengo una lupa led con 130 leds con mando variable. Se ha quemado el controlador/alimentación de 25W a 220v. La resistencia variable está bien a parte.\nPuedo poner otra alimentación nueva que pone:\nPower 8-25w \nInput Voltage AC200-240V.\nLoad Output Voltage DC24-85V\nLoad Output courrent 280-300 mA\nO hay riego de quemar los led?",
+    "Likes": 0,
+    "PublishedAt": "2024-02-16T12:27:15+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@miltonceliz1717",
+    "Text": "Muy buen tutorial. Saludos",
+    "Likes": 0,
+    "PublishedAt": "2024-02-09T02:05:08+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@hernanbrizuela2000",
+    "Text": "Si se quema una luz del medio, dejan de funcionar las siguientes luces o dejan de funcionar todas?",
+    "Likes": 0,
+    "PublishedAt": "2024-01-30T16:03:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@LuisitoCruz-te5ge",
+    "Text": "Como ase para que no se caliente",
+    "Likes": 0,
+    "PublishedAt": "2024-01-28T11:39:26+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@douglaslarreal8822",
+    "Text": "Gracias muy buen video",
+    "Likes": 0,
+    "PublishedAt": "2024-01-17T21:30:31+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@djnacho1982",
+    "Text": "por que no soldar? prefiero soldar , es mas confiable y de paso me ahorro el uso del conector",
+    "Likes": 1,
+    "PublishedAt": "2024-01-16T04:13:58+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@gerenciaprisma7695",
+    "Text": "Que buen video. Tengo una tira que está conectada a un suitche de pared, pero al prenderlo no enciende en la luz que lo dejé, sino parpadeando en colores. Cómo puedo solucionar esto y que encienda en el color seleccionado antes, utilizando el swuitche de pared?",
+    "Likes": 0,
+    "PublishedAt": "2024-01-10T23:02:38+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@canonerobum6848",
+    "Text": "Yo he conectado 2 tiras, una se ilumina normal y la otra se queda en blanco fijo menos la.primera parte, por qué?",
+    "Likes": 0,
+    "PublishedAt": "2024-01-05T19:56:43+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@TEKU2876",
+    "Text": "Yo me quedé con una duda, compré unas tiras led RGB para adaptar al carro, usan la misma caja para prender pero no funcionan al conectarlos a la corriente continua, solo con el transformador, eso porque pasa? No se supone que con los 12 volts (es de 12volts) son suficientes para que funcionen?\nAgradecería su ayuda",
+    "Likes": 0,
+    "PublishedAt": "2024-01-05T00:17:25+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jimurax1",
+    "Text": "Excelente video",
+    "Likes": 0,
+    "PublishedAt": "2023-12-22T20:58:53+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@BradleyfacheroDiaz-mm2gg",
+    "Text": "Y Muchas gracias resolvió mi duda Dios lo bendiga y siga si❤",
+    "Likes": 0,
+    "PublishedAt": "2023-12-22T12:44:13+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@BradleyfacheroDiaz-mm2gg",
+    "Text": "Una pregunta que puedo usar para que el cable de las luces puedo llegar hasta la esquina de el techo?",
+    "Likes": 0,
+    "PublishedAt": "2023-12-22T12:40:57+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@patomariano",
+    "Text": "sos un crack!! gracias por compartir toda esta informacion 💖💡",
+    "Likes": 0,
+    "PublishedAt": "2023-12-21T12:04:38+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Rayco238",
+    "Text": "Clase magistral, muchas gracias",
+    "Likes": 0,
+    "PublishedAt": "2023-12-18T22:38:18+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@IsaacDamian-e8q",
+    "Text": "Eo",
+    "Likes": 0,
+    "PublishedAt": "2023-12-04T00:15:20+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@PonchoZurita",
+    "Text": "Excelente video! la mejor expliacion que he visto 🙌",
+    "Likes": 0,
+    "PublishedAt": "2023-11-29T04:27:34+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@weimarlopez7893",
+    "Text": "Hola q tal consulta Es normal q caliente el transformador y q pasa si la dejo más tiempo conectado estando caliente el transformador gracias",
+    "Likes": 0,
+    "PublishedAt": "2023-11-24T13:05:32+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jesusguanipa942",
+    "Text": "Me fue de  muchísima utilidad. Mil Gracias.",
+    "Likes": 0,
+    "PublishedAt": "2023-11-14T19:13:43+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Yyc24",
+    "Text": "hola muy bueno tu video excelente",
+    "Likes": 0,
+    "PublishedAt": "2023-11-12T02:20:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@sandramunoz9078",
+    "Text": "❤excelente  explicación",
+    "Likes": 0,
+    "PublishedAt": "2023-10-29T03:10:47+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@javinuclear",
+    "Text": "Que buen vídeo.. el que se necesitaba para aclarar tantas dudas.\nMuchas gracias por tanta profesionalidad!",
+    "Likes": 0,
+    "PublishedAt": "2023-10-28T06:01:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@mrgerardo2323",
+    "Text": "Qué tal gracias como puedo conectar en paralelo 3 tiras largas de 5 metros  rectar hasta llegar a 15 mts y que no tenga caída ?  Gracias.  Un solo color blanca",
+    "Likes": 0,
+    "PublishedAt": "2023-10-27T06:31:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@joelmolina2852",
+    "Text": "Excelente video y explicación muchísimas gracias por aportar sus conocimientos",
+    "Likes": 0,
+    "PublishedAt": "2023-10-07T22:53:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@MGascon14",
+    "Text": "He puesto una instalación en la cocina. Ya se encienden todas las partes, ya que son tres. Pero le he puesto un sensor de movimiento para que se encienda cuando se entre en la cocina. Pero no se porqué no se me apaga. He probado con distintos sensores, pero siempre me pasa lo mismo, no se apaga nunca. ¿Esto a que se puede deber?",
+    "Likes": 0,
+    "PublishedAt": "2023-09-21T19:40:53+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@AntonioMartinez-xt7gg",
+    "Text": "El estaño no es pegamento, se ha de fundir.\nMejor preestañar el cable para soldar mas rapido.",
+    "Likes": 0,
+    "PublishedAt": "2023-09-21T07:17:58+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@juliocornejo4633",
+    "Text": "Tengo 4 tiras de LED conectadas a un controlador y después a un dmx pero no encienden al parejo todas tienen distintos colores donde estará la falla pueden ayudarme!!!",
+    "Likes": 0,
+    "PublishedAt": "2023-09-19T23:44:52+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@alexandertutacano1052",
+    "Text": "Aún si lo conecto sin su adaptador no llego a prender más de 2 tiras led usando un fuente de más amperaje porque?",
+    "Likes": 1,
+    "PublishedAt": "2023-09-11T22:34:13+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@nestorangel196",
+    "Text": "ya solucione el problema, era el enchufe hembra que conectaba con el trafo, el trafo conectaba muy facil con el enchufe, osea entraba muy flojo, le coloque un enchufe que entre mas firme, asi hace buen contacto y listo muchas gracias igualmente",
+    "Likes": 0,
+    "PublishedAt": "2023-09-05T20:09:24+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@nestorangel196",
+    "Text": "Hoy me paso que le cambie el transformador por otro igual a unas tiras led pero a la media hora de estar encendidas las tiras es como que se apagan y se encienden cada 20 segundos mas o menos, alguna idea de lo que podria ser ? desde ya muchas gracias !!",
+    "Likes": 0,
+    "PublishedAt": "2023-09-05T17:12:09+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Mocka-yf4ez",
+    "Text": "Muy bueno y completo gracias",
+    "Likes": 0,
+    "PublishedAt": "2023-09-01T04:32:32+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@LEMT_09",
+    "Text": "Contenido completo y bien explicado. Muchas gracias",
+    "Likes": 0,
+    "PublishedAt": "2023-08-31T20:54:13+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josextercio",
+    "Text": "👋👋👋 Excepcional video que resuelven todas las dudas sobre tiras. Saludos",
+    "Likes": 0,
+    "PublishedAt": "2023-08-31T08:21:53+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@alexpei6017",
+    "Text": "Buenas tardes, haber si podías solucionar una duda sobre que transformador utilizar para un circuito de 4 tramos de Neón 12 voltios modelo 2835 rgb. de 120 Leds el metro de apenas 65 cm instalación en paralelo. De que voltaje y amperaje necesitaria ?? Gracias",
+    "Likes": 0,
+    "PublishedAt": "2023-08-30T11:59:41+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@denishenriquez7508",
+    "Text": "Unvideo asi vuscava",
+    "Likes": 0,
+    "PublishedAt": "2023-08-21T23:36:09+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jorgedouglas5146",
+    "Text": "Quien me ayuda por favor, las mías las apago y se encienden solas",
+    "Likes": 0,
+    "PublishedAt": "2023-08-16T08:08:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pabloalvarez6671",
+    "Text": "Excelente video",
+    "Likes": 0,
+    "PublishedAt": "2023-07-14T21:07:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Kily59",
+    "Text": "Muchas gracias desde Perú 🇵🇪",
+    "Likes": 0,
+    "PublishedAt": "2023-07-03T05:27:24+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@crissjsj",
+    "Text": "Pero si solo es para decorar una facia de techo  , no hay prolema🤔",
+    "Likes": 0,
+    "PublishedAt": "2023-06-25T15:12:59+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@plantranquilo2848",
+    "Text": "Buenas 1 Consulta!! A mi AHORA, solo me prenden los colores.. y la luz blanca que constantemente esta prendida dando iluminacion a los colores, de repente ya no lo está encendida (solo encienden las de color de manera muuuy suave) eso me paso AHORA después de masomenos 1 año de uso..este led brillaba bien y suele estar casi todos los dias prendido muchas horas encendida, que podra ser ??  gracias por el video",
+    "Likes": 0,
+    "PublishedAt": "2023-05-30T15:27:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@xavomarquez4251",
+    "Text": "Solo tengo la tira ..no tengo el control ni la contra para conectar ... Cómo lo puedo hacer",
+    "Likes": 0,
+    "PublishedAt": "2023-05-25T22:29:19+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josemanuelcalderongrados1495",
+    "Text": "Excelente explicación , muchas gracias por la ayuda , muy buen tutorial",
+    "Likes": 0,
+    "PublishedAt": "2023-05-24T14:33:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ruthdelagraciamartin3916",
+    "Text": "Buenas noches yo tengo un problema y es que me funcionan bien, pero cuando se me va la luz de casa...me dejan de funcionar en cuanto enciendo la luz de casa ya no me funcionan....está estropeado el regulado blanco?? O el transformador??",
+    "Likes": 0,
+    "PublishedAt": "2023-05-16T19:34:54+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@MariaHernandez-on2tt",
+    "Text": "Gracias",
+    "Likes": 0,
+    "PublishedAt": "2023-05-14T12:43:57+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Alexis_117",
+    "Text": "Yo tengo el problema de juntar 2 tengo 2 de 5 metros las juntó conecto y lastimosamente una se ve genial blanco y alumbra genial y la otra se ve verde",
+    "Likes": 0,
+    "PublishedAt": "2023-05-08T01:43:02+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@lexpanol",
+    "Text": "No resolvió mi duda",
+    "Likes": 0,
+    "PublishedAt": "2023-04-20T00:51:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@arturonavarro3566",
+    "Text": "Da gusto ver cómo trabaja de fino .",
+    "Likes": 0,
+    "PublishedAt": "2023-04-18T09:29:24+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@carlosluisforerolopez138",
+    "Text": "Tengo una tira de luces Led y recorte  15  centímetros  y ahora  no prenden..\nNo encienden .\nPorque\nBuenos dia  desde  Colombia",
+    "Likes": 0,
+    "PublishedAt": "2023-04-17T15:54:56+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Mr_appo",
+    "Text": "Muy buen video.",
+    "Likes": 0,
+    "PublishedAt": "2023-03-31T22:26:45+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josesolano2517",
+    "Text": "Hola amigo yo tengo un problema cuando pongo el blanco se apaga automáticamente porque será?",
+    "Likes": 0,
+    "PublishedAt": "2023-03-12T07:39:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@joseluiscarrasco611",
+    "Text": "Magnifico tutorial Juan. Muy bien detallado. Muchas gracias.",
+    "Likes": 1,
+    "PublishedAt": "2023-02-17T19:37:38+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josedariomorales6496",
+    "Text": "Hola gracias por la información yo tengo un problema cuando activo leds se bota la pastilla de respaldo revisare que que sucede son 20 mts de largo",
+    "Likes": 0,
+    "PublishedAt": "2023-02-14T07:12:00+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@criticalarts2753",
+    "Text": "Muchas gracias por este vídeo,muy bien explicado y mucho mejor que las limitadas instrucciones que dan los fabricantes para los neófitos en el tema.",
+    "Likes": 1,
+    "PublishedAt": "2023-02-09T11:40:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@plan3dAsado",
+    "Text": "Me pasa con las cajitas blancas que ya sea tiras rgb o cables rgb, se salen. No se si sera que las que me vendieron son de mala calidad o que, pero el agarre que tienen es muy flojo. Y al conectar varias tiras se pierde funcionalidad y toca desarmar todo para buscar donde se aflojo. Termine soldando las tiras directamente con cables rgb para evitar que se salgan.",
+    "Likes": 0,
+    "PublishedAt": "2023-02-07T04:22:43+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@asaelamadeus91",
+    "Text": "El mejor explicado de tiras LED muchas gracias por la información saludos desde Monterrey",
+    "Likes": 1,
+    "PublishedAt": "2023-02-05T20:33:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@carloscores",
+    "Text": "Yo tengo un problema que nadie me ha sabido solucionar y esque tengo de esas luces led pero resulta que las apago con alexa y corta la energía completamente y cuando las enciendo parpadean y yo quiero que enciendan con el color que las deje. Y si se puede aunque se vaya la luz ya que algunos controladores no se como se alteraron pero si corto la luz y vuelven con el ultimo color que les programé y otras contas no lo hacen como puedo configurar eso en las que parpadean. Ayuda!!",
+    "Likes": 0,
+    "PublishedAt": "2023-02-03T19:50:50+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@carmendiazvalero8818",
+    "Text": "Con los sustitulos no se ve la demostración!",
+    "Likes": 0,
+    "PublishedAt": "2023-01-29T16:37:24+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "https://www.youtube.com/watch?v=Hz40XT4aZVQ",
+        "Likes": 0,
+        "PublishedAt": "2023-01-30T07:11:39+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@brunoestebanalvarezcifuent7604",
+    "Text": "cracks ! nada mas decirles",
+    "Likes": 0,
+    "PublishedAt": "2023-01-17T20:23:11+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@cristianharo2505",
+    "Text": "Hola Juaan que buen video 👏👏 tengo un problema con mi tira led, es que cuando la apago queda una luz muy bajita tengo que desenchufarla para que se apague completamente. Si me podrias ayudar te lo agradeceria un monton! Saludos Juancito 🙋‍♂️🙋‍♂️",
+    "Likes": 1,
+    "PublishedAt": "2023-01-10T09:02:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jarolestivermosquerapino7304",
+    "Text": "Son los mejores gracias por sus explicaciones transforman la vida de las personas que queremos emprender",
+    "Likes": 11,
+    "PublishedAt": "2023-01-06T14:48:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ricardofazzi5618",
+    "Text": "Hola Juan, me gustaría hacerte una pregunta, para saber si la podes responder o enviarme algún link si ya lo tenes en otro video, tengo que unir 3 tiras (15 metros en total), y me dijeron que la mejor forma es en circuito anillo o circulo o cerrado, es decir, de un lado conectado a la fuente, y del otro lado conectado a otra salida de la fuente, entra corriente de ambos lados. Es esto correcto? Puede funcionar esto y así evitar la caída de tensión? Gracias de antemano",
+    "Likes": 0,
+    "PublishedAt": "2023-01-04T14:43:47+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@osbangloromerog.3559",
+    "Text": "Muchas, Muchas Gracias!!👍👍👍👍 \nExcelente Tutorial para hacer estos finos trabajos de una manera Limpia, Practica y Eficiente!\nSALUDOS!*",
+    "Likes": 2,
+    "PublishedAt": "2022-12-27T03:12:10+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@washingtonmazzini9120",
+    "Text": "Execelente, saludos desde Ecuador",
+    "Likes": 0,
+    "PublishedAt": "2022-12-27T00:03:01+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josemanuelmerino6333",
+    "Text": "Buenas tardes, tengo un conector rapido RGB y dos tiras monocolor,¿puedo utilizar ese conector RGB para unir las tiras monocolor? muchas gracias",
+    "Likes": 0,
+    "PublishedAt": "2022-12-09T16:30:57+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Desantanamusic",
+    "Text": "Alguien podría decirme por que al conectar dos tiras la que va al transformador va correctamente y la otra solo enciende un color? Cuando cambio a otro se apaga",
+    "Likes": 0,
+    "PublishedAt": "2022-11-22T20:31:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@wiliamquispecanales2449",
+    "Text": "He instalado tiras led (luz calida) de 120 led por metro, en total 9 metros en serie. Uso una fuente de alimentación 12v de 20A.\nMi pregunta es: si al verlo conectado en serie, estás se quemarán?(el cable que viene en el rollo de 5m es de 22awg)",
+    "Likes": 0,
+    "PublishedAt": "2022-11-18T17:56:42+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@masterbarber4617",
+    "Text": "Thank you I like it a lot",
+    "Likes": 0,
+    "PublishedAt": "2022-11-17T05:22:04+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@girl29ma",
+    "Text": "Excelente",
+    "Likes": 1,
+    "PublishedAt": "2022-10-16T02:13:04+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@samueljosepalaciostineo6998",
+    "Text": "Holaaa, tengo un problema con mi cinta rbg, cuando la pongo estática en algunos tonos específicos, empieza a parpadear y cuando le bajo el brillo deja de hacerlo, pero como ya dije es solo con algunos colores",
+    "Likes": 0,
+    "PublishedAt": "2022-10-13T04:38:42+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@evelynsilveraalejo3292",
+    "Text": "Un genio con tus consejos. No me andaba la tira led y cambie el transformador,ahora está funcionando excelente",
+    "Likes": 3,
+    "PublishedAt": "2022-10-11T02:12:32+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@sincomments5325",
+    "Text": "Si yo le conecto una fuente de poder más potente para que no se pierda el brillo, ¿No sé queman?",
+    "Likes": 0,
+    "PublishedAt": "2022-10-08T06:26:33+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pedromolina5570",
+    "Text": "Tengo un problema con una cinta led y alumbra muy poquito pero la primera vez que la conecte funcionado muy bien después la apague y la prendí y es muy mínima l luz",
+    "Likes": 0,
+    "PublishedAt": "2022-10-01T20:22:56+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@DomingoFreire",
+    "Text": "Muchas gracias amigos, ciertamente espero que esto le sea de ayuda para ilumine nar unos gabinetes que tengo como próximo proyecto. Reciban un abrazo desde Venezuela.",
+    "Likes": 0,
+    "PublishedAt": "2022-09-30T00:09:59+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@martinalvag",
+    "Text": "Genial!. Tenía una duda: para una tira led de 2m dividida en dos (1,50 y 0,50cm), ¿perdería potencia la segunda tira uniéndolas en serie mediante cable?,¿es mejor cablearlas en paralelo de forma independiente al transformador? Muchas gracias!",
+    "Likes": 3,
+    "PublishedAt": "2022-09-28T17:48:09+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@animebeastia",
+    "Text": "Saludos espero me pueda ayudar\nTengo una tira 2812b de 5 metros 60 leds por metro, un controlador sp511e y un transformador de 5v 12 amperes\nConecte todo y al momento de encender encienden los primeros 15 leds en blanco y los demás no encienden, solo el primer led cambia de color como debe con el controlador, usted sabe si lo que no sirve es el controlador o es la tira?.\nO podría darme un consejo\nEspero pueda ayudarme",
+    "Likes": 0,
+    "PublishedAt": "2022-09-22T15:23:13+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@carlesnavasv650",
+    "Text": "Una consulta, tengo unas luces Led para el coche, pero los cables son cortos.\nSe puede cortar el cable de corriente para poder hacerlo mas largo??",
+    "Likes": 0,
+    "PublishedAt": "2022-09-14T18:49:49+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@alpachino014",
+    "Text": "Maravilloso sin palabras",
+    "Likes": 0,
+    "PublishedAt": "2022-09-14T01:42:12+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ZeroLegacyZX",
+    "Text": "Se me quemo una de las 4 tiras del auto, puedo cortarla y hacerle un injerto de otra tira o no funcionaria?",
+    "Likes": 0,
+    "PublishedAt": "2022-09-10T16:18:14+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@usuariodenombre3178",
+    "Text": "Buen video, aun así me han quedado algunas dudas:\n- Si yo tengo una tira que consume 12W y tengo una fuente de alimentación que suministra 18W ¿Hay algún problema de que me sobren 6W?\n- Si yo tengo un controlador que funciona a 12 V y no me dice su amperaje(input) ¿Puedo conectarlo a cualquier fuente de 12V?\n- Al igual que la corriente se recorta cuando pasa a través del controlador ¿También lo hace el voltaje?\n- Si el controlador limita la corriente ¿No deberíamos usar este para conocer la potencia del circuito? Como has dicho, el controlador saca 6A a pesar de estar conectado a una fuente de 20.\nUn saludo.",
+    "Likes": 1,
+    "PublishedAt": "2022-09-06T16:17:40+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@javiermoralesmartinez5274",
+    "Text": "Excelente explicación 👋👋👋😀",
+    "Likes": 0,
+    "PublishedAt": "2022-09-03T15:33:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@gustavorico1676",
+    "Text": "Pregunta si tengo ke hacer una  conexión larga de transformador a tira led de cuanto sería el cable de largo ke no tuviera caída de tensión",
+    "Likes": 0,
+    "PublishedAt": "2022-09-02T22:02:56+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@mauriciomedina6916",
+    "Text": "Exelente explicación.... gracias",
+    "Likes": 0,
+    "PublishedAt": "2022-08-29T13:56:53+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josemtondo1724",
+    "Text": "Molt ben explicat.  Acabo de suscriure\u0027m",
+    "Likes": 0,
+    "PublishedAt": "2022-08-26T16:54:01+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "gracies",
+        "Likes": 0,
+        "PublishedAt": "2022-08-27T08:14:43+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@robertorodriguezdiaz7463",
+    "Text": "magnifico tutoríal solo me faltara conseguir aqui en mi país ese estuche con todos los instrumentos ,cautin,piedra,pistola para silicon, los conectores y el tubo termoretrctil y listo mi like y suscripción al canal saludos desde mexico capital.",
+    "Likes": 1,
+    "PublishedAt": "2022-08-14T23:46:58+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@scararellano5179",
+    "Text": "Yo tengo un problema, y es que cuando las conecto duran como 5 segundos prendidas bien y empiezan ah parpadear, intento cambiar ah otro color y me cambia al mismo que tenia, como lo puedo solucionar? Oh ya necesito tirar esas y comprar otras tiras??",
+    "Likes": 2,
+    "PublishedAt": "2022-08-12T02:29:40+00:00",
+    "Replies": [
+      {
+        "Author": "@bryanrv7648",
+        "Text": "Puedes ver la alimentación de tu tira led, quizás estás usando un amperaje menor a lo recomendado.",
+        "Likes": 0,
+        "PublishedAt": "2023-05-29T13:40:39+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@juancarlosserafinalejo4772",
+    "Text": "Mis tiras LED quedaron en modo parpadeo continuo, que hago?",
+    "Likes": 1,
+    "PublishedAt": "2022-08-05T00:24:13+00:00",
+    "Replies": [
+      {
+        "Author": "@scararellano5179",
+        "Text": "Ami me pasa lo mismo",
+        "Likes": 0,
+        "PublishedAt": "2022-08-12T02:30:27+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@scararellano5179",
+        "Text": "Ya lo solucionaste tu problema?",
+        "Likes": 0,
+        "PublishedAt": "2022-08-12T02:31:04+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@josenicolasgonzalez3329",
+    "Text": "Muchas gracias excelente video muy bien esplicado aprendí muchísimo gracias y felicitaciones",
+    "Likes": 0,
+    "PublishedAt": "2022-08-01T14:12:18+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@raulsantinolopezrodriguez8349",
+    "Text": "Muy buena presentación. Muy clara, gracias!!!",
+    "Likes": 0,
+    "PublishedAt": "2022-07-25T10:32:44+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@adrianalbertoquesada7736",
+    "Text": "19:50 Super truco para estañar...justo a la salida de la soldadura que salga el forro del cable y no salga el cable estañado volando...",
+    "Likes": 0,
+    "PublishedAt": "2022-07-22T19:35:21+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@adrianalbertoquesada7736",
+    "Text": "19:20 Veo que el maker X es lo mismo de siempre pero con otro nombre🤣",
+    "Likes": 0,
+    "PublishedAt": "2022-07-22T19:32:54+00:00",
+    "Replies": [
+      {
+        "Author": "@adrianalbertoquesada7736",
+        "Text": "Nombre tipo Space X... el futuro está aquí,  ya ha llegado...tira todo lo que tienes en casa y compra esto😬",
+        "Likes": 0,
+        "PublishedAt": "2022-07-22T19:36:59+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Tampoco es para tanto! jajaja",
+        "Likes": 0,
+        "PublishedAt": "2022-07-22T19:56:07+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@adrianalbertoquesada7736",
+    "Text": "Truco. 17:52 no se en esas tiras en concreto...en las que yo he usado hay una forma de hacerlo sin tener que usar esa herramienta!!! Y queda mil veces mejor! Saludos",
+    "Likes": 0,
+    "PublishedAt": "2022-07-22T19:26:27+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@z4r0",
+    "Text": "Excelente video la verdad, me ha aclarado muchísimo sobre que tengo que hacer para la instalación en mi casa. Aun así tengo alguna duda que me gustaría exponer:\nQuiero hacer una instalación en la moldura del techo de mi salón (19m lineales) 4 tiras de Led COB. Está claro que la instalación tiene que ser en paralelo al ser tantos metros y 4 tiras conectadas. Las dudas son las siguientes:\n\nLas tiras de led pueden ser de 12V o 25V, ¿qué opción es mejor mejor?\nQuiero poner también regulador wifi para controlar la intensidad de la luz, ¿Tienen que ser 4 controladores diferentes (1 x tira de led)? o puedo con un mismo controlador controlar las 4 tiras?\n\nMil gracias por la ayuda.\nUn saludo",
+    "Likes": 1,
+    "PublishedAt": "2022-07-18T09:10:59+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@03cicco",
+    "Text": "Y porque me parpadea mi tira led y como lo puedo corregir? Abz.",
+    "Likes": 1,
+    "PublishedAt": "2022-07-11T13:57:49+00:00",
+    "Replies": [
+      {
+        "Author": "@scararellano5179",
+        "Text": "Me pasa lo mismo tío, ya encontrasteis una solución?",
+        "Likes": 0,
+        "PublishedAt": "2022-08-12T02:32:20+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@CJ-oficial2574",
+    "Text": "Excelente video, sobre la electricidad electrostática como la evito para no dañar la tira led?, desde ya gracias.",
+    "Likes": 0,
+    "PublishedAt": "2022-07-06T02:09:33+00:00",
+    "Replies": [
+      {
+        "Author": "@joseluisesparzarebollar9858",
+        "Text": "Utiliza guantes...",
+        "Likes": 0,
+        "PublishedAt": "2023-02-14T18:11:04+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@estherc7746",
+    "Text": "Hola q tal? A ver si me podéis ayudar.\nQuiero poner un par s tiras se led debajo de los muebles s cocina. son dos metros pero tengo la toma de luz a la.mitad. No sé si existe algún conector en forma de T para conectar 1 m de tira de led x un lado, el otro metro al otro y en l otro extremo poder conectar la corriente y poner un interruptor. Para que del mismo.punto de luz puedan conectarse ambas tiras. Es esto posible o hay otra forma se hacerlo. \nNo sé si venden estás piezas sueltas x unidades o si todo viene en paquetes de muchas.\nGracias x vuestra ayuda.\nSaludos",
+    "Likes": 0,
+    "PublishedAt": "2022-07-05T22:10:48+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@vaelo1379",
+    "Text": "buenísimo el vídeo. Quizá faltó cuando de una misma tira led quieres hacer diferentes instalaciones. En ese caso supongo que tendrás que comprar de forma independiente el regulador para el rgb y el cargador de 12v y 1-3A. Luego hay que hacer todas conexiones uno mismo también.",
+    "Likes": 4,
+    "PublishedAt": "2022-07-02T06:31:12+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@FAN983",
+    "Text": "Excelente tutorial !!!",
+    "Likes": 0,
+    "PublishedAt": "2022-06-23T23:11:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@miguelsaavedracorrea5578",
+    "Text": "Excelente video, gracias por compartir tus conocimientos, yo sigo con duda, existe tira led para repuestos o adaptación para reparar lámparas tipo Platón que trabajan con un driver con entrada de 220 v. ?",
+    "Likes": 1,
+    "PublishedAt": "2022-06-23T20:24:21+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@moisesnicolasabanto2351",
+    "Text": "Que interesante hace sus videos y educativos , gracias desde Lima Perú",
+    "Likes": 1,
+    "PublishedAt": "2022-06-18T23:50:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@claudiomorales4928",
+    "Text": "Excelente tutorial , gracias!!",
+    "Likes": 1,
+    "PublishedAt": "2022-06-15T00:23:26+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ubaldobenitez404",
+    "Text": "Exelente explicación",
+    "Likes": 1,
+    "PublishedAt": "2022-06-09T06:29:51+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@anibalrodolfoahumada8512",
+    "Text": "Hola, consulto desde Argentina para ver si me pueden ayudar, tengo que conectar 19 metros de tira rgb en el piso, son tramos de 90 cm aprox, puedo utilizar una sola fuente para 10 mts y luego otra para los 9 restantes? O puedo utilizar un amplificador de esos electronicos que vienen a los 10 metros conectandole otra fuente de las que traen estos kits? Agradezco de antemano su ayuda, saludos cordiales",
+    "Likes": 0,
+    "PublishedAt": "2022-06-07T00:44:11+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@silvertecinstalaciones",
+    "Text": "Hola me pasa en un cliente que la tira a encender parpadea y después se le va que puede ser el transformador o la tira led ?",
+    "Likes": 0,
+    "PublishedAt": "2022-06-04T07:08:36+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Yo probaría primero si te da correcta la tensión el transformador",
+        "Likes": 1,
+        "PublishedAt": "2022-06-05T16:26:48+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@eyiberkenyizamoracuri741",
+    "Text": "Gran video, es un muy buen aporte.",
+    "Likes": 0,
+    "PublishedAt": "2022-06-02T22:41:02+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@braiannahuelcueva6971",
+    "Text": "que pasa si mi tira led esta cortada pero el corte no es en donde indica la tira que se deberia cortar? como puedo unirlas ?",
+    "Likes": 0,
+    "PublishedAt": "2022-05-29T19:33:21+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@gerardofeldstein5150",
+    "Text": "Muchas gracias! Muy claro.",
+    "Likes": 0,
+    "PublishedAt": "2022-05-28T22:34:26+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@blancajosefinarondoncontre3352",
+    "Text": "Si la  tira ya fue utilizada y quiero colocarla en otro espacio con qué la pego? Gracias",
+    "Likes": 0,
+    "PublishedAt": "2022-05-21T17:17:28+00:00",
+    "Replies": [
+      {
+        "Author": "@braiannahuelcueva6971",
+        "Text": "cinta doble faz",
+        "Likes": 0,
+        "PublishedAt": "2022-05-29T19:32:03+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@sirwilliamwallace81",
+    "Text": "Hola gracias por hacerte este video tengo dos preguntas que calibre del cable rojo con negro usas para unir la tira en el min 18:45 aparece quiero poner unas asi para un librero pero no se que cable usar y otra pregunta con la fuente de poder que tienes en la mesa la color plata le podemos conectar cuantas tiras led recomindas si son del mismo ampers gracias saludos desde Veracruz - Mexico",
+    "Likes": 0,
+    "PublishedAt": "2022-05-17T16:47:33+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@eribertoandujar3410",
+    "Text": "Una pregunta cuánto metros puedo poner  de tira. Led con un transformador de 24",
+    "Likes": 0,
+    "PublishedAt": "2022-05-06T11:47:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@DUKELA87",
+    "Text": "Hola gracias por estos excelentes videos quería preguntar si tienes algún video o subirías uno donde cambiar el típico ojo de buey por luz Led bombilla Led muchas gracias",
+    "Likes": 1,
+    "PublishedAt": "2022-04-29T01:07:20+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pabloe8866",
+    "Text": "muy importante, gracias por su compartir",
+    "Likes": 0,
+    "PublishedAt": "2022-04-24T18:34:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@starkh5476",
+    "Text": "Buen vídeo",
+    "Likes": 0,
+    "PublishedAt": "2022-04-24T00:01:06+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@xaviermiguel5263",
+    "Text": "A mi al apagar la tira led se me quedan encendidos haciendo una luz muy tenue. Alguien sabe como solucionarlo?",
+    "Likes": 0,
+    "PublishedAt": "2022-04-14T23:22:42+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "https://www.youtube.com/watch?v=IfWEONx6tPU",
+        "Likes": 0,
+        "PublishedAt": "2022-04-15T08:57:29+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@iwd1856",
+    "Text": "Precisamente estaba pensando poner en la cocina. Muy oportuno.",
+    "Likes": 0,
+    "PublishedAt": "2022-04-03T18:36:09+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@PedroJose-zd9id",
+    "Text": "Como profesional de esto, vuelvo a insistir y les invito a visitar la página donde trabajo, donde pueden ver todo lo que se puede hacer con las tiras de LED. Esas que utiliza son muy malas, no dan la potencia adecuada, la temperatura de color no es buena. La página web que les invitó a visitar eselt.es.    En la sección de tensión constante.",
+    "Likes": 0,
+    "PublishedAt": "2022-02-14T14:47:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@1982trade",
+    "Text": "Me he visto hasta los anuncios sin saltar, te lo mereces, aquí encontré mi respuesta, el mejor tutorial sobre leds, GRACIAS!!!",
+    "Likes": 27,
+    "PublishedAt": "2022-02-04T11:57:19+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Ver hasta los anuncios ¡es muy generoso! jajajaja Gracias Poke-Myri!",
+        "Likes": 4,
+        "PublishedAt": "2022-02-05T11:10:38+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@pulpo439",
+        "Text": "Tienes alma femenina...",
+        "Likes": 0,
+        "PublishedAt": "2023-02-19T13:37:11+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@rrsoria",
+    "Text": "Como siempre Juan, muchas gracias por la claridad. Compruebo que mantenéis el nivel. Un saludo de tu vecino desde San Lorenzo 😊",
+    "Likes": 1,
+    "PublishedAt": "2022-01-31T21:43:17+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@anamariagreci5545",
+    "Text": "Excelente y muy didáctico!genio!!!",
+    "Likes": 1,
+    "PublishedAt": "2022-01-19T11:24:06+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@luisaliriorodriguezgutierr9003",
+    "Text": "Gracias estimado Juan",
+    "Likes": 0,
+    "PublishedAt": "2022-01-18T02:22:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@manuelnavas5363",
+    "Text": "Juan ,por que cuando corto con el interruptor. un proyector led se queda sin apagar del todo.Que puedo hacer?",
+    "Likes": 0,
+    "PublishedAt": "2022-01-17T19:29:50+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Tienes que ponerle un condensador. Busca nuestro vídeo de solucionar problemas lamparas led.",
+        "Likes": 0,
+        "PublishedAt": "2022-01-18T21:11:05+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@ffijo",
+    "Text": "Sobre el minuto 10.30 hablas si te equivocas de polaridad, se puede averiar la tira led?👍",
+    "Likes": 0,
+    "PublishedAt": "2022-01-17T13:01:30+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "No es normal que ocurra....",
+        "Likes": 0,
+        "PublishedAt": "2022-01-18T21:17:24+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@Recicleitor_Maker",
+    "Text": "Buen tutorial compi ! anda que no me has enseñado cosas en un solo video. !!",
+    "Likes": 0,
+    "PublishedAt": "2022-01-16T20:56:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pedroantoniofernandezmonin8296",
+    "Text": "Muy interesante. Magnífica explicación",
+    "Likes": 0,
+    "PublishedAt": "2022-01-16T17:42:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@matyferrante84",
+    "Text": "Excelente tutorial. No deja lugar a dudas. Felicitaciones.",
+    "Likes": 1,
+    "PublishedAt": "2022-01-16T13:57:18+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@margaritamateos6211",
+    "Text": "Excelente video. Muestra una gran empatía con nuestras dificultades. Muchas gracias",
+    "Likes": 6,
+    "PublishedAt": "2022-01-16T09:13:39+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@isragarcia5496",
+    "Text": "Buen vídeo y muy útil. Yo tengo el problema de que a veces se encienden y a veces no, y no encuentro el motivo, van con transformador y regulador, y cuando encienden se ven muy luminosas, pero si intento encenderlas pasado un tiempo ya no van....",
+    "Likes": 3,
+    "PublishedAt": "2022-01-15T20:14:20+00:00",
+    "Replies": [
+      {
+        "Author": "@destinoduo690",
+        "Text": "Isra García El transformador o el regulador \u0022se te cae\u0022...no aguanta la carga al cabo del tiempo. Puede ser que esté defectuoso o que alguna parte de la tira falsee. deberás hacer pruebas y cambiar el elemento más fácil para sustituir y ver si consigues evitar el defecto. Espero te ayude y des con ello.",
+        "Likes": 1,
+        "PublishedAt": "2022-01-16T09:39:25+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "@destinoduo690 Gracias por aportar!!! Saludos!!!",
+        "Likes": 0,
+        "PublishedAt": "2022-01-16T11:34:01+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@arielflores8080",
+        "Text": "Hola se me queman las fichas de empalme que puese ser??",
+        "Likes": 0,
+        "PublishedAt": "2023-09-16T16:45:18+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@miguelangelestebaranzcuber7965",
+    "Text": "Yo tengo puesta una tira led de unos 4 metros y cuando apago la luz hay dos bombillas que se quedan encendidas con poca intensidad en el medio de la tira. A que puede ser debido?",
+    "Likes": 1,
+    "PublishedAt": "2022-01-15T17:38:17+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Lo más lógico es que sea un problema del transformador",
+        "Likes": 0,
+        "PublishedAt": "2022-01-16T20:17:27+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@viorsa8200",
+    "Text": "Excelente tutorial Juan , muy buenos consejos ,  mejores explicaciones y demostraciones magníficas , como de costumbre , gracias por compartir tanta información y conocimientos , un saludo cordial y por supuesto un gran like desde Narón (Galicia) 🤓",
+    "Likes": 8,
+    "PublishedAt": "2022-01-15T17:32:46+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@joaquinvaquero7198",
+    "Text": "Muchas gracias, precisamente estaba haciendo unas vitrinas de coches a escala de coleccion y estaba mirando el tema soldaduras, los conectores esos me vendran genial.",
+    "Likes": 3,
+    "PublishedAt": "2022-01-15T11:08:00+00:00",
+    "Replies": [
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "P000000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:25+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "P000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:28+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "P000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:34+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "Po000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:41+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "00",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:46+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "0000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:49+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:53+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "Ñp00000p00p",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:02:59+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "0",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:03:10+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "00000",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:03:18+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "0",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:03:40+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "00",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:03:45+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@julianvicentegalarza4218",
+        "Text": "P0",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T13:03:51+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@andrewharley8178",
+    "Text": "Un tutorial genial que a muchos de nosotros nos ayuda en gran medida.",
+    "Likes": 10,
+    "PublishedAt": "2022-01-15T10:06:49+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Susi33337",
+    "Text": "Perfecto, me has solucionado algunas dudas, gracias",
+    "Likes": 4,
+    "PublishedAt": "2022-01-15T09:41:03+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@tubodivo",
+    "Text": "mi sistema de tira led tiene unos conectores de igual apariencia pero son mucho más grandes que los que se muestran aquí, imagino que habrá conectores de varios tamaños para las tiras más gruesas no ?",
+    "Likes": 3,
+    "PublishedAt": "2022-01-15T09:02:42+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Sí, cada vez se unifican más los modelos pero puedes encontrar de todo...",
+        "Likes": 2,
+        "PublishedAt": "2022-01-15T09:05:30+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@jesusna4382",
+    "Text": "Me parece un vídeo muy didáctico, pero le falta un modelo de tiras led que son las de 220V, las cuales como es natural no necesita fuentes de alimentación, pues en todos los sitios no se pueden pones los transformadores, yo las tengo puesta y van muy bien, creo que sería un dato de bastante interés de esplicar para los casos especiales. Cómo es natural con la prudencia que ello llevá pues estamos trabajando con 220V. \nEspero que esté comentario les sea de utilidad. Gracias por los vídeos que siempre se aprende algo nuevo.",
+    "Likes": 5,
+    "PublishedAt": "2022-01-15T07:53:23+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias porla aportación Jesus na",
+        "Likes": 0,
+        "PublishedAt": "2022-01-15T09:06:01+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@miguelsaavedracorrea5578",
+        "Text": "Yo ya hice una pregunta relacionada a las tiras led de 220 v. mi duda es si existe repuestos para plafon que normanmente tienen diferentes medidas, o como adaptar un cinta led de otra medida.",
+        "Likes": 0,
+        "PublishedAt": "2022-06-23T20:29:00+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@yeyar36",
+    "Text": "Un tutorial estupendo. Gracias!!",
+    "Likes": 5,
+    "PublishedAt": "2022-01-15T07:43:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@crazyvaping2816",
+    "Text": "Gracias por arrojar un poco de luz al mundo de las tiras led",
+    "Likes": 6,
+    "PublishedAt": "2022-01-14T22:52:56+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jonkoldo2538",
+    "Text": "Me acabas de resolver las dudas que tenia .Felicidades",
+    "Likes": 4,
+    "PublishedAt": "2022-01-14T22:33:06+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@dementez2164",
+    "Text": "un saludo y que tengan un gran día y un buen fin de semana 👍👍👍👍",
+    "Likes": 7,
+    "PublishedAt": "2022-01-14T22:10:45+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Tavo_Kawa",
+    "Text": "Gran tutorial como siempre, yo lo unico que veo es que a ese cautin le hace falta mas temperatura o mas tiempo para alcanzar su temperatura ya que por eso tiene problemas para fundir el estaño y segunda que veo que dejo bolitas con soldadura fria que se le va a terminar por caer o hacer falsos en ese cable o conexion. Y si puede usar tantita pasta flux mejor.",
+    "Likes": 6,
+    "PublishedAt": "2022-01-14T22:07:27+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias por la paortación Octavio!",
+        "Likes": 6,
+        "PublishedAt": "2022-01-15T09:08:14+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@Manulakoo",
+    "Text": "Hay que tener cuidado al hacer los empalmes, porque si la polaridad la pones al reves y el transformador es muy potente, te puedes cargar el controlador de la tira. Un saludo.",
+    "Likes": 4,
+    "PublishedAt": "2022-01-14T21:45:42+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias por la aportación Manulakoo",
+        "Likes": 2,
+        "PublishedAt": "2022-01-15T09:08:35+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@escafopodo",
+    "Text": "Excelente video, la aclaración de voltaje y amperaje del inicio fue estupenda.\nSaludos",
+    "Likes": 6,
+    "PublishedAt": "2022-01-14T21:42:26+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@joelgermainmartinez7031",
+    "Text": "EXCELENTE VIDEO, MUCHO ÉXITO PARA EL CANAL, FELIZ AÑO 👍🏼👍🏼👍🏼",
+    "Likes": 2,
+    "PublishedAt": "2022-01-14T21:34:20+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@PATAN-g1p",
+    "Text": "EXCELENTE MUCHAS GRACIAS POR COMPARTIRLO  : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - )   : - ) \r\n......................./:.:.:.:.:.|\r\n......................|;.;.;.;.;./\r\n......................|.;.;.;.;.|\r\n............._,,,,,_.).;.;.;.;.|\r\n.........,,-\u0022:.:.:.:.\u0022~-,;.;.;.|\r\n........(_,,,,---,,_:.:.);.;.;..\u0022,,\r\n......,-\u0022:.:.:.:.:.\u0022\u0022-,,/;.;.;.;.;.\u0022,\r\n.....(:.__,,,,,,,,,___);.;.;.;.;.;|\r\n...../\u0022\u0022:.:.:.:.:.:.:¯\u0022\u0022\\;.;.;.;.;.,\u0022\r\n....\\\u0022,__,,,,,,,,,,,__/;;;;;;;;;/\\\r\n.....\\.::.:.:.:.:.:.:.;.);;;;;;;;;/:\\\r\n.......\\,,,,,---~~~~;;;;;;;;,\u0022::::\\\r\n..........\u0022\u0022\u0022~~--,,,,,,,,,,-\u0022::::::::::\\\r\n( ͡~ ͜ʖ ͡°)",
+    "Likes": 1,
+    "PublishedAt": "2022-01-14T20:59:30+00:00",
+    "Replies": []
+  }
+]

@@ -1,0 +1,211 @@
+En estos últimos tutoriales, como ya te
+decíamos en el anterior, estamos
+trabajando en todo lo que tiene que ver
+con estas instalaciones conectadas, es
+decir, con los nuevos sistemas que no
+llevan los comandos como
+tradicionalmente, a través de cable, sino
+que lo hacen por radio o, directamente,
+también por WiFi. De esta forma podemos ya adecuarnos a cómo va a ir funcionando
+la electricidad a partir de este momento.
+Es muy importante, si no lo has hecho,
+que veas cómo hacíamos el principio de la  instalación
+para arrancar con estos dispositivos. Lo que vamos a ver hoy es
+cómo hacemos para instalar los
+interruptores, tanto interruptores que
+van a ir conectados por cable como
+interruptores inalámbricos, que no
+necesitan tener ningún tipo de cableado
+para dar servicio a las luces.
+El primer paso que vamos a ver es cómo
+sustituimos un interruptor tradicional
+por un interruptor conectado.
+Para hacer esta instalación, siempre es
+imprescindible apagar la luz general de
+la casa. No nos vale con apagar
+solamente la fase.
+Desmontamos el interruptor antiguo.
+Fíjate siempre bien en qué cable es el que
+trae la fase, porque vamos a tener que
+respetarlo en el nuevo dispositivo.
+El cable de fase lo vamos a llevar a
+esta entrada donde pone "L".
+Y, en cualquiera de las otras dos bornas, 
+conectamos el cable de vuelta.
+Como en todos los interruptores Valena, 
+podemos conectarlo con los
+tornillos o con las garras que lleva en
+su interior.
+Con este interruptor puedo conectar
+hasta diez lámparas para que den servicio
+con un solo interruptor. Limitaciones que
+es muy importante que tengas en cuenta.
+No podemos superar una potencia
+determinada, de 300 vatios en
+incandescente. Pero, de todas formas, aquí en las instrucciones -éstas que no leemos
+nunca y que vienen en el dispositivo-, 
+tienes una tabla donde te dice qué
+potencia máxima puedes poner en estos
+interruptores. Otro aspecto muy
+importante cuando hagas esta instalación: tienes que poner lámparas de la misma
+tecnología. Yo puedo poner aquí una serie de
+lámparas LED o una serie de lámparas
+fluocompactas pero, si mezclo tecnologías, lo
+más normal es que me dé problemas
+siempre la instalación. Siguiente paso.
+Tengo que poner un compensador. Este
+compensador lo voy a poner en cualquier
+punto de la instalación, lo más cerca
+posible siempre a las lámparas.
+Lo necesito porque, de esta forma, toda la
+corriente residual que pueda tener la va
+absorber y me va a evitar que tenga ningún problema de mal funcionamiento. Además,
+me va a ayudar en la fase también
+de regulación de la luz, del dimmer, para
+que me funcione correctamente. Y voy a hacer la instalación antes,
+por supuesto, de dar servicio a la
+corriente.
+Nosotros, con esto que hemos instalado,
+tenemos ahora mismo un interruptor.
+Todavía no es un interruptor conectado
+pero, efectivamente, ya podemos utilizarlo
+para encender y apagar las lámparas
+perfectamente. Si queremos que sea un
+interruptor conectado, tenemos que dar ya el paso de integrarlo dentro del resto
+del sistema, que es lo que ya te
+explicamos en el tutorial anterior.
+Para ello, lo que hacemos es -con el
+comando de "entrada-salida" que también
+funciona como comando de programación-, mantenerlo pulsado durante unos
+seis segundos. Cuando ya nos dé un
+parpadeo verde, veremos cómo todos los
+sistemas se van poniendo también en luz
+verde.
+Con esto ya podremos, como te
+decíamos en el tutorial anterior,
+conectar el interruptor para poderlo
+gobernar a través del teléfono o
+a través de un altavoz inteligente.
+Juan: Alexa, enciende lámpara del comedor.
+Alexa: Vale.
+Vamos a conectar ahora otro
+dispositivo. Fíjate en que, ahora mismo, lo
+que hemos puesto ha sido esto: un dispositivo que se llama interruptor.
+Ahora lo que vamos a conectar es un micromódulo.
+¿Para qué me sirve este micromódulo? Un caso típico es cuando, en reforma, me
+encuentro de pronto con que tengo una
+zona donde sí que tengo corriente para
+poner una lámpara pero no tengo ningún
+interruptor. Entonces, en esos casos, uno
+se plantea: cómo hago para hacer llegar
+un cable hasta el sitio donde tengo un
+interruptor. ¿Pongo una regleta externa? ¿Hago una roza o una regata? ¿Qué hago?
+En este caso lo que podemos hacer es llevar el interruptor, éste,
+al lado de la lámpara, donde lo queramos colocar, y utilizar un
+inalámbrico para poder dar servicio sin
+ninguna dificultad. Esta lámpara, como ves,
+la tenemos directamente conectada, sin
+ninguna conmutación. Recuerda que
+siempre apagamos la luz general de la
+casa para hacer este tipo de
+instalaciones. Vamos a extraer el cable
+neutro de llegada y el cable neutro de
+vuelta y los vamos a colocar en las
+posiciones donde pone "N", indistintamente,
+nos da lo mismo donde pongamos uno y
+otro.
+A continuación, tomamos el cable de fase
+que nos viene del cuadro y lo ponemos en
+la entrada "L" de fase. Como ves, no tenemos mucha punta en los cables. Con
+6 milímetros es como nos va a ajustar
+perfectamente a la hora de atornillar.
+Y el cable de vuelta de la fase lo vamos
+a meter en esta parte izquierda, que es
+el de carga. Esta borna central es donde podemos
+colocar una línea de pulsadores. Si
+quieres verlo con más detalle, consulta
+la ficha técnica. Vamos ahora a conectar
+la luz y vemos que cuando lo hacemos se
+enciende aquí un pequeño piloto rojo que
+nos indica que tiene corriente.
+Y, si queremos comprobar el funcionamiento del dispositivo, tiene aquí un pequeño
+pulsador que nos enciende la lámpara si
+la instalación es correcta.
+Este dispositivo, lógicamente, va a estar
+en una cazoleta de una lámpara, en un
+falso techo o en un sitio donde tengamos
+acceso a él, porque nos hace falta que
+sea registrable, porque tenemos que
+ponerlo en conexión con un interruptor
+inalámbrico. Ahora veremos cómo. ¿Cómo hacemos para conectar este dispositivo
+que va por cable? Pues, como siempre para este tipo de dispositivos, vamos a
+utilizar el comando de instalación, el de
+"entrada-salida", vamos a ponerlo en marcha
+durante seis segundos, pasará a verde y,
+en ese momento que pase a verde, nuestro
+dispositivo también se va a integrar.
+Para dar servicio al micromódulo, lo que
+vamos a utilizar es un interruptor
+inalámbrico. ¿Cómo hacemos la instalación? Como la de todos los sistemas inalámbricos.
+Te la vuelvo a explicar, aunque la hemos
+hecho en otros tutoriales, porque en
+estas instalaciones lo que es importante
+es que nos quedemos claramente con el
+procedimiento. Cuando lo tenemos claro,
+vas a ver cómo no se te resiste la
+instalación de ningún dispositivo.
+Lo primero de todo, abrimos la red y, para
+hacerlo, utilizamos este interruptor de
+"entrada-salida" que es también el comando
+general de la instalación. Lo apretamos
+durante 6 segundos hasta que parpadea
+en verde. En este momento se van a poner en verde
+todos los dispositivos porque tenemos la
+red abierta. Ahora vamos a hacer ya la
+asociación de nuestro interruptor con el mecanismo.
+Este mismo interruptor que me da
+servicio con esta lámpara
+yo puedo asociarlo también, por ejemplo,
+con este otro interruptor, siguiendo el mismo
+procedimiento de instalación. Aprovecho
+que tengo la red abierta -esto siempre
+es imprescindible, que estén en verde los
+dispositivos- y voy a hacer lo mismo.
+Aprieto y doy tres golpecitos.
+Ahora ya, de esta forma, cuando doy al
+interruptor,
+arrancan las dos a la vez.
+Acuérdate también de que yo puedo borrar la programación sin ninguna
+dificultad de este tipo de interruptores.
+Para hacerlo,
+mantengo apretado el dispositivo hasta
+que me dé un parpadeo naranja y, cuando
+lo haga, hago una nueva presión rápida para
+confirmar. Ahora ya este interruptor no enciende y
+apaga la luz. Como ves, puedo con toda
+facilidad asociar o borrar las
+asociaciones que tenga un dispositivo
+como este inalámbrico. Fíjate en la
+cantidad de posibilidades que se nos
+presentan a la hora de resolver los
+problemas tradicionales de conmutación,
+de cruzamiento...Sí que es verdad que
+nosotros tenemos que tener en cuenta que, cuando ya tengamos instalaciones hechas
+con cruzamientos o con conmutaciones, a la hora de integrar estos sistemas
+tenemos que hacer algunas pequeñas
+modificaciones pero, evidentemente, todo
+lo que nos dan de ventaja con respecto a
+no tener que hacer
+nuevas instalaciones es inmenso.
+Todas estas posibilidades y
+la solución para todos estos posibles
+conflictos de cómo resolver el que
+tenemos instalaciones antiguas que queremos
+modificar es lo que vamos a ver
+justamente en el próximo tutorial que
+espero que sea tan interesante o
+seguramente mucho más que éste.
+Gracias por tu "like", gracias como siempre por
+recomendar este vídeo a todos tus amigos
+amantes del bricolaje y ¡suscríbete a
+nuestro Canal, si no lo estás todavía!

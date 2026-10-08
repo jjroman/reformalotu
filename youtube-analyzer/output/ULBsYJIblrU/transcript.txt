@@ -1,0 +1,269 @@
+Aunque en España no se nota tanto, en 
+Europa los robots cortacésped están muy  
+presentes. Vamos a ver en este tutorial cosas muy 
+interesantes de su instalación y de su tecnología.
+¡Bienvenido a tu canal Bricocrack! Ya sabes, el 
+canal donde contestamos las preguntas que nos  
+hagas en el último tutorial que publiquemos cada 
+semana. Y, para saber cuándo publicamos -acuérdate-, 
+suscríbete y dale a la campanita.
+Nosotros hemos 
+probado este modelo de Landroid que permite
+trabajar aproximadamente jardines de hasta unos 
+500 metros de superficie de pradera. Lo hemos  
+hecho en un jardín que ahora no vive sus mejores momentos porque ha habido obras en la zona  
+pero, para lo que nos interesa a nosotros, 
+nos vale. Y hemos trazado caprichosamente  
+un diseño de jardín que nos viene bien para ver 
+las características que hay que tener en cuenta  
+a la hora de hacer la instalación. Para trabajar 
+con orden, lo que te voy a contar es cómo se hace  
+la instalación, vamos a hacer la puesta en 
+marcha y, en base a eso, te voy a ir contando  
+algunas características muy interesantes 
+a la hora de elegir o de decidir incluso  
+si queremos tener o no un robot cortacésped de este tipo.
+Lo primero que hacemos siempre es instalar la base.
+Para la base, vamos a buscar un punto que 
+no tenga sol directo porque las cosas en general, cuanto  
+menos se castiguen con el sol, mucho mejor para la 
+duración de los materiales, aunque sean materiales  
+como éstos pensados para la intemperie. Y, 
+por supuesto, evitamos siempre que lo enchufe  
+de lleno cualquier aspersor que tengamos en el 
+jardín. Tenemos que dejarlo siempre bien nivelado  
+para que la maniobra sea más sencilla. Así que, 
+con el nivel, intentamos peraltar o ir  
+fijando la base para que nos quede perfectamente 
+equilibrada. Y, una vez que lo tenemos, utilizamos  
+los tornillos de los que viene provisto el equipo 
+-que son unos tornillos directos para introducir  
+en la tierra- y vamos sujetando todas las 
+posiciones para que nos quede perfectamente sujeto.  
+Este robot que estamos utilizando nosotros lleva 
+un cable-guía perimetral.
+Pelamos aproximadamente un centímetro del cable
+y lo insertamos en el lugar que 
+corresponde. Ves que es muy fácil porque tenemos  
+ahí una caja de conexiones que no tiene más que 
+dos posiciones -con lo cual es muy sencillo- con un  
+prensacables y lo sacamos a través de las sujeciones que tiene la base
+para hacer el punto de salida. A la hora de colocar 
+el cable de salida y el cable de entrada, hay que  
+respetar siempre las distancias 
+de maniobra que necesitamos para nuestro robot: 
+30 centímetros por el lado izquierdo y 80 cm
+por el lado derecho. Es decir, tenemos que dejar  
+libre el espacio que tiene de salida y de entrada la máquina a la hora de trabajar.
+A partir de aquí, vamos colocando el cable. Reglas fundamentales
+que tenemos que cumplir. La primera,  
+si tenemos una zona final de jardín que no tiene 
+ningún obstáculo sino sencillamente como en este  
+caso es un bordillo que está al nivel del 
+jardín, tenemos que hacer una separación  
+solo de 10 centímetros. De esta manera, el robot 
+sabrá que tiene que acercarse por encima del  
+cable y cortar y apurar el corte lo más pegado 
+posible al bordillo. Vamos a ir poniendo estacas  
+aproximadamente cada 80 cm. ¿Pero cuál es 
+el criterio cuando hablamos de 80 cm? 
+El criterio es que consigamos mantener siempre el 
+cable lo más pegado posible al suelo.  
+Esto quiere decir que, si nosotros tenemos zonas con 
+pequeñas hondonadas, intentaremos siempre fijar  
+las piquetas en la hondonada para que se ajuste 
+a esa geografía del terreno el cable lo más  
+posible. Siempre vamos a procurar que vaya 
+totalmente pegado.
+Nosotros vamos a jugar estableciendo como una división
+entre dos jardines y un pasillo pequeño, porque un aspecto que es  
+muy interesante en la tecnología de los robots 
+es la facilidad de navegación. En este caso, 
+este Landroid que estamos utilizando,  nos dicen que tiene una capacidad de  
+pasar muy fácilmente por pasillos estrechos sin 
+entretenerse y sin perderse en maniobras raras.  
+Vamos a dejar por tanto un pasillo que va a 
+tener apenas unos 50 centímetros para dejar  
+margen suficiente para que pueda funcionar bien. Se 
+puede estrechar más pero, en la medida de lo  
+posible, intenta siempre -respetando por supuesto 
+los laterales- jugar con pasos cómodos para las  
+máquinas. De hecho, el pasillo lo hemos probado y 
+funciona más que sobradamente. Cuando hemos tenido  
+el robot en esta zona del jardín y le hemos dado 
+la orden de regresar a cargar a su base, vemos que  
+ha arrancado con toda tranquilidad y ha elegido 
+el paso por el pasillo sin ninguna dificultad.
+Y volvemos por este otro lado que, en el caso de
+este jardín, es toda la zona que rodea la  
+plataforma de la piscina y, en este caso sí, que es 
+una pared elevada. Cuando esto ocurre, 
+la distancia que tenemos que dejar para que no 
+vaya chocando el robot es de 26 cm. 
+Para que tomar estas medidas sea más fácil, en la caja 
+viene una regla con los 10 y los 26 cm 
+reglamentarios de la colocación. Cuando llegamos 
+a esquinas elevadas, ahí la maniobra tenemos que  
+facilitársela un poco a la máquina. Lo que vamos a 
+hacer es prolongar un poco más la línea que trae  
+el cable utilizando este cartabón. Le vamos a 
+dar estos centímetros adicionales y a trazar  
+este ángulo para que de esta manera la máquina interprete mejor y maniobre con más  
+facilidad para hacer el trabajo en estas esquinas. 
+Ves que, efectivamente, a la hora de trabajar ahí la máquina  
+encuentra el cable de esta manera y hace una 
+salida y una entrada mucho más limpias.
+Cuando estamos haciendo la instalación de una 
+máquina de estas características, puede ocurrir  
+que en un momento dado nos hayamos equivocado, 
+o queramos replantear por dónde va el cable.  
+El truco es que dejes siempre en zonas menos 
+complicadas una pequeña lazada suelta de cable  
+por una zona donde no nos estorbe para que, de esta manera, tengamos margen.
+Nosotros hemos ido creando un perímetro
+que nos ha parecido interesante para 
+que la máquina tenga espacio de trabajo y podamos  
+probarla y hemos creado un obstáculo central, 
+un obstáculo que la máquina tendrá que rodear.
+En este caso, cuando llegamos a este 
+tipo de obstáculos, lo que hacemos es, a partir de la línea  
+perimetral, trazar con el cable un recorrido 
+hasta el obstáculo que tenemos que evitar.  
+Le damos los 26 cm preceptivos que son 
+los que tenemos que respetar con el obstáculo  
+y vamos con el propio cable perimetrando y 
+manteniendo estos 26 cm. Juntamos  
+el cable con el cable que venía del otro lado 
+y van en paralelo nuevamente a buscar la línea  
+del borde perimetral del jardín. Si, una vez que 
+tenemos el diseño hecho, aparecen nuevos obstáculos  
+que queremos evitar -imagínate, por ejemplo, la clásica piscina de verano hinchable que se  
+sitúa en una zona del jardín-, para este tipo 
+de cosas hay también accesorios que  
+permiten incorporarlos a la navegación del robot 
+con pequeños dispositivos que se compran aparte  
+y que, por ejemplo, señalizan zonas donde el robot 
+no puede entrar.
+Tienes otros dispositivos como el ACS,
+que es un sistema anticolisión, que aporta 
+una navegación que evita cualquier obstáculo  
+imprevisto. O también antirrobo, amplificador 
+de señal, etcétera. El Landroid también dispone  
+de distintos accesorios para mantener o mejorar 
+el equipo o distintos aspectos de su instalación.  
+Es una familia de robots que está diseñada muy 
+con el estilo de los coches. Es decir, 
+parte de modelos básicos que van subiendo 
+con el mismo esquema en prestaciones para los  
+usuarios o los jardines más exigentes.
+Superado el obstáculo, seguimos colocando nuestro cable
+paralelo al borde hasta llegar a esa zona de 
+maniobra que te dije antes de 30 cm. Ves que  
+lo que hacemos nosotros es trazar un ángulo 
+para que, de esta manera, el robot localice el  
+punto de entrada siguiendo el cable. Cuando 
+encuentra esta guía, va a tomar el camino para  
+poder aparcar y fijarse directamente a la base. 
+Lo hace además de manera que se presionan los  
+bornes de conexión contra el cargador para que 
+de forma automática se quede perfectamente  
+en posición de carga en cuanto vuelve la base. A partir de aquí hacemos ya la sujeción del cable  
+como hicimos en el cable de salida. Lo llevamos 
+a través de las presillas que tiene la base
+y le recortamos un poco en la punta para poderlo sujetar dentro de la caja de conexiones  
+en el prensacables de su lado correspondiente. Y 
+ahora sí que podemos hacer ya la conexión de la  
+base con la clavija especial aislada que tenemos 
+para llevar al enchufe y, de ahí, directamente a una  
+toma de corriente donde tengamos el enchufe 
+más próximo. En el momento en que lo 
+conectamos, vemos que se enciende el piloto que 
+nos indica que la instalación es correcta. Si no  
+es así, habrá una luz que parpadee para decirnos 
+que algo está pasando que tenemos que revisar  
+en el circuito. En el manual tienes toda una guía 
+de instrucciones para que cualquier problema que  
+tengas con el montaje te determine inmediatamente 
+qué es lo que tenemos que solucionar o en qué  
+nos hemos equivocado a la hora de hacer la 
+instalación.
+La alimentación del robot ves que la hacemos mediante una batería 
+de 20 voltios, 
+la misma de la plataforma que utilizamos nosotros  
+para las distintas herramientas de Worx
+que tenemos también en el taller o en el jardín.  
+Esta es la batería que se carga cuando el robot 
+llega y se aparca en su base. Pero, seguramente,  
+el aspecto que más llama la atención en este 
+robot es el tipo de navegación que hace. Es una  
+navegación muy rápida, muy eficaz y que no 
+insiste en los cortes en los bordes. Si el  
+sistema tradicional de todos los navegadores 
+que traían los robots es que, cuando llega a  
+un tope, echa marcha atrás, echa marcha adelante, 
+lo piensa, etc. etc. En éste no. En éste,  
+directamente, está programado para que 
+cuando encuentra un obstáculo utilice  
+la menor cantidad de movimientos posible para 
+retomar la dirección y salir en otra.
+Es importante -porque éste es un error que se 
+comete a veces- tener en cuenta que, cuando  
+estrenamos una máquina de este 
+tipo, tenemos que tener previamente cortado  
+el césped de manera convencional. No podemos 
+pensar que en medio de una maleza de césped altísimo,  
+esta máquina sea capaz de hacer este trabajo. 
+Esta máquina está diseñada para recorrer de  
+manera continuada nuestra pradera 
+y lo que hace es que va cortando pequeñas  
+porciones de césped y lo va triturando, 
+porque lo que conseguimos con  
+esto es además evitarnos el tener que estar 
+segando y retirando hierba recién cortada.  
+Y esa hierba, además, se pica de una manera muy fina 
+y se convierte en un mulching que contribuye como  
+abono y como cuidado del propio jardín al 
+crecimiento y a la alimentación del césped.
+Lo que sí que podemos en modelos como éste 
+es regular la altura de corte. En éste podemos  
+jugar con cortes a distinta profundidad entre 30 
+y 60 milímetros. Lo hacemos mediante este selector.  
+La puesta en marcha es muy sencilla. No voy a 
+explicártela de manera muy pormenorizada porque,  
+para quien no tiene que hacer la instalación de la 
+máquina, es un poco pesado y te viene perfectamente  
+en el manual que viene muy bien explicado. Cuando 
+nosotros hacemos la puesta en marcha, la podemos  
+hacer directamente siguiendo las instrucciones 
+para manejarlo en su display. Ésta es la primera  
+forma sencilla de poner en marcha la máquina. 
+Pero, por supuesto, podemos emparejarlo  
+con nuestro teléfono. Hacemos una primera 
+conexión Bluetooth entre  
+los dos equipos y ya, a partir de ahí, le damos 
+servicio con la Wi-Fi de la casa. Con esto ya los  
+equipos que hemos emparejado previamente ahora ya 
+sí que se van a poner en marcha y con la App que  
+descargamos, no solamente podemos gobernar desde el 
+teléfono el manejo de la máquina como lo podríamos  
+hacer desde el display, sino que además nos permite 
+contar con una App muy completa donde nos da una  
+serie de información y características 
+de trabajo que permiten que nosotros  
+saquemos mucho más partido a la máquina a la hora de 
+trabajar, teniendo en cuenta las condiciones  
+que puedan darse, del tiempo de utilización, 
+de los horarios que queramos seguir, aspectos  
+climatológicos, etcétera. Es una App muy completa 
+para que nosotros, como te digo, podamos sacar un  
+partido mucho más intenso en la utilización de 
+la máquina.
+Bueno, la verdad es que nosotros pasamos
+un día muy entretenido -igual que el perro 
+de la casa- viendo circular el aparato y  
+hacer su trabajo. Espero que a ti también te 
+haya gustado, te hayan parecido interesantes los  
+aspectos de nueva tecnología que te he contado y, 
+como siempre, nos hayamos ganado tu "like" y compartas  
+este vídeo con todos tus amigos a los que les guste 
+el mundo del bricolaje y del jardín.

@@ -1,0 +1,356 @@
+Ha llegado el día en el que ¡por fin! te voy a 
+explicar cómo se instala el cuadro eléctrico.  
+Si has seguido nuestro Curso de Electricidad 
+Básica, me habrás oído decir que no quería  
+explicarlo porque éste es un trabajo reservado a los 
+técnicos especialistas. Porque, efectivamente, lo  
+que te voy a explicar se hace y se entiende muy 
+bien en un cuadro limpio en el que partimos de  
+cero. Pero, en la vida real, los cuadros de las 
+casas tienen muchas veces instalaciones y un  
+cableado muy complejo y hay que saber muy bien lo 
+que se hace para poder meter la mano por ahí. 
+¿Qué ocurre? Pues que, efectivamente, en esta zona 
+que hemos preparado aquí vamos a ir avanzando  
+con la instalación de equipos domóticos, equipos 
+electrónicos, de todo lo que compone hoy la vida  
+real de la electricidad. Con lo cual sí que nos hace 
+falta tener al lado y entender el cuadro porque  
+también ahí vamos a jugar con algunas cosas muy 
+interesantes que vas a ver en próximos tutoriales.  
+De momento, en éste, nos vamos a concentrar en 
+entender cómo se instala y cómo va montado un  
+cuadro eléctrico con las protecciones correspondientes.
+En los cuadros antiguos, lo normal es que nosotros
+tuviéramos un limitador de corriente que iba 
+colocado un poco separado del resto del  
+cuadro. Esto hoy día ya no se pone porque eso es 
+el limitador que va directamente enganchado al  
+contador inteligente que se utiliza actualmente para hacer
+las mediciones y para controlar el consumo de  
+potencia que tenemos en las casas. Así que nosotros 
+partimos de que estos cables que vienen a  
+nuestro cuadro son los cables que han pasado por 
+el contador y que ya traen esta limitación. 
+El segundo aspecto que cambia también en una instalación 
+es éste que vamos a aplicar nosotros. 
+Tenemos aquí un interruptor magnetotérmico que va 
+a actuar como interruptor general del cuadro. Éste  
+es el que va a hacer la limitación de que todo 
+lo que hay aguas abajo funciona correctamente  
+y, si no, saltará. Pero le vamos a añadir un 
+elemento -esto que viene aquí unido  
+al magnetotérmico- que es el 
+protector de sobretensiones permanentes.
+¿Para qué nos sirve el protector de sobretensiones 
+permanentes? Pues sirve para que, en caso de que a  
+nosotros nos llegue más tensión de la debida en 
+el suministro de la compañía, no nos estropee las  
+cosas que tenemos conectadas. Si nosotros estamos 
+trabajando a unos 230 voltios y de repente, por  
+un problema en los transformadores, nos viniera
+la corriente a 250, lógicamente, lo que va  
+a ocurrir es que nos puede quemar los equipos 
+más sensibles. Este aparato la responsabilidad  
+que tiene es que, en cuanto detecta que la 
+tensión es mayor de la debida, desconecta el  
+interruptor automático y, así, la corriente no 
+sigue fluyendo. ¿Es obligatorio este protector?  
+Bueno, en esto hay mucha polémica. En principio 
+no está marcado que haya que instalar como tal  
+este protector, se dice que tienen que tener la 
+protección necesaria los equipos del cuadro. Pero  
+en la práctica, como esto es lo que realmente 
+hay que tener, las compañías eléctricas van  
+exigiendo ya de manera habitual el que esté 
+instalado siempre en los cuadros. Con lo cual  
+podemos decir que, si no es obligatorio, al menos 
+sí que empieza a ser imprescindible. El siguiente  
+elemento que vamos a instalar en el cuadro es 
+también un elemento de protección. Éste es  
+el protector contra sobretensiones transitorias. 
+La diferencia entre transitorias y permanentes  
+es que la transitoria es la que se produce en 
+un momento muy puntual. Imagínate, la caída de  
+un rayo, que es el clásico. En el momento en que se 
+produce la caída de un rayo, puede ser que se sature  
+muchísimo la tensión en toda la instalación 
+y entonces lo que hace este elemento es quitar  
+la corriente, mandándola directamente a través 
+de la toma de tierra a la piqueta de descarga.  
+Lo mismo que haría el pararrayos. De esta forma 
+lo que hace es quitar el peligro que  
+tenemos de esta sobretensión directamente 
+con esa acción. No desconecta el cuadro.
+El siguiente elemento también es 
+de protección. Lo que pasa es que éste ya  
+lo conoces porque hemos ido hablando de él en 
+otros capítulos de nuestro Curso. Es la  
+protección diferencial. Una protección 
+diferencial, con una sensibilidad de 30  
+miliamperios, que es la que nos sirve para detectar 
+cuando entre fase y neutro hay diferencias. Es decir,  
+cuando se da cuenta este diferencial de que la 
+corriente no está equilibrada y que por algún  
+sitio se está escapando. Cuando hay fugas 
+de corriente, es cuando el diferencial actúa.
+Nosotros, siguiendo un criterio didáctico, vamos a 
+dejar esta línea solamente con estos equipos de  
+control general y de protección y vamos a hacer 
+ahora el cableado para que veas cómo se hace la  
+conexión entre estos elementos.
+Para que veas cómo 
+hacemos la instalación -que luego en el cuadro
+siempre más difícil-, aquí tenemos los 
+espacios para meter los cables. Hay mucho espacio  
+porque tenemos que trabajar siempre con 
+cables por lo menos del 6 para hacer este tipo de  
+instalaciones. Metemos el cable y, cuando 
+vamos apretando el tornillo, lo que ocurre es que  
+la presilla se va deslizando y atrapa el 
+cable.
+Este espacio es muy grande porque en muchos
+casos lo que hacemos es ir conectando 
+y puenteando cables entre sí, utilizando varios  
+en un mismo elemento. Para no correr el riesgo 
+de que se nos queden pelos por fuera que nos  
+puedan hacer contactos cuando metemos la mano, 
+un recurso muy interesante siempre es utilizar  
+punteras. El procedimiento es el siguiente. 
+Cortamos el cable a la medida estándar que  
+estamos utilizando para hacer los puentes. Pelamos 
+el cable para que nos queden aproximadamente unos  
+8 milímetros, como estamos trabajando con 
+cable del 6, en el caso de esta  
+herramienta, vamos a elegir los 6 milímetros. 
+Lo ponemos en su posición, dejamos como te he dicho
+unos 8 mm aproximadamente de cable y 
+lo pelamos. Hacemos lo mismo por el otro lado.
+Trenzamos un poco por los dos lados, introducimos 
+la puntera -aunque su nombre técnico es terminal-,  
+la metemos bien a fondo por los dos lados y, 
+con el alicate, aplastamos fuerte para que se  
+quede perfectamente sujeto y no se pueda salir. 
+Procura siempre apretar bien en cada momento  
+para que nos quede totalmente a fondo. De todas 
+maneras, notas la diferencia de dónde hay cable y  
+no por el grosor. Todo este espacio es el corte que 
+podemos dar nosotros pero, en general, con que nos  
+quede sujeto en esta zona de aquí, ya tiene 
+suficiente resistencia para poder trabajar.
+Ves que yo tengo aquí marcado entrada de neutro y
+entrada de fase. Así que vamos a respetar en toda  
+la instalación llevar el neutro por la izquierda 
+y el fase por la derecha. Lo primero de todo, aquí  
+daría servicio -que lo haré al final- con lo que me 
+llega del contador directamente al neutro y su  
+fase y le daría salida por aquí. Así que voy 
+a empezar por alimentar neutro y fase desde  
+el interruptor general automático hasta el 
+protector de sobretensiones transitorias.
+Antes de apretar por completo 
+por aquí abajo las conexiones  
+de estos cables, voy a meter ya estos 
+cables de 1.5 mm que son los  
+que van a dar servicio directamente al 
+protector de sobretensiones permanentes.
+Éste donde estamos trabajando es el 
+interruptor general automático, recuérdalo,  
+que es donde hemos complementado poniéndole 
+el protector de sobretensiones permanentes.  
+El cable que estamos utilizando para unir el 
+interruptor general automático y el protector  
+es cable de 1.5 mm de sección y 
+ves que pelamos como unos 8 milímetros para que  
+entre bien a la hora de conectarlo. En este lado, 
+como es más pequeño el espacio, no vamos a  
+utilizar puntera. Habría que utilizar una puntera 
+muy fina o, directamente, meterlos sin ella.
+Y ahora puenteamos desde el protector de 
+transitorias. Vamos a llevar el neutro al neutro  
+y el fase al fase.
+Aquí no necesitamos hacer puentes porque, como ves, 
+tenemos interconectada esta salida con el neutro  
+y esta otra salida con el fase.
+Antes de conectar 
+nada, te voy a mostrar cómo es este peine que ves
+que lleva aquí entradas de distinta medida en 
+función de la sección de cable que queramos  
+traer y por aquí van los tornillos para ir haciendo 
+la sujeción.
+Este bloque correspondería por lo tanto a las protecciones generales que 
+tiene el cuadro. Por supuesto que luego cada uno  
+de los PIAs, de los magnetotérmicos que ponemos, 
+son también protectores porque tienen una función
+de protección. Pero, como ya van asignados 
+a los circuitos, consideramos que hacen otro  
+tipo de trabajo. Pero, lógicamente, hay otra 
+protección fundamental que es la protección  
+del cable de tierra. Como recordarás, porque lo has visto en otros
+tutoriales, esto lo llevamos  
+directamente a esta clema donde se conectan todas 
+y nos vendría este cable, o bien 
+a veces viene por el suelo porque viene de la 
+piqueta en pisos bajos o, directamente, viene el cable
+de tierra con el resto de la instalación a través de los cables 
+de la corriente normal. 
+Sea como sea que venga, yo lo voy a poner aquí para 
+que no olvidemos que tengo que conectar antes  
+que nada el cable de tierra a esta clema porque la 
+vamos a utilizar ya directamente, no solo para  
+todos los circuitos que nos vienen de la casa, sino 
+que también tenemos que dar servicio con tierra a  
+nuestro protector de sobretensiones transitorias.
+Vamos a meter el cable de tierra en su sitio. Ves que está ahí la indicación de tierra
+y funciona 
+exactamente igual que el resto de las conexiones.
+Lo pasamos por detrás para que no estorbe.
+Este cable siempre lo metemos contiguo 
+al cable que nos lleva directamente a  
+la salida de la instalación.
+Y ahora en 
+esta línea, separada de la otra como te
+decía para que veamos claramente lo que 
+es cada cosa, vamos a colocar los PIAs,
+los pequeños interruptores automáticos. 
+Son interruptores magnetotérmicos que  
+son los que van a abrir o cerrar los 
+circuitos de la instalación de la casa. Vamos  
+a empezar por dar servicio al primero de ellos, 
+conectándolo directamente desde el diferencial.
+Esto no lo voy a cerrar todavía porque ahora voy 
+a colocar los restantes PIAs y a puentearlos.
+Ya ves que lo que hemos 
+hecho, una vez que hemos conectado  
+estos PIAs, ha sido darles servicio. Desde 
+el diferencial, hemos llevado el neutro  
+y el fase y, a partir de aquí, ya vamos creando 
+puentes entre ellos de manera que van todos  
+interconectados. Esto se puede hacer con peines cuando son equipos preparados para llevar  
+un peine, que directamente se hace la conexión 
+sin tener que estar poniendo cables y punteras.  
+¿Cuáles son los automáticos que tengo que 
+instalar? Yo me voy a basar por supuesto en  
+la normativa española pero, lógicamente, 
+la normativa de cualquier país sí que  
+va siempre con los mismos criterios, aunque no 
+coincida el orden, los criterios no van a variar.  
+Lo primero que instalamos es esto para el circuito C1. Lógicamente el circuito va a salir de aquí abajo  
+e irá directamente a través de los tubos para hacer
+la instalación, como ya has visto en los demás  
+tutoriales. Este circuito C1 -yo lo escribo 
+aquí con un número grande para que se vea bien pero generalmente 
+se escribe con el número en subíndice- corresponde a la  
+iluminación general de la casa. Es un automático de 
+10 amperios porque realmente el consumo que vamos  
+a tener está previsto para eso. Acuérdate siempre 
+-esto insisto mucho, lo tienes en otro tutorial,
+te lo dejo ahí indicado- cuál es la relación que 
+hay entre el amperaje y la sección de cable que  
+yo voy a utilizar en función del consumo que van a 
+tener los equipos a los yo voy a dar servicio. Esa  
+es la regla que tenemos siempre que definir para el cuadro. En este tutorial lo vas a encontrar.  
+Siguiente circuito, C2. Esto es un automático de 
+16 A que es el que nos va a dar servicio  
+a los enchufes generales que va a haber en la casa 
+y también habitualmente al frigorífico.  
+Circuito C3. Este circuito es de 25 
+amperios porque necesitamos tener mucha capacidad  
+de vatios, mucha potencia, porque tenemos que dar 
+servicio con él en la cocina a la placa, el horno  
+y, en su caso, también al microondas. Siguiente 
+circuito, C4. Es un  
+circuito que comprende habitualmente lavadora, 
+lavavajillas o, incluso, termo eléctrico. Y puedo  
+optar por ponerlo todo en un PIA de 25 amperios 
+o, como en este caso, desdoblarlo en dos de 16 A.
+Uno lo destinamos a la lavadora y el lavavajillas y, el 
+otro, al termo calentador. De esta manera, tengo  
+aislados los dos y es mucho más fácil que no haya 
+ningún momento en que se produzca una sobrecarga.  
+Siguiente circuito. Este circuito C5 es 
+también de 16 amperios y es con el que voy a dar  
+servicio a los enchufes pero, en este caso, a los 
+enchufes de los cuartos húmedos, de la cocina y del  
+baño. Esto es lo que yo tengo como electrificación 
+básica habitualmente en una vivienda. Cuando  
+necesito meter otros equipos que van más allá 
+de lo que me proporciona la electrificación  
+básica, cuando hablamos por ejemplo de secadora, 
+cargador del coche, calefacción, aire acondicionado...  
+todo lo que requiere instalaciones especiales
+también tiene por normativa sus propios circuitos.  
+Yo, en este caso, voy a hacer la instalación 
+aquí abajo. Y, para empezar, siempre vamos a arrancar 
+esta relación de circuitos poniendo otro 
+diferencial que los proteja. Éste sería el nuevo  
+circuito que tenemos. Yo he puesto aquí, como un 
+ejemplo, un magnetotérmico de 25 amperios que sería  
+el que utilizaría para aire acondicionado y, uno 
+de 16 A, que sería por ejemplo el que me daría
+servicio para el cargador del coche si tuviera
+un coche eléctrico. Éste es el diferencial que les  
+corresponde. Fíjate en que, como te decía, cada una de 
+estas series llevan su propio diferencial. Algunas  
+instalaciones por normativa tienen que llevar 
+luego diferenciales específicos. Eso luego, cuando 
+lo instales para cada cosa, tendrás que ver la 
+normativa. En este caso nosotros tenemos aquí este  
+diferencial que corresponde a la protección de 
+estos PIAs y éste para estos dos que hemos puesto  
+aquí. ¿Desde dónde alimentamos este diferencial? 
+Pues, igual que hicimos con éste, vamos a sacar la  
+alimentación de esta conexión que tenemos aquí 
+en el protector de sobretensiones transitorias.
+Y vamos a conectar los cables que nos vienen de 
+la protección para sobretensiones transitorias  
+directamente a la entrada de este diferencial.
+Y 
+ahora vamos a alimentar estos PIAs dando salida
+desde la salida del diferencial. Acuérdate siempre 
+de llevar la fase y el neutro por el mismo lado  
+en todos los mecanismos. Éste no vamos a atornillarlo de momento porque aquí tenemos que ir, como en  
+el caso anterior, puenteando. En este caso 
+solamente vamos a puentear el vecino.
+El siguiente paso sería ir conectando cada uno 
+de los circuitos con sus cables correspondientes.  
+Por ejemplo, nosotros tenemos aquí cables de 1.5 mm,
+que sería el circuito que nos vendría  
+para iluminación general, entraría por un lateral 
+-porque en esta envolvente se rompen los espacios que  
+hay aquí para que pasen los cables y entren en 
+el interior- y llevaríamos, en el caso del C1 que  
+corresponde a este magnetotérmico de 10 A,
+el interruptor, el cable de fase y el  
+cable neutro y, el cable de tierra, lo llevaríamos 
+a su emplazamiento correspondiente en el peine que  
+tenemos para las tomas de tierra. Y, a continuación, 
+una vez que tenga ya todas las conexiones hechas,  
+tendría que ir directamente a colocar la 
+acometida de los cables que me vienen desde  
+el contador. Acuérdate, por supuesto, de que, cuando 
+estamos trabajando en el cuadro, no podemos  
+tener corriente y por tanto lo que me venga del 
+contador tiene que estar desconectada la corriente.
+Como ves, la tapa la adaptamos a las posiciones 
+donde tengamos los distintos mecanismos. Podemos  
+cerrar todas aquellas zonas donde no tengamos ninguno 
+y, de esta forma, nos queda protegido todo el cuadro y evitamos meter
+la mano donde no debamos. Esto lógicamente sería el punto de entrada  
+de la instalación. Hablaremos en algún tutorial 
+después sobre el cuadro también porque vas a  
+ver algunos elementos que vamos a incorporar que 
+son muy importantes desde el punto de vista de  
+el ahorro energético y desde el punto de vista del 
+control de todas las cosas que tenemos funcionando  
+en nuestra casa. Y veremos también los dispositivos 
+fundamentales que van constituyendo, cada día más,  
+todo el equipamiento eléctrico y electrónico que 
+tenemos en la casa. Lo vamos a hacer, como en este caso, con la  
+ayuda de la gente del Departamento Técnico de Legrand. 
+Bueno, hasta aquí la parte del cuadro. Espero  
+que nos haya valido para ganarnos tu "like", que te suscribas al Canal si no lo estás todavía -acuérdate de dar a la campanita  
+para recibir noticias de todo lo que vamos 
+publicando en cada una de las especialidades-  
+y, por supuesto, que compartas este vídeo con todos tus 
+amigos a los que les guste el mundo del bricolaje.

@@ -1,0 +1,294 @@
+Hemos recibido este nuevo atornillador
+de Worx que es un atornillador que
+tiene capacidad también de perforar
+sobre hormigón. Y nos ha parecido que es
+una oportunidad estupenda, además de para probarlo, para hacer un repaso general de
+cuáles son los criterios que tenemos que
+tener a la hora de elegir atornilladores
+y ver también algunos aspectos de uso
+que, cuando estamos trabajando ya
+con atornilladores de este tipo que tienen
+una cierta potencia, son muy importantes
+desde el punto de vista no solamente de hacer bien los trabajos sino de la propia
+seguridad nuestra a la hora de trabajar.
+¿Cuál es la primera característica que
+define una herramienta portátil? Pues,
+básicamente, el voltaje con el que
+trabaja. El voltaje es como una autopista.
+Cuanto más voltaje, más autopista tenemos
+para que circule la energía. Con lo cual, los
+motores que exigen más potencia,
+generalmente suben los voltajes. Ésta es
+una regla que funciona así. Fíjate en que
+nosotros siempre, en los tutoriales en que trabajamos
+con esta herramienta de Worx, tenemos toda la familia
+siempre de 20 voltios porque, como son
+baterías intercambiables, de esta manera
+con unas cuantas baterías tienes más
+herramientas y, cuando compras
+herramientas nuevas, ya no compras
+baterías. Y los cargadores
+nos sirven y nos funcionan para todo.
+El segundo aspecto es el amperaje.
+Este atornillador, con esta posibilidad de perforar hormigón,
+viene con dos amperajes distintos. Nos trae
+una bateria de 2 y otra de 4 amperios. El amperaje lo que nos define
+es cuánto tiempo de energía nos va a proporcionar la batería.
+A mayor amperaje, más cantidad de carga tengo en mi batería y más recursos por si estoy
+trabajando mucho tiempo. Éste es el
+segundo criterio importante.
+Siempre, cuando tenemos herramientas que tienen consumos muy altos,
+nos vamos a amperajes altos. Ésta, como está pensada para hacer trabajos duros o trabajos más livianos,
+trae las dos baterías. ¿Cuál es el criterio? Si tengo que estar haciendo un trabajo
+más liviano, pongo la batería más pequeña
+que pesa menos.
+Lógicamente, cuánto tiempo nos dura una
+batería -además de depender del amperaje
+que nos proporciona la batería- tiene que
+ver con cuánto consume realmente nuestro
+atornillador. Aquí hay diferencias muy
+importantes en base a esta cosa que ves aquí
+atrás. Aquí ves que hay un letrero que dice "motor sin escobillas".
+Las escobillas son el sistema tradicional
+que siempre han seguido este tipo de
+herramientas. Consiste en que tenemos una escobilla a
+un lado y otro del motor para que, de esta manera, se mantenga el
+giro del motor. ¿Qué ocurre en la
+práctica con estos sistemas? Fíjate. Si yo
+pongo en marcha este atornillador, noto
+que es de escobillas -a diferencia de
+éste- en la manera en que arranca y para
+el motor.
+Aparte del olor que puede producirse -que es una cosa que notamos
+enseguida- del encendido de escobillas, lo que
+notamos es que
+el arranque es menos fino, notas como que tiene una vibración
+en el momento en que arrancamos y paramos.
+Cuando nosotros arrancamos un motor de
+escobillas, las escobillas
+que están en contacto con un rotor, lo
+que hacen es un chisporroteo, como ves,
+lo vemos aquí dentro.
+Además de esto, esta forma de girar el
+motor, este chisporroteo que se produce,
+nos genera calor. Esto quiere decir que la
+potencia que a mí me está dando la
+batería en un atornillador tradicional
+de escobillas se traduce, en parte, en
+el movimiento de giro que me está dando
+y, en parte, en el calor que está
+emitiendo. Todas las cosas que se
+calientan pierden energía.
+Sistema sin escobillas. El sistema sin
+escobillas lo que tiene es un motor de
+inducción. Esa forma de alimentar el
+motor no se hace mediante escobillas
+sino, directamente, con una regulación
+electrónica que hace que el
+motor gire por esta gestión electrónica.
+Diferencias fundamentales: voy a tener
+mucho menos temperatura en la zona donde se impulsa el giro, voy a tener por tanto
+más capacidad de que toda la carga se me
+traduzca en energía directamente en la
+máquina y, por supuesto, va a consumir
+menos y va a tener más eficiencia.
+En general, una máquina de este tipo
+mantiene mucho más tiempo
+la batería funcionando que una de escobillas. Por supuesto, como además estoy trabajando
+con temperaturas más bajas, lo que me
+ocurre es que la vida útil de la
+herramienta es más larga porque sufre
+menos, porque no tiene calentones.
+Entonces, ésta es la diferencia básica de
+pasarnos a sistemas con motores de
+inducción. De hecho, se ve fácilmente esto.
+Primero porque tú notas que trabajas
+mucho rato pero es que además, en este caso, esta batería de 4 amperios lleva también
+aquí un comprobador de carga. Fíjate que
+nosotros todas las pruebas que hemos
+estado haciendo -que las vas a ir viendo
+ahora porque hemos estado probando además
+sobre soportes que alguno de ellos son
+bastante complicados de trabajo para una
+máquina-, pese a todo, no hemos gastado
+prácticamente nada de la carga de la batería.
+Hasta aquí hemos visto la importancia que tiene el amperaje de la
+batería y hemos visto, sobre todo, la
+importancia que tiene el tipo de motor
+que yo utilice -si es de escobillas o es
+un motor de inducción-. Pero, ¿cuánta es la
+energía, la capacidad de trabajo que me
+traslada realmente la batería al mandril,
+a la zona donde yo estoy haciendo los
+aprietes, donde monto los útiles?
+Esto, por ejemplo, tradicionalmente en las herramientas de
+cable lo medíamos en vatios. ¡Atención a
+esto! Cuando hablamos de un taladro de
+750 vatios, hablamos de 750 vatios de potencia consumida.
+Fíjate en cómo hemos hablado antes de que esa potencia consumida se va perdiendo a
+veces en fricciones, en pérdida por
+temperatura alta, etc. y no llega
+toda la potencia final. En el caso de las
+herramientas portátiles, se entiende
+mucho mejor porque nosotros de lo que
+estamos hablando siempre es de la
+fuerza de apriete que tiene un
+atornillador y eso se mide en newtons. En
+este caso, por ejemplo, nuestra
+herramienta tiene 60 newtons por metro
+de capacidad de apretar. Luego el par máximo que me va a entregar, la
+máxima fuerza de giro de torque que yo
+puedo hacer son 60 newtons. ¿Esto quiere decir
+que yo siempre trabajo con 60 newtons? No, porque para eso tengo este regulador que,
+a la velocidad o mejor dicho a la fuerza que yo decida
+que quiero darle, hace que salte el
+embrague.
+Otro aspecto muy importante que tiene
+que ver con la fuerza que me presta a mí
+el atornillador, o directamente el
+taladro cuando lo que hago es taladrar,
+es la velocidad. Cuando yo hago este
+cambio de velocidad, lo que estoy
+haciendo es mover el árbol donde van 
+montados los engranajes de salida y
+elegir un engranaje más pequeño o más grande. Es exactamente igual
+que el piñón de una bicicleta. Así es que,
+cuando tengo que subir cuesta arriba,
+en este caso, cuando tengo que hacer
+un atornillado o un taladrado en un
+material muy resistente, si lo pongo en
+el 1 sé que voy a traducir en potencia
+lo que estoy haciendo. La velocidad 2 me
+da hasta 2.000 revoluciones y la 1
+solamente me da 600 revoluciones por
+minuto.
+Por supuesto que, a la hora de atornillar,
+tenemos este gatillo que nos permite
+cambiar la posición para que gire en
+el sentido de las agujas del reloj o, al contrario,
+para extraer. Y, fíjate, tiene una posición
+intermedia. Esta posición no es una
+posición para molestar y que, cuando se
+nos olvida, no funcione el atornillador.
+Éste es el bloqueador del gatillo. Cuando
+nosotros lo llevamos, por ejemplo, para
+trabajar a otro sitio en una bolsa, o lo
+que sea, lo normal es que lo dejemos
+siempre en posición de bloqueo porque, de
+esta manera, no corremos el peligro de
+que, al meterlo a presión en cualquier
+sitio, se active el gatillo y lleguemos sin
+batería. Entonces siempre, cuando lo  metemos en una bolsa, la precaución es dejarlo
+en posición bloqueo. Es la manera en que
+no hay peligro de que se ponga en
+marcha indebidamente.
+Siguiente uso habitual que yo doy a mi atornillador,
+que es ésta posición donde veo la broca y con esto
+puedo taladrar. Cuando la pongo, el par de
+apriete no funciona porque, lógicamente,
+lo que entiende el atornillador es que
+yo quiero taladrar hasta el final del
+recorrido, que no me tengo que quedar parado en ningún sitio. Con lo cual, desaparece esto.
+Sí que, sin embargo, sigue actuando la
+regulación de velocidad. Nosotros, por
+ejemplo, hemos estado haciendo pruebas con dos trabajos distintos. Hemos
+estado taladrando en metal para ver la
+prestación que nos da. Lo hacemos al 1,
+con la broca de metal, y vamos
+tranquilamente, despacio, hasta conseguir
+hacer nuestro taladro. Es importante
+poner la velocidad 1 y no correr mucho
+por dos razones. Primero, porque el corte
+va a salir más eficaz y porque es más
+difícil que se me quede bloqueada la
+broca o que yo desvíe la inclinación del taladro.
+Hemos estado haciendo también pruebas utilizando la sierra de
+corona. En este caso, lo mismo, hay que ir con
+paciencia, sobre todo en este caso que  estamos haciendo la prueba sobre un
+tablero de 25 milímetros que realmente
+es muy exigente para cualquier máquina.
+Bueno, lo que te he contado hasta aquí sirve exactamente igual para nuestro
+atornillador tradicional porque las
+características de atornillado son las
+mismas. ¿Dónde está la diferencia
+fundamental y qué es la novedad que te
+decía al principio que hace importante
+a este atornillador que se llama Slammer Drill
+que es un atornillador para percusión? Bueno, precisamente es el
+tipo de percusión que hace que nos
+permita trabajar sobre superficies
+distintas de las que trabaja el
+atornillador. Con un atornillador
+tradicional yo no puedo estar taladrando
+hormigón porque el tipo de percutor que
+lleva, generalmente, no me da y, si lo hago,
+lo hago a costa de hacer un esfuerzo de
+máquina que me hace consumir muchísima energía. Lo que realmente ha cambiado en
+esto es que, por fin, tenemos un
+atornillador para uso doméstico que, si
+vivo en una casa que tengo problemas
+muchas veces de encontrarme paredes de
+hormigón, que tengo un jardín o que tengo
+las paredes medianeras de
+la casa que a veces son muros de carga
+que están hormigonados...Yo ahora sí que
+puedo hacer agujeros y puedo colgar un
+cuadro donde no podía hacerlo, o no podía
+fácilmente hacerlo, con un atornillador tradicional.
+¿Cuál es la diferencia que tiene este Slammer Drill? Fíjate. El sistema de percusión
+que tiene tradicionalmente un
+atornillador son dos discos  irregulares que, cuando
+yo activo la percusión, según va
+avanzando, van haciendo a este giro
+rápido que vaya entrando y saliendo muy
+deprisa mi broca. Éste es el sistema
+tradicional,
+sencillamente aprovecha el giro que
+tiene la máquina, sin más. ¿Qué es lo que
+hace que el Slammer Drill tenga esta
+prestación que no tienen los demás
+atornilladores? Pues que tiene un sistema  de impacto activo. Un sistema
+de presión que lo que hace es generar directamente parte de la energía
+con la que está trabajando la transmite
+a la broca para ese golpeo. De hecho,
+cuando vemos las características de
+esta máquina, vemos que nos da además una
+fuerza de 0.5 julios, es decir nos da una
+capacidad de trabajo, no solamente de
+giro, sino también de golpeo. Para hacer
+una prueba exigente, hemos hecho la
+comparación con un taladro de calidad
+de 1.000 vatios que siempre suelen darnos
+en torno a los 75 newtons. Nosotros vamos a trabajar luego con nuestro atornillador
+que tiene solamente 60. Estamos utilizando una broca especial
+multimaterial -que nos sirve para
+hormigón- de 8 milímetros.
+Comparativamente, el Slammer Drill tarda
+la mitad de tiempo en hacer un agujero
+de lo que empleamos con un atornillador
+de la misma fuerza en newtons pero que no
+tiene este sistema de percusión.
+Bueno, ya ves que con esta disculpa de
+presentarte esta nueva herramienta que nos
+permite tener en casa algo que realmente
+es multifuncional y, sobre todo, nos
+resuelve el problema de taladrar en
+hormigón que antes lo teníamos muy
+complicado si tenemos un atornillador  corriente, hemos podido hacer también un
+repaso que te debíamos de cómo funcionan exactamente los atornilladores, cómo los
+elegimos, precauciones a la hora de
+utilizarlos...que creo que será
+interesante. Eso espero yo al menos, que
+haya sido interesante para ti, que nos
+hayamos ganado tu "like", que te suscribas
+al Canal si no estás todavía y, por
+supuesto, que compartas este vídeo con todos tus amigos a los que les guste el bricolaje.
+Acuérdate de que en los comentarios
+podemos contestar cualquier duda que
+tengas. A veces, es verdad, con un poco de
+retraso porque se nos acumula
+el daros las respuestas que nos pedís
+pero, bueno, no os preocupéis que, aunque
+pasen 3 o 4 días, intentamos siempre
+contestaros
+a todo aquello que nos planteáis.

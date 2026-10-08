@@ -1,0 +1,116 @@
+En esta serie que estamos haciendo con
+nuestros amigos de Legrand sobre estos
+equipos que ya vienen preparados, "plug
+and play", para ponerlos en marcha y
+conectarlos directamente a la red de
+casa e ir componiendo un poco todo esto
+que llamamos ahora "el internet de las
+cosas", hemos estado analizando esta toma.
+Así vista parece, realmente, una cosa muy
+sencilla. Cualquiera lo ve en la tienda
+y dice: "Bueno... pues es una toma".
+Os voy a sorprender porque confieso que
+es, realmente,  el producto que más me ha llamado la atención porque tiene
+aplicaciones que a mí me parecen las más llamativas y las más interesantes en todo lo
+que venimos viendo de productos domóticos.
+Vas a ver que tiene funcionalidades muy interesantes
+y te vamos a contar también cómo se instala porque ya
+sabemos que estamos en tiempos donde,
+aquéllos que no somos nativos digitales,
+tenemos que ponernos al día
+haciendo este tipo de esfuerzos para
+conocer cómo hacemos estas conexiones al router y
+a todos los elementos de la casa.
+Para empezar, es un mando remoto en el
+que puedo apagar individualmente
+cualquiera de las tomas que vienen en él.
+Esto me da comodidad o me sirve, por ejemplo, para tener una luz
+conectada en determinados momentos o para encender un radiador cuando voy a llegar
+a casa, cualquier tipo de función
+individual de la toma.
+Pero, además, tenemos un modo de
+control de energía. En él, puedo enchufar
+cosas que me preocupa que funcionen.
+¿Por qué? Pues porque, en caso de que algo
+que yo tengo conectado aquí -por ejemplo, el frigorífico-, si el frigorífico falla y
+deja de estar consumiendo, va a mandarme un mensaje de aviso para que yo pueda
+tener noticia de esa desconexión. Tiene un modo de alerta de
+energía, con lo cual me da un aviso si la
+toma consume menos o consume más de lo previsto.
+Esto es muy útil. Por una parte, para conocer consumos reales de algunos
+equipos pero, también, para saber si se
+desconectan accidentalmente.
+También puedo hacer que me avise en caso de un corte de corriente.
+Tiene distintos temporizadores que
+funcionan por días, semanas o fechas
+específicas. De modo que yo puedo, por
+ejemplo, controlar la luz de mi casa a
+distancia cuando no puedo estar en ella.
+Tiene un sistema de ahorro de energía muy interesante. Imagínate, cuando yo tengo un
+equipo principal del que dependen varios
+equipos secundarios que también van
+enchufados. Éste podría ser el caso de un
+ordenador, donde tengo conectados un sistema
+de altavoces, un monitor, discos duros externos...
+Pues si yo le doy la instrucción
+de que, cuando se apague el ordenador, se
+apaguen todos los aparatos que están
+vinculados a él, lo hace inmediatamente.
+Esto sí que tiene una pequeña limitación hoy día. Esto se hacía con
+televisores y con el dvd, etc. etc. que
+iban en torno al televisor.
+Ahora hay televisiones que tienen tan
+poco consumo que es casi inapreciable
+para las tomas y, en ese caso, no
+funciona. Pero, en los consumos normales,
+funciona perfectamente.
+Para poner en funcionamiento mi toma y conectarla
+dentro de la casa con el router y con el
+teléfono, lo que voy a hacer es utilizar
+una App, que es la Legrand Mobile Socket.
+¿Cómo consigo bajarme al teléfono esto?
+Pues muy sencillo. Tengo un
+código QR en el propio envase del
+producto y, si no, lo puedo hacer
+directamente a través del sistema que
+utilices habitualmente en tu teléfono
+para descargarte este tipo de Apps.
+Es una App totalmente gratuita.
+Te das de alta,
+introduces una contraseña y recibirás
+una confirmación en tu correo.
+Una vez hecha la verificación, tienes que
+introducir el código Wi-Fi
+que viene debajo del router.
+Y, para finalizar, aprieta la tecla de la toma
+hasta que parpadee.
+¡Ya está lista!
+Bueno,  ya ves qué potente es este
+pequeño equipo, la cantidad de
+prestaciones sorprendentes que puede
+darnos algo que parece sencillamente el
+clásico alargador para enchufar y conectar
+cosas. Es mucho más que eso y
+nos va a dar muchas posibilidades.
+De hecho, te recomiendo que lo compartas con tus amigos porque, efectivamente, todo el
+mundo va encontrar soluciones
+interesantísimas para un montón de
+problemas que queremos resolver en nuestra casa.
+Vamos a seguir investigando
+poco a poco equipos y aplicaciones
+específicas que tenemos porque, en
+definitiva, el día de mañana ya es el día
+de hoy en el que casi todas las cosas
+que tenemos en la casa funcionan a
+través de sistemas domóticos y
+electrónicos. No hay más remedio que
+meterse en él y el mundo del bricolaje
+no puede ser ajeno a ir conociendo y
+participando en estos conocimientos.
+Así que, espero que te haya gustado, que nos
+hayamos ganado tu "like", que te suscribas al Canal, si no lo estás
+todavía, y que nos envíes tus comentarios, si quieres ver temas nuevos en este campo
+o cualquier cosa que quieras
+preguntarnos.
+¡Estamos encantados siempre de hacer este foro
+que tenemos abierto contigo en nuestro Canal de YouTube!

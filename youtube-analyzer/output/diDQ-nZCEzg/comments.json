@@ -1,0 +1,536 @@
+[
+  {
+    "Author": "@arlindesign4358",
+    "Text": "Buenas. Llego muy tarde en ver vuestros vídeos. Tengo una instalación de 2 interruptores para una luz (vaivén) y uno de ello tiene un enchufe normal. Ya me he liado. Gracias por vuestra ayuda.",
+    "Likes": 1,
+    "PublishedAt": "2025-04-29T17:15:03+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@antonioruiz1903",
+    "Text": "Hola\nMuchas gracias Juan por tus explicaciones y por tu interés 👌\nBadalona",
+    "Likes": 0,
+    "PublishedAt": "2023-09-28T14:22:35+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@casimiroprietomateos5999",
+    "Text": "Imagino que Legrand patrocinará vuestro vídeo. Pero también podrías explicar que existen marcas más baratas e igual o mejor rendimiento y fiabilidad",
+    "Likes": 0,
+    "PublishedAt": "2023-04-26T22:41:33+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ResuelveloTu",
+    "Text": "Hola, excelente curso hasta ahora. Una duda, como esta red va por radio, que pasaría si intenta ser saboteada con un inhibidor de frecuencia? Son vulnerables a estos? Saludos",
+    "Likes": 3,
+    "PublishedAt": "2022-09-13T20:52:02+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola, sí claro, si el inhibidor actúa en la banda de frecuencias que utiliza la red, ésta fallará. Todas las redes de uso doméstico tienen protocolos estandarizados, así que quien las ataca también sabe cuáles son. Por eso, en los sistemas de alarma se necesitan detectores específicos conectados por cable al teléfono.",
+        "Likes": 1,
+        "PublishedAt": "2022-09-14T07:52:05+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@danielardilagallego2684",
+    "Text": "buenas tardes me pueden indicar como ver el video 9 y 10 que no me deja verlos gracias",
+    "Likes": 0,
+    "PublishedAt": "2022-08-18T14:26:08+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@javierserrano3842",
+    "Text": "Muy buena explicación, enhorabuena. Sólo indicar un apunte, si ya tenemos la instalación efectuada me parece excesivamente caro esta solución. Por ejemplo un punto de luz controlado desde 3 posiciones nos puede costar sólo en mecanismos unos 180 euros. Podemos efectuar los mismo con un interruptor conectado y 2 pulsadores convencionales. El único pequeño inconveniente es que desde los 2 pulsadores convencionales no podremos efectuar la regulación de luz que nos permite el interruptor conectado. Con ello el coste de los mecanismo sería de 80€. Un saludo.",
+    "Likes": 0,
+    "PublishedAt": "2022-07-12T09:30:15+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@josanma",
+    "Text": "Creo que así es lo de encender la luz por detector de movimiento",
+    "Likes": 0,
+    "PublishedAt": "2022-04-04T20:41:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@robersalsero2803",
+    "Text": "Gracias.",
+    "Likes": 0,
+    "PublishedAt": "2022-02-13T22:19:40+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@maximofernandez9137",
+    "Text": "¿Porque hay que dar 3 golpecitos?",
+    "Likes": 0,
+    "PublishedAt": "2021-11-16T11:29:32+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Porque se activa la comunicación al hacerlo así, es ocmo si fuera un botón de conexión.",
+        "Likes": 0,
+        "PublishedAt": "2021-11-17T06:09:16+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@alexmartiniz6483",
+    "Text": "Hola. Otra consulta, veo que por Amazon se puede pedir con un interruptor o con 2 entiendo que para.salones grandes. La pregunta es si se pueden añadir más interruptores extra y vincularlos a la misma luz o el máximo son 2?\nSi se puede donde se compran sueltos y como se enlazan. No he visto la opción.",
+    "Likes": 0,
+    "PublishedAt": "2021-08-29T19:22:20+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@alexmartiniz6483",
+    "Text": "Hola. Si quiero cambiar todas las habitaciones de la casa por dispositivos inalámbricos, cada luz tiene su frecuencia? Quiero decir que si pongo 15 interruptores uno en cada estancia, no se harán interrupciones entre ellos o un interruptor abrirá varias habitaciones? Gracias",
+    "Likes": 0,
+    "PublishedAt": "2021-08-29T19:19:55+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@Muelas.89",
+    "Text": "Buenas noches y gracias de antemano, me gustaría saber si sería posible conectar un  legrand 741820 ( dos interruptores inalámbricos más un receptor)  a un conmutador que ya poseo y que funcione.\n\nTengo un interruptor detrás del cabecero de la cama el cual voy a anular y para no taladrar el cabecero me gustaría sustituirlos por dos inalámbricos sin perder el que hay a la entrada de la habitación.\n\nNo sé si me explico",
+    "Likes": 0,
+    "PublishedAt": "2021-08-17T23:23:31+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@igorzaran7377",
+    "Text": "Muy buen curso! A lo que no acabo de verle sentido es que si ya tenemos el cableado conectado (como en el video) , porque no usamos interruptores inteligentes de pared cableados como el primer interruptor en lugar de inalámbricos. De esta forma te olvidas de baterías y entiendo que también se pueden conectar entre si.",
+    "Likes": 0,
+    "PublishedAt": "2020-10-01T13:27:09+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@rikyricardo86",
+    "Text": "yo estoy volviendo a la elctricidad despues de unos años en otro trabajo y con este video me he quedado loquisimo. Que facil se ve la conmutada y el cruzamiento de manera inalambrica xD",
+    "Likes": 0,
+    "PublishedAt": "2020-09-30T16:38:43+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@vmimbrero",
+    "Text": "Buenas! Muchas felicidades por los vídeos. Tengo una duda.\n¿En casas grandes, necesito poner extensores de wifi para gobernar este sistema o la red entre unos y otros controladores la hace el starter pack con su propia red independiente de la wifi?. \nLa duda me surge si quiero poner un interruptor para una lámpara en un lugar lejano al que no llega la conexión wifi, por ejemplo, ¿llegara la frecuencia de la red de legrand? ¿Que sistema utiliza en su caso?¿es una red creada por el dispositivo que comunica a través de los propios cables eléctricos? Eso me daría tranquilidad con respecto a las distancias entre dispositivos. \nGracias de nuevo y, de nuevo, felicidades",
+    "Likes": 0,
+    "PublishedAt": "2020-06-27T06:25:55+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Yo, disculpad que insista en este asunto y más teniendo en cuenta que ya han pasado 10 meses desde este videotutorial, pero cada vez tengo más claro que no es imprescindible el poner el interruptor conectado sustituyendo el conmutador que trae la corriente desde la caja de registros. Porque al fin y al cabo el resto de cables que van a unir con regletas, con lo cual la corriente siempre va a llegar al interruptor este puesto esté en el lugar que esté puesto. Yo es que creo que coma incluso, el interruptor conectado podría sustituir a un cruzamiento.\n\nSaludos",
+    "Likes": 0,
+    "PublishedAt": "2020-05-11T19:52:09+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@omarvarelavisicadcam8202",
+    "Text": "Buen video profe 1 pregunta esos cables q se unio no seria un problema por q esta aumentando el diametro del cable.",
+    "Likes": 0,
+    "PublishedAt": "2020-04-05T01:56:01+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Yo he visto una conmutación tradicional, sustuida por este sistema, instalando el interruptor cableado, en el sitio donde estaba instalado el conmutador que va a la lámpara, y la instalación funciona perfectamente.\n\nPero me surge una pregunta. Si el interruptor tiene dos bornes para el cable de vuelta, y es indistinto colocar el cable en cualquiera de los dos, ¿ puedo poner los dos cables que unen los dos conmutadores entre sí, un cable en cada uno de esos dos bornes?",
+    "Likes": 1,
+    "PublishedAt": "2020-03-21T14:02:05+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Valen, no entiendo la finalidad con la que quieres hacerlo....",
+        "Likes": 0,
+        "PublishedAt": "2020-03-24T11:07:10+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack bueno, si los cables son rigidos, es muy dificil retorcerlos entre si. Ponerlos cada uno en un borne es mas fácil.\n\n\nY luego está el hehco, de que megusta tanto este tema (la electricidad domestica), que me encnata hacerme preguntas sobre si s epuede hacer tal o cual cosa.\n\n\nInstalando uno de estos interruptores, me encontré con un caso, que no aparece en vuestros, maravillosos, lo digo en serio, videotutoriales. Lo resolvi por mi cuenta, y funcionó perfectamente.\n\n\nEl caso que me surgió fué: Si tú tienes un interruptor, del que del borne L hay dos cables (porque uno de ellos alimenta otro interruptor de otor circuito), ¿como haces para conectarlo en el interruptor conectado?. Muy sencillo, juntas ambos cables, en el borne L del interruptor coenctado. Y Funciona.\n\n\nEntonces yo me preguntaba, ¿y porque el otor cable, los que uene los conmutadores entre si, deben ir juntos en un mismo borne de vuelta, y no uno en cada uno?, ¿habeis probado a ver si funciona?.\n\n\nSaludos.",
+        "Likes": 0,
+        "PublishedAt": "2020-03-24T11:33:44+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Os hago una sugerencia para un próximo vídeo tutorial. Hacer un vídeo para resolver dudas, en forma de pruebas, sobre este tipo de instalaciones:\n\n- ¿ qué pasaría si los dos cables que unen los dos conmutadores entre sí, yo los pongo en cada uno de los dos bornes que quedan libres además del birbe etiquetado con una L?\n- ¿ qué pasaría si el interruptor conectado, lo pongo sustituyendo el conmutador, no que viene de la toma de corriente sino en el que va a la lámpara?\n\nCreo que estaría muy bien hacer un videotutorial con ese tipo de pruebas\n\nSaludos",
+    "Likes": 1,
+    "PublishedAt": "2020-03-04T19:11:17+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Nos lo anotamos Valen, muchas gracias.",
+        "Likes": 1,
+        "PublishedAt": "2020-03-08T20:57:13+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Yo tengo una duda. Entiendo perfectamente como sustituir una conmutación tradicional, por estos sistemas conectados.\n\n\nPero mi duda es, ¿puedo poner el interruptor coenctado, sustituyendo cualquiera de lso dos conmutadores tradicionales (es decir, aunque no sea cogiendo la fase que trae la corriente, si no la que va a la lámpara)?.\n\n\nPregunto esto, porque si yo tengo un conmutador tradicional, pero doble, y ocurriese que ambos conmutadores, de ese doble, traen la corriente parasus respectivos circuitos, yo no puedo sustituir los dos, cada uno, por un interruptor conectado, porque no tengo espacio en los cajetines (en un cajetin cabe un conmutador tradicional doble, pero no caben dos interruptores conectados).\n\n\nEntonces, mi idea era, tengo dos opciones:\n- O sustituir ese conmutador tradicional doble, por dos interruptores inhalabricos, enlazando, entre si, lso cable sinteriores de cada circuito. Y en el otro conmutador de cada circuito, ahi si, poner interruptores coenctados.\n- O poner un inteeruoptor conectado, para un circuito, y en el otor uno sin cable. Y en la otra puinta de cada ciruito, justo el contrario (es decir, el que ya tiene un interrptor conectado, emparejarle un inhlambrico, y viceversa)\n\n\nHe intentado explicar bien mi eejemplo, peor no se si lo he conseguido.\n\n\n¿Puedo poner el interruptor conectado, sustituyendo cualquiera de los dos conmutdores tradicionales?.\n\n\nSaludos.",
+    "Likes": 1,
+    "PublishedAt": "2019-09-22T09:20:31+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Valen. Si mantienes uno conectado y otro tradicional: sustituyes uno  de los individuales por el conectado con cable par que vaya a la lámpara. Sustituyes el doble conmutado por uno sencillo de Valena y lo conectas al que mantienes en el circuito tradicional. Enganchas hay, aprovechando estructura del Valena el inalámbrico que conectes al conmutador conectado y lo pones un marco doble. Así no necesitas más espacio de caja.",
+        "Likes": 0,
+        "PublishedAt": "2019-09-24T09:07:32+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack A ver, voy a plantearoslo de nuevos, proque seguramente me haya explicado mal. Os lo iré contando, paso a paso:\n- Yo tengo un conmutador doble (siempre hablo de mecanismos tradicionales, de hehco son muy antiguos, los 30 años no se lso quita nadie), y a cada lado del conmutador doble hay un respectivo conmutador, para, logicamente cerrar el respectivo circuito.\n- Mi idea es, sustituir el conmutador doble, por uno d elso nuevo sinterruotores dobles sin cable Valena Next con Netatmo, agrupando previamente lso correspondientes cables de cada cirtuito, con regletas. Y sustituir los dos conmutados inviduales, por interruptores conectados, que se \u0022hermnarán\u0022 o enlazarán, a cada tecla, respetivamente cada uno, dle interruptor doble sin cable.\n- ¿Puedo hacerlo, asi, sin mas?\n- Es decir, al margen de que el cable que viene dle cuadro esté en una aprte del conmutador doble, o de cada uno d elso conmutadores sueltos.\n- Si el interruptor conectado, solo puedo ponerlo en el cable que viene del cuadro, y este está, en el conmutador tradicional doble, tengo que sustituir este por un interruptor conectado. \n\nClaro, uno si me cabe en el cajetin del doble. peor el segundo, no puedo ponerlo ahi.\n\n\nLa pregunta es sencilla: ¿puedo poner el interruptor coenctado, sustituyen cualquiera d elos dos conmutadores tradicionales (ya sea el que viene dle cuadro,c omo el que va la lámapra?.\n\n\nJuan dice que solo puede ser el que viene dle cuadro. Y eso e sloq ue me fastidia o impediria, mejor dicho, hacer mi instalación.\n\n\nDisculpad este tocho, peor no sabia muy bien como explicarme.\n\n\nGracias anticipadas.\n\n\nSaludos.",
+        "Likes": 1,
+        "PublishedAt": "2019-09-24T09:35:56+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Valen, pero no es porque sea el que viene del cuadro o no, porque tú vas a mantener el cableado, es que en donde tienes el doble no hay caja más que para uno con cableado, por eso el otro tendría que ser inalámbrico.",
+        "Likes": 0,
+        "PublishedAt": "2019-09-25T14:12:47+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack Hola de nuevo. Para explciarme mejor, aclararé un par de detalles:\n- Primero, yo hablo d einstalar, en lugar del conmutador doble tradicional, un interruptor doble...sin cable. Este, que Legrand acaba de sacar al mercado:\nhttps://beta.leroymerlin.es/fp/82120579/interruptor-doble-on-off-valena-next-with-netatmo-aluminio.electricidad_interruptores-y-enchufes_valena-next-netatmo\n\n\n- Y segundo, para explicar mejor lo que quiero hacer, he hehco un esquema:\nhttps://fotos.subefotos.com/6042f2fb3693147f7a3d5f1bf062ef45o.jpg\n\n\nMi duda, esenciualmente es, ¿puedo poner el interruptor cableado, sustituyendo cualquiera de los dos conmutadores tradicional, ya sea, o no, el que proviene del cuadro electrico?.\n\n\nSaludos.",
+        "Likes": 1,
+        "PublishedAt": "2019-09-25T15:48:17+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Ah! Disculpa. Ese no lo tenemos todavía, pero si es doble puedes sustituir perfectamente al antiguo manteniendo desde ahí la conexión de casa uno con su lámpara. Luego en las otras cajas los inalámbricos, sí.",
+        "Likes": 0,
+        "PublishedAt": "2019-09-25T19:22:33+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack querrás decir, perdona el, en las otras cajas los conectados, el inalámbrico doble, en el centro.\n\nEntonces entiendo, que da igual que conmutador sustituya al interruptor conectado. No tiene porqué ser, obligatoriamente, el que proceda de la toma de corriente, puede ser el de la lámpara, ¿no?\n\nYa tenéis ahí, otra idea para otro vídeo tutorial.\n\n\u0022¿ qué pasa cuando tenemos un conmutador doble cableado, y queremos sustituirlo por interruptores conectados?\u0022. Ese podría ser el tema de un nuevo vídeo tutorial.\n\nSaludos",
+        "Likes": 0,
+        "PublishedAt": "2019-09-25T19:28:43+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack seguramente, os lleve a confusión, mi insistencia en preguntar, en cuál de los dos conmutadores se pone el interruptor conectado, cuando aquí estamos hablando de un conmutador doble.\n\nPero en realidad, entiendo que no hay confusión alguna. Porque la pregunta que hago de en qué conmutador, debo poner el interruptor conectado, entiendo que esa pregunta la hago en referencia a cada uno de los dos circuitos porque los dos circuitos tienen dos conmutadores cada uno. Son dos circuitos diferentes, con dos lámparas diferentes. Y en cada uno de ellos hay dos conmutadores uno que viene del cuadro, y el otro que va a la lámpara.\n\nReitero mis disculpas, si ha podido generar confusión a la hora de plantear mi duda.\n\nSi es generado confusión, hacérmelo saber por favor\n\nSaludos",
+        "Likes": 0,
+        "PublishedAt": "2019-09-25T20:43:00+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@juanjoseduran6325",
+    "Text": "Esto sí que es un gran paso dentro del tema eléctrico, y en adelante va a ahorrar mucho cobre y obras. \r\nEs versátil al máximo, te da infinidad de posibilidades (quien le iba a decir a un eléctrico hace 20 años que se podría instalar una conmutada de esta manera).",
+    "Likes": 4,
+    "PublishedAt": "2019-09-16T01:47:39+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Totalmente de acuerdo Juan José. Gracias por tu opinión.",
+        "Likes": 1,
+        "PublishedAt": "2019-09-17T17:28:53+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@javiermercade",
+    "Text": "*FANTÁSTICO JUAN*\n_Y tu repítete lo que creas conveniente, que si eso nosotros avanzamos ya el vídeo._\nUn afectuoso saludo desde Lérida (*España*)",
+    "Likes": 3,
+    "PublishedAt": "2019-09-15T06:10:33+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Jajajja. Un abrazo Javier!",
+        "Likes": 2,
+        "PublishedAt": "2019-09-15T20:47:25+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@ricardovidal945",
+    "Text": "Excelentes tutoriales, felicitaciones.-",
+    "Likes": 1,
+    "PublishedAt": "2019-07-29T21:41:38+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias RIcardo!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-04T11:02:29+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@adanfrutos473",
+    "Text": "*buena clase ( en uso de aparatos mas modernos), pero quiero ver al electricista de la vieja escuela esa en que los interruptores se conectan con cables y pasarlos por el interior y exterior de una construcción!*",
+    "Likes": 1,
+    "PublishedAt": "2019-07-04T20:45:08+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Adán. Pues echa para atrás en los vídeos de esta serie porque empezamos por ahí. Un saludo, amigo!",
+        "Likes": 1,
+        "PublishedAt": "2019-07-07T16:55:16+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@JosephMary78",
+    "Text": "Buenas, excelente tutorial. \n\nUna pregunta: había pensado en quitar cables y dejar uno solo para que llegara la corriente y el circuito estuviera completo. Pero me parece mejor idea el dejarlos puestos por si hay que volver atrás y volver al modelo de siempre. Y sobre esta idea, ¿se podrían poner interruptores inteligentes, pero cableados, para que la instalación funcionara si tenemos algún problema con la red que monta?",
+    "Likes": 1,
+    "PublishedAt": "2019-07-04T15:25:34+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola JosepfMary78. Claro, COn el procedimiento que seguimos dejamos la atigua iinstalkación intacta y podrías volver a ese sistema.",
+        "Likes": 1,
+        "PublishedAt": "2019-07-07T16:19:27+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@JosephMary78",
+        "Text": "@Bricocrack Gracias. Al dejar los cables se podría volver en cualquier momento, si. Yo .e refería a tener los dos a la vez. \n\nEl primer interruptor va con cables e inteligente. Los otros dos son inalámbricos. ¿Se podrían poner los otros dos y tener los tres del sistema con los cables e inteligentes?",
+        "Likes": 0,
+        "PublishedAt": "2019-07-07T19:03:58+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "No, porque no son cruzables ni conmutables. Supongo que si el 2 esta apagado cortara digan lo que digan el 1 y el 3... pero no lo he probado.",
+        "Likes": 1,
+        "PublishedAt": "2019-07-07T21:15:53+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@FJimnezRodríguez",
+    "Text": "Vídeo buenísimo. Seguid así. Ánimo.",
+    "Likes": 1,
+    "PublishedAt": "2019-06-29T16:10:20+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Francisco!",
+        "Likes": 1,
+        "PublishedAt": "2019-06-30T09:00:34+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@LoAtamosConAlambre",
+    "Text": "La verdad es que no se puede pedir mejor explicación, muy buen video, como todos los de su canal. Gran abrazo desde Argentina",
+    "Likes": 3,
+    "PublishedAt": "2019-06-21T22:18:08+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gran abrazo de vuelta para allá y muchas gracias compañero!",
+        "Likes": 2,
+        "PublishedAt": "2019-06-23T07:33:26+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@alejandrotealdo443",
+    "Text": "buenísimo saludo de chile",
+    "Likes": 1,
+    "PublishedAt": "2019-06-21T03:46:34+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Alejandro!",
+        "Likes": 0,
+        "PublishedAt": "2019-06-22T07:26:11+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@harryzamora2110",
+    "Text": "Excelente video tutorial muy bien explicado.",
+    "Likes": 1,
+    "PublishedAt": "2019-06-20T19:24:04+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Harry!",
+        "Likes": 0,
+        "PublishedAt": "2019-06-21T18:41:20+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@reyfranciscosantos",
+    "Text": "Creo que el enunciado de los tutoriales que enunciais no corresponde a electricidad basica mas bien a domotica..\nEste sistema se usa mas en pasillos conmutada y cruce y en vivienda con conmutadas.\nEn zonas de pasillo, escaleras y zonas de transito de personas se utiliza detectores de presencia con iluminacion led para su eficiencia energetica., este sistema sustituye al clasico interruptores conmutados y de cruce en zonas de transito de personas ( zonas comunes de edificios y garajes ) esta mas acorde actualmente a calidad y precio.\nNo todo el mundo se puede permitir por precio este sistema y lo veo absurdo poner este sistema y anular el existente, si fuera una instalacion nueva con domotica y eficiencia energetica empieza a soltar dinero",
+    "Likes": 2,
+    "PublishedAt": "2019-06-19T21:23:57+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Rey Francisco Santos. Totalmente de acuerdo en zonas comunales los detectores.  Respecto de la casa... pues es como todas las cosas. Pronto vamos a tener que adaptar un montón de cosas a los dispositivos de gestión, y la luz será una de ellas. \nY hoy día, ya, para las personas mayores con dificultad de movimiento poder manejarse con un altavoz inteligente es una ventaja excepcional. La generación de viejos que se va incorporando viene ya del mundo digital y saben cómo usar estos aparatos.\nEstas transformaciones yo creo que serán para los profesionales trabajos tan frecuentes como para el reformista los cambios de bañera por plato de ducha. Por eso me gusta mucho que haya marcas agitando el mercado para cambiar la mentalidad de los usuarios y dando más opciones.\nUy! Perdona que me he enrollado! jajajaja. Un saludo amigo!",
+        "Likes": 3,
+        "PublishedAt": "2019-06-20T07:53:38+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@pabloMarins",
+    "Text": "Lo que necesito aprender es como se hace la conexion interna de un tomacorriente cuando le agrego un interruptor para uno de las tomas, suponiendo que tengo 2 tomas, uno con corriente y la otra con la opción de interrumpir el servicio.",
+    "Likes": 1,
+    "PublishedAt": "2019-06-19T17:12:10+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Pablo. Serían dos tomas independientes y una de ellas debería llevar electrónica para ponerle un conmutador remoto, o poner dos tomas normales y en una de ellas  traerle un cable de fase que hagas pasar por un apagador de pared en cualquier parte del circuito. En ese segundo caso, hay que tener cuidado y no poner exceso de consumo en esa toma porque puedes fundir el interruptor.",
+        "Likes": 0,
+        "PublishedAt": "2019-06-20T07:38:15+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "¿vais a enseñarnos a instalar, interruptores conectados para motores de persianas?",
+    "Likes": 1,
+    "PublishedAt": "2019-06-19T10:41:20+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Valen. Sí, lo tenemos pendiente para después del verano.",
+        "Likes": 2,
+        "PublishedAt": "2019-06-19T12:08:39+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@SoyValenOrtega",
+    "Text": "Después de ver el, interesantisimo, video-tutorial, me surgen algunas preguntas:\n- La base de corriente con gatway, se pone cerca del router, ¿solo hace falta poner uno, aunque yo quier aponer mecanismos conectados en una planta distinta?.\n- ¿Como puedo fijar un inhalanbrico a una pared con gotelé o capa?\n- Si tengo una conmutación de dos puntos, y quiero añadir un tercero (es decir un crucamiento) mediant eun inhalanbrico. Tengo que sustituir el conmutador que viene de al caja de registros por uno conectado, unir los cables entre si con una clema en el otor y asociar dos inhalabrico, ¿no?, ¿simplemte eso?.",
+    "Likes": 2,
+    "PublishedAt": "2019-06-19T10:34:25+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias Valen! De tus preguntas:\n efectivamente, un solo gateway en la casa\nDe lo del gotelé, yo lo que hago es cambiar los interruptores que tengo en la pared por otros de Valena y acoplarles lateralmente el inalámbrico con un marco doble. \nDe lo de la asociación es tal como dices. El interruptor conectado de pared en el que tenga la entrada de la fase y asocias todos los inalámbricos que necesites.",
+        "Likes": 2,
+        "PublishedAt": "2019-06-19T12:08:09+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack en el caso de los conmutadores inalámbricos, otra opción sería, si lo que se busca es poner un conmutador alejado del interruptor principal, podría ser fijarlo a la pared aprovechando los agujeros que tiene para quitar la caja un cajetín de conexiones fijarlo a la pared, mediante unos tacos y un par de tornillos en esos agujeros. Una vez que se le pone el marco embellecedor, nadie puede imaginar que ahí dentro no hay ningún cajetín ni cables",
+        "Likes": 2,
+        "PublishedAt": "2019-06-19T12:31:40+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Mira! Podría ser una solución si coincide la medida, si señor.",
+        "Likes": 1,
+        "PublishedAt": "2019-06-20T07:20:26+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@SoyValenOrtega",
+        "Text": "@Bricocrack pertidme, por favor, otro caso práctico mas.\n\n\nYo quiero conmutar un solo interruptor, a otro punto de encendido, mediante los interrumpoteres inhalambricos. Eso ya se hacerlo. Pero claro, tengo que poner mecanismos Valena de Legrand (irnogor si otras marcas como Niessen tiene sistemas similares). \n\n\n\nPero para hacer eso, ademas de instalar un interruptor inlambrico, tengo que sustituir el interruptor que quiero conmutar por otroa que se empareje con el inlambrico. \n\n\n\nPero me ocurre que ese, digamos interruptor original, lo tengo puesto con un marco doble a un conmutador para otra habitación. El cual tengo que cmabiar por uno Legrand porque si no no encajan lso enbellecedores.\n\n\nLa pregunta es sencilla, ¿puedo poner como sustituto de ese conmutador, otro conmutador de estos programables, o tiene que ser uno normal?. Es que croe que esa opción no se ha planteado. Porque claro, si tengo que cmabiar ese conmutador por uno d elso programables...tengo cmabiar tmabien el conmutador de destino de ese cirtuito. Y seria un lio.\n\n\nNo se si me epxlico. peor de ser asi, ¿podeis aclararme la duda, por favor?.",
+        "Likes": 1,
+        "PublishedAt": "2019-06-20T10:06:48+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@TutorialesRicky",
+    "Text": "Ahora sí , sin obras jjjjj ... muy bien explicado ... buen vídeo ... un abrazooo",
+    "Likes": 2,
+    "PublishedAt": "2019-06-19T10:25:23+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Ricky!! otroooo.",
+        "Likes": 0,
+        "PublishedAt": "2019-06-19T12:03:04+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@carloslira9486",
+    "Text": "No se ve el video nada mas se escucha y asi pues ni para saber mas",
+    "Likes": 1,
+    "PublishedAt": "2019-06-19T01:22:28+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Carlos, es un problema de tu reproductor de YouTube. Si no encuentras la solución intentamos orientarte. Un saludo!",
+        "Likes": 0,
+        "PublishedAt": "2019-06-19T05:39:14+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@aliciagudino2458",
+    "Text": "Esta red es excelente.\nAprendo mucho con sus tutoriales\nMuchas gracias maestro\nSaludos 👍👋🇲🇽",
+    "Likes": 3,
+    "PublishedAt": "2019-06-18T23:38:05+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias por acompañarnos Alicia!!",
+        "Likes": 0,
+        "PublishedAt": "2019-06-19T05:36:03+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@eljosesdominguez",
+    "Text": "Te quiero felicitar por la claridad de tus explicaciones! Espero con muchas ansias los videos de electricidad. Muchas gracias or tu labor docente. Saludos desde argentina",
+    "Likes": 2,
+    "PublishedAt": "2019-06-18T23:06:22+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias por tu comentario Jose, y un saludo hasta Argentina!",
+        "Likes": 0,
+        "PublishedAt": "2019-06-19T05:32:05+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@nenitoflow3138",
+    "Text": "Buen video excelente",
+    "Likes": 1,
+    "PublishedAt": "2019-06-18T23:05:04+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Los King RD!",
+        "Likes": 0,
+        "PublishedAt": "2019-06-19T05:31:09+00:00",
+        "Replies": []
+      }
+    ]
+  }
+]

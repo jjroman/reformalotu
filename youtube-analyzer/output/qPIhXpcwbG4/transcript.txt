@@ -1,0 +1,164 @@
+En otros tutoriales ya hemos venido
+hablando del internet de las cosas, de la
+domótica porque, en el mundo del
+bricolaje, es evidente que hay muchos
+dispositivos que son electrónicos y hoy
+día la electrónica lo normal es que se
+pueda conectar a tu teléfono móvil y
+gobernarla desde ahí. Por supuesto que en
+el jardín nos pasa exactamente lo mismo.
+Nosotros podemos ir convirtiendo los
+dispositivos tradicionales que tenemos
+en el jardín en dispositivos domóticos y
+podemos coordinarlos y trabajar con
+ellos a través del teléfono móvil.
+Digamos que ésta es la base de partida.
+¿Qué es lo que te queremos presentar en este tutorial?
+Pues, por una parte, queremos ver cómo hacer esta
+conexión a través del teléfono móvil y a
+través directamente del rúter de
+nuestra casa. Ésta es la regla, como sabes, para que podamos estar funcionando con
+todos los dispositivos. Y, por otra, vamos a ver qué dispositivos son los que podemos domotizar.
+Hemos elegido el Smart System
+de Gardena porque es el más fácil de
+localizar en el mercado y el que
+seguramente tenemos todos más a mano
+para poder utilizar. Vamos a ver cuáles
+son los dispositivos tradicionales que
+podemos ir convirtiendo en dispositivos
+domóticos
+y cómo se hace esta transformación.
+Vamos a empezar primero por el riego
+porque es donde podemos tener algún
+problema si no conocemos bien cómo
+funciona el sistema. Fíjate, nosotros en
+el riego de casa lo que tenemos es un
+programador que da servicio a una serie
+de electroválvulas que son las que
+abren y cierran los circuitos. Lo que tenemos que hacer es cambiar el programador.
+¿Cómo hacemos este cambio?
+Con este programador del Smart System lo
+que vamos a hacer es empezar por dar
+servicio en las conexiones grises con el
+transformador que trae directamente para
+alimentarlo. Esto viene alimentado
+directamente a la red para evitar que, al
+acabarse las pilas, nos quedemos sin
+circuito de riego. Una vez que lo tenemos
+conectado, como ves, se enciende
+una luz en la derecha que indica que ya tiene servicio. Vamos a
+desconectarlo y vamos a ir conectando
+cada uno de
+los cables rojos de las válvulas.
+El cable rojo de la primera válvula lo
+conectamos directamente a la conexión
+número 1 y, así, iremos haciendo
+sucesivamente en las siguientes
+conexiones, hasta completar todas las
+válvulas que vayamos a utilizar, hasta 6.
+Podemos utilizar, sin problema, las
+electroválvulas antiguas que tenemos, que suelen
+ser siempre de 24 voltios, que es con lo que trabaja este sistema.
+Esta conexión azul es la que nos va a dar 
+servicio a los cables negros, que son los
+comunes y que vienen todos juntos de
+nuestras electroválvulas. Como nuestra
+conexión es fina, lo que podemos hacer es tomar con un cable más fino la conexión
+desde el conjunto de todas ellas y lo
+conectamos en su lugar.
+Y, en el caso de que tuviéramos una
+electroválvula maestra, la conectaríamos
+a estas conexiones amarillas que son las
+que van destinadas a esa válvula
+principal que nos abre o nos cierra todo
+el sistema en algunos circuitos.
+Una vez que ya tenemos integrado el
+riego podemos incorporar, por ejemplo, un
+sensor de humedad como éste. Esto es muy interesante porque generalmente, cuando
+queremos poner sensor de humedad en los jardines, el sitio de control no suele
+estar muy cerca del programador, lo que
+nos obliga a llevar cables por sitios muy
+raros o, directamente, a renunciar a él. Con éste, al ser inalámbrico, lo conectamos en
+el lugar que nos parezca más
+importante del jardín para mantener el
+control y, así, cuando tengamos un exceso de humedad, interrumpe el riego.
+La instalación es muy sencilla porque basta con ponerle las pilas y verás lo
+sencillo que es ponerlo en marcha. Y, para
+instalarlo,  sencillamente
+lo que hacemos es meter la punta sensora 10 minutos en un vaso de agua y
+pincharlo en la tierra en el lugar que corresponda. Por supuesto que, cuando
+tienes un tipo de riego que sale
+directamente del grifo con un
+programador como éste, individual, de una sola vía, también lo puedes sustituir.
+Quitamos el programador antiguo,
+ponemos un programador smart y,
+directamente, para ponerlo en marcha, para programarlo, es exactamente igual
+que los demás dispositivos. Le ponemos
+las pilas y lo activamos.
+Este programador además puede
+utilizarse manualmente
+apretando el botón.
+Un elemento que también integra el
+sistema y que es muy útil, por supuesto,
+es este enchufe que puede ir integrado
+dentro de la programación.
+¿Qué puedo hacer con él? Por supuesto,  enchufar
+cualquier dispositivo eléctrico que yo
+tenga en el jardín: luz, una bomba de
+piscina, por ejemplo, que consuma hasta
+3.000 vatios...Cualquier cosa que yo quiera
+integrar dentro de la programación y
+dentro del sistema inalámbrico que me
+proporciona el teléfono, conectándolo a
+través de este enchufe, me funciona
+perfectamente. Si quiero utilizarlo
+puntualmente de forma manual, basta con
+apretar el botón y puedo utilizarlo como un enchufe normal.
+Como te explicaba en un tutorial anterior, también podemos
+integrar los robots cortacésped que sean
+también del sistema smart. Una vez que
+tenemos descargada la aplicación,
+lo que hacemos es activar
+el robot para que funcione a través de ella.
+La instalación del Smart Gateway es
+sorprendentemente sencilla.
+Se conecta a la corriente,
+se conecta a continuación al rúter de
+la casa
+y, a partir de ahí, el sistema se activa
+solo.
+Para gestionarlo, se descarga una App
+gratuita que tiene toda la programación.
+Los dispositivos se reconocen
+directamente con la App del teléfono y se
+activa la descarga del programa de cada
+uno de ellos al sistema.
+Con este programa, estés donde estés,
+puedes poner de forma inmediata en
+funcionamiento cualquiera de los
+dispositivos, ajustando también
+su tiempo de duración.
+O verificar la situación de cada
+uno de los dispositivos de los que
+recibes algunas informaciones útiles.
+Pero, también, puedes acceder fácilmente a programarlos mediante pantallas de ayuda
+que te van guiando y orientando de una
+manera muy fácil y muy eficaz.
+Bueno, pues ya ves el procedimiento que
+tenemos que seguir para cada uno los
+dispositivos principales del jardín, para
+hacer esta integración dentro del
+sistema de rúter de la casa. La verdad
+es que la gran ventaja es que no tenemos
+necesidad de acoplarlos todos, basta con
+que nos bajemos la aplicación e ir probando
+alguno puntual para familiarizarnos con
+ellos. Porque, la verdad es que, nos guste
+más o nos guste menos, vamos avanzando hacia una tecnología que nos va obligar
+a entrar en este mundo electrónico y es
+una buena oportunidad para ir poco a
+poco probando estos dispositivos en nuestro jardín.
+Espero que te haya interesado este tutorial, que nos hayamos ganado
+tu "like", que te suscribas al Canal si no lo estás todavía y que, por supuesto,
+compartas este vídeo con todos tus amigos a los
+que les guste el jardín.

@@ -1,0 +1,344 @@
+En en este tutorial vamos a intentar
+resolver un problema histórico de una
+buena parte de la humanidad que es la de
+entenderse con los circuitos eléctricos
+de su casa y poder hacer las
+reparaciones domésticas que uno necesita.
+Para esto, hemos montado
+aquí toda una serie de elementos, de
+maquetas y de cosas para que podamos ver
+de una manera muy clarita todo lo que
+tenemos que saber.
+Vamos a hacer una serie de tutoriales y
+el primero de todos va a ser el que
+vamos a destinar al cuadro
+eléctrico. Para ver qué problemas tiene,
+qué cosas son las que hacen que salten unos
+dispositivos u otros y qué tenemos
+que vigilar en él. Pero lo vamos a ver desde un
+punto de vista puramente doméstico,
+porque no nos queremos meter en aspectos que
+ya corresponden al mundo profesional.
+El cuadro y todo lo que tiene que ver
+con él, salvo las pequeñas intervenciones que te voy a explicar
+que podemos hacer,
+corresponden al mundo profesional.
+De aquí, aguas abajo de toda la
+instalación, ya sí que podemos
+plantearnos el hacer reparaciones
+nosotros y cosas siempre, por supuesto,
+asegurándonos de que cortamos la
+corriente de nuestro cuadro eléctrico.
+Fíjate en que nosotros, cuando cortamos
+este interruptor,
+éste sería un cuadro tal como tenemos
+habitualmente en las casas españolas
+con la normativa moderna,
+tenemos un interruptor general que nos
+corta todo el circuito de nuestra casa;
+un diferencial que nos protege de
+determinadas cosas, que es lo que vamos a ver ahora justamente, este tipo de fallos que te
+decía que vamos a provocar para ver en cada
+caso qué dispositivo es el que se
+desactiva; y luego tenemos una serie de
+interruptores pequeños que dan servicio
+a cada una de las líneas que tenemos de
+electricidad en nuestra casa.
+Bueno, pues ¡vamos a empezar con nuestros experimentos!
+Vamos a ver, cuando saltan
+determinados dispositivos del cuadro
+eléctrico, por qué saltan.
+Entonces, nada mejor que provocar el fallo.
+Vamos a dar servicio a nuestro cuadro. A partir de ahora,
+ya tenemos corriente y estos
+cables que yo tengo por aquí
+ya tienen todos corriente.
+Hemos puesto un dispositivo de corte con
+interruptores para no tener problema.
+Vamos a ver el primer caso que se puede dar.
+Yo tengo aquí un cable que lleva corriente, un cable que
+es la toma tierra, éste es el cable que
+desemboca en las casas directamente en la misma piqueta que el pararrayos,
+es donde elimina la corriente que sobra.
+Fíjate en que esto es una cosa que sale
+mucho en las películas. ¿Que pasa
+cuando yo tiro un secador encendido en
+la bañera y hay alguien dentro? Esto es una cosa que siempre nos ha parecido
+tremenda, ¿no? Bueno, vamos a hacer este mismo ensayo que es, cuando hay
+cables aquí funcionando, que sería como
+tener ese secador puesto en en marcha,
+¿qué pasa cuando hay agua? Y, sobre todo,
+¿qué pasará en el cuadro?
+Te podría hacer a ti la pregunta.
+¿Cuál de estos dispositivos crees que va a saltar cuando yo
+llene de agua esto teniendo corriente?
+¿Probamos?
+En este momento ya este cable tiene corriente.
+Voy a llenar el frasco de agua y
+vamos a ver qué pasa.
+Ves que tenemos ya el cacharro
+lleno de agua y, sin embargo, en el cuadro
+no ha pasado nada.
+En principio, cuando yo pongo corriente en el agua, no pasa nada
+porque el agua por sí misma no es conductora.
+Seguramente que en el colegio todos hemos hecho esa experiencia de que, para que el agua
+sea conductora, tiene que tener una
+solución salina y,
+entonces, sí que es conductora.
+Bueno, pues vamos entonces a forzar el fallo,
+añadiendo un poco de sal, y seguimos
+mirando a ver qué
+es lo que va a saltar en nuestro cuadro.
+¿Ves? En cuanto hay ahí un poquito de sal, automáticamente nos ha saltado el
+diferencial, que es el dispositivo que se
+da cuenta de cuando hay una fuga de
+corriente desde un cable hacia la tierra.
+El cable de tierra lo verás siempre en
+puntos críticos como las conexiones o las zonas metálicas,  ya que sirve para
+absorber, al menos en parte, esas fugas, 
+pero no evita que la corriente nos llegue
+a nosotros al tocarlo. También eso 
+ocurre en las zonas de humedad y por eso
+el diferencial salta en cuanto detecta
+estas fugas.
+Esto quiere decir que es muy normal que
+en tu casa, si tú tienes cualquier tipo
+de dispositivo en un exterior, donde hay
+humedad continuamente, etc.
+o, directamente, en la cocina que también nos ocurre, cuando hay una pequeña
+fuga porque hay un contacto en la
+humedad, automáticamente esto el diferencial
+lo va a detectar y va a saltar. En nuestra
+bañera con el secador, lo normal,
+si nuestro cuadro funciona como es
+debido -no hagas nunca la prueba porque,
+si no funciona como es debido,
+puedes achicharrar a alguien- ¿qué pasaría
+generalmente siempre?
+Pues que el diferencial salta inmediatamente.
+No hay por tanto peligro y, automáticamente, el diferencial es el que elimina ese peligro.
+A la hora de buscar la avería que hace saltar un diferencial, ten en cuenta
+que no tiene por qué ser el causante un
+aparato que esté conectado.
+Basta con que cualquier hilo de una
+conexión toque un chasis metálico para
+que eso ya produzca esta avería.
+Bueno, con esto ya tenemos claro por tanto que,
+cuando salta el diferencial,
+tenemos que buscar en algún sitio una
+fuga en zonas generalmente de humedad
+que es la que está
+produciendo este problema.
+Vamos con nuestro siguiente experimento.
+Éste además es un experimento muy importante porque es uno de
+los errores más frecuentes que
+cometemos en las casas: enchufar
+cosas a circuitos que no debemos. A veces
+nos encontramos con enchufes que, se nota
+fácilmente porque no tienen esta
+especie de plaquitas metálicas de toma
+tierra, son enchufes que están pensados
+solamente para poner lámparas, porque
+corresponden -dentro de esto que te estaba mostrando antes- corresponden al circuito de alumbrado.
+Si te fijas aquí, hay una serie de números
+que nos indican la resistencia que tiene
+cada uno de nuestros interruptores.
+En este caso, éste de alumbrado está pensado para un circuito que lleva
+cables muy finos. ¿Y qué ocurre si yo
+lo cargo de repente con aparatos que
+tienen muchísima potencia? Pues que
+hay un sobreconsumo. ¿Qué va a suceder en
+nuestro cuadro cuando nosotros
+provoquemos este sobreconsumo,
+esta sobrecarga?
+Pues eso es lo que vamos a ver justamente forzándola
+a ver qué ocurre. ¡Vamos con ello!
+Bueno, pues esto es lo que hemos preparado.
+Sobre un circuito que
+está hecho con un cable fino de los que
+utilizamos para alumbrado, vamos a conectar dos calentadores de
+estos que tienen mucho consumo, como veis, y además nuestra pistola de
+decapar que tiene también muchísimo
+consumo, y vamos a ver
+qué sucede cuando pongamos todo en marcha.
+Vamos a conectar el automático. Siempre,  cuando hacemos
+cualquier operación, estamos hablando o no sé qué, automático abajo.
+Jamás hacemos nada en electricidad con el automático conectado.
+Vamos a dar al interruptor. Se ponen en
+marcha ya los equipos...
+y vamos a poner también la pistola.
+Como ves, lo que ha saltado justamente es
+el automático pequeño que es el
+responsable de todo este circuito. Ha
+dicho "no estoy dispuesto a trabajar más".
+En este caso, siempre notarás que, cuando
+hay este tipo de sobrecargas, va a saltar este automático.
+Afortunadamente porque, si no salta, los
+cables de este tipo pueden llegar a calentarse tanto
+que no sería el primer caso en el que se
+incendia una pared con el cable dentro.
+Para estos casos, ya te digo, siempre vigila el no enchufar las cosas forzando demasiado.
+Esto de poner enchufes en las bombillas y
+demás... ¡prohibido! Nunca hay que hacerlo.
+Bueno, vamos ya con nuestro tercer
+experimento que es en el que vamos a ver
+cómo estamos protegidos por este cuadro
+frente a los cortocircuitos.
+¿Qué hemos hecho?
+Pues lo que hemos hecho ha sido
+coger el cable de fase y el cable neutro
+y unirlos solamente con un hilito.
+Esto es un cortocircuito. Cuando se juntan estos dos cables.
+¿Tú sabes lo que va a pasar cuando yo
+conecte el interruptor? Pues, la verdad es que si tú
+no lo sabes, no te preocupes que yo
+tampoco. Lo normal es que, si es muy
+eficaz el interruptor,
+inmediatamente el interruptor de
+esta fase corte la corriente y no pase absolutamente nada.
+Si no es así, y es menos sensible y no se comporta como es debido y se llega
+a producir ese chispazo que se produce
+en un corto, puede saltar cualquier cosa
+en el cuadro. En el cuadro, o incluso
+más allá, en el cuadro general del
+plató. Esto nunca se sabe porque realmente este
+tipo de chispazos fuertes crean un golpe térmico muy violento y hacen que
+cualquier aparato sensible
+automáticamente se vaya.
+Así que vamos a probar lo que ocurre.
+Vamos a conectar, como siempre, la corriente en nuestro cuadro...
+Y vamos a dar al interruptor y
+a ver lo que pasa.
+Bueno, como ves, lo que ha
+ocurrido es que, como tiene mucha
+sensibilidad este interruptor, no ha dejado ni que
+llegue a quemarse del todo el cable.
+En cuanto el cable se ha puesto un
+poquito incandescente,
+inmediatamente ha reaccionado el
+automático y ha cortado la corriente.
+Pues con esto que hemos estado
+viendo ya tienes claro, en este primer 
+tutorial, los elementos que tienes que
+tener en cuenta. Cómo buscas las averías
+cuando estás viendo que salta el
+diferencial y qué tienes que tener en
+cuenta si ha saltado un interruptor
+automático, ya sabes que va a ser o una
+sobrecarga o un cortocircuito.
+La única precaución adicional que te
+recomiendo siempre es que mantengas
+la seguridad de que tu diferencial funciona.
+El diferencial...vamos a apagar aquí
+porque lo había dejado todavía puesto.
+El diferencial es un elemento
+fundamental en el cuadro porque ya has visto que es el que nos protege sobre todo
+frente a las fugas eléctricas, que son las
+que nos pueden producir
+en un momento dado un accidente serio.
+Para estar seguros de
+que está funcionando bien, tiene este
+botoncito de comprobación.
+Cuando yo aprieto aquí y el diferencial
+salta, es que nuestro diferencial está en
+orden y podemos estar tranquilos.
+Si no es así, hay que llamar a un técnico electricista para que nos lo cambie porque esto no
+puede dejarse nunca en un cuadro de esta
+manera. ¿Ves? Si yo aprieto, salta. Quiere
+decir que todo está en orden.
+Siempre, lógicamente, que el cuadro tenga corriente.
+Pero, a veces, también puedes
+ver en los cuadros eléctricos más
+cosas porque, efectivamente, la
+tecnología avanza mucho.
+Nosotros les hemos pedido a nuestros amigos
+de Legrand que nos mandaran algunas cosas
+justamente porque queríamos enseñar
+todo esto y la verdad es
+que se han portado estupendamente y nos han mandado de todo.
+Fíjate bien porque algunos de estos  aparatos son muy importantes.
+Uno de los problemas que tienen los cuadros,
+y que muchas veces se hacen apaños y se hacen determinado tipo de
+chapucillas, es cuando están continuamente saltando.
+Es un problema de sobretensiones.
+Hay algunas zonas que dan muchos conflictos
+y entonces lo que se hace es "trampear",
+por decirlo así, en el cuadro
+para que no salte, para que pierda esa
+sensibilidad.
+¡Esto no hay que hacerlo!
+Para esto ya hay dispositivos modernos
+como, por ejemplo, este dispositivo que es
+precisamente para evitar las
+sobretensiones. Y lo que conseguimos con él
+cuando lo colocamos en el cuadro es que,
+ante estos problemas que se producen
+sobre todo en zonas donde hay
+continuamente, por ejemplo, industrias que
+tienen arranques muy fuertes de
+consumo que hacen que la tensión sea un
+poco inestable, pues con esto lo
+arreglamos y evitamos que esas
+sobretensiones puedan estropear nuestro
+cuadro y, lo que es peor, puedan estropear
+todas las cosas a las que damos servicio, como los motores y demás.
+Hay limitadores para cuando las sobretensiones son permanentes
+y otros que son más
+sencillos que son aparatos para "por si
+acaso" solamente y que sí que llevan
+otro tipo de mantenimiento distinto.
+Hay, por supuesto, elementos más sencillos como este interruptor horario.
+Éste es un clásico para cuando tenemos, por ejemplo, que hacer una zona de
+iluminación exterior o queremos en verano,
+cuando nos vamos fuera de casa, dejar luces a
+determinadas horas...Pues, con estos 
+dispositivos, nuestra casa sigue viviendo,
+con aspecto de electricidad y
+luces en todos los sitios,
+sin nigún tipo de limitación.
+Ahora ya hay cosas muy interesantes, dispositivos más sofisticados,
+como este Stop&Go que es una auténtica "modernidad".
+En las casas don hay problemas, ¿qué ocurre? Pues, efectivamente, si yo
+tengo un problema de sobretensión, pues
+bueno, directamente salta el cuadro
+eléctrico y se evita ese posible daño para las cosas. Pero, claro,
+también se apaga la luz y, si estoy
+fuera de casa, es un desastre.
+Pues estos dispositivos modernos ya lo
+que nos permiten es que, cuando hay este tipo
+de saltos, el dispositivo se vuelve rearmar y
+vuelve a darnos otra vez servicio.
+De esta manera, de una forma inteligente
+va controlando este tipo de problemas y
+va solucionando estas cosas. Digo 
+esto porque, como te decía antes, es muy
+habitual resolver las cosas "a la
+brava" y,  cuando hay dificultades en los
+cuadros forzar mucho para que pierdan
+sensibilidad. ¡Esto no hay que hacerlo!
+Lo que hay que hacer es que los cuadros
+mantengan cada uno de sus dispositivos en funcionamiento y,
+cuando hay un problema que resolver, para eso tenemos estos dispositivos
+que se añaden al cuadro y ya está listo.
+Bueno, me gustaría también, por supuesto,
+que aquéllos que sí que sois expertos
+en electricidad añadierais, para nuestro
+club de bricocracks, todos los
+comentarios respecto de cosas
+importantes, de consejos, de aspectos
+importantes que se deben saber y que yo,
+seguramente, no me he acordado de
+decirlos o no los he expresado bien. Son de mucha ayuda siempre vuestros comentarios.
+Y, a los que os dé miedo la electricidad,
+comentadnos por qué os da miedo la electricidad.
+Porque, la verdad, es que es una
+cosa importante y a ver si así, entre todos,
+en este intercambiar opiniones y
+conocimientos,
+somos capaces de mejorar nuestra
+capacidad de gestionar estas cosas.
+Bueno y, por supuesto, si te
+ha gustado este vídeo, danos tu "like",
+suscríbete a nuestro Canal si no lo estás
+y este vídeo, como siempre, es para
+compartir con tus amigos de bricolaje.

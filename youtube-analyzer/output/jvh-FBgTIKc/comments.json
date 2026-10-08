@@ -1,0 +1,75 @@
+[
+  {
+    "Author": "@antonioruiz1903",
+    "Text": "Hola\n😅\nBadalona",
+    "Likes": 0,
+    "PublishedAt": "2023-08-01T15:15:07+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@homarbautista4808",
+    "Text": "Cuál es la diferencia al usar un rolo",
+    "Likes": 1,
+    "PublishedAt": "2020-03-29T20:39:21+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Es distinta textura",
+        "Likes": 0,
+        "PublishedAt": "2020-04-05T10:59:42+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@homarbautista4808",
+    "Text": "El trapo lo usas húmedo 🤔🤨",
+    "Likes": 1,
+    "PublishedAt": "2020-03-29T03:45:59+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "No, no hace falta.",
+        "Likes": 0,
+        "PublishedAt": "2020-03-30T19:29:48+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@Jenniferberllo",
+    "Text": "q tipo de cera has utilizado",
+    "Likes": 1,
+    "PublishedAt": "2018-03-23T08:06:29+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Puedes utilizar cualquier cera incolora de protección. Nosotros solemos utlizar la cera chalk paint de Montó porque es muy transparente.",
+        "Likes": 0,
+        "PublishedAt": "2018-03-24T09:12:44+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Jenniferberllo",
+        "Text": "Bricocrack  muchas gracias",
+        "Likes": 1,
+        "PublishedAt": "2018-03-24T10:18:53+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@fernandoaires8926",
+    "Text": "Pues a mí me parece bastante cutre",
+    "Likes": 0,
+    "PublishedAt": "2017-03-19T02:36:38+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@cocosplash1",
+    "Text": "así es..",
+    "Likes": 1,
+    "PublishedAt": "2016-06-07T22:03:03+00:00",
+    "Replies": []
+  }
+]

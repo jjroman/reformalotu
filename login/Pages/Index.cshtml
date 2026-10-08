@@ -1,0 +1,167 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Planifica tu reforma con mejores ideas";
+    var primaryLabel = User.Identity?.IsAuthenticated == true
+        ? "Empieza tu proyecto"
+        : "Crea tu cuenta";
+}
+
+<div class="landing-page">
+    <section class="landing-hero" aria-labelledby="hero-title">
+        <div class="landing-hero-copy">
+            <span class="landing-eyebrow">
+                <span class="landing-eyebrow-dot" aria-hidden="true"></span>
+                INSPIRACIÓN PARA TU PRÓXIMA REFORMA
+            </span>
+            <h1 id="hero-title">Tu reforma empieza aquí. <span>Encuentra ideas para hacerla realidad.</span></h1>
+            <p class="landing-lead">
+                Cuéntanos qué quieres cambiar. Encuentra vídeos útiles, guarda tus ideas
+                y descubre materiales y herramientas mencionados para tu proyecto.
+            </p>
+            <div class="landing-actions">
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    <a class="landing-button landing-button-primary" asp-page="/Projects/Create">
+                        @primaryLabel <span aria-hidden="true">→</span>
+                    </a>
+                }
+                else
+                {
+                    <a class="landing-button landing-button-primary" asp-area="Identity" asp-page="/Account/Register">
+                        @primaryLabel <span aria-hidden="true">→</span>
+                    </a>
+                }
+                @if (User.Identity?.IsAuthenticated != true)
+                {
+                    <a class="landing-button landing-button-secondary" asp-area="Identity" asp-page="/Account/Login">
+                        Ya tengo cuenta
+                    </a>
+                }
+                else
+                {
+                    <a class="landing-button landing-button-secondary" asp-page="/Projects/Index">
+                        Ver mis proyectos
+                    </a>
+                }
+            </div>
+            <p class="landing-reassurance">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10 3.2 3.2L15.5 6" /></svg>
+                Sin complicaciones. Empieza describiendo tu idea.
+            </p>
+        </div>
+
+        <div class="landing-visual" aria-label="Vista previa de un proyecto y sus recomendaciones">
+            <div class="landing-orbit landing-orbit-one"></div>
+            <div class="landing-orbit landing-orbit-two"></div>
+            <div class="project-preview">
+                <div class="preview-topline">
+                    <span class="preview-label">VISTA DE PROYECTO</span>
+                    <span class="preview-status"><span></span> IDEA GUARDADA</span>
+                </div>
+                <h2>Renovar mi cocina</h2>
+                <p class="preview-description">Ideas para aprovechar mejor el espacio y renovar el ambiente.</p>
+                <div class="preview-divider"></div>
+                <div class="preview-section-heading">
+                    <span>Vídeos para inspirarte</span>
+                    <span class="preview-count">01 — 03</span>
+                </div>
+                <div class="preview-video">
+                    <div class="preview-video-art preview-video-art-one">
+                        <span class="preview-play" aria-hidden="true">▶</span>
+                    </div>
+                    <div class="preview-video-copy">
+                        <span class="preview-video-kicker">IDEA PARA TU PROYECTO</span>
+                        <span class="preview-video-line"></span>
+                        <span class="preview-video-line preview-video-line-short"></span>
+                    </div>
+                    <span class="preview-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="preview-video">
+                    <div class="preview-video-art preview-video-art-two">
+                        <span class="preview-play" aria-hidden="true">▶</span>
+                    </div>
+                    <div class="preview-video-copy">
+                        <span class="preview-video-kicker">MÁS IDEAS</span>
+                        <span class="preview-video-line"></span>
+                        <span class="preview-video-line preview-video-line-short"></span>
+                    </div>
+                    <span class="preview-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="preview-inventory">
+                    <div class="preview-inventory-title">
+                        <span class="preview-inventory-icon" aria-hidden="true">✳</span>
+                        <span>También encontrarás</span>
+                    </div>
+                    <span class="preview-chip">Materiales</span>
+                    <span class="preview-chip">Herramientas</span>
+                    <span class="preview-note">Mencionados en las transcripciones</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-benefits" aria-label="Ventajas de ReformaloTu">
+        <div class="landing-benefit">
+            <span class="benefit-icon benefit-icon-sage" aria-hidden="true">01</span>
+            <span><strong>Inspírate con vídeos</strong><small>Encuentra ideas relacionadas con lo que quieres reformar.</small></span>
+        </div>
+        <div class="landing-benefit">
+            <span class="benefit-icon benefit-icon-sand" aria-hidden="true">02</span>
+            <span><strong>Ten tu proyecto a mano</strong><small>Guarda la descripción y vuelve a tus recomendaciones.</small></span>
+        </div>
+        <div class="landing-benefit">
+            <span class="benefit-icon benefit-icon-lilac" aria-hidden="true">03</span>
+            <span><strong>Prepara tus siguientes pasos</strong><small>Consulta materiales y herramientas detectados en los vídeos.</small></span>
+        </div>
+    </section>
+
+    <section class="landing-how" aria-labelledby="how-title">
+        <div class="landing-how-heading">
+            <span class="landing-eyebrow">FÁCIL PARA EMPEZAR</span>
+            <h2 id="how-title">De la idea a la inspiración,<br /><span>en tres pasos.</span></h2>
+            <p>No necesitas tenerlo todo decidido. Empieza por lo que ya tienes en mente.</p>
+        </div>
+        <div class="landing-steps">
+            <article class="landing-step">
+                <span class="step-number">01</span>
+                <h3>Describe tu reforma</h3>
+                <p>Escribe qué espacio quieres cambiar y añade una categoría si te ayuda.</p>
+            </article>
+            <article class="landing-step">
+                <span class="step-number">02</span>
+                <h3>Explora recomendaciones</h3>
+                <p>Consulta hasta tres vídeos del catálogo relacionados con tu descripción.</p>
+            </article>
+            <article class="landing-step">
+                <span class="step-number">03</span>
+                <h3>Guarda y vuelve</h3>
+                <p>Tu proyecto y sus recomendaciones quedan guardados para cuando los necesites.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="landing-final-cta" aria-labelledby="final-cta-title">
+        <div>
+            <span class="landing-eyebrow">EL PRIMER PASO ES TUYO</span>
+            <h2 id="final-cta-title">¿Qué te gustaría renovar?</h2>
+            <p>Empieza hoy a reunir ideas para tu próximo proyecto.</p>
+        </div>
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <a class="landing-button landing-button-light" asp-page="/Projects/Create">
+                @primaryLabel <span aria-hidden="true">→</span>
+            </a>
+        }
+        else
+        {
+            <a class="landing-button landing-button-light" asp-area="Identity" asp-page="/Account/Register">
+                @primaryLabel <span aria-hidden="true">→</span>
+            </a>
+        }
+    </section>
+    <p class="landing-disclaimer">
+        Los materiales y herramientas se identifican a partir de palabras clave en las transcripciones;
+        no sustituyen una revisión profesional ni confirman cantidades o requisitos de obra.
+    </p>
+</div>

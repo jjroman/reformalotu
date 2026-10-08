@@ -1,0 +1,232 @@
+Otro vídeo de energía solar autoinstalable. ¿Por qué? 
+Porque vas a ver que hay novedades muy importantes.
+¡Bienvenido a Bricocrack! El Canal donde 
+siempre estamos al tanto de las novedades que van
+surgiendo e intentamos transmitírtelas de la 
+forma más pedagógica posible. ¿Qué necesitamos?  
+Pues que te suscribas y des a la campanita para estar al tanto
+de todas las novedades que vamos publicando.
+¿Y cuáles son los cambios que vamos a 
+ver? Pues dos aspectos fundamentales.  
+Primero, la generación de los paneles se puede 
+mejorar si manejamos un ángulo más eficiente  
+con respecto al sol. Vas a ver un nuevo sistema de 
+soporte que nos permite hacer esta mejora. 
+Para los que no hayáis visto los vídeos anteriores 
+con SolarLab, partimos de paneles solares  
+ligeros, supereficientes, de tecnología alemana, que se 
+instalan simplemente 
+colgándolos de la barandilla o poniéndolos en una pared exterior.
+Segundo, 
+y esto sí que es fundamental porque hemos
+dado muchas vueltas a soluciones, posibilidades... 
+Bueno, ahora ya tenemos una solución que realmente  
+se puede considerar la definitiva, 
+la posibilidad de que todos los excedentes  
+se puedan acumular y se puedan gestionar de 
+una manera muy sencilla.
+¿Qué problema hay que resolver?
+Que estos sistemas ligeros pueden cargar 
+baterías, pero estas baterías no pueden funcionar
+conectadas simultáneamente al microinversor que 
+lleva la corriente a la red de la casa. Ya sabes,  
+los famosos problemas de compatibilidad entre 
+corriente alterna y continua. Para los que vimos  
+también, por cierto, algunas soluciones parciales en 
+un vídeo anterior.
+Vamos a empezar por ver cómo se monta el soporte angular,
+que es sencillamente lo que está dentro de este tubo.
+Contiene los cuatro perfiles que necesitamos,
+todos los tornillos, los 
+ángulos y los dos soportes. Observa que hay  
+cuatro barras, pero son iguales dos a dos. Tenemos 
+que colocar enfrentadas las que son iguales.
+Y ahora colocamos los ángulos, deslizándolos por el interior de los perfiles,
+ponemos las tapas negras y atornillamos
+con estos tornillos que son  
+los únicos que vienen sin tuerca 
+en la bolsa. Lo vamos a hacer con un  
+atornillador con cabeza Phillips del número 2
+y apretando fuerte para que quede bien presionado.
+A la hora de colocar los perfiles, fíjate 
+en que los agujeros coincidan con la posición de los ojales.
+Y ahora ya 
+podemos colocar los tornillos.
+Desmontamos las tuercas y vamos pasando los tornillos
+a través del perfil y la placa.
+Los cabezales de los tornillos son Allen.
+Nosotros los apretamos con un atornillador con punta Torx.  
+Una vez que tenemos todos los tornillos puestos,
+vamos a colocar los soportes en el perfil.
+Para hacerlo, vamos a desmontar las patas para  
+trabajar más cómodamente y ves 
+que traen una posición de encaje
+y, por debajo, un tornillo giratorio para 
+hacer el bloqueo.
+Una vez que los tenemos colocados en su posición, apretamos con la 
+llave
+y los dejamos bloqueados en la posición que queramos.
+Ahora volvemos a montar la pata del soporte en su posición y la atornillamos.
+Bueno, ya tenemos esto montado y 
+lo que vamos a hacer es colocar el panel.  
+Ya te explicamos en otro tutorial cómo se hace, lo único 
+que vamos a ver es la pequeña diferencia que es  
+cómo pasamos las cintas de seguridad a través de 
+los perfiles. Nosotros en este caso vamos a colocar  
+solamente las cintas superiores porque, antes de 
+poner el soporte, vamos a hacer una prueba que  
+es ver la diferencia que hay de producción 
+solar cuando tenemos el ángulo o cuando no lo tenemos.
+Hemos hecho nuestra colocación de 
+paneles y los hemos dejado los dos  
+en vertical para ver cuál es el resultado que 
+tenemos cuando da el sol. Ahora lo que vamos a  
+hacer es conectar directamente estas dos placas 
+que tenemos aquí al microinversor y ver cuál es  
+la potencia que nos están suministrando en esta posición.
+Con el sol que tenemos ahora mismo, que
+es ya un sol de otoño, la lectura que 
+nos está dando con los paneles en vertical es 212,9 W.
+Cuando pasamos ya a utilizar los soportes, 
+vemos que el cambio que nos produce este ángulo  
+nos da 262 vatios. Estamos subiendo en torno a un 23% más con este sistema.   
+Ya ves, por tanto, que efectivamente este soporte que nos permite 
+angular los paneles es muy interesante desde  
+el punto de vista del rendimiento, especialmente 
+cuando vienen los meses en los que tenemos más  
+intensidad solar y que vamos a notar más todavía 
+esta diferencia. Te decía que hay más novedades:  
+este nuevo sistema de gestión SolarFlow que nos da ventajas muy  
+interesantes respecto de lo que ya conocíamos 
+anteriormente. Por entender un poco cómo va  
+estructurada nuestra energía solar con estos 
+equipos de SolarLab, hemos visto ya un primer  
+elemento que son los paneles, que es la la parte 
+de generación. Un segundo elemento fundamental,  
+que es adonde viene directamente la carga de los paneles,
+es esta pieza central grande: el Hub.
+En la caja del Zendure SmartHub tenemos todo lo necesario.
+Los cables y el dispositivo para hacer el control y la gestión.
+Para empezar, antes de colocarlo en la pared, lo que vamos a
+hacer es ponerle esta pequeña antena que nos va 
+a servir para trabajar en Wi-Fi.
+La colocamos en esta posición.
+En el Hub vamos a conectar en primer lugar los paneles solares.
+Ves que tenemos dos puertos. Esos dos 
+puertos están pensados para conectar las
+parejas de paneles que utilizamos habitualmente 
+para este sistema. Podemos conectar hasta cuatro  
+paneles porque el tope que nos da de gestión 
+este Hub es de 1,2 kW.
+Así que vamos a conectar en la parte superior lo que viene
+de estos dos paneles y, si tuviera más paneles, los conectaría en el otro puerto. 
+Y también voy a conectar en el SmartHub la batería. ¿Qué características especiales  
+tiene esta nueva batería? La primera de 
+todas, por supuesto, es que es la batería que  
+se puede gestionar a través de este Hub y que, 
+gracias a él, puedo estar cargando o volcando a la  
+red de casa de la forma que queramos y sin las 
+incompatibilidades de conexión 
+de los sistemas que conocíamos hasta ahora.
+La segunda es que es una batería de 1 kW que puede multiplicarse
+añadiendo nuevas baterías, que se incorporan, sencillamente, apilándolas
+por un sistema muy fácil de click con el que se conectan unas a otras
+y que van consiguiendo de esta manera aumentar la capacidad que tenemos
+de energía guardada para cuando queramos utilizarla.
+Pueden ponerse hasta cuatro baterías para acumular 4 kW.
+Y hay otros aspectos como, por ejemplo, el que ves que yo la tengo
+aquí, a la intemperie. Esta batería puede estar tranquilamente colocada donde
+nosotros la tenemos, a la intemperie, bajo la lluvia y el sol,
+y no tiene ningún problema a la hora de instalarla.
+La batería la conectaríamos al Hub a 
+través del mismo borne de conexión que tenemos 
+para conectar unas baterías con otras. Introducimos el cable, ves que él solo se conecta,  
+y lo llevamos a la parte inferior del Hub.
+El siguiente es un elemento que ya conocemos
+porque lo hemos utilizado en otros tutoriales, es el microinversor. Este microinversor es el que  
+se ocupa de transformar la corriente continua 
+en corriente alterna para que demos servicio a  
+todas las cosas que queramos tener nosotros 
+conectadas en la casa a través de lo que nos  
+está dando la energía solar. Realmente, aunque 
+el microinversor sigue siendo el mismo, lo que  
+cambia es que, con esta gestión que nos hace el Hub 
+de SolarFlow, podemos utilizar el microinversor no  
+solo -como hacíamos antes- para volcar lo 
+que viene directamente de los paneles solares,  
+sino que voy a recibir también la carga que 
+viene directamente de las baterías. El SmartHub  
+va a utilizar este microinversor, siempre con 
+la corriente continua que viene de una fuente u  
+otra, y se va a ocupar el microinversor de irla 
+pasando cuando nosotros queramos al uso de la  
+energía doméstica.
+Estos elementos que te estoy 
+mostrando que componen este sistema SolarFlow
+están todos homologados dentro de la certificación TÜV. Así que, si para cualquier proyecto que tengas  
+que hacer, para temas de financiación o lo que sea, 
+te lo piden, que sepas que 
+lo tienes disponible porque realmente lo cumplen.
+Y hay un quinto 
+elemento fundamental que nos sirve para todo
+esto porque estamos hablando de que tenemos 
+un Hub inteligente, pero no. La inteligencia  
+la tenemos que poner nosotros mismos porque somos 
+los que vamos a utilizar una App para definir cuál  
+es el consumo que queremos utilizar. Porque, claro, 
+nosotros ahora mismo estamos  
+generando corriente que guardamos en nuestra 
+batería, pero nos encontramos en ocasiones que  
+el uso que queremos hacer de ella depende de temas 
+tales como qué consumos reales tenemos en la casa  
+o cuáles son las horas más caras o más baratas 
+que tenemos nosotros de energía. Con lo cual, lo  
+que vamos es, con este producto 
+conectado, descargar la App y utilizar las
+prestaciones que nos da, tanto para la información 
+de cuánto estamos generando, cómo estamos  
+distribuyendo la carga o cuál es el régimen 
+de trabajo que queremos hacer desde el punto de  
+vista de uso de la batería. ¿Hasta qué punto es 
+importante el uso de la batería? Pues nosotros,  
+efectivamente, podemos trabajar sin batería, pero es 
+cierto que, con una batería que además tiene este  
+Hub inteligente, ya no es como tradicionalmente 
+cuando decíamos la batería me permite trabajar por  
+la noche también. Es que, además de trabajar por la 
+noche, me permite graduar en cada hora la carga  
+que quiero aplicar y el consumo que quiero hacer 
+de todo lo que tengo acumulado. Con lo cual, estoy  
+multiplicando el rendimiento que tengo de todo 
+lo que me van generando los paneles.  
+Dos cosas importantes que son muy elementales pero, a 
+veces, nos olvidamos. Primera, necesitamos siempre  
+tener corriente en la casa para que nos funcione 
+el microinversor. Si no tiene corriente en la casa,  
+el microinversor no funciona. La segunda, para que 
+los paneles generen necesitan estar colocados  
+en zonas donde haya sol. Esto es muy importante 
+porque, si no, cuando están en sombra, por supuesto,  
+baja muchísimo la producción que tienen. Éstas 
+son cosas de las que a veces nos olvidamos y  
+esperamos que den rendimientos que no corresponden. 
+La batería, como te he dicho, resiste a la intemperie y, por  
+supuesto, el resto de los equipos también. Tienen todos una IP65 que nos permite que haya  
+incluso agua proyectada y lo que sea y no vamos 
+a tener nunca problemas con ellos en el exterior.  
+Bueno, yo creo que con esto, al menos nosotros, 
+nos hemos quedado muy tranquilos porque realmente  
+presenta una solución a temas que hemos estado 
+tratando con soluciones un poco de  
+aquella manera, porque no acabábamos de encontrar 
+una solución definitiva para poder utilizar  
+simultáneamente las baterías y los paneles a 
+pleno rendimiento y poder gestionar de una manera  
+realmente útil todo el esfuerzo que estábamos 
+haciendo de inversión y de instalación de los  
+paneles. Creo que ya lo hemos resuelto y en este 
+sentido nosotros estamos muy contentos. Esperamos  
+que también tú estés muy contento de conocerlo, 
+que nos hayamos ganado tu "like" y que  
+compartas como siempre este vídeo con todos tus 
+amigos a los que les guste el mundo del bricolaje.

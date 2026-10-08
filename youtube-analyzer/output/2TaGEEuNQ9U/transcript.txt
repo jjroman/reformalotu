@@ -1,0 +1,1038 @@
+Vamos a hacer ya la puesta en marcha de
+
+
+nuestra piscina. Vamos a ver aspectos de
+
+
+la instalación del cuadro eléctrico de
+
+
+de control. Vamos a ver también los
+
+
+problemas que surgen y cómo los
+
+
+corregimos cuando hacemos esta puesta en
+
+
+marcha y los aspectos más básicos de su
+
+
+funcionamiento.
+
+
+[música]
+Pues todo termina en esta vida y las
+
+
+obras también, aunque es verdad que a
+
+
+veces son duras. La nuestra ha sido
+
+
+especialmente dura. Bueno, especialmente
+
+
+no ha sido dura como para todo el mundo
+
+
+porque el año pasado ha sido un año que
+
+
+ha tenido un montón de lluvias [música]
+
+
+y eso nos ha complicado muchísimo todo
+
+
+el trabajo, especialmente en nuestro
+
+
+caso que tenemos la piscina bastante
+
+
+lejos de donde nos movemos
+
+
+habitualmente. Entonces, la verdad es
+
+
+que ha sido realmente difícil. Esto ha
+
+
+tenido además una consecuencia que es
+
+
+que la parte de obra que no hacíamos
+
+
+directamente nosotros que la
+
+
+construcción de la caseta alrededor de
+
+
+la piscina y demás [música] ha ido
+
+
+avanzando y se han cerrado instalaciones
+
+
+sin que nosotros podamos eh las
+
+
+pudiéramos probar previamente.
+
+
+En nuestro caso no es especialmente
+
+
+grave porque es una piscina elevada y es
+
+
+accesible con mayor o menor dificultad
+
+
+todos los puntos de la instalación. Pero
+
+
+esto, por supuesto, no se nos ocurriría
+
+
+nunca hacerlo en una piscina enterrada
+
+
+donde él no puede las instalaciones es
+
+
+realmente un suicidio porque es
+
+
+complicadísimo luego localizar y
+
+
+corregir cualquier avería que pueda
+
+
+surgir. En el tutorial anterior te
+
+
+contábamos el procedimiento de
+
+
+instalación de todos los mecanismos de
+
+
+filtración y demás. En este vamos a
+
+
+centrarnos en la puesta en marcha. en
+
+
+rematar, sobre todo, como te decía el
+
+
+cuadro eléctrico. Y de muchos aspectos
+
+
+no vamos a hondar demasiado, pero sí que
+
+
+te iremos remitiendo a los vídeos que ya
+
+
+tenemos en el canal por si quieres
+
+
+profundizar en cualquiera de estos
+
+
+contenidos. Lo primero que vamos a hacer
+
+
+es preparar el filtro. Nosotros tenemos
+
+
+un ciclón 500, es decir, de 500 mm de
+
+
+diámetro y vamos a abrirlo utilizando la
+
+
+llave que tenemos en la parte superior
+
+
+para poderlo sacar. Lo desenroscamos.
+
+
+sacamos el centrador, que lo vamos a
+
+
+hacer directamente tirando sin más para
+
+
+que pueda salir al exterior. Y para
+
+
+poderlo rellenar vamos a poner algo en
+
+
+el en el tubo para que no se nos llene
+
+
+por donde no debe de material filtrante.
+
+
+Vamos a utilizar directamente vidrio
+
+
+filtrante. Lo podíamos hacer con con una
+
+
+arena filtrante, pero el vidrio funciona
+
+
+mejor que la sílice y nos va a durar más
+
+
+tiempo y se apelmaza mucho menos a la
+
+
+hora de trabajar. Vamos a necesitar eh
+
+
+para un filtro de este tipo en torno a
+
+
+unos tres sacos y medio de material
+
+
+filtrante. Lo vamos rellenando y una vez
+
+
+que ya esté completo, volvemos a colocar
+
+
+nuevamente el centrador y lo cerramos eh
+
+
+bien fuerte para que nos quede
+
+
+perfectamente hermético.
+
+
+Para completar la estanqueidad, recuerda
+
+
+siempre que ponemos teflón al manómetro,
+
+
+que además de esa manera nos queda bien
+
+
+orientado mirando hacia donde nosotros
+
+
+queramos.
+
+
+Tus preguntas sobre piscina, sobre
+
+
+construcción, sobre bricolaje, sobre
+
+
+pintura, sobre todos los temas que
+
+
+quieras. Aceptamos preguntas de todo
+
+
+tiempo y las contestamos siempre en el
+
+
+último vídeo que publicamos cada semana.
+
+
+Si estás suscrito es mucho más fácil. La
+
+
+campanita te dice, "Brico crack ha
+
+
+publicado un vídeo nuevo." Pues ahí
+
+
+siempre responderemos tus preguntas y
+
+
+leeremos con mucha atención todos tus
+
+
+comentarios. Todos los materiales que
+
+
+estamos instalando son materiales del
+
+
+catálogo de productos coupé. Vamos a
+
+
+instalar ahora el cuadro eléctrico, el
+
+
+trafo, es decir, que el transformador
+
+
+que tenemos que es de Heware.
+
+
+Pasamos todos los cables a través de las
+
+
+entradas protegidas que tiene para
+
+
+mantener la estanqueidad. Vamos a
+
+
+conectar primero el cable de fase y
+
+
+neutro que nos viene de la casa al
+
+
+diferencial de entrada. [música] Por
+
+
+supuesto, esta operación la hacemos
+
+
+siempre con la corriente cortada.
+
+
+Utiliza el esquema que te facilita el
+
+
+fabricante para hacer la instalación.
+
+
+Ponemos en su punto de conexión bajo el
+
+
+regulador el cable de fase neutro de la
+
+
+bomba, tal como viene señalizado, y
+
+
+llevamos los dos cables del foco. Nos da
+
+
+lo mismo en qué posición, porque son
+
+
+corriente continua y los colocamos en
+
+
+las conexiones que hay a la derecha del
+
+
+controlador. La única toma de tierra que
+
+
+tenemos, que es la de la bomba, la vamos
+
+
+a poner con una regleta conectada a la
+
+
+toma de tierra que nos viene de la
+
+
+[música] general. Por último, en este
+
+
+modelo que viene preparado para su
+
+
+conexión por Bluetooth, [música] unimos
+
+
+el cable que trae este Bluetooth a la
+
+
+cladija que tiene en la parte inferior
+
+
+para esta finalidad y podemos sacar
+
+
+fuera del cuadro el dispositivo
+
+
+Bluetooth para ponerlo más cerca si
+
+
+queremos. Nosotros la verdad es que lo
+
+
+hemos dejado dentro de la propia caja
+
+
+del cuadro de control y la verdad es que
+
+
+llega a un montón de distancia.
+
+
+De esta forma podemos descargar ya la
+
+
+aplicación, que ves que en cuanto la
+
+
+descargamos inmediatamente reconoce al
+
+
+dispositivo que tiene en proximidad y
+
+
+empezar bien a activar eh tanto la bomba
+
+
+como las luces o directamente entrar a
+
+
+la fase de programación que es muy
+
+
+sencilla de realizar.
+Esta conexión no es WiFi, solamente es
+
+
+una conexión Bluetooth. Quiere decir que
+
+
+tenemos que hacer cualquiera de las
+
+
+maniobras que hagamos con el con el
+
+
+teléfono en la app, [música] lo tenemos
+
+
+que hacer en la proximidad siempre de la
+
+
+piscina.
+
+
+En caso de que nuestro nuestro trafo,
+
+
+nuestro cuadro no tenga este sistema eh
+
+
+inalámbrico, [música] directamente en el
+
+
+propio programador, siguiendo las
+
+
+instrucciones mediante giros de la
+
+
+ruedecita y selección de las distintas
+
+
+posiciones, vamos creando tanto la
+
+
+activación de los elementos como los
+
+
+escenarios de programación que
+
+
+necesitemos. Vamos a proceder al llenado
+
+
+de agua. Eh, esto, como ya te expliqué
+
+
+en el tutorial anterior, no es ningún
+
+
+sistema que salga directamente de la
+
+
+bomba, sino que este es un circuito
+
+
+independiente que lo hemos hecho con una
+
+
+toma de de agua de salida y una
+
+
+manguera. [música] Vamos rellenándolo y
+
+
+en cuanto tengamos ya un poquito de
+
+
+agua, vamos a ir probando el
+
+
+funcionamiento de la piscina. Nosotros
+
+
+en este momento lo que hacemos es
+
+
+colocar la válvula en posición de
+
+
+circulación, que lo que hace es hacer
+
+
+circular el agua desde las tomas a la
+
+
+salida directamente de la boquilla de
+
+
+impulsión. De esta manera estamos viendo
+
+
+que en todos los [música] tubos
+
+
+periféricos que tiene la piscina no haya
+
+
+ninguna fuga.
+
+
+vemos que el agua sale correctamente por
+
+
+la boquilla de impulsión, con lo cual
+
+
+quiere decir que está tomando el agua de
+
+
+la boquilla de fondo. Estamos trabajando
+
+
+con esto a bastante presión porque no
+
+
+estamos pasando el agua por el filtro y
+
+
+si estamos provocando que si hay algún
+
+
+tipo de escape en alguna holgura que
+
+
+hayamos dejado, vamos a ver el goteo
+
+
+cuanto antes. Aquí vamos a empezar a
+
+
+manejar ya las posiciones de válvula
+
+
+selectora. Yo no te voy a explicar
+
+
+cuáles son porque tenemos un tutorial
+
+
+estupendo donde te explicamos todas las
+
+
+funciones de la válvula selectora para
+
+
+su aplicación en la piscina, así que te
+
+
+remito a él si tienes dudas para que lo
+
+
+veas. En la medida en que todo vaya
+
+
+funcionando con normalidad, vamos
+
+
+llevando el agua hasta el nivel del
+
+
+skimer para ver también esta última
+
+
+parte que no esté dándonos ningún
+
+
+problema a la hora de filtrar. Aquí ya
+
+
+sí podemos abrir, poner la filtración en
+
+
+marcha y comprobar que el filtro está
+
+
+trabajando a la presión adecuada.
+
+
+Siempre en el manómetro de presión que
+
+
+tenemos tiene que estar trabajando en la
+
+
+zona verde. [música] ¿Qué pasa si se
+
+
+producen fugas en la instalación?
+
+
+Aquí te lo voy a contar con mucha
+
+
+actitud porque a nosotros nos ha pasado.
+
+
+Efectivamente puede ocurrir que tengamos
+
+
+piezas roscadas que o bien no están
+
+
+apretadas [música] o que hemos contado
+
+
+con que tenían algún tipo de junta eh
+
+
+tórica que hacía el la estanqueidad y no
+
+
+la tiene. [música]
+
+
+En estos casos, en aquellas piezas que
+
+
+son piezas roscadas, lo que podemos
+
+
+hacer es desenroscarlas. Nosotros lo
+
+
+vamos a hacer con una llave de correa,
+
+
+que es la la herramienta más fácil para
+
+
+hacer este tipo de trabajos. Y en este
+
+
+caso vamos a volver a poner el hilo en
+
+
+el sitio donde nos falta. No tiene mayor
+
+
+complicación este trabajo. Volvemos a
+
+
+cerrar bien con la llave y ya está. En
+
+
+ocasiones puede ocurrir que hayamos
+
+
+forzado mucho el cierre porque nos
+
+
+parecía que efectivamente tenía alguna
+
+
+pérdida y resulta que luego no hay forma
+
+
+de abrirlo. Es verdad que a veces se
+
+
+quedan muy duras las piezas, bien porque
+
+
+tienen torsiones y que hay nos queda
+
+
+alguna dificultad el hacer demasiado
+
+
+esfuerzo porque podemos eh dañar otras
+
+
+piezas pegadas que ten la proximidad. En
+
+
+este caso, aunque no es lo más ortodoxo,
+
+
+podemos recurrir al uso de masillas.
+
+
+Estas masillas especiales bicomponente,
+
+
+hablaremos de ellas en otro tutorial, se
+
+
+se masan bien y se ponen siempre en
+
+
+forma de anillo alrededor de la zona
+
+
+donde está la fuga, apretándola bien y
+
+
+la verdad es que son mano de santo. No
+
+
+es la solución ideal porque luego si hay
+
+
+que desmontar es un incordio estarlas
+
+
+quitando, pero bueno, al menos
+
+
+conseguimos solucionar este problema.
+
+
+Esto mismo lo vamos a aplicar también en
+
+
+los casos en los que las fugas sean en
+
+
+en encuentros entre codos o manguitos
+
+
+pegados en el tubo. [música]
+
+
+En este punto podemos decir que tenemos
+
+
+ya las instalaciones listas para
+
+
+funcionar. [música] Eso no nos libra de
+
+
+que haya cualquier pequeño inconveniente
+
+
+que vuelve a haber un goteo más tarde
+
+
+siempre es posible que el momento de los
+
+
+ajustes vayamos descubriendo cosas. Pero
+
+
+bueno, hasta aquí estamos tranquilos y
+
+
+todo va funcionando con toda normalidad.
+
+
+[música]
+
+
+En este caso ya lo que nos toca es
+
+
+tratar el agua. Es importante que lo
+
+
+primero que nos fijemos ahora tratar el
+
+
+agua, es la primera vez que hemos
+
+
+llenado con agua eh nueva la piscina,
+
+
+veamos sobre todo el nivel de pH, porque
+
+
+eso nos va a indicar un poco de lo que
+
+
+vamos a estar sufriendo o no en el
+
+
+futuro. [música] Eh, si son aguas eh muy
+
+
+duras, aguas con mucha cal, nos va a dar
+
+
+complicaciones. Si no, la verdad es que
+
+
+no tenemos ningún problema para la
+
+
+coloración. [música] en una piscina tan
+
+
+pequeña como esta, eh, no te voy a
+
+
+explicar el procedimiento porque también
+
+
+te voy a dejar el el enlace tutorial que
+
+
+necesitas para saber maravillosamente
+
+
+cómo se desinfecta la piscina. Pero aquí
+
+
+sí que te diré como algo importante es
+
+
+que nosotros vamos a utilizar
+
+
+directamente el clon el clor granulado
+
+
+en pequeñas dosis a la hora de preparar
+
+
+esto. Y siempre muy importante, tenemos
+
+
+muy poca cantidad de agua en una piscina
+
+
+pequeña, no te pases en el uso de
+
+
+productos.
+
+
+[música]
+
+
+preferible que miedas que midas dos,
+
+
+tres veces con los reactivos hasta
+
+
+llegar al punto exacto a que te pases,
+
+
+porque quitar el exceso de cloro es
+
+
+mucho más complicado que añadir [música]
+
+
+un poquito. En una piscina como esta no
+
+
+vamos a tener en general problemas
+
+
+porque realmente eh vamos a eh mover el
+
+
+agua muchísimo. Estamos trabajando con
+
+
+una eh bomba de 3 cuart de caballo que
+
+
+realmente va más que sobrada para la
+
+
+dimensión de piscina que tenemos. Y
+
+
+ahora ya podemos estrenar nuestra
+
+
+primera limpieza de piscina, toda la
+
+
+superficie con el recogeojas para quitar
+
+
+eh los restos vegetales y los insectos
+
+
+que hay por la superficie. Y para la
+
+
+parte de abajo vamos a utilizar una
+
+
+barredera también [música] de coupé,
+
+
+como todos los materiales que estamos
+
+
+utilizando, que en este caso la
+
+
+conectamos mediante una manguera
+
+
+directamente con un dispositivo que
+
+
+tiene al skimmer, [música] con lo cual
+
+
+lo enchufamos ahí como si fuera el
+
+
+aspirador y lo vamos pasando con toda
+
+
+tranquilidad por el fondo. [música]
+
+
+Con esto la piscina va a estar lista.
+
+
+Acuérdate, eso sí, de mantener siempre
+
+
+los criterios básicos de vigilar, que no
+
+
+te suba la presión [música] en el
+
+
+filtro, de estar eh controlando la la
+
+
+coloración y el pH correcto.
+
+
+De todos estos eh productos que te estoy
+
+
+hablando, yo te dejo abajo, como te
+
+
+decía, el enlace al catálogo de eh Coupé
+
+
+y que tiene también sus productos de
+
+
+limpieza y Kimicam y tienes todo lo
+
+
+necesario para saber lo que puedes
+
+
+necesitar en cada caso. Y por cierto,
+
+
+aprovecho para dar las gracias por toda
+
+
+la ayuda que nos han prestado de
+
+
+conocimientos y experiencias para poder
+
+
+hacer el montaje de la piscina. Ha sido
+
+
+un proyecto de varios capítulos. La
+
+
+verdad es que eh al menos que los
+
+
+usuarios de la piscina están encantados
+
+
+con ella, con lo cual nosotros también
+
+
+estamos felices. Ha funcionado todo muy
+
+
+bien y la verdad que estamos muy
+
+
+satisfechos de poderos haberos
+
+
+transmitido [música] este paso a paso
+
+
+absolutamente detallado desde el primer
+
+
+momento hasta el último de este
+
+
+proyecto. [música] Espero que os haya
+
+
+gustado, que nos hemos ganado vuestro
+
+
+like. Suscríbete al canal si todavía
+
+
+acuérdate la campanita para
+
+
+notificaciones y comparte este video con
+
+
+todos los que les guste el [música]
+
+
+mundo del bricolaje.
+[música]
+[música]
+[música]

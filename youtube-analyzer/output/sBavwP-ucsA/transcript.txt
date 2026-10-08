@@ -1,0 +1,182 @@
+En esta serie de tutoriales que estamos
+realizando con la colaboración de Index
+Fixing Systems, estamos haciendo un
+recorrido completo a todos los elementos
+de fijaciones. Queremos hacer como una
+especie de gran guía para que cualquier
+duda que puedas tener respecto del uso
+de este tipo de fijaciones, de tornillos,
+de anclajes químicos, de lo que sea, esté
+siempre resuelta en nuestro Canal.
+Hoy le toca el turno a los tornillos
+rosca chapa y vamos a aprender cuáles
+son las reglas para que, cuando usamos
+los tornillos rosca chapa,
+lo hagamos correctamente.
+Primera regla. Nosotros podemos fijar
+cualquier material con los tornillos de
+rosca chapa -en cuanto al material que
+vamos a fijar- pero la base donde van
+anclados siempre tiene que ser chapa de
+acero, latón o aluminio. Son los tres
+materiales que me permiten el trabajo
+con este tipo de roscado. Y otro
+aspecto sería la composición. Nosotros
+siempre tenemos este tipo de tornillos que son tornillos zincados, que me sirven
+para trabajar sobre cualquier material.
+Si quiero utilizar tornillos de acero
+inoxidable, lo puedo hacer, por supuesto,
+para trabajar en el exterior, trabajando
+siempre sobre aluminio. El acero inoxidable es un material más blando y
+no puedo trabajar con él sobre acero. Como este tipo de tornillos siempre tienen
+mucha demanda de los instaladores de
+aluminio y ellos instalan ventanas cada
+vez con más colores distintos, los puedes
+encontrar en terminaciones negro o
+blanco pero también se pueden pedir, en
+el caso de Index, los colores que
+necesites. Y respecto de las cabezas, 
+nosotros vamos a trabajar con esta
+cabeza alomada, que es la más frecuente, pero también tenemos las habituales en otros
+tornillos como la hexagonal, la extraplana o la avellanada. Puedes
+elegir en función de lo que te pida la
+pieza que vayas a sujetar con el tornillo.
+Son tornillos autorroscantes, es decir, que son capaces de abrirse paso
+en el metal y crear un roscado en él.
+Esto provoca una fuerza de resistencia en
+el metal y otra contraria, de avance, en
+el tornillo.
+Por eso tenemos que vigilar que la
+velocidad de giro y el apriete no sean
+demasiado altos porque podríamos llegar
+a partir el tornillo.
+Si el espesor es excesivo, esta fuerza de
+torsión es demasiado grande para el
+tornillo, por eso solo se usan hasta 4
+milímetros. A partir de ahí, usamos
+tornillos punta broca.
+El tipo de huella y el número de punta
+que utilizaremos vienen siempre indicados en los envases.
+Hay aspectos técnicos que me condicionan mucho
+y que tienen que ver, lógicamente, con la resistencia que le voy a dar al tornillo.
+Yo ahí tengo que jugar necesariamente con tres factores. A ver si soy
+capaz de explicártelos para que lo
+entiendas bien. El primer factor
+lógicamente por el que estoy
+condicionado es la longitud de la
+carga. Nosotros llamamos al sitio donde
+va enganchado el tornillo el
+material base. A esto le vamos a llamar
+la carga. Lógicamente, en función de la
+extensión que tenga la carga, más o menos largo tiene que ser mi tornillo.
+Hasta ahí estamos de acuerdo.
+¿Qué ocurre? Que, efectivamente, en función de la longitud
+que yo tenga de tornillo y de la carga,
+también eso hace que vaya subiendo el
+diámetro que necesito para sujetarlo. Con
+lo cual, efectivamente, la segunda
+variable es que yo tengo que buscar un
+tornillo que, teniendo esa longitud, me dé
+el diámetro suficiente para sujetar la
+carga. Pero, fíjate, estamos
+hablando de tornillos rosca chapa. ¿Dónde se sujeta mi tornillo rosca chapa?
+En el fileteado de la rosca. Esto quiere decir que yo, cuando introduzco el tornillo,
+debo conseguir que asiente de tal manera
+en el material base que me garantice que
+no va a tener ninguna holgura.
+Luego, la tercera variable cuando
+trabajo con rosca chapa es que el grosor
+del taladro donde yo vaya a encajar el
+tornillo tiene que tener una medida
+determinada, si es una medida superior,
+puede tener holgura y no funciona. Vamos a hacer un ejemplo que es más fácil para
+ver cómo hacemos el cálculo. Ésta es la
+pieza que yo voy a fijar sobre este
+material base y lo voy a hacer mediante este troquel.
+Como tengo un troquel de 5 milímetros, el
+tornillo que yo voy a elegir tiene que
+ser adecuado para que pase con holgura
+a través de estos 5 mm pero que
+no tenga tanta holgura como para que se
+me pueda salir la cabeza. Con lo cual, ahí
+estoy condicionado a coger ese tamaño.
+Éste va a ser un tornillo que puede
+tener como éste 4,8 milímetros. Ya el
+diámetro me lo ha dado esto.
+Me voy a ir a la tabla y voy a comprobar:
+para este diámetro y para este espesor,
+cuá es la longitud que necesito de
+tornillo.
+Cuando nosotros vamos a la tabla -la
+tienes disponible en la página web de
+Index Fixing Systems, puedes entrar a
+consultarla-, vamos a buscar en la
+columna en la que nos da el diámetro (4.8) y vamos a ver cuál se ajusta al espesor
+que nosotros necesitamos. Si cruzamos
+estos dos datos, ves que nos ofrece una
+longitud mínima de 16 milímetros. En nuestro caso -esto te puede ocurrir con alguna
+frecuencia-, vas a la ferretería y no tienes la medida exacta
+que estás buscando. En este caso nosotros, por ejemplo, tenemos aquí un tornillo de 19 mm.
+No pasa nada porque la longitud la
+tengas por exceso, lo importante es que
+siempre nos aseguremos de que el
+tornillo entra lo suficiente.
+El siguiente paso, como te decía, es que
+yo tengo que asegurarme de que la rosca
+quede perfectamente sujeta a la pieza
+base. Vas a ver, cuando entramos en la
+tabla, como aquí tenemos tres factores.
+Uno es el tipo de material que tenemos,
+otro es el diámetro de nuestro tornillo
+y el tercero, por supuesto, el espesor de
+la chapa. En este caso ves que, cruzando estos
+datos, me da que tengo que hacer un
+agujero de 4 milímetros.
+Por supuesto que es muy importante,
+cuando hagamos el taladro previo, que
+elijamos una broca que se ajuste
+perfectamente a la medida y que lo hagamos
+por supuesto con brocas de metal. Las
+brocas de metal, no solamente tienen
+mucha más variedad en cuanto a la
+posibilidad de elegir las medidas que se
+ajustan este tipo de taladros, sino que
+además te van a hacer un taladro preciso
+donde puede entrar el tornillo. Vamos a poner en este caso la broca del 4.
+Vamos a fijar aquí nuestra pieza...
+¡ahí está!
+¿Qué pasaría si el material base fuera 
+aluminio? En principio el cálculo no
+va a variar. Estoy condicionado por el
+troquel, estoy condicionado por el
+espesor que tiene la pieza que voy a
+fijar, nos vamos a la tabla y, como
+tenemos un material de 1.5 mm de 
+aluminio, vemos que el resultado que nos da
+es elegir un taladro previo de 3.7. Ése es el taladro que vamos a hacer.
+El uso de los tornillos rosca chapa ya
+veis que es muy útil porque, teniendo ya
+los taladros hechos o incluso teniendo
+que hacerlos nosotros, es un sistema muy
+cómodo para hacer las fijaciones. En
+ocasiones,  puede ser que yo quiera ir más
+deprisa trabajando y no quiera hacer
+taladros previos, puede ocurrir también
+que el material base que tengo sea
+superior a 4 milímetros -que recuerda que
+es el límite que tengo para poder
+trabajar con los tornillos rosca chapa-,
+en esos casos, una opción por ejemplo muy útil es trabajar con tornillos punta broca.
+De la aplicación de estos tornillos ya
+hemos hablado en otro tutorial. Te
+recomiendo que entres a verlo porque
+allí te explicamos todas las cosas que
+hay que saber respecto de ellos.
+Espero que te haya resultado una información útil, que hayamos conseguido transmitir
+exactamente cuáles son los criterios
+técnicos para utilizar este tipo de
+tornillos, que nos des tu "like", que
+invites a todos tus amigos a los que les
+guste el bricolaje a ver el vídeo y que te
+suscribas, por supuesto, a nuestro Canal
+si no lo estás todavía.

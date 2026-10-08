@@ -1,0 +1,298 @@
+[
+  {
+    "Author": "@VictorLegends",
+    "Text": "Algun microinversor que aproveche los 1200w de salida",
+    "Likes": 0,
+    "PublishedAt": "2024-09-20T11:14:33+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jdelgadogranada",
+    "Text": "Si el micro inversor tiene que estar siempre enchufado ...no sirve la instalación si no hay luz",
+    "Likes": 2,
+    "PublishedAt": "2024-03-30T22:06:24+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@moisesrojas6054",
+    "Text": "Como compro un panel solar desde Perú y sus componentes",
+    "Likes": 0,
+    "PublishedAt": "2024-03-30T17:57:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@carlosalcazomartinez7025",
+    "Text": "Buenos días,que app se utiliza? Gracias",
+    "Likes": 0,
+    "PublishedAt": "2024-03-13T04:53:17+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@antonioruiz1903",
+    "Text": "Hola Juan 👍\nBadalona",
+    "Likes": 0,
+    "PublishedAt": "2023-12-15T18:08:57+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@flaviokovas476",
+    "Text": "Muchas gracias Juan por el tutorial!! Pregunta: estos sistemas sirven por ejemplo en una casa cercana a la costa. Me refiero que sol hay, pero también hay arena y viento y la humedad es más bien salada. Se estropean ?",
+    "Likes": 0,
+    "PublishedAt": "2023-10-14T12:45:18+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@rrsoria",
+    "Text": "Gracias Juan por tenernos al día. Un saludo de tu vecino de San Lorenzo de El Escorial 😊",
+    "Likes": 0,
+    "PublishedAt": "2023-10-10T10:53:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@keiichimorisato2571",
+    "Text": "Por ningún lado se justifica el precio a gastar. ES CARISIMO ya cansa que se estén aprovechando estos estafadores con del tema solar",
+    "Likes": 0,
+    "PublishedAt": "2023-10-09T12:02:36+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@alejandromarchena9310",
+    "Text": "yo lo que sigo sin compreder es tener un sistema de producción de energía y si no tienes energía de la red no poder usarla, vamos que tienes un corte de luz dos dias y ya puedes tener todos los paneles que quieras pueden ser los dos dias mas luminosos del año que no te sirven de nada",
+    "Likes": 0,
+    "PublishedAt": "2023-10-08T17:53:34+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Salvo que tengas baterías para acumular la carga. También hay baterías que te permiten cargar para utilizarlas en caso de apagón enchufando las cosas en ella (el que hablamos en el vídoe anterior). Pero este sistema, en concreto, sí que te exige corriente.",
+        "Likes": 1,
+        "PublishedAt": "2023-10-09T07:29:55+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@cjtech7644",
+    "Text": "Y la multa por vertido sin permiso",
+    "Likes": 0,
+    "PublishedAt": "2023-10-08T13:20:53+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "No generan excedentes como para que el  vertido a la red sea detectable...",
+        "Likes": 1,
+        "PublishedAt": "2023-10-11T11:43:12+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@cjtech7644",
+        "Text": "Endesa por un excedente de 100w cada hora me notifico..",
+        "Likes": 0,
+        "PublishedAt": "2023-10-11T12:37:54+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@ayo52",
+    "Text": "He visto que solar flow solo admite dos placas y tengo un micro con 4, puedo conectarle al micro dos placas externas \u002B la salida de solarflow??\n\nSólo es capaz de generar 1.2kw/h solarflow.... por ejemplo para un aire acondicionado no es suficiente\n\nGracias por el video!",
+    "Likes": 1,
+    "PublishedAt": "2023-10-08T06:59:51+00:00",
+    "Replies": [
+      {
+        "Author": "@solarlab2488",
+        "Text": "Si, puedes conectar los 4 paneles sin problema, irían 2 en serie, en total admite 1,2kw de entrada para cargar las baterías",
+        "Likes": 1,
+        "PublishedAt": "2023-10-08T16:13:28+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@ayo52",
+        "Text": "@solarlab2488 gracias por la respuesta, eso lo tengo claro. Me refería a mi microinversor de Hoymiles que tiene 4 entradas a placas. Si dos entradas podrían ser desde Hendure y luego conectarle dos más directamente al micro",
+        "Likes": 0,
+        "PublishedAt": "2023-10-08T17:42:35+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias @solarlab2488",
+        "Likes": 1,
+        "PublishedAt": "2023-10-09T07:32:11+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@solarlab2488",
+        "Text": "@ayo52si, sería posible",
+        "Likes": 0,
+        "PublishedAt": "2023-10-09T13:23:02+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@Energiarenovable.",
+    "Text": "Ostras precisamente estoy empezando a mover mis paneles solares flexibles del balcón para darles otra orientación (comprados a Solarlab también) y me van a ir de lujo los marcos, para completar mi instalación de autoconsumo con baterías. Saludos y enhorabuena por vuestro canal, hemos aprendido mucho. Un abrazo.",
+    "Likes": 2,
+    "PublishedAt": "2023-10-07T13:51:53+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias por compartir @FrancescAnabel",
+        "Likes": 0,
+        "PublishedAt": "2023-10-08T08:50:47+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@rakel3122",
+    "Text": "Entonces por lo que habéis dicho no se podría poner en una rulot que no tuviera luz eléctrica, no?",
+    "Likes": 0,
+    "PublishedAt": "2023-10-07T10:03:35+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "No, en ese caso te vale con los paneles solares y la bateria básica y enchufar las cosas  la batería.",
+        "Likes": 1,
+        "PublishedAt": "2023-10-08T08:48:11+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@rakel3122",
+        "Text": "Muchas gracias por la aclaración 👌",
+        "Likes": 0,
+        "PublishedAt": "2023-10-08T11:05:13+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@jorpalmar",
+    "Text": "Una pregunta de un neófito total ¿se puede estar utilizando las baterías y por cualquier causa, si se agotan, se puede pasar automáticamente a la red? Saludos.",
+    "Likes": 1,
+    "PublishedAt": "2023-10-07T08:44:04+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola @jorgepaldino. Claro, el sistema instalado inyecta corriente en la red de tu casa, ya sea de los paneles o de lo que hayas acumulado en las baterías.  Y todo el consumo de los dispositivos de la casa que no alcanzas a cubrir con lo que te entra del sistema se realiza con electricidad de pago, lo mismo que si dejas de generar o has vaciado tus baterías.",
+        "Likes": 0,
+        "PublishedAt": "2023-10-07T09:11:46+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@jorpalmar",
+        "Text": "Muchas gracias,  un saludo",
+        "Likes": 1,
+        "PublishedAt": "2023-10-07T10:34:14+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@dementez797",
+    "Text": "un saludo y que tengas un gran día y un buen fin   de semana 👍👍👍👍👍👍👍👍👍👍👍",
+    "Likes": 1,
+    "PublishedAt": "2023-10-06T20:40:44+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pedroantoniofernandezmonin8296",
+    "Text": "Fantástico!",
+    "Likes": 1,
+    "PublishedAt": "2023-10-06T20:21:40+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@viorsa8200",
+    "Text": "No se, por el norte de España, no lo veo, pero no quita  que sea un tutorial muy didáctico e  informativo, gracias por compartir tantos conocimientos, un cordial saludo Juan y por supuesto un merecido like desde Narón (Galicia)🔝👍🤓",
+    "Likes": 6,
+    "PublishedAt": "2023-10-06T18:57:29+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@galdakaMusic",
+    "Text": "1700€ con una batería y 600€ cada batería adicional. ¿Que vida útil tienen estos aparatos? Me parece caro de cojines.",
+    "Likes": 8,
+    "PublishedAt": "2023-10-06T18:53:46+00:00",
+    "Replies": [
+      {
+        "Author": "@aitorcalero",
+        "Text": "No salen las cuentas por ningún lado. Es casi un timo. Echad cuentas, los Excel no engalan 😅",
+        "Likes": 0,
+        "PublishedAt": "2023-10-07T04:58:33+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola @galdakaMusic y @aitorcalero. Echamos cuentas en su momento con solo paneles y los números salían muy bien. Es verdad que con la incorporación de los sistemas de batería y gestión se gana en rendimiento pero, a cambio, con este coste, se extiende el tiempo que se tarda en amortizarlo. Pero también nos damos cuenta que aunque se alargue el plazo, son muchos los usuarios que quieren estas soluciones más allá de la rentabilidad inmediata, Pasa con los coches eléctricos o con muchos productos que aportan reciclaje pagando más. En general toda la tecnología sufre ese ciclo. Luego cada uno decidimos en qué buscamos solo rentabilidad o en qué buscamos cubrir oras expectativas. Pero tenéis razón en que debemos  hablar también de este aspecto de amortización para que eso quede claro. Lo dejamos a deber para un próximo vídeo. ¡Muhas gracias por introducir el tema!",
+        "Likes": 5,
+        "PublishedAt": "2023-10-07T06:07:15+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@aitorcalero",
+        "Text": "@Bricocrack así es. Yo eché cuentas en su momento y el periodo de amortización superaba al de garantía de los paneles 🙄",
+        "Likes": 2,
+        "PublishedAt": "2023-10-07T06:14:51+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@Bricocrack",
+        "Text": "Repasaremos cuentas. Oye, por cierto, enhorabuena por tu canal! Pequeñito pero prometedor si le das caña. 👌",
+        "Likes": 0,
+        "PublishedAt": "2023-10-07T06:26:10+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@lozanoj86",
+    "Text": "Si pero para poner eso en los balcones, dependes de ordenanzas municipales y no está la cosa muy clara de poner nada por fuera de los balcones y luego si vives en una finca de estatutos y también de ordenanzas municipales…",
+    "Likes": 4,
+    "PublishedAt": "2023-10-06T18:42:48+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola @lozanoj86 . EN general, al no tratarse de instalaciones fijas, tiene muchos menos problemas, sobre todo municipales. Eso sí, no por eso hay que dejar de respetar los acuerdos que haya con los vecinos, aunque muchas veces convendría revisarlos de acuerdo con lo que cambian los tiempos y las necesidades. Si una comunidad no aprueba sistemas colectivos habrá que dejar más margen para este tipo de soluciones...",
+        "Likes": 0,
+        "PublishedAt": "2023-10-07T06:11:50+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@rrsoria",
+        "Text": "Efectivamente, y no solo que el ayuntamiento en cuestión permita o no hacer nada en la fachada del edificio, sino que, si vives en una comunidad de vecinos, hay que tener en cuenta que la Ley de Propiedad Horizontal indica que la fachada se considera elemento común, con lo cual (y por citar una bobada), si taladras en tu terraza para poner un farolillo, perfectamente de acuerdo a la Ley podrían hacértelo quitar. Imagina entonces, colgar en los balcones \u0022nada\u0022. Un saludo.",
+        "Likes": 0,
+        "PublishedAt": "2023-10-10T10:52:47+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@javierparedes1960",
+    "Text": "Buena explicación para todos aquellos que estamos interesados en poner placas solares, y el poder acumular para luego gastar, buen video  👍",
+    "Likes": 6,
+    "PublishedAt": "2023-10-06T18:35:07+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@giocondapacheco2891",
+    "Text": "Hola me encantan tus vídeos,dónde puedo comprar todo eso y bajo q nombres los busco q no me falte nada ,por favor",
+    "Likes": 1,
+    "PublishedAt": "2023-10-06T18:20:08+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Lo puedes consultar todo y comprar en la página de SolarLab  https://solarlab.es/. Saludos!",
+        "Likes": 0,
+        "PublishedAt": "2023-10-06T19:16:22+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@eb5ua",
+    "Text": "Gracias.",
+    "Likes": 1,
+    "PublishedAt": "2023-10-06T18:03:38+00:00",
+    "Replies": []
+  }
+]

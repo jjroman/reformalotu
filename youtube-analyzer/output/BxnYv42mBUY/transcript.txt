@@ -1,0 +1,195 @@
+Las conexiones Wi-Fi en las casas han 
+sufrido una evolución muy importante  
+en los últimos años. A veces, las cosas 
+que nos daban de ventajas producían  
+algunos inconvenientes. Bueno, parece que 
+por fin estamos alcanzando una solución  
+definitiva, al menos eso es lo que creemos y es lo 
+que te voy a mostrar en este tutorial.
+¡Bienvenido a tu canal Bricocrack! El canal 
+donde contestamos tus preguntas, sean las que  
+sean, en los comentarios del último vídeo 
+que publicamos. Así que, para saber cuándo  
+publicamos nuevo vídeo, suscríbete,  dale a la 
+campanita y te tendremos informado. 
+En un tutorial  anterior reconocíamos que, realmente, 
+no necesitamos una gran velocidad en la casa  
+para que podamos poner en marcha distintos 
+dispositivos. Si te acuerdas, hablábamos  
+de que, si tenemos fibra óptica plástica por 
+ejemplo de 100 megas, con eso cubrimos casi  
+todas las necesidades que podemos tener en una 
+casa que no tenga gran cantidad de dispositivos.
+Es verdad que, cuando no se tiene esa fibra 
+óptica plástica, lo que se utiliza por lógica  
+es el sistema Wi-Fi. ¿Y qué nos pasa con los sistemas 
+inalámbricos? Pues que los sistemas inalámbricos están  
+teniendo cada día más el problema de que hay 
+una gran saturación. Esto, para que te hagas  
+una idea es muy frecuente, incluso con la 
+telefonía. Estoy hablando por teléfono y alguien me  
+dice "te estás moviendo, te estoy perdiendo". Bueno, 
+hay una especie de bombardeo electromagnético  
+alrededor de nuestra vida que hace que 
+dispositivos, que en un momento dado funcionaban  
+razonablemente, cada día cueste más y lo notamos 
+en problemas de conexión, lo notamos a veces  
+en caída de lo que estamos viendo en la televisión...en ese tipo de cosas. Lo que teníamos hasta ahora de  
+manera generalizada eran routers que nos daban 2,4 
+gigahercios de frecuencia. Ésta es una frecuencia  
+muy buena en el sentido de que es muy permeable 
+y se extiende muy bien a través de la casa.  
+¿Qué problema tenía esto? Veíamos muchas 
+veces que, efectivamente, no nos da 
+un gran ancho de banda y no nos da buena 
+velocidad. Si nosotros miramos lo que nos da un  
+router directamente, cuando lo conectamos desde 
+desde el propio router al ordenador con un cable  
+ethernet, vemos que nos da prácticamente del 90 al 100% de lo que tenemos contratado.  
+Sin embargo, cuando nosotros retiramos este cable 
+y con este tipo de banda de 2,4 GHz  
+intentamos hacerlo por inalámbrico, vemos que esta 
+conexión Wi-Fi cae de una manera bastante fuerte.
+¿Qué es lo que se hizo entonces para que 
+pudiera haber una señal con velocidad suficiente  
+de transmisión de datos en las casas? Pues pasar a 
+otra tecnología que ya no es la de 2,4 GHz  
+sino la de 5 GHz. Aquí ya lo que nos cambió 
+la vida en las distintas modalidades que se han  
+ido haciendo es que, efectivamente, teníamos 
+anchos de banda mucho más generosos y nos  
+permitían tomar una velocidad realmente alta. ¿Con qué 
+inconveniente nos hemos encontrado?  
+Que es muy poco permeable. Es decir, que tiene muchas 
+dificultades para que esa banda pueda penetrar a  
+través de las paredes y esto hace que realmente 
+cuando tenemos que estar llevando señal de unas  
+habitaciones a otras es muy frecuente que 
+se pierda la intensidad de la señal. Hoy día,  
+cuando contratas fibra óptica, ya el router que 
+te traen es un router que viene preparado tanto  
+para transmitir en frecuencia 2,4 GHz 
+como en 5 GHz. Esto es así porque este sistema ya 
+permite que nosotros podamos adoptar las nuevas 
+tecnologías de comunicación basadas en el famoso 5G. 
+Esto quiere decir que lo que yo llevo a mi 
+casa me permite hacer aprovechamientos de mucha  
+mayor velocidad a la hora de conectar dispositivos. 
+Los inalámbricos también me dan muchísima más  
+capacidad de transmisión de datos. Pero, ¿cuál 
+es el inconveniente que nos encontramos? Pues que  
+ocurre que este tipo de transmisión inalámbrica 
+de estos nuevos sistemas tiene la dificultad de  
+que son poco permeables a la hora de atravesar 
+estructuras. Y en las casas nos encontramos con  
+la dificultad de que no nos llega bien la señal 
+por muy buena que sea la señal en el punto de origen.  
+¿Cómo solucionamos entonces en los ambientes 
+donde tenemos que hacer llegar a distintos sitios,  
+donde tenemos dificultades de comunicación, el 
+poder tener comunicación inalámbrica? 
+Pues esto es lo que soluciona el Wi-Fi 6. El Wi-Fi 6 es 
+un sistema, son una serie de dispositivos que por  
+una parte tienen como ventaja que nos dan mayor 
+velocidad. En teoría, están cerca de los 10 GHz de  
+velocidad de transmisión en inalámbrico. Lógicamente, 
+son medidas teóricas que luego a la hora de la  
+verdad hay un montón de cosas que las reducen, pero 
+estamos hablando de un margen realmente importante.  
+Tienen protocolos de comunicación muy modernos que 
+lo que hacen es descomponer todos los datos en  
+fragmentos que pueden ser emitidos parcialmente 
+desde un dispositivo o desde otros dispositivos  
+que vienen entre sí intercomunicados. Porque ésta 
+es la gran diferencia que tenemos con respecto al  
+sistema tradicional. Igual que nosotros veíamos, 
+cuando estábamos hablando de la domotización  
+de las casas, que había sistemas de malla que 
+permitían que cada uno de los dispositivos que poníamos  
+funcionaran como repetidores, esto es lo mismo 
+que esta red Mesh que nosotros estamos montando  
+a partir de este dispositivo y de la fibra 
+óptica de Actelser. Te explico cómo lo hacemos.  
+Lo primero de todo. Vamos a tomar un primer 
+dispositivo como éste y lo vamos a situar en un  
+punto lo más central posible donde queramos hacer 
+la distribución de señal inalámbrica para que  
+actúe como router. Y, para dar servicio a este nuevo 
+router inalámbrico que estamos instalando, lo vamos  
+a llevar desde el router original que tenemos en 
+la casa a través de fibra óptica plástica.   
+Sabemos que la fibra óptica plástica tiene la ventaja de 
+que en el punto de llegada nos va a dar siempre el  
+100% de lo que nos esté entrando directamente 
+del suministro de la compañía. Así que, en este  
+caso, lo que vamos a hacer es conectar nuestro 
+dispositivo de fibra óptica plástica  
+y con esto vamos a dar servicio al router.
+Lo primero de 
+todo, conectamos el router y vemos que se enciende una
+iluminación roja que nos indica que está activo. 
+Pinchamos directamente con el cable ethernet la  
+alimentación desde la fibra óptica y ya entramos 
+en un dispositivo móvil para localizarlo y hacer  
+el emparejamiento. En la parte inferior del 
+dispositivo tienes la placa con  
+toda la información referida a las contraseñas 
+y demás. Una vez que ya tenemos emparejado el
+dispositivo, vamos a entrar a configurarlo. La 
+dirección IP que tenemos en la parte de abajo del   
+dispositivo la metemos directamente en nuestro 
+navegador y nos va a abrir un cuadro de diálogo  
+para que configuremos el dispositivo tal como 
+queramos. Sigue ahí los pasos que vienen en las  
+instrucciones del manual que es muy sencillo y, como ves, lo único que realmente estamos haciendo  
+es poner ya un código definitivo y el nombre 
+definitivo que queramos dar nosotros a nuestra red.  
+Ahora ya vemos que la velocidad que nos da la 
+navegación inalámbrica con el dispositivo es  
+evidentemente muchísimo más alta que la que 
+vimos que nos daban los demás sistemas que  
+teníamos basados en el sistema anterior.
+Para saber cómo se hace la instalación de Snap Data,
+acuérdate de que tenemos un tutorial donde 
+explicamos todo el procedimiento. 
+Este sistema que nosotros hemos creado a partir 
+de nuestra línea troncal de fibra óptica y de  
+nuestro primer router lo podemos ampliar a través
+de nuevos routers como éste, routers de Wi-Fi 6.
+¿Qué van a hacer entre ellos? Pues van a hacer un sistema de malla que permite que entre  
+ellos se vayan alimentando de toda la información, la 
+vayan compartiendo y puedan ir creciendo siempre  
+que haya al menos uno de ellos en contacto con 
+los demás. Es decir, ahora ya no tenemos que partir, 
+como con otros dispositivos que todos tienen que ir 
+a comunicarse con el router, sino que en este caso  
+cualquiera de ellos tiene una función también 
+de enrutar la información y la comunicación  
+con los demás. Y, de hecho, una de las cosas 
+potentes que tiene el sistema de malla es que  
+yo, aunque me estuviera moviendo a lo largo de la 
+instalación donde tengo distintos repetidores de  
+este tipo, no tendría ningún problema porque se 
+van conectando. Aquél que sea más sencillo para darme 
+información automáticamente se conecta con mi 
+dispositivo y me proporciona la señal necesaria.  
+Es un sistema además superrápido. Esto es, por 
+supuesto, lo que permite que nosotros podamos  
+seguir creciendo y mantener velocidades muy 
+altas, aunque no pudiéramos seguir llevando  
+el sistema de hilo, en este caso de fibra óptica, 
+a los sitios donde vayamos. En la descripción te  
+dejo los enlaces tanto a los dispositivos como a 
+más información para que conozcas más de estas  
+tecnologías. Vas a ver, como te decía 
+al principio, que sí que parece que estamos yendo ya de  
+una manera un poco definitiva a solucionar el 
+que podamos tener comunicaciones inalámbricas  
+que nos den la calidad que necesitamos, por 
+lo menos los que tenemos que trabajar moviendo  
+muchos datos, sin necesidad de estar todo el día 
+persiguiendo la clavija donde pinchar nuestro ordenador. 
+Así que, como siempre, espero con esto 
+que nos hayamos merecido tu "like" y que compartas  
+este vídeo con todos tus amigos a los que les 
+guste el mundo del bricolaje y el de la electrónica.

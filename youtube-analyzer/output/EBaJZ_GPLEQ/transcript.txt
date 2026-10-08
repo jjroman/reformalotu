@@ -1,0 +1,111 @@
+Desde que hicimos una anterior tutorial sobre robots y sobre jardín inteligente han pasado varias cosas.
+Los robots están cada día  más implantados y van bajando de precio.
+Son una de las herramientas para el 
+mantenimiento del césped más utilizadas.   
+Ha ocurrido que hemos tenido una pandemia y ha 
+habido un cambio de vida.   
+Mucha gente ya quiere hacer las cosas desde su casa porque efectivamente se vive más entorno a la propia casa.  
+Y ocurre que en muchos 
+casos, todo lo que se había avanzado en la parte del jardín inteligente, 
+sobre todo en los sistemas smart, queremos seguir manteniéndolo a través del teléfono móvil, 
+con un sistema que nos sirva para programación, porque hemos visto que es mucho más fácil que recurrir a las pantallas pequeñas que tiene los propios equipos.
+Con todo esto, lo que vamos a ver en este tutorial es un nuevo sistema basado en tecnología bluetooth®. 
+Nos aporta las mismas funcionalidades de app que nos da el sistema Smart adaptado directamente a bluetooth. 
+Además,  un ahorro importante en precio y en facilidad de sistemas. 
+Para empezar vamos a diferenciar las 
+tecnologías. El sistema Smart del que ya te hemos hablado lo conectamos directamente en el router. 
+Esto nos permite utilizar la telefonía como el sistema de manejo de cualquiera de nuestros equipos inteligentes. 
+Nos permite el utilizarlo igual desde mi casa que desde Pekín, desde cualquier punto del mundo tengo acceso. 
+Con el sistema bluetooth emparejamos directamente, de forma local, cada uno de los equipos con el teléfono sin necesidad de pasar por ningún router.
+Esto me permite, por ejemplo, en domicilios donde no tengo instalado este router, poder hacer la aplicación sin ninguna dificultad. 
+No son compatibles, o tengo Smart o tengo bluetooth.  
+ 
+En el caso del bluetooth además para manejar los equipos tengo que estar una distancia en torno a 
+unos 10 metros como máximo.
+Como te decía al principio, el sistema bluetooth nos sirve para simplificar y abaratar los equipos.  
+Ahora mismo tenemos disponibles tres,  el robot y dos sistemas de riego tanto el programador como electroválvulas. 
+En el caso de los robots lo que 
+desaparece es la pantalla de programación porque estaría directamente en el teléfono.  
+Cosa que no solamente nos hace más fácil la programación sino también por supuesto verás que los equipos son 
+más económicos. 
+ No voy a entrar mucho en detalles  respecto de la programación.
+Para que quienes no vayáis a comprar ahora mismo no tengáis que sufrir toda esta información. 
+Pero sí que es importante que te diga que cuando descargamos la aplicación  tenemos que ir a buscar la aplicación Gardena bluetooth porque si nos bajamos la de Smart, como te decía, son sistemas no compatibles.
+Una vez que ya lo tenemos instalado, 
+vamos directamente a conectar en este caso el robot. 
+Vemos que nos ofrece 
+la programación exactamente igual  que los sistemas Smart.
+Podemos elegir directamente los días de la semana en los que queremos que se ponga en marcha y elegir horarios dentro de esta aplicación. 
+A través de esta aplicación también puedo dirigir el equipo a su zona de aparcamiento y carga.  
+O trabajar con él en zonas primarias o 
+zonas secundarias. 
+Las zonas secundarias son aquellas que no forman parte del perímetro de trabajo habitual porque están separados por algún tipo de dificultad, 
+por ejemplo escaleras y demás que no permiten que el equipo llegue por sus medios. 
+Me va indicando la carga que tiene y cuando está parado.
+ Así puedo retornarlo otra vez a la zona primaria y que vuelva a su base.
+Otra función disponible que no estaba 
+en los equipos más antiguos es la de corte localizado. 
+Con ella lo que podemos hacer 
+es trabajar el sector donde tenemos la hierba más crecida, 
+Automáticamente el propio equipo va girando en forma de espiral haciendo un trabajo mucho más intensivo en un sector determinado.
+Lógicamente la altura de césped soy yo quien la puede regular.  
+ También,  dentro de las simplificaciones que tiene el equipo para ahorrar costes tengo un sistema muy sencillo que es manual.
+La regulación de la altura de corte es muy sencilla, se  hace manualmente.
+Ahora la máquina está parada, 
+aunque no estuviera no pasaría nada,  
+porque en el momento en que le damos la vuelta se desconecta el funcionamiento de las cuchillas.  
+Tenemos tres posiciones, 3, 2 y 1. Van desde los 50 milímetros que nos da la posición 3 hasta los 20 que nos da la posición 1. 
+Para hacer el cambio sencillamente extraemos los tornillos de la posición que lleva actualmente, la 3, y la cambiamos a la altura que deseemos. 
+Nosotros vamos a pasarlo directamente a la 2. 
+Lo hacemos con una llave que viene con  la máquina o con cualquier punta Torx como la que yo estoy utilizando.
+Soltamos la pieza de regulación, la colocamos en su posición y apretamos los tornillos.
+Otro aspecto en el que evoluciona este 
+equipo es que es más ágil de movimiento a la hora de trabajar.
+Es decir, cuando encuentra 
+un obstáculo no tiene que hacer un retroceso tan lento y perder tanto tiempo en los movimientos.
+Hace una salida mucho más rápida y se reenfoca.
+Esto permite trabajar por ejemplo muy 
+fácilmente en la zona de pasillos estrechos. 
+Aunque nosotros tengamos un espacio de 30 centímetros de 
+separación entre la guía central y cada una de las guías laterales,
+el equipo funciona perfectamente 
+por esos espacios y va a encontrar el camino.  
+Para aclarar algunas preguntas que 
+nos hacéis en ocasiones con este tema:  
+El robot no es un equipo con el que yo pueda enfrentar por ejemplo la primera siega del  césped cuando está muy alto.
+El robot es un equipo que está pensado para mantenimiento, para tenerlo funcionando y olvidarnos de él.  
+Puedo dejar la base a la intemperie, aunque sea invierno, no importa.
+Sencillamente el equipo lo que hace es salir a las horas que yo tengo programadas,  dentro de la superficie indicada, siempre respetando las superficies máximas.
+ Con esto lo que va haciendo es una siega continuada para mantener siempre el césped en una altura homogénea. 
+Una de las razones por las cuales yo puedo tener trabajando sin 
+problema el robot es porque es muy silencioso.
+Como el equipo soporta la intemperie, otra ventaja es que la limpieza es muy sencilla. 
+Puedo limpiar el equipo 
+sencillamente dándole un manguerazo.
+Por cierto que no te he dicho que el robot se llama Sileno mínimo por su tamaño.
+El sistema bluetooth aplicado al riego es muy interesante.  
+Nosotros tenemos dos opciones, o trabajar con un programador de una sola vía como este que tenemos aquí enganchado en el grifo, o trabajar con electroválvulas.
+Puedo poner tantas electroválvulas como necesite en el jardín . ¿Cuál es el criterio? además que  
+Con este sistema de electroválvulas que van por batería yo no necesito tener instalación eléctrica en la parcela,
+por ejemplo, cuando quiero trabajar en una zona de riego donde no tengo directamente acceso a la canalización de agua, 
+o sencillamente porque yo no quiera levantar el jardín para traer la luz desde un punto determinado, 
+ y me limito sencillamente a hacer la instalación de tubería de agua y poner electroválvulas.
+El programador tiene una programación muy sencilla. Los indicadores: este azul es el de la búsqueda de bluetooth o el de la conexión de bluetooth. 
+Aquí se van a encender en verde, amarillo, o rojo, de vez en cuando para indicarnos cual el estado de la 
+batería. 
+Y esto nos indica si está regando o no.  
+Se puede utilizar manualmente apretando aquí para hacer directamente el riego manual.
+Y se apaga de la misma manera.  
+La batería es de 9 voltios. Va instalada en la parte de atrás.  
+El funcionamiento de la electroválvula es igual que el del riego que hemos visto con grifo. 
+La conexión de bluetooth, batería y riego manual. 
+La colocación se hace exactamente 
+igual, emparejándolo en su conector.
+La idea por supuesto es manejar 
+exactamente igual que ya has visto en el robot para hacer la programación a través del teléfono en el caso del riego.
+Sé que muchos no utilizáis todavía estas tecnologías pero la realidad es que cada día están más presentes en el mercado. 
+Van bajando sus precios y es hacia donde se encaminan todos los equipos que tenemos funcionando en nuestras casas.  
+Así que por supuesto nosotros vamos a estar siempre actualizando toda la información que tengamos,  y procurando dárosla de la manera más sencilla. 
+Esperamos habernos ganado vuestro like, que te suscribas al canal si no lo estás todavía, acuérdate de 
+la campanita para recibir notificaciones, 
+ y comparte este vídeo con todos tus amigos a los que les guste el mundo del jardín.

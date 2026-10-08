@@ -1,0 +1,158 @@
+En este tutorial vamos a hacer un
+cruzamiento. Cuando hablamos de cruzamiento,
+nos referimos a tener tres interruptores
+desde cualquiera de los cuales puedes
+dar servicio a las lámparas. Esto es un cruzamiento.
+Ésta es una serie que estamos haciendo
+de electricidad básica. Quiero decirte con
+esto que, si no has visto o no sabes cómo
+se pone un interruptor,
+si no has visto o no sabes cómo se hace
+una conmutación, no puedes hacer directamente
+el cruzamiento, porque los conceptos que
+hemos visto en los dos tutoriales  anteriores
+son esenciales para hacer éste, así, rápidamente y entenderlo inmediatamente.
+Va a ser muy breve pero necesitas saber lo anterior, si no, difícil.
+En el tutorial anterior habíamos hecho una conmutación.
+Un circuito conmutado que hacía que la luz que nos llegaba directamente del cuadro,
+la bajábamos a un interruptor, lo conectábamos con el otro conmutador y dábamos servicio
+a las lámparas. Un circuito que, como viste en el tutorial anterior, era muy sencillo.
+Cuando queremos hacer un cruzamiento,  tenemos que poner un
+interruptor de cruzamiento, que es
+distinto de los que hemos utilizado hasta
+ahora para conmutación, y lo tenemos que colocar en una posición determinada, que es lo
+que vamos a ver ahora.
+Diferenciar por su aspecto físico un cruzamiento de
+un interruptor conmutador es muy sencillo porque, fíjate,
+en el caso de los interruptores conmutadores,
+tenemos una posición de entrada del cable de fase y dos
+posiciones para que vayan al otro
+conmutador.
+En este caso tenemos dos entradas por un lado y dos entradas por otro.
+Vamos a ver cómo se hace esta
+instalación.
+Acuérdate siempre de desconectar
+la corriente de nuestro cuadro eléctrico.
+Primer paso: el cruzamiento va
+siempre colocado entre los dos conmutadores.
+Nosotros, para que se entienda mejor,
+vamos a colocar nuestro cruzamiento en este
+punto central y vamos a dejar los
+conmutadores en cada extremo,
+o sea, que este conmutador me lo voy a
+llevar al final.
+Recuerda cómo teníamos montado este
+conmutador.
+Este cable, que va directamente a las
+lámparas, lo teníamos etiquetado
+con esta cinta aislante negra.
+Vamos a soltar todos los cables.
+Apretamos los gatillos de cada una de
+las conexiones y los soltamos.
+Esta posición la vamos a dejar, como te decía, solamente para el cruzamiento. Así  es que
+aquí solamente van a llegar cables que
+vengan de cada uno de los conmutadores.
+Y la salida de la luz, así como tengo por
+este interruptor la entrada del cuadro,
+la salida a la lámpara la voy a dar
+por el último interruptor de la fila.
+El primero recibe la corriente y el último
+se la manda, después de todo este
+circuito que hemos hecho, a las lámparas. Así es que este cable que es el que da
+servicio directamente a las lámparas, que
+es éste que teníamos aquí conectado,
+tiramos de él y nos lo llevaríamos
+directamente a dar servicio a éste. Como es
+muy corto, lo vamos a cambiar por otro
+más largo.
+Voy a ponerle, como antes, una marca
+al cable
+que va a ir directamente a la lámpara.
+Este cable es el que conectamos
+directamente a esta clema que da
+servicio a nuestras dos lámparas.
+Como siempre, lo apretamos cuidadosamente.
+En la conexión que está coloreada de rojo es donde vamos a colocar esta salida que va
+directamente a la lámpara.
+Porque reservamos las otras salidas a las
+conexiones con el cruzamiento.
+Necesito diferenciar estos cables que vienen de
+aquel interruptor de los dos cables
+que voy a mandar ahora del otro. Porque,
+como recuerdas, el cruzamiento tiene
+cuatro salidas, 2 para los cables que vienen del
+interruptor, llamémosle 1, y 2 para los
+que vienen del interruptor que podemos
+llamar 3. Así es que, para saber cuál
+viene de cada sitio,
+le vamos a poner un poquito de cinta
+aislante, en este caso de color azul,
+porque la negra la estamos utilizando para identificar el que va a la lámpara.
+Con esto, tendríamos ya la conexión con el interruptor 1.
+Ahora vamos a guiar los cables para el
+interruptor 3, que necesitamos otros dos cables.
+En una instalación normal, por supuesto, lo que tenemos son
+siempre tubos corrugados, a través de los
+cuales con una guía vamos guiando como ya
+te mostramos en uno de los anteriores
+tutoriales. En este caso vamos a ponerlos
+en nuestra maqueta, que la hemos preparado así con canaletas para que se vea claramente
+por dónde circula toda nuestra instalación.
+Vamos a dar servicio primero al
+interruptor 3, que es el segundo de los conmutadores.
+Conectamos a una de las salidas...
+y conectamos a la otra.
+Aquí tenemos la salida a la lámpara y los dos cables para conmutar.
+Estas dos tomas sin color son las que
+vamos a destinar a meter los cables que vienen del
+interruptor de aquel lado, del interruptor 3.
+Trenza siempre bien los cables para que no se nos queden pelillos fuera.
+Y vamos a reservar las dos
+entradas rojas para los cables que
+vienen del interruptor 1, que son estos
+que identificamos con la cinta azul.
+Cualquiera de los dos agujeros nos sirve, sin problema, para hacer la conexión.
+¿Ves? Cuando vamos apretando, bajan simultáneamente las presillas de los dos.
+Aprieta siempre fuerte para asegurarte
+de que los cables queden muy bien
+sujetos porque, a veces, pegamos tirones en la instalación.
+Ahora ya podemos colocar los mecanismos en las cajas.
+Nosotros los vamos a colocar con los
+tornillos que tiene aquí pero también
+tiene unas garras que, desmontando
+el pulsador, estas garras se
+activan y van saliendo para engancharse
+en la caja.
+Puedes utilizar cualquiera de los dos sistemas.
+Como ves, siempre dejamos
+cable de sobra dentro de la caja de
+registro, por si necesitamos hacer
+cualquier reparación.
+Y, para terminar, colocaríamos los marcos
+embellecedores.
+Vamos a dar la corriente y vamos a ver
+lo que pasa en nuestro circuito de cruzamiento.
+Esto podría ser, por ejemplo, un pasillo.
+Primer interruptor...que funciona.
+Siguiente... y ya el último, todos ellos,
+desde cualquiera podemos dar o quitar la luz.
+Como ves, es algo muy sencillo siempre
+y cuando tengamos los conceptos claros.
+Porque lo que intentamos en este
+tutorial de electricidad básica es, no
+solo que puntualmente un día hagas una
+cosa, sino que tengamos los conocimientos
+básicos para ir, sin peligro, a hacer las
+reparaciones domésticas que no
+requieren la presencia ni molestar por
+una cosa tan pequeña a un profesional.
+Bueno, espero que te haya gustado nuestro tutorial y, si es así, ya sabes,
+danos tu "like", por supuesto, suscríbete a 
+nuestro Canal, si no lo estás todavía,
+y nos interesa mucho, sobre todo los más expertos, que nos mandéis vuestros  comentarios,
+porque muchas veces nos ayudan a que, de esta manera, toda la Comunidad de
+bricocracks podamos ir viendo detalles,
+aprendiendo cosas, matizando datos...
+Esto siempre es muy útil y, por supuesto,
+también que compartas este vídeo con
+tus amigos amantes del bricolaje.

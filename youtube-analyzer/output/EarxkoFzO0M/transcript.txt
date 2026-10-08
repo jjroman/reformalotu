@@ -1,0 +1,245 @@
+En este tutorial vamos a ver cómo se hace la reforma de fontanería para el cambio de una  
+bañera por plato de ducha y vamos a ver cuáles son 
+los puntos críticos donde solemos tener problemas.
+En tutoriales anteriores, hablábamos de la parte de la albañilería para hacer una reforma  
+cambiando la bañera por un plato de ducha. Vamos a 
+hablar aquí de la fontanería. No quiere decir que  
+hagamos la fontanería toda seguida pero, si entras en los tutoriales
+anteriores, verás que en algunos momentos  
+decimos "ahora esto corresponde a la parte de fontanería" para que sepamos dentro de los  
+pasos lógicos del trabajo del cambio de una bañera 
+por plato cuándo tenemos que estar pendientes  
+de hacer este tipo de trabajos. En realidad, en el trabajo del cambio de bañera por plato, hay dos aspectos  
+esenciales que no podemos descuidar nunca. Uno es la 
+impermeabilización correcta, porque eso es algo  
+que nos condiciona el buen funcionamiento luego 
+de lo que hayamos hecho y, el segundo, que las  
+instalaciones de fontanería por supuesto funcionen 
+correctamente. Nos toca, una vez que hemos  
+desmontado la grifería del cuarto de baño, hacer 
+el seguimiento de las tomas para ver dónde podemos  
+hacer la unión para nuestra nueva instalación. 
+Tenemos que encontrar de alguna forma la salida  
+y picar correctamente en ese lugar para poder 
+hacer, a partir de ahí, las rozas que necesitaremos  
+en albañilería para poder llevar los tubos. En nuestro caso nos encontramos con que en este  
+baño no tenemos una configuración clara de por dónde van. Podemos recurrir, por ejemplo, pues  
+efectivamente nos pueden ayudar, a los detectores de metal, que hay algunos que también detectan  
+metales no ferrosos. Como ves, nos pueden hacer 
+alguna indicación de por dónde van los circuitos.  
+Además, suele haber una pista muy habitual que es 
+que hay zonas de fisuración que suelen coincidir  
+también con la presencia de tubos. En este caso coincide que, por donde pasa el detector,  
+pasa la fisura. Así que es donde vamos a picar para descubrir y a ver qué es lo que nos  
+encontramos para dar continuidad a la instalación anterior como acometida de la nueva instalación. 
+Una vez que hemos retirado la parte de instalación antigua que sale de la  toma que tenemos ahí,  
+pues tenemos una buena noticia y una mala con respecto a la toma. Vamos a empezar por la  
+mala. La mala es que es una toma de acero galvanizado. Esto es un clásico en las  
+casas antiguas y es con lo que tenemos que 
+conformarnos y trabajar sobre ello. La buena  
+es que es una pieza roscada y eso nos da muchas 
+ventajas porque, efectivamente, si la pieza no  
+estuviera roscada, tendríamos que recurrir 
+a poner un complemento y, realmente, cuando  
+estamos trabajando en un tabique, esto es un problema complicado. En nuestro caso, además,  
+en esta instalación hemos trabajado con 
+una dificultad adicional: éste es un tabique  
+extraordinariamente fino y, en cuanto lo tocas un poco más de la cuenta, te sales a la habitación  
+de al lado. Esto nos dificulta bastante porque 
+tenemos que ir con cierto cuidado a la hora de  
+trabajar con las piezas y ver la situación que 
+tenemos para poner las conexiones  
+y demás. Pero, bueno, la idea que tenemos de instalación, vamos a ello, es que vamos a hacer  
+la instalación con multicapa. Vamos a trabajar con 
+los elementos multicapa de RM.
+RM es un fabricante español con el que nosotros trabajamos siempre. 
+En todos los vídeos que has visto, nosotros  
+siempre estamos con sus materiales porque nos parecen muy interesantes. Tienes un catálogo  
+del que te dejamos abajo el enlace donde está todo 
+el surtido que tienen de piezas, tanto de multicapa  
+como de piezas en latón para roscar, para soldar...En general, todo lo que necesites de soluciones de  
+fontanería está ahí, bien a mano y con calidades 
+realmente muy altas. Nosotros aquí  
+hemos preparado un circuito en el 
+que vamos a trabajar con multicapa.
+¿Cómo resolvemos el arranque que tenemos con el tubo de acero? 
+Aquí, en principio, cuando tenemos que salir de tubo de acero  
+y pasar a trabajar en cobre, sabes que siempre una cosa que se plantea  
+es que es importante evitar en principio que las piezas estén juntas. Esas transiciones son malas pero  
+es un problema, afortunadamente, menor. Los tubos no 
+tienen por qué deteriorarse porque tengamos una  
+instalación de cobre a continuación. En cualquier caso, la solución que tenemos cuando queremos  
+evitar que haya contacto entre ellos es poner un 
+manguito de transición que evita la electrolisis.  
+A partir de ahí, nosotros en nuestro 
+caso podemos salir ya con una   
+rosca con multicapa, con una pieza de multicapa 
+que lleve rosca por un lado, en este caso de media,  
+y por otro lado ya la salida para conectar tubo de 20 y seguimos adelante con nuestra instalación.  
+En nuestro caso, como tenemos problemas en la zona 
+justamente donde estamos haciendo la unión y  
+no podemos ampliar el espacio porque se nos está 
+cayendo la pared por el otro lado, optamos como una  
+solución intermedia por meter un codo de bronce, 
+que sufre menos la corrosión y, por tanto, no va  
+a contribuir de la misma manera a que se genere este problema.
+A partir de aquí, la instalación con multicapa es muy sencilla.
+Te dejo aquí un enlace a un tutorial específico que hicimos en su momento  
+de cómo se maneja el multicapa, pero ves que es cortar trozos de tubo; abocardarlos bien
+e incorporarlos a las piezas que 
+entran con mucha facilidad.  
+Precaución que sí que te indico para esto. Si metemos directamente las piezas  
+sin cuidado, puede ocurrir que en algunos casos 
+pellizquemos las juntas de estanqueidad que lleva.  
+¿Ves este pellizco? No es especialmente grave porque, afortunadamente, lleva una doble  
+junta para que no haya problemas, 
+pero en principio vamos a intentar  
+evitarlo. La mejor manera de evitarlo es lubricar las piezas para que de esa manera,  
+con el lubricante, podamos 
+introducirlas sin ninguna dificultad y ajustarlas.
+Vamos, como ves, metiendo bien los  
+anillos; apretándolos con ayuda de 
+la llave inglesa y de la mordaza
+para que queden perfectamente 
+presionados. En general, una vez que damos  
+el agua y está terminada la instalación, también tenemos que fijarnos en que no haya fugas. Esto es  
+importante antes de cubrir los tubos. 
+El multicapa tiene una gran ventaja y también  
+un pequeño inconveniente. La gran ventaja es que son piezas muy fáciles de  
+utilizar (que en este caso, como estamos trabajando 
+con piezas de compresión, basta con utilizar una  
+llave inglesa); tienen enorme resistencia y tienen todas las propiedades favorables que  
+tenga cualquier otro material. En este sentido, fantástico. El inconveniente es que son un  
+poco grandes, porque como son piezas de compresión 
+necesitan tener tuercas, y esto nos obliga a tener  
+más espacio. Esto, en las paredes que tienen algunas 
+dificultades de espacio, hace que 
+cuando vamos haciendo la roza cueste más colocarlo de  
+una manera ordenada. Hay que aprovechar huecos, hay que aprovechar un poco las situaciones para que  
+podamos ir metiendo las piezas sin dificultad. Aquí nosotros al final no hemos tenido ninguna, pero es  
+verdad que la instalación queda un poco fea, ¡vaya!  😁
+Para ver bien todos los detalles, hemos preparado
+una maqueta didáctica. Aunque no se corresponde 
+con algunas de las medidas, 
+nos va a ser mucho más útil para entenderlo todo.
+¿Qué sería lo ideal en una instalación de este tipo? 
+Pues lo ideal es que nosotros tengamos abierta la roza 
+con un tamaño suficiente para que pasen los tubos
+y que podamos meter directamente, o bien las grapas 
+específicas que hay para tubo multicapa o, en  
+mi caso, a mí me gusta mucho utilizar por ejemplo los tacos de brida y bridas. 
+Vas pasando los tubos, vas aprovechando los tacos de 
+brida y las bridas, las tensas y ya está. De esta  
+manera, de una forma muy sencilla, los vas colocando. Estos tacos brida además, como son  
+tacos que no necesitan ningún tipo de trabajo especial más que hacer el taladro, es muy rápido  
+instalarlos y colocarlos.
+Vamos llegando hacia otro 
+de los puntos críticos en la instalación de la
+nueva fontanería. Fíjate en que, igual que decíamos que 
+un punto esencial es que estemos seguros  
+de que nos queda bien el nivel de salida del agua, 
+hay otro punto fundamental que es que nos quede  
+bien la entrada donde tenemos que conectar 
+la grifería porque, si ahí tenemos una dificultad,  
+nos las vamos a ver y a desear para colocar luego 
+la grifería. Desde el punto de vista ideal   
+-que nosotros no hemos podido hacer-, cuando hacemos una instalación nos conviene buscar el  
+espacio donde colocar una placa. Lo que vamos 
+a hacer siempre es marcar el nivel horizontal  
+previamente con un nivel de burbuja para asegurarnos de que las tomas nos queden a nivel.
+Éste es el primer paso. En nuestro caso ves que la placa no nos cabe bien. Esto es una cosa que pasa a veces,  
+incluso cuando la vas a colocar, porque no se ha previsto. No pasa nada. 
+Fíjate, picamos un poco y lo que no 
+podamos poner con tornillos  
+en uno de los lados podemos reforzarlo poniendo un 
+poco de adhesivo. Nosotros vamos a poner  
+un turbo que actúa muy rápido, es muy fuerte a la hora de pegar y pega perfectamente  
+este material de la placa. Y, con esto, 
+lo dejamos colocado en su sitio y perfectamente fijado.  
+Y aquí vamos a ver también otro 
+punto muy importante. Igual que, en el
+desagüe, la rejilla nos da la altura, en este caso, 
+la profundidad que necesitamos de las instalaciones 
+nos la dan justamente las tomas, porque las tomas 
+son las que sí que van obligadas a ir en una posición  
+determinada para que nos queden justo enrasadas 
+con la nueva cerámica para poder poner los grifos.  
+Para que lo veas gráficamente, nosotros vamos a 
+montar aquí directamente nuestra salida.  
+Vamos a atornillar la toma para que quede 
+en teoría perfectamente alineada. ¡Vale!, está  
+alineada, esto parece ¿no? Bueno, si quieres saber si 
+está bien alineada, yo utilizo un truco que  
+es, con un tubo de cobre en el que tengo soldada 
+en la cabecera una pieza roscada, lo 
+introduzco directamente en la toma. Ese tubo nos va a detectar si efectivamente  
+estamos o no perfectamente horizontales. Fíjate en que 
+en este caso, aunque yo estoy sujeto a la placa, el  
+tubo me está diciendo que no está correctamente 
+colocada. Va para arriba. Entonces, ¿cómo lo solucionamos? 
+Pues, fíjate, esto está pasando 
+porque, aunque yo tengo bien colocada la toma,  
+el tubo viene forzado. El tubo abajo y la pieza 
+donde arranco están haciendo fuerza hacia el  
+exterior y esto hace que se incline la pieza. Así que lo que tengo que hacer cuando vea  
+esto es retirar, saco la toma y voy a picar lo que necesite y eso que pique me va a dar también  
+la información de cuál va a ser la profundidad 
+a la que debo llevar la instalación en la pared  
+para que me quede bien alineada. En algún momento es verdad que yo puedo ir sacándola para afuera,  
+puedo forzar un poco...pero, en esta pared del baño donde voy a poner las tomas, es verdad que  
+aquí está un poco exagerado porque como es una maqueta he puesto la toma muy  
+de cerca y no tengo tanto juego como podría tener 
+en la situación normal de una toma que estuviera  
+a más distancia, pero ya me va indicando -que es 
+lo que quiero que veas- la importancia que tiene  
+esto. Así que, una vez que hemos picado para que el primer codo de salida me quede bien  
+alineado con la toma, que no vaya forzada, voy a 
+colocar la segunda toma de salida. Y, fíjate en que  
+ahora ya, cuando voy comprobando con mi tubo cuál es la posición, veo que efectivamente el nivel  
+está correcto, está perfectamente horizontal y 
+sé con certeza que, en lo que sí que manda mi  
+placa, van a estar también alineadas.
+En caso de que las tomas te queden demasiado profundas,
+no te preocupes porque tienes también entronques 
+que lo que hacen es, con pequeñas distancias, roscar  
+y sacar hacia el exterior un rosca macho-hembra 
+para que de esta manera puedas conectar las excéntricas  
+en su sitio sin dificultad. Verás que 
+con esto, con este sistema, vas a evitarte esos  
+problemas tan engorrosos que nos ocurren a veces 
+cuando cuesta muchísimo meter los grifos sobre las  
+excéntricas, porque realmente, si no están alineadas, aunque 
+podamos corregir las pequeñas diferencias  
+de distancia, las alineaciones tienen muy mala corrección y es lo que tenemos que evitar. 
+Siguiente capítulo. En este trabajo, en el tutorial inicial, vimos cómo colocábamos una rejilla  
+con una válvula que es la que nos va a marcar la altura de partida del plato, porque ahí es donde  
+tiene que desembarcar todo el agua. Y tenemos 
+que asegurarnos de que el agua que entra en la  
+rejilla tenga suficiente pendiente y caída para salir por el sumidero. En este caso, una vez que  
+tenemos ya comprobado que efectivamente 
+tenemos la pendiente correcta, nos toca cortar los  
+tubos. En nuestro caso, estamos trabajando con un tubo flexible de desagüe. Limpiamos este tubo  
+con limpiador de PVC, hacemos lo mismo en la otra 
+parte y vamos a aplicarle la cola especial para  
+PVC. Es una parte muy sencilla pero siempre, en cualquier en caso, vamos a tener luego la  
+precaución de echar agua por la rejilla y ver que 
+efectivamente no hay ninguna pérdida. Una vez que  
+tenemos esto resuelto, ya nos quedamos tranquilos 
+con respecto a este tema.
+Espero que te haya gustado este tutorial y que nos hayamos ganado 
+tu "like".  
+Y, para los que queráis participar de una manera más activa   
+en las cosas que vamos a ir 
+haciendo en Bricocrack, te recuerdo -si no estás dado de alta-
+que tenemos BricocrackPRO, que es una plataforma especial para que los profesionales y los  
+bricoladores más inquietos puedan hacer cosas muy 
+interesantes, participar en concursos, participar  
+en directos...en fin, cosas que, una vez que te des de alta entrando directamente en el enlace que  
+te dejo abajo para hacer una pequeña encuesta y 
+dejar tus datos, ya irás recibiendo información de  
+las cosas que vamos creando. Y, en todo caso, 
+como siempre, si te ha gustado este vídeo,  
+compártelo con tus amigos a los que les guste el 
+mundo del bricolaje y, por supuesto, suscríbete a  
+nuestro canal si no lo estás todavía y acuérdate de dar a la campanita para recibir notificaciones.
+[Música]

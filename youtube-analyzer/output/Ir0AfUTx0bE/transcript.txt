@@ -1,0 +1,255 @@
+En otros tutoriales que hemos hecho con 
+la ayuda de nuestros amigos de INDEX, habíamos hablado 
+de poner cargas en distintos tipos de paredes: 
+en hormigón, en placas de yeso... también de ponerlas  
+en el techo. Pero todavía no habíamos hablado de 
+cómo hacemos para poner cargas en las paredes  
+-que son las más habituales de encontrar-
+que son las paredes de ladrillo. Y, efectivamente,  
+nos preguntáis con mucha frecuencia qué hacemos 
+para poner cargas pesadas en paredes de ladrillo.  
+Yo, ante todo tengo que decir que, en general,
+cuando me preguntáis por "cargas pesadas", os referís  
+a, por ejemplo, poner 
+un espejo de 30 kilos. Bueno, la verdad es  
+que eso tampoco es que sea una carga pesada. Es una 
+cosa bastante llevadera. En principio, las cargas  
+en las paredes de ladrillo son muy fáciles de 
+poner. Algo en lo que siempre te insisto. ¿Cuál es el  
+error que cometemos siempre cuando  ponemos 
+este tipo de cargas? Pues que pensamos que lo  
+que hace falta es que el taco aguante mucho.
+Tenemos el mal hábito de ir a buscar tacos  
+metálicos porque pesa mucho la carga. Éste
+es un error del que ya hemos hablado pero vamos  
+a insistir, ¡no pasa nada! Porque, cada vez 
+que no insistimos y no veis el vídeo, se os cae  
+algo y efectivamente es un problema. Vamos a 
+ver qué pasa cuando ponemos estos tacos tan  
+estupendos y tan resistentes en una pared que no 
+les corresponde. Vamos a meter unas fijaciones  
+metálicas directamente en un ladrillo hueco como 
+éste. Lógicamente, en la vida real este ladrillo  
+es posible que tuviera dentro restos de mortero o 
+no. Nunca lo sabemos porque se trata de una pared  
+hueca y no sabemos lo que hay en el interior. El 
+primer problema empieza ya en el  
+momento del taladrado y de introducir el anclaje. 
+Cuando yo trabajo en hormigón, como es   
+muy resistente, me permite que, aunque me 
+haya quedado muy ajustado el taladro que he  
+hecho, pueda golpear con el martillo y hacer que 
+penetre sin dificultad el anclaje. En este caso,  lógicamente,
+el ladrillo no tiene esa resistencia. 
+Por más que este ladrillo lo tengamos desprotegido,  
+es verdad que los ladrillos tienden más a 
+romperse en el interior cuando estoy haciendo  
+fuerza con un anclaje metálico como éste golpeando 
+y puede llegar a partir sin ninguna dificultad. 
+Siguiente problema. Es verdad que yo he elegido una 
+fijación muy larga, no necesitaba una fijación tan  
+larga, podría estar más cerca de la superficie el 
+punto donde se va expandiendo la camisa según voy  
+girando. Pero, como ves, pasan dos cosas. La primera, 
+que el tornillo tiende a girar porque lógicamente  
+tiene holgura en el cuello y eso hace que no 
+ajuste bien. La segunda, que el esfuerzo que está  
+haciendo de expansión la camisa del tornillo 
+lo hace para sujetarse con fuerza contra los  
+bordes del taladro, pero aquí es que no tengo 
+bordes en el agujero porque tengo un espacio  
+hueco. Con lo cual ese espacio de expansión de la 
+camisa para quedarse fijada contra las paredes es  
+totalmente inútil. ¿Qué es entonces lo que vamos a 
+utilizar cuando trabajamos en paredes de ladrillo?  
+Pues, lógicamente, debemos utilizar tacos para 
+paredes huecas y los más habituales son los de  
+poliamida. Vamos a ver cómo se activa el taco 
+cuando yo lo meto en el interior del ladrillo.
+Vamos a hacer un taladro del 8 para introducir 
+un taco de poliamida TN4S de diámetro 8.
+Lo introducimos bien a fondo. Ves que tiene un 
+collarín que evita que se meta hacia el interior.  
+Y ahora vamos a meter el tornillo.
+Ves que, a 
+medida que vamos girando el tornillo lentamente,
+va retrayéndose el taco formando 
+una bola que hace un tope de fijación.
+Fíjate en que estamos rodeando la superficie
+ 
+del ladrillo de un material blando como es la  
+poliamida, pero ejerciendo una gran presión con 
+todo el apriete que hacemos con la retracción del tornillo. 
+Este taco de poliamida tiene dos 
+virtudes fundamentales para que funcione muy  
+bien. La primera es que es muy resistente 
+pero, la segunda, que es también muy elástico y eso  
+hace que absorba la presión entre el tornillo y 
+la pieza del ladrillo, la superficie. Absorbe esa  
+tensión que se va creando y no tenemos riesgo
+de rotura. Como ves, hemos metido el tornillo muy a  
+fondo, prácticamente lo hemos hincado dentro y, sin 
+embargo, el taco hace como una amortiguación que evita  
+que se pueda fracturar la pared de ladrillo. Esto 
+es fundamental. Pero, ¿qué ocurre? Pues que
+a veces nos encontramos con que elegimos bien 
+el taco pero lo cierto es que tanto taco como  
+tornillo, conjuntamente, es lo que constituye 
+la fijación. Y, para que la fijación funcione,  
+el diámetro interior del tornillo que yo ponga 
+dentro del taco tiene que ser la correcta porque,  
+si no, realmente no consigo que le dé toda la 
+fuerza que necesito. Por eso es muy importante,  
+y te insisto mucho, recurrir a las tablas. Nosotros 
+te dejamos abajo el enlace, en la descripción, para  
+que lo puedas ver. Estas tablas indican 
+cuál es la relación que existe entre el taco, el  
+tornillo y cuál es la resistencia de carga que 
+nos proporcionan. Vamos a hacer una colocación del  
+mismo taco pero, en este caso, le vamos a dar 
+el máximo diámetro de tornillo posible 
+según las tablas, que es de 6 milímetros. Vas a ver cómo  
+queda mucho más compacta la colocación. Éste es 
+el tornillo del 5 que hemos metido antes que es  
+un tornillo correcto para una sujeción normal 
+y éste es un tornillo del 6, el máximo recomendado  
+para este tamaño de taco. Este tipo de tornillos 
+-en este caso un tornillo estructural pequeño- no  
+es el más adecuado para estos tacos, pero nos 
+vale por las características que tiene. Tienen  
+habitualmente también huellas especializadas 
+para que no deslicen al hacer fuerza, hacen más resistencia.  
+Verás que actúa igual. Lo único es que 
+habitualmente es un poco más rápido porque,  
+al ser más grueso, tira antes del taco de poliamida 
+hacia el interior.
+Este tornillo del 6 por lo tanto va a ajustar mejor
+ en todo el perímetro de la 
+superficie cuando lo dejo apretado. 
+Ahora que ya sabemos lo que tenemos que elegir, la siguiente
+pregunta que uno se hace es ¿y cuánto resiste esto?
+¿Podemos utilizar este tipo de tacos de 
+poliamida para esas cargas pesadas que nos  
+decís de 20 o de 30 kilos? Bueno, pues vamos a hacer 
+lo que hacemos siempre que es someter a una prueba  
+de carga a un taco. Nosotros vamos a utilizar el más 
+sencillo. Vamos a utilizar un taco de 6 milímetros  
+con un tornillo de 4 y lo vamos a meter en este 
+ladrillo que lo hemos dejado aquí unido 
+como iría en una pared más o menos común. Le ponemos 
+presión para que tenga la resistencia  
+de carga normal de una pared que tiene todo el 
+peso encima de los ladrillos y vamos a ponerle  
+una tensión fuerte y a ir midiendo cuánta carga 
+es capaz de resistir.
+Ahora vamos a poner en marcha nuestro polipasto,
+a ver si somos 
+capaces de sujetar correctamente la pieza para  
+medir la resistencia que tiene. Ya sabes que aquí 
+cuando hacemos esta prueba en parte estamos midiendo  
+la fuerza de cortadura -es decir, la fuerza que 
+tiene de resistencia nuestra fijación respecto  
+de una carga que caiga verticalmente- y también 
+la fuerza de tracción porque, como esto se inclina,  
+siempre hace que sea más fácil arrancar 
+el taco. Con lo cual, el resultado que nos da  
+el polipasto es un resultado -digamos- de 
+menos resistencia de lo que tiene cuando es  
+una fuerza de cortadura en una pared perfectamente 
+vertical. Vamos a ponerlo en marcha y vamos mirando.
+Como ves, en principio no tenemos dificultad. 
+Hemos llegado a 25 kilos sin ningún problema, sin  
+que esto sufra. No he querido forzar más y que se nos 
+pueda romper la pieza porque antes quiero hacer  
+otra prueba distinta que te voy a explicar. Como, 
+cuando estoy trabajando sobre una pared hueca, me  
+puedo encontrar zonas como has visto 
+de ladrillo hueco o zonas donde tengo compactado,  
+porque es por ejemplo el encuentro entre ladrillos, 
+con mortero el punto donde pongo el anclaje.  
+Es lo que vamos justamente a representar. Vamos 
+a aprovechar este espacio de la junta entre  
+dos ladrillos para hacer ahí la perforación con 
+el taladro e introducir el taco. De esta manera,  
+vamos a ver qué ocurre cuando este mismo taco 
+-que me sirve en teoría hasta ahora para paredes  
+huecas- lo meto en una zona que ya no es hueca,
+en una zona que está compactada con mortero.
+Vamos levantando el polipasto, haciendo que cree 
+la presión desde abajo en nuestros tensores y  
+vamos viendo cómo avanza el peso.
+En principio 
+nosotros, si estuviéramos seguros de que esto
+es una carga hueca, iríamos con toda confianza 
+porque las cargas huecas con este tipo de  
+tacos tienen más resistencia. Pero aquí vamos a ir
+con cuidado porque estamos haciendo un efecto de  
+cuña entre los dos ladrillos que, si bien es cierto 
+que están aprisionados como estarían en una pared  
+por la carga de todo el peso que tiene encima 
+la construcción, aquí pueden salir despedidos con  
+cierta facilidad. Vamos poco a poco subiendo. Vemos 
+que vamos llegando a cargas más importantes
+y vamos a llegar hacia los 70 kilos o así que, para  
+la comprobación que queremos 
+hacer, es más que suficiente.
+Vamos a dar ahora la vuelta y a probar también 
+más carga en la parte pura de ladrillo. 
+Vamos a ir probando, subiendo poco a poco el polipasto y poniéndole más tensión.   
+Ves que vamos avanzando sin ninguna dificultad tensionando los
+tensores que tenemos debajo. Sigue subiendo, vamos
+pasando cargas y fíjate en cómo vamos creciendo.
+Ahora te diré cuál es la carga recomendada que  
+tiene el fabricante pero ves que, a medida que vamos 
+avanzando, aquí ya corremos el riesgo de que esto se  
+rompa, por eso tenemos siempre protegida toda 
+la zona porque hay mucha tensión  
+y eso puede hacer que salga despedida alguna de 
+las piezas. Vamos a llegar más o menos en torno  
+a los 100 kilos de carga y nos vamos a conformar 
+con eso para no tentar a la suerte y que salga un  
+poco lejos alguno de los ladrillos. Ves que 
+llegamos hasta esta carga sin mayor dificultad. 
+Si consultas las tablas de las que te dejo el 
+enlace abajo para ver la resistencia, observarás que  
+la carga máxima que admiten este tipo de tacos 
+-para tacos de 6 con tornillo de 4 que hemos puesto  
+nosotros- son unos 15 kilonewton que equivalen 
+aproximadamente a 15 kilos de resistencia. Si nos  
+vamos a un taco del 8, llegamos hasta 21 kilos 
+de resistencia. Quiero decirte con esto que no hay  
+que volverse locos pensando que hay que buscar 
+un tipo de fijación superespecial cuando 
+tengo que colgar una cosa de 30 a 40 kilos en 
+una pared. No pasa nada porque, con unos tacos de  
+este tipo y con el tornillo 
+correcto, lo resuelvo sin ninguna dificultad. 
+¿Qué es lo que tengo que hacer en caso de que 
+tenga una carga que es mucho mayor que esto,  
+que desborda las cargas máximas recomendadas 
+que me dan en la tabla? Pues me iría directamente  
+a hacer una aplicación, como ya has visto en otros 
+tutoriales, utilizando taco químico. El taco químico  
+me da una capacidad de relleno y una capacidad 
+de resistencia altísimas. Te voy a dejar también los  
+cuadros donde te da esta información y, en todo 
+caso, en el tutorial que te estoy indicando aquí  
+puedes entrar a ver exactamente cómo se hace la 
+aplicación y ahí sí que ya tenemos las grandes cargas.  
+Para esas dominadas que quieres poner 
+en tu pared, para ese saco de boxeo que quieres  
+colgar, siempre el taco químico es una solución 
+perfecta.
+Ves que la decisión es muy sencilla y
+que uno se queda muy tranquilo manejando este 
+tipo de tablas y, por supuesto, viendo los  
+tutoriales de Bricocrack donde, además, hacemos 
+la comprobación clara de que tenemos margen de  
+sobra para ir con mucha confianza con este tipo 
+de fijaciones de INDEX que te hemos ido enseñando.  
+Además de que cuelgues todo lo que quieras, 
+lo único que falta es que nos des tu "like", que te  
+suscribas al Canal si no lo estás todavía -acuérdate de 
+dar a la campanita para recibir las notificaciones-  
+y que compartas este vídeo con todos tus amigos 
+a los que les guste el mundo del bricolaje.

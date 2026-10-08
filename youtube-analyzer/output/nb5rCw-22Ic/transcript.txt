@@ -1,0 +1,297 @@
+Dentro de los productos electrónicos que habíamos visto hasta ahora, nos faltaba  
+uno fundamental: las cerraduras 
+inteligentes, que nos permiten abrir las  
+puertas y controlar quién entra o quién sale 
+en cada momento.
+Lo vamos a ver en este tutorial.
+¡Bienvenido a Bricocrack! El canal 
+en el que contestamos tus preguntas siempre,  
+eso sí por favor, que nos las hagas en el último 
+vídeo que publicamos cada semana. Y para estar  
+al tanto de cuándo publicamos, nada mejor 
+que estar suscrito. Ya sabes, tienes aquí el  
+botoncito para suscribirte y luego dar a la campana 
+para recibir notificaciones. Y, además, estando  
+suscrito, puedes participar -como en el 
+vídeo de hoy- en sorteos.
+Luego te contaré el sorteo que vamos a hacer.
+Una cerradura normal 
+es una cerradura que abrimos utilizando una  
+llave. Una cerradura conectada la podemos 
+abrir de bastantes maneras distintas, por  
+lo menos ésta. La podemos abrir con un teclado 
+que tengamos situado en cualquier punto de acceso
+o la podemos abrir utilizando el teléfono 
+móvil. Y utilizar el teléfono móvil, tanto como  
+una herramienta de entrada cuando estamos al lado 
+de la puerta, como en remoto, desde cualquier parte  
+del mundo cuando alguien nos llama para que le 
+abramos la puerta.
+Nosotros vamos a trabajar con la Linus Smart Lock de Yale.
+Por una parte, vamos 
+a ver qué dispositivos tenemos que se integran  
+para darnos las funciones que necesitamos y, por 
+otra, vamos a ver cómo funciona la aplicación  
+en el teléfono móvil, que vas a ver que es muy 
+sencilla y que nos presta muchas posibilidades.  
+¿Cuál es el criterio para tener una cerradura de 
+este tipo? Nosotros ya hemos hablado en otros  
+tutoriales del problema, por ejemplo, de tercera 
+edad. El que nosotros podamos tener un recurso  
+fundamental para poder abrir una puerta en remoto 
+nos permite dar acceso a personas que van hacer  
+cualquier tipo de servicio en casa, por ejemplo, 
+de nuestros padres cuando son mayores. Nos permite  
+intervenir directamente abriendo la puerta 
+cuando hay una emergencia o, simplemente, 
+saber cuáles son los movimientos que 
+hay en la casa para estar tranquilos con respecto  
+a que todo es normal. Y, en nuestras propias vidas, 
+pues por ejemplo en el caso de quienes  
+podamos tener hijos en edades que tienen 
+alguna dificultad para acordarse de cerrar  
+la puerta correctamente o, incluso, la incomodidad de
+llevarse la llave, realmente hacemos una función  
+mucho más segura desde el punto de vista de 
+que la puerta
+se autobloquea después de la salida de casa, si uno la deja
+programada así, o que directamente se puede abrir 
+con el teléfono móvil sin ninguna otra limitación.  
+Y, por supuesto, si tenemos que tener personal 
+externo que accede a nuestra casa, sabremos  
+siempre quién, cuándo y de qué manera, para 
+evitar que haya que estar repartiendo llaves  
+y que nunca sepamos dónde van a parar las llaves 
+que tiene cada persona. De esta manera, el control  
+de acceso está siempre restringido de la forma
+que nosotros queramos. Y hoy en día también es un  
+instrumento muy interesante para apartamentos 
+turísticos porque permite tener la  
+seguridad de que el acceso va a estar restringido 
+el tiempo necesario a la persona que se le quiera  
+dar, sin peligro tampoco de que haya problemas 
+de seguridad en que la gente tenga llaves y  
+que nunca sepas muy bien quién tiene copias o 
+no tiene copias de un apartamento. En este caso  
+es una manera perfecta de hacer este tipo de 
+control de accesos para incluso delimitar el  
+tiempo de permanencia de los inquilinos.
+Pero vamos a ver cuáles son las condiciones que tiene que tener nuestra cerradura,
+porque estamos hablando de una cerradura que, en principio, no es más que 
+este aparato electrónico y va montado directamente sobre un cilindro. 
+La condición que tiene que tener un cilindro que nos sirva 
+para adaptar directamente la cerradura es que  
+se trate de un cilindro europeo y que tenga doble 
+embrague. ¿Y qué es esto del doble embrague? 
+Pues lo vas a entender muy fácil.
+Habitualmente, cuando yo llego a mi casa, meto la llave, giro y abro.
+¿Qué ocurre? Pues que, cuando la cerradura no es 
+de doble embrague, si tengo una llave en el interior,
+cuando intento abrir, no 
+consigo meter la llave.
+Éste es un cilindro que no tiene doble embrague.
+Si no tenemos un cilindro de doble embrague, vamos a cambiarlo  
+y a instalarlo. Nosotros vamos a instalar 
+uno, también de Yale, el HS-K Linus que es un  
+cilindro de alta seguridad pero que lleva ya un paletón en la parte interior  
+donde va a ir colocada la cerradura. Éstos 
+son cilindros de seguridad especiales que  
+tienen características por supuesto de 
+alta resistencia pero que, además, tienen  
+una característica fundamental que es que 
+llevan una tarjeta en el interior -lo vas a ver ahora- 
+que nunca debemos perder porque esta tarjeta es la única forma de que podamos hacer  
+copias de las llaves. Ésta es la manera en que está 
+garantizado que nunca va a haber ningún tipo de  
+situación en la que haya circulando llaves que no 
+deban.
+Este cilindro HS-K Linus siempre tiene que venir
+con los precintos intactos, porque es lo que nos 
+garantiza que nadie ha tenido la tarjeta en su mano.
+Ésta es la tarjeta con el número 
+correspondiente y aquí tengo el cilindro.
+Giro un poco la llave para ponerla en la posición 
+en que las levas estén desplazadas y saco el cilindro.
+El cilindro que nosotros tengamos montado es  
+imprescindible que sobresalga al menos 3 mm, porque vas a ver  
+que la sujeción que tiene requiere 
+ese espacio para que se pueda quedar fijada la cerradura.
+Y, ahora, sí que podemos instalar ya 
+nuestra cerradura. 
+Ésta es nuestra cerradura Linus Smart Lock y vamos a abrirla para 
+que veas lo que vamos a tener en  
+el interior para instalar. Tenemos, por 
+una parte, esta caja que contiene una  
+llave Allen y una pieza que es 
+un imán. Y aquí tenemos la cerradura
+electrónica y un adhesivo para poderla pegar.  
+Vamos a sacar, en primer lugar, la base con la que vamos a trabajar para ponerla en la puerta.
+Y éste es el interior de la 
+cerradura donde alojaremos la llave.  
+Nosotros no necesitamos pegarla, así que vamos a sujetarla con sus tornillos prisioneros.
+No te pases con el apriete 
+de los tornillos prisioneros porque,   
+si aprietas demasiado, se pueden romper. Basta con que  
+los cierres con firmeza, pero sin hacer 
+un apriete excesivo.   
+Y, a continuación, metemos la cerradura. Vamos a introducir el 
+paletón, empujando este resorte que 
+lleva aquí, y cerramos estas alas de fijación.
+Y ahora colocamos el imán en el marco de 
+la puerta,
+a la altura del logo de Yale que tiene la cerradura.
+Para ponerla en marcha, retiramos la tapa 
+de las pilas que es, como ves, un tapón imantado,  
+quitamos el precinto que las protege y volvemos a poner la tapa.
+Dos cosas importantes con respecto a la cerradura.
+Si nosotros estamos utilizando ya un 
+cilindro de doble embrague que tenemos, como no  
+tenemos uno con paletón, utilizamos como paletón la 
+propia llave. La dejamos puesta y será la cabeza de  
+la llave la que se introducirá en la cerradura 
+para hacer el giro. En este caso, si 
+tenemos una cabeza que sea muy larga se recorta un 
+poco y ¡ya está! Segundo aspecto. Es importante que  
+el cilindro sobresalga al menos esos 3 a 5 mm de 
+la puerta, ¿por qué? Pues porque, de esta forma, la sujeción  
+que hemos hecho con los tonillos prisioneros 
+queda bien afianzada. Si no sale tanto, la podemos  
+pegar directamente con el adhesivo que lleva pero, 
+lógicamente, con el paso del tiempo siempre es más  
+eficaz la fijación mecánica que pegarla.
+Nosotros tenemos aquí ya la cerradura como tal.
+Hemos partido en nuestro caso de cambiar el 
+cilindro -podríamos haber partido o no-, pero esta  
+es nuestra cerradura, la que nos permite hacer las 
+funciones de control y bloqueo de las que hemos hablado.  
+Ves que por el interior es una cerradura 
+de aluminio que tiene una maneta clásica.   
+La idea del fabricante al poner la maneta clásica es 
+que cualquier persona entienda perfectamente   
+cómo se abre la puerta, para que no haya 
+ninguna duda en casos de emergencia y de  
+seguridad de dónde está el sistema de apertura. 
+Y, ahora, lo que nos toca es empezar a hacer la  
+parte del software, es decir, vamos a  descargarnos en el teléfono la aplicación  
+SmartHome de Yale y, con esto, vamos a empezar a hacer todo el trabajo para poder gobernar  
+la puerta desde el teléfono móvil.
+La instalación tiene un paso a paso que te va dando 
+el propio teléfono para que sea muy sencilla.
+Escaneamos el código de barras que tenemos en la tapa de las pilas.
+Y, a partir de ahí, una vez que se conecta con 
+la cerradura lo que nos va a pedir es que  
+le ayudemos a hacer la calibración. Así es que 
+vamos a ir leyendo las instrucciones que nos  
+da para ir poniendo en distintas posiciones 
+la cerradura y, de esta forma, vamos a ir  
+indicándole a nuestro teléfono cuáles son 
+las posiciones. Aquí lo que es importante es  
+que leas detenidamente las instrucciones 
+que te va dando en cada caso. Si no, no  
+pasa nada porque se vuelve a iniciar y ¡ya está!
+Ahora ya tenemos nuestra cerradura conectada a la aplicación.
+El funcionamiento del teléfono 
+nos permite abrir la puerta cuando está bloqueada;
+saber cuándo la puerta está cerrada, aunque  
+no tenga todavía echado el cierre, o volver a cerrar.
+Nosotros en este punto lo que tenemos por 
+lo tanto es un teléfono conectado con una  
+aplicación a esta cerradura y funciona todo 
+de momento por Bluetooth, estamos trabajando  
+solamente en proximidades. Yo, a partir de aquí, ya 
+puedo dar muchísimo juego al funcionamiento de mi  
+cerradura, por supuesto. Porque yo, por ejemplo, 
+con mi teléfono puedo nombrar invitados. 
+Esos invitados pueden tener restricciones o no. Es 
+decir que yo, a mi familia les voy a dar el  
+mismo sistema de apertura que tengo yo para 
+que puedan funcionar cuando quieran o a personas  
+determinadas les diré tienes este horario o 
+este día o esta forma de funcionar. Puedo también,  
+por supuesto, abrir siempre la puerta con la llave normal, puedo  
+seguir utilizándola sin ninguna limitación.
+Y también puedo puntualmente, si lo necesito  
+porque estoy fuera, que una persona que no tiene 
+en ese momento acceso disponible lo tenga  
+mandándole desde cualquier parte del mundo 
+una llave virtual a su teléfono para que se  
+empareje y pueda abrir en ese momento la puerta, 
+cuando tengo una emergencia. Pero es verdad que  
+de momento, con todo esto que en principio me 
+puede funcionar para la vida cotidiana, para  
+algunas personas puede tener limitaciones, ¿por 
+qué? Pues porque puedo querer tener la posibilidad  
+de gobernar el teléfono en Wi-Fi para abrir en 
+remoto cuando estoy abriendo por ejemplo la  
+puerta en una casa donde tengo personas mayores 
+o, sencillamente, puedo necesitar un  
+dispositivo de apertura más sencillo, como sería 
+un teclado. Aquí es donde vienen los dispositivos accesorios 
+que tenemos disponibles y que te voy a ir explicando.
+Vamos a empezar por instalar nuestro teclado.
+Ésta es la tapa que vamos a 
+poner directamente en la pared, bien  
+con adhesivos o con el sistema de tornillos 
+que trae disponible. Por si queremos pegarlo,  
+lleva también una base adhesiva para colocarlo.
+Como ves, se trata de un dispositivo pequeño  
+y discreto que se coloca en el entorno de la puerta, hasta unos 2 m de distancia más o menos. 
+Para emparejarlo, vamos a utilizar también 
+la misma aplicación. Instalamos nuevo dispositivo,  
+lo emparejamos utilizando el código QR que 
+tiene en la parte trasera y, una vez que está  
+instalado, nos da un código de comprobación 
+para que veamos que ya se activa normalmente.
+A partir de ahí, la aplicación 
+nos permite entrar y designar los códigos  
+que queramos dar para nosotros o 
+para invitados. Códigos específicos  
+que lleven su propio control.
+Y, por último, 
+vamos a conectar el bridge, el puente que
+nos va a hacer la conexión entre el 
+Wi-Fi de la casa y nuestra cerradura inteligente.
+La configuración la vamos a hacer como 
+en el caso del teclado, leyendo el código QR que  
+lleva en su interior y esto nos va a cargar 
+directamente la aplicación. A partir de ahí,  
+como siempre con todos los dispositivos Wi-Fi, nos va 
+a pedir que le demos la contraseña de Wi-Fi de la  
+casa para emparejarse, etc. A partir 
+de este momento, nuestro bridge ya está conectado  
+directamente a la cerradura. ¿Qué es lo que cambia? 
+Pues que hasta ahora nosotros, para dar las  
+instrucciones a la puerta o para recibir la 
+información de las aperturas que ha tenido, con  
+con el sistema Bluetooth teníamos que acercar 
+el teléfono a la puerta y era cuando realmente  
+se podían intercambiar la información o las 
+órdenes. A partir de este momento, el bridge  
+va a recoger tanto la información como las 
+órdenes que le enviemos desde cualquier punto  
+del mundo y, a través del WiFi de la casa, va a 
+actuar con la puerta. A partir de aquí, también  
+se activan las opciones que tienen siempre los 
+teléfonos móviles de geolocalización  
+y, por ejemplo, nosotros en la aplicación podemos 
+decirle que cuando el teléfono esté junto a la  
+puerta, cuando estamos llegando a casa, se active sola la apertura.
+Bueno, os había dicho que íbamos a tener sorteo.
+¡Pues vamos a tener sorteo! Vamos a 
+sortear una cerradura Linus Smart Lock de Yale.  
+Y, para participar en el sorteo, además 
+de estar suscrito -ésta siempre es una  
+condición fundamental-, te dejo arriba el enlace a una encuesta. De esta manera nos ayudáis con  
+vuestras ideas, con vuestras opiniones, a conocer 
+mejor las cosas de las que tenemos que hablaros.  
+Y, con esto, yo creo que hemos visto además un aspecto muy interesante del que veníamos  
+hablando durante el año de tercera edad y 
+demás pero, no solamente para tercera edad,  
+este tipo de productos conectados como este control de
+accesos para la vida moderna que llevamos, que  
+estamos mucho tiempo fuera de las casas y que 
+tenemos que tener mucha interacción con otras  
+personas, creo que es muy útil. Así que espero que 
+os haya parecido interesante y que, como siempre,   
+nos hayamos ganado tu "like" y compartas este vídeo con
+todos tus amigos a los que les guste el mundo del bricolaje.

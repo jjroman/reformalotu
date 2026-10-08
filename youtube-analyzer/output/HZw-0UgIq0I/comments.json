@@ -1,0 +1,111 @@
+[
+  {
+    "Author": "@antonioruiz1903",
+    "Text": "Hola\nGracias por tu tiempo Leo 👌\nBadalona",
+    "Likes": 0,
+    "PublishedAt": "2023-08-03T20:59:04+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@miguelolivares6819",
+    "Text": "Hermosos cordones,  eres un gran profesional. Saludos de santiago de Chile",
+    "Likes": 1,
+    "PublishedAt": "2021-09-21T21:44:05+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@paulym4347",
+    "Text": "bueno usted maestro que no sabe hacer siempre bien explicado ánimo saludos México",
+    "Likes": 1,
+    "PublishedAt": "2018-03-26T15:39:58+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Muchas gracias por comentar Pauly. Un saludo hasta México!",
+        "Likes": 0,
+        "PublishedAt": "2018-03-26T19:58:37+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@victorius2006",
+    "Text": "3:36 aquí te faltó poner un trozo de madera debajo de la pletina cuadrada de la pata para que hiciera de mártir y no quemar la mesa de trabajo, como se ve que te pasó en el minuto 3:43... Es normal, no puedes estar en todos los detallitos ;-)",
+    "Likes": 0,
+    "PublishedAt": "2016-08-02T18:51:52+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@matiasncastro577",
+    "Text": "A los gatos también se les dicen Sargentos, al menos acá en Argentina.",
+    "Likes": 1,
+    "PublishedAt": "2016-05-07T19:02:28+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "\u002BMatias Nicolas Castro Y aquí, y aquí.... jajaja. Es una forma más familiar de llamarlos.",
+        "Likes": 0,
+        "PublishedAt": "2016-05-19T15:29:24+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@tanpeke",
+        "Text": "el gato es para levantar el coche en argentina",
+        "Likes": 0,
+        "PublishedAt": "2016-05-29T23:22:37+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@Bricocrack",
+    "Text": "¡Ya tenéis disponible el croquis con las medidas del banco en nuestra página web!\nhttp://www.bricocrack.tv/ideas/banco-con-soldadura-al-arco/",
+    "Likes": 1,
+    "PublishedAt": "2015-10-05T18:00:29+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@rgtza72",
+    "Text": "En México no encuentro de esos gatos podeis mandarme unas fotos de ellos para realizarlos",
+    "Likes": 0,
+    "PublishedAt": "2014-10-28T01:45:23+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@southsidebrownpride799",
+    "Text": "como se llaman esas abrazaderas",
+    "Likes": 0,
+    "PublishedAt": "2014-09-10T22:10:26+00:00",
+    "Replies": [
+      {
+        "Author": "@victorius2006",
+        "Text": "Se llaman \u0022tornillos de apriete\u0022, \u0022sargento\u0022 o \u0022sargenta\u0022",
+        "Likes": 0,
+        "PublishedAt": "2016-08-02T18:58:11+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@juanherranzhernanz4411",
+    "Text": "Mas videos de soldadura",
+    "Likes": 0,
+    "PublishedAt": "2014-03-20T20:35:37+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@carlosleon1161",
+    "Text": "Muchas gracias. Buen fin de semana también? ",
+    "Likes": 1,
+    "PublishedAt": "2014-03-15T20:43:23+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias a ti por seguirnos, Carlos!!! :)",
+        "Likes": 0,
+        "PublishedAt": "2014-03-16T18:35:30+00:00",
+        "Replies": []
+      }
+    ]
+  }
+]

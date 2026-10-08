@@ -1,0 +1,208 @@
+[
+  {
+    "Author": "@jorgegenoves8315",
+    "Text": "Para variar, video magnífico. Cortita y al pie.",
+    "Likes": 0,
+    "PublishedAt": "2026-07-01T16:03:42+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@roxanacastillo5275",
+    "Text": "👍👍me encantó la demostracion de los diferentes controladores de agua sobre todo :MASTER el de varios conectores",
+    "Likes": 0,
+    "PublishedAt": "2025-12-26T16:13:56+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@roxanacastillo5275",
+    "Text": "🇵🇦desde de panamá: me gustaría que me diera la esplicación del control del temporizador de riego RAIN DRIP de como programarlo para el riego de mas omenos 15 minutos diario",
+    "Likes": 0,
+    "PublishedAt": "2025-12-26T16:11:15+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@antonioruiz1903",
+    "Text": "Hola\nGracias Juan por tu interés 👌\nBadalona",
+    "Likes": 0,
+    "PublishedAt": "2023-09-29T16:39:15+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@luisdiaz-fl4be",
+    "Text": "Vakan el video, de mucha ayuda 👍",
+    "Likes": 0,
+    "PublishedAt": "2022-05-09T05:45:16+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@jardinescananegretacananeg4140",
+    "Text": "gracias hermano muy bien esplicado",
+    "Likes": 0,
+    "PublishedAt": "2020-04-22T21:16:18+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ElPibeLag",
+    "Text": "Estos tienen sensor de temperatura  y cuando exista riesgo de helada -3°C se activen automáticamente ???",
+    "Likes": 1,
+    "PublishedAt": "2019-10-22T18:04:19+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "No, los de membrana no precisan.",
+        "Likes": 0,
+        "PublishedAt": "2019-10-23T06:52:41+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@manuelgarciafranco",
+    "Text": "Gran tutorial sobre los programadores de riego. Saludos.",
+    "Likes": 1,
+    "PublishedAt": "2019-10-19T17:57:02+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@ely-n8j",
+    "Text": "👍👍👍👍🇨🇱 adoro sus videos!!!",
+    "Likes": 1,
+    "PublishedAt": "2019-08-10T03:43:00+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Y nosotros tus comentarios! Un abrazo Elisabeth!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-10T10:08:21+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@Javier-yf5xt",
+    "Text": "Como siempre una buena explicacion y una buena práctica !!!!! un abrazo y gracias",
+    "Likes": 1,
+    "PublishedAt": "2019-08-09T21:57:02+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Javier! otro para ti.",
+        "Likes": 0,
+        "PublishedAt": "2019-08-10T09:28:15+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@ortegadani89",
+    "Text": "Como siempre es un placer ver estos vídeos 👌👌",
+    "Likes": 1,
+    "PublishedAt": "2019-08-05T22:36:32+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Ortegadani!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T22:05:55+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@ceciliomartin1785",
+    "Text": "muy buen video, saludos.",
+    "Likes": 1,
+    "PublishedAt": "2019-08-05T17:17:55+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Hola Cecilio! Mucha sgracias!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T22:06:25+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@aliciagudino2458",
+    "Text": "Excelentes programadores.\nComo siempre un placer ver sus videos, muchas gracias maestro saludos 👍👋🇲🇽",
+    "Likes": 1,
+    "PublishedAt": "2019-08-04T02:36:09+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Alicia!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T21:17:11+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@fadetounforgiven",
+    "Text": "Hombre, esto está muy bien, pero lo que hecho en falta como funcionalidad (o al menos no se ha comentado en el vídeo, pero por lo que he visto en las especificaciones, no me suena que lo tengan) es la limitación por litros consumidos en vez de o a la par que por tiempo.\n\nEn mi caso particular tengo un terreno en el que el suministro de agua en verano puede llegar a estar limitado. En el momento de escribir esto lo está a 1.200 litros diarios, pero el año pasado por ejemplo llegó a bajar a 400 litros diarios al final del verano. Sí, uno puede intentar calcular más o menos cuánto es el consumo por unidad de tiempo, pero eso no es fijo en función de la presión del suministro, temperatura, etc.\n\nAlguna vez me he planteado la opción de poner un riego automático (porque ni mucho menos voy todos los días por allí) pero cosas como este detalle me tiran para atrás.",
+    "Likes": 2,
+    "PublishedAt": "2019-08-03T21:47:24+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Pues es un vídeo que tenemos pendiente porque es muy interesante. Hablaremos de ello...",
+        "Likes": 2,
+        "PublishedAt": "2019-08-06T21:12:47+00:00",
+        "Replies": []
+      },
+      {
+        "Author": "@fadetounforgiven",
+        "Text": "@Bricocrack mola!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T21:22:46+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@pedroantoniofernandezmonin8296",
+    "Text": "Magnífica variedad de posibilidades y perfectamente explicado",
+    "Likes": 1,
+    "PublishedAt": "2019-08-03T19:59:46+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Pedro!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T16:15:22+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@juanruiz8631",
+    "Text": "Hola buenas tardes. Muy interesante su informacion,a veces cosas que creemos sencillas no tenemos idea como funcionan. Ya se como elegir la que se adapta a mis necesidades.Gracias por su orientación",
+    "Likes": 2,
+    "PublishedAt": "2019-08-03T17:04:26+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Juan!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T16:13:11+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@juansocorrocabrera555",
+    "Text": "Buen video gracias ánimo",
+    "Likes": 1,
+    "PublishedAt": "2019-08-03T16:29:19+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Gracias Juan!",
+        "Likes": 0,
+        "PublishedAt": "2019-08-06T16:12:55+00:00",
+        "Replies": []
+      }
+    ]
+  }
+]

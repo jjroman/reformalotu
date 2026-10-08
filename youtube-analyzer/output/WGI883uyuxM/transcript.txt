@@ -1,0 +1,422 @@
+En este curso de  Electricidad Básica, vamos a hablar 
+de todas las posibilidades que nos da la  
+electrónica y, en este caso, de los dispositivos 
+electrónicos para gestionar de una manera  
+mucho más eficiente la calefacción de la 
+casa. No solamente vamos a ver cómo hacemos  
+la parte de instalación de esos dispositivos, 
+sino que también veremos cómo hacemos  
+la integración de las válvulas de los radiadores y, 
+por supuesto, la instalación del relé en la caldera.  
+Vamos a empezar por conocer cuáles son los 
+dispositivos que tenemos para gestionar la  
+calefacción y el funcionamiento de la caldera. 
+En principio, cuando tengo solamente caldera  
+y radiadores, la única forma en la que se activa 
+o desactiva la caldera es cuando la temperatura  
+que tienen los radiadores baja por debajo 
+de lo que indica su termostato. Esto  quiere decir  
+que permanentemente va a estar saltando 
+cada vez que se enfríen los radiadores.  
+El siguiente paso sería poner un termostato de 
+ambiente, en vez de tener solamente el termostato  
+que regula la temperatura del agua, ponemos uno con 
+la temperatura exterior. Éstos son los termostatos  
+más básicos que lo que hacen es que la caldera se 
+desactive en el momento en que la temperatura que indica  
+ese termostato de ambiente está por encima de lo 
+que yo le he señalado. El siguiente paso es poner un  
+cronotermostato. El cronotermostato ya 
+me permite hacer una gestión más compleja y  
+decirle a la caldera en qué horas quiero que esté 
+la temperatura de una forma u otra. De esta manera,  
+puedo hacer que por la noche la temperatura esté 
+baja, durante el día esté alta, que los fines de  
+semana se active todo el día...Lo que yo quiera. Ese 
+cronotermostato me permite tener una regulación  
+más compleja. Pero ¿qué ocurre? Pues que yo, en ocasiones, 
+cuando quiero hacer variaciones en la forma en que  
+está funcionando mi caldera, tengo que estar en casa 
+y al lado de mi termostato para poderlo hacer.  
+Ésta es la razón por la que se van imponiendo los 
+termostatos conectados. Primero, porque me dan  
+mucha más flexibilidad para avisar por ejemplo a mi caldera de cuándo voy a volver a  
+casa para que se active, porque voy a volver a una 
+hora inhabitual, y no quiero que la casa esté fría.  
+Pero también puede ser sencillamente porque es 
+mucho más fácil para mí programar en la pantalla  
+de mi teléfono, o en mi computadora, que estar 
+pendiente de hacerlo en la pequeña pantalla
+de mi termostato, que siempre es más difícil de 
+manejar. En todos los casos, ¿qué me ocurre? Pues que   
+sigo teniendo siempre mi sensor de temperatura en 
+el mismo sitio de la casa y esto todos sabemos que  
+es un conflicto. Porque lo que yo digo que son 
+21º centígrados en un punto determinado de la casa  
+-imagínate en una vivienda unifamiliar 
+que tiene dos pisos- no coincide en absoluto con  
+lo que está pasando en la habitación de arriba. 
+En la habitación de arriba, cuando yo a esto le llamo
+21º C, arriba se le llama 18º C, porque resulta que es la 
+habitación más fría. O, en otro sitio, resulta que se  
+llama 24º C porque es una habitación más calurosa. Todo esto hace 
+complicada este tipo de gestión. Por eso en muchos  
+casos, y esto es muy frecuente 
+cuando tenemos un bebé en casa, procuramos  
+que el termostato esté en el punto donde realmente 
+nos preocupa que mantenga la temperatura deseada.  
+Y esto es lo que hace importante que yo pueda tener
+muchas veces termostatos que no van fijos en  
+un punto de la pared sino que los pueda mover de 
+un punto para otro. En este caso, cuando tengo  
+necesidad de estar moviendo el termostato, tengo 
+que incorporar un relé a la caldera para que esté 
+transmitiendo las órdenes de mi termostato -que 
+está en remoto- al funcionamiento de la caldera.  
+Pero no terminan ahí mis dificultades porque, ¿qué ocurre? Pues que, cuando yo tengo una casa con  
+calefacción central, vivo condicionado a 
+lo que toda una comunidad de vecinos 
+decida sobre cuál debe ser la temperatura de mi casa. 
+Esto es un clásico que muchos conocéis. Si yo 
+vivo en una casa con muchos pisos y soy el vecino 
+del segundo, vivo torturado por el calor porque,  
+para que llegue la buena temperatura al vecino 
+del piso 15, en mi casa estoy prácticamente como  
+si estuviera asándome con el pollo. El vecino del 
+piso 15, claro, no quiere que se baje la temperatura  
+porque, para que le llegue a él con la pérdida de 
+carga que tiene todo esto, necesita por tanto  
+que haya muchísima calefacción. Bueno, en este caso 
+o en una vivienda unifamiliar donde  
+tengo una caldera pero también quiero regular 
+de manera independiente cada habitación, tengo la
+posibilidad de incorporar válvulas termostáticas 
+-controladas también de manera conectada- en cada  
+uno de los radiadores. ¿Qué vamos a ver en este 
+tutorial? Vamos a ver primero cómo hacemos la  
+conexión de las válvulas de cada radiador -que es 
+un tema importante para muchos usuarios- y luego  
+vamos a ver también cómo hacemos la conexión 
+de un termostato y cómo hacemos la integración  
+completa de todas estas posibilidades.
+Nosotros 
+vamos a trabajar con este sistema de válvulas de
+Netatmo, de Legrand. ¿Por qué las hemos elegido? 
+Primero, porque son las que en este momento son  
+más punteras en el mercado y, por tanto, marcan un 
+poco la tendencia de funcionamiento que nos va a  
+servir para muchos otros sistemas. En segundo 
+lugar, también es verdad, porque con Legrand tenemos  
+muchas facilidades porque tienen un Departamento 
+Técnico que nos ayuda cuando tenemos cualquier  
+problema que solucionar. Vamos a hacer la instalación. Lo primero de todo, vamos  
+a conectar el relé, que es el elemento que 
+gobierna. Igual que veíamos en la instalación  
+de Netatmo -que estaba hecha en red ZigBee- que teníamos una puerta de entrada, la puerta de  
+entrada en los sistemas de calefacción es 
+el relé. Para conectar el relé, utilizamos
+este pequeño enchufe que lleva en la parte de 
+atrás. Lo encajo en su posición y lo llevo  
+directamente a conectarlo al enchufe. Vemos que 
+inmediatamente se produce ya un parpadeo en el relé.
+Como en todas las aplicaciones de Legrand Netatmo,
+es muy fácil darse de alta. Metemos la  
+dirección de correo, una contraseña y 
+directamente se activa el alta.
+Tenemos que hacer lógicamente el emparejamiento 
+con la red Wi-Fi que estemos utilizando. 
+Y, a partir de ahí, aparece nuestro dispositivo y nos 
+pide que incorporemos las válvulas. 
+Para activar las válvulas, vamos a ponerles 
+primero las pilas. Y, para  
+abrirlas, hacemos una pequeña presión 
+en la dirección que indica y giramos.  
+Cuando ponemos las pilas, vemos cómo la válvula 
+se activa y parpadea este símbolo que 
+indica que está buscando la red.
+El producto que
+estamos instalando es un paquete básico
+que trae el relé de control y dos válvulas 
+con sus adaptadores y, lógicamente, 
+las instrucciones correspondientes. 
+A partir de aquí, para hacer crecer la  
+instalación, podemos ir comprando cabezales de 
+válvulas independientes que se van integrando  
+por el mismo procedimiento a esta instalación. Ves 
+que las válvulas se van numerando en el visor  
+pero, además de eso, también podemos diferenciarlas 
+con colores que nos vienen en una pegatina aparte.
+Vamos a identificar ahora las válvulas 
+en la aplicación. En nuestro caso, no  
+vamos a poner nombres de habitación sino, 
+directamente, las vamos a llamar válvula 1 y
+válvula 2 para que nuestro programa sepa 
+a cuál nos estamos refiriendo en cada caso.
+El siguiente paso es la instalación de la válvula 
+en el radiador. En aquellos casos en los que  
+tenemos ya una válvula termostática en 
+un radiador, es muy sencillo porque 
+lo que hacemos es un cambio de cabezal, no hay problema. 
+Pero, sí que hay una operación de fontanería en el  
+caso de que yo tenga una válvula tradicional que 
+no está preparada para poner el cabezal del termostato.  
+Yo no puedo quitar esta pera de control que 
+tengo arriba y cambiarla por este cabezal, por supuesto.  
+Te voy a explicar en qué consiste este 
+cambio y cómo se hace. Esto es lo que llamamos una  
+válvula termostatizable. Es decir que está 
+prevista para poder poner aquí un cabezal  
+de termostato. Fíjate, lo que tiene es un bulón 
+regulable que es el que me permite aplicar y hacer 
+la función. Esta válvula es la que tiene que 
+sustituir a la válvula convencional que tiene  
+puesta mi radiador. Lógicamente, para hacer este 
+cambio, para poder desmontar una y montar otra,  
+tengo que vaciar el radiador, al menos hasta 
+la mitad, para poder hacer el trabajo. 
+Para desmontarla, voy a ir a esta tuerca de aquí y voy a soltarla.
+Yo, lógicamente, tengo todo esto sin apretar,  
+pero es importante que sepas que 
+esta pieza, este racor interior,  
+lleva un tipo de llave que es una llave especial 
+para radiadores. Para que no tengas dudas de  
+cómo funciona, te dejo aquí indicado nuestro 
+tutorial de instalación de radiadores porque  
+ahí tienes todas explicaciones. Así no perdemos tiempo 
+con este asunto. Fíjate por lo tanto en  que una  
+conexión normal de radiador tiene esta primera 
+conexión que has visto, que va directamente al  
+radiador, y ésta otra conexión que es un racor que 
+me lleva al tubo por donde viene el agua caliente.  
+Yo voy a sustituirla por esta otra válvula que, 
+como ves, la diferencia que tiene es esta salida  
+que es lo que llamamos la válvula termostatizable.
+Por lo tanto, tendría que instalar mi racor
+apretándolo con la llave correspondiente.
+Y, a continuación, voy a instalar la válvula.
+La oriento en la dirección por donde venga mi
+tubería -que vendría de abajo en este caso- y aquí 
+conectaría directamente la toma que  viene de  
+la parte de abajo. Lógicamente, estos cabezales 
+están previstos para montar sobre válvulas de  
+distintas marcas y tamaños, con lo cual lo que 
+trae es un juego de adaptadores para convertirlo
+en un cabezal universal. Fíjate en que tenemos 
+aquí lógicamente una gran diferencia. 
+Para saber cuál es el cabezal que necesito, trae 
+esta pequeña plantilla de ayuda. Esta plantilla  
+tiene en su interior 30 milímetros. Cuando yo 
+la introduzco, en caso de que me quede holgura,  
+como nos pasa aquí, quiere decir que este paso es 
+de diámetro 28 mm. Entre las ayudas que nos presta, tiene  
+estos pequeños dientes que nos indican 
+también cuál es el paso de rosca que tiene  
+nuestro sistema. Fíjate, en este caso, si intento
+encajar aquí las de 1 mm, veo que no  
+coinciden. Sin embargo, cuando pruebo con las de 1.5 mm,
+veo que encajan perfectamente. Luego, ya sé  
+que mi adaptador debe tener un diámetro de 28 mm con un 
+paso de rosca de 1.5 mm. Y esto es importante  
+porque muchas veces pongo un adaptador que 
+tiene casi el mismo dentado pero ese "casi",  
+aunque a la hora de roscarlo me funcione muy bien, me voy a dar cuenta  
+de que en la práctica luego no va a morder bien 
+e, incluso, puedo romper el adaptador. Ahora ya sí,  
+una vez que tengo este adaptador, mi cabezal va 
+a encajar aquí perfectamente. Vamos a dejarlo  
+conectado, sujeto a nuestra rosca, para que así 
+representemos cómo quedaría la instalación.
+Recuerda, como te decía, que por abajo 
+tendríamos la salida del tubo de alimentación.
+Ves que yo puedo colocar en cualquier 
+posición la válvula porque, si le  
+doy la vuelta, automáticamente 
+también el visor da la vuelta.  
+Para regularlo, podemos hacer el cambio de 
+temperatura haciendo un pequeño apriete y  
+vemos cómo se pone la pantalla en negro y nos 
+marca la temperatura que nosotros estamos dejando programada.
+Este cambio también lo podemos 
+hacer directamente a través de la aplicación.
+Lógicamente, la aplicación nos permite crear una 
+programación horaria idéntica a la que hacemos  
+en un programador y nos proporciona gráficos 
+para saber cuál ha sido el funcionamiento del  
+radiador durante el tiempo que queramos. 
+El equipo nos va a pedir al principio  
+una calibración para su funcionamiento, 
+porque se enciende un signo de admiración.  
+Cuando hacemos la calibración de la válvula, lo 
+que se produce en su interior es que el émbolo  
+empuja para reconocer cuál es la posición de 
+partida que debe tener con la válvula termostática.
+En nuestro caso, como no encuentra ninguna resistencia, 
+lógicamente nos sigue dando el error de  
+calibración que no nos ha dado ya el otro 
+cuando ha encontrado la posición correcta. 
+Las válvulas son por tanto una solución perfecta, no solo
+para viviendas unifamiliares sino también cuando  
+tenemos calefacción central en un edificio. En cualquier caso,
+como has visto la operación, si tienes que  
+hacerla con la parte de fontanería, te conviene 
+contar por supuesto con ayuda de un profesional  
+o, al menos, que la persona 
+responsable de mantenimiento de la casa te diga cómo haces  
+el vaciado de los radiadores para poder instalar.
+Vamos a hablar ahora de la otra opción que es la opción termostato.
+Si te acuerdas, antes te decía 
+que el termostato fue sustituido por el cronotermostato  
+que nos da la posibilidad de jugar con 
+las programaciones semanales y, cuando queremos dar  
+un paso más y ponerlo conectado, sustituimos 
+el antiguo cronotermostato por un termostato  
+conectado, como vamos a poner nosotros. ¿Qué vamos 
+a encontrarnos cuando retiremos nuestro  
+cronotermostato actual? Pues nos vamos a encontrar 
+que en el espacio que ocupaba ese cronotermostato
+nos quedan dos cables. Estos dos cables son las 
+conexiones que vienen directamente de la caldera  
+para dar servicio al termostato. Vamos a sustituirlo 
+-nos da igual en una posición u otra- y  
+vamos a poner aquí la base de nuestro termostato conectado.
+Colocamos la base, la atornillamos  
+y ponemos en su posición los cables, nos da igual 
+un orden u otro porque no tienen polaridad.
+Ahora vamos a poner el termostato. Lo primero, ponemos las pilas y vemos cómo se activa.
+Estas dos son las conexiones que tienen 
+que quedar metidas dentro de la clema que  
+hemos conectado. Lo vamos a colocar y no vamos 
+a apretarlo mucho porque vamos a hacer luego  
+una segunda instalación y así no tenemos que 
+estarlo sacando. Ahora vamos a instalar el  
+relé y vamos a seguir el mismo procedimiento 
+que hicimos antes. Después de instalar el relé, vas  
+a ver cómo instalamos los productos en 
+la aplicación. Para hacerlo más sencillo,  
+voy a eliminar los productos que ya habíamos 
+instalado previamente para partir de cero, que  
+sería lo natural cuando instalo directamente un 
+termostato. Como ya tengo instalada la cuenta de Energy,  
+simplemente tenemos que emparejar el relé. Así 
+que seguimos las instrucciones para conectarlo.
+Una vez que se activa y que reconoce ya
+la dirección de Wi-Fi que habíamos metido  
+anteriormente, vamos a incorporarlo en una 
+habitación de las que tenemos previstas  
+en la casa y se empareja ya desde aquí
+directamente el termostato.   
+Vamos a comprobar si funciona. Introducimos  
+la temperatura deseada, validamos y  
+observamos cómo el termostato 
+hace el cambio correspondiente.
+Como ves, tiene disponible una programación 
+donde puedes incorporar distintas variables  
+para darle más confort. Y, si recuerdas, hablábamos 
+de otra opción que es cuando no quiero tener  
+el termostato puesto en un punto fijo de la 
+casa, sino que quiero trasladarlo al punto desde  
+donde realmente quiera tener la referencia de la 
+temperatura. En ese caso, voy a convertir este  
+termostato que he instalado aquí en un termostato 
+inalámbrico. ¿Qué vamos a hacer en esta operación?  
+Pues vamos a llevarnos el relé y a conectarlo 
+directamente con la caldera, para que sea él quien  
+tenga el gobierno de los cables que vienen de la 
+caldera. Y nos llevamos directamente el termostato  
+donde nosotros queramos. Yo no tengo una caldera 
+actualizada para enseñarte, así que lo vamos a  
+hacer sobre esta fotografía que es suficiente.
+Ésta sería nuestra caldera y, cuando abrimos la  
+caldera quitando la tapa para ver lo que tenemos en
+el interior, te vas a encontrar un panel de conexiones  
+donde tenemos que hacer nosotros la conexión a la 
+caldera. Ves aquí que te indica que tenemos un  
+cable de fase, un cable neutro y un cable de tierra. 
+Éstos son los cables que alimentarían directamente  
+la caldera. Esto no es exactamente una clema 
+en la caldera, sino una especie de panel bus 
+que lo que hace es ir alimentando la caldera. 
+Y tenemos la conexión 3 y la conexión 4 -que son  
+las que van al lado del tierra- que son las que tenemos 
+que conectar nosotros con nuestro relé. 
+Para que lo tengas más claro, siempre estos cables 
+que nos dan servicio al termostato son los mismos que nos dan 
+servicio al relé. Es decir, son los dos cables que 
+gobiernan directamente desde un dispositivo externo  
+la caldera, ya sea el relé que pongo aquí al lado o, 
+si me llevo los cables a otro punto de la casa, donde  
+ponga el termostato. Y los cables eléctricos que 
+tengo aquí me daría lo mismo en la práctica,  
+si tengo dificultades para poner este relé 
+pegado completamente a la caldera, llevármelos más  
+lejos y tomar corriente de cualquier sitio. No 
+hay ninguna limitación en esto, porque  puede  
+ocurrir a veces que tengamos problemas con la 
+señal Wi-Fi. No te preocupes, con que tú lleves  
+los cables que salen de aquí hasta el punto donde 
+tengas el relé, el relé lo enchufas directamente  
+a una toma de corriente y  te funciona exactamente 
+igual. Ves que hemos mantenido lógicamente los  
+cables que vienen para alimentar la propia caldera. 
+Los metemos juntos, los de alimentación -el marrón y  
+el azul- y hemos colocado en su posición el negro y el
+gris, que son los que van a dar servicio al relé. 
+A partir de aquí, lo que haríamos sería 
+conectar el relé y ponerlo en donde quisiéramos.
+Aquí ya, si tuviéramos corriente, estaría 
+funcionando y sería el punto de salida.  
+El termostato ahora está liberado, es 
+inalámbrico, le ponemos esta parte  
+trasera y pasa a ser ya un termostato 
+de sobremesa. Para usar el termostato  
+inalámbrico, podemos regular la temperatura 
+subiéndola desde este lado o bajándola.
+Podemos elegir además la posición que más nos 
+guste en cada caso. Si queremos tener la pantalla  
+apaisada, la ponemos así. Además de poner el termostato, 
+por supuesto, yo puedo poner válvulas porque  
+siempre puedo tener alguna habitación que esté 
+desfasada en temperatura con respecto al punto  
+donde está el termostato y me interesa tener la 
+propia regulación de esa habitación. Lógicamente,  
+como tengo ya un termostato y tengo un 
+relé, no voy a comprarme unas válvulas con  
+el relé de arranque de instalación. Directamente, me 
+compraré los cabezales termostáticos que necesite  
+y pongo ésos, porque ya tengo el relé. ¿Cómo 
+hago la instalación de las válvulas a partir de  
+aquí? Desde el punto de vista físico, la instalación es idéntica. Lógicamente  
+son las mismas válvulas, lo que pasa es que yo voy a 
+partir ahora de añadirle directamente al relé  
+del termostato los dispositivos que yo quiera. 
+La aplicación que utilizamos para manejar los  
+termostatos es una aplicación que se llama 
+Energy de Netatmo pero nosotros, como ya  
+tenemos instalada la Home+ de Legrand que es 
+la que gobierna todos estos dispositivos comunes,  
+vamos a llamar a la aplicación directamente 
+desde Home+ de Legrand. Abrimos Home+ 
+de Legrand, pedimos instalar otros dispositivos, 
+termostato, y aquí es donde pedimos que nos  
+instale directamente la aplicación Energy de Netatmo. Esto lo hacemos así porque tenemos que  
+manejar una única cuenta con todos los dispositivos. 
+De esta manera, Google Home tiene localizada  
+una única cuenta para gobernar todos nuestros 
+dispositivos. Hey Google, termostato a 19º C.
+De acuerdo, pongo termostato a 19º C.
+Hey Google, válvula 2 a 18º C. Claro, pongo 
+el dispositivo válvula panel 2 a 18º C.
+Bueno, ya ves que hemos pasado un poco por 
+encima los aspectos concretos de instalación  
+de cada producto, porque entiendo que si 
+vas a comprarlos y a instalarlos, tienes  
+aquí las bases para que los puedas instalar sin 
+dificultad. Lo que pretendíamos sobre todo es  
+entender cómo funcionan los sistemas de control 
+de calefacción y cómo funciona su conexión con  
+Wi-Fi. ¡Espero que hayamos conseguido el objetivo! 
+Así que gracias por tu "like", suscríbete al Canal si no lo
+estás todavía -recuerda dar a la campanita 
+para recibir notificaciones- y comparte este  
+vídeo con todos tus amigos a los que les guste 
+el mundo del bricolaje y también el de la domótica.

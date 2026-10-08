@@ -1,0 +1,27 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+TestResults/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+client_secret*.json
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# IDE and operating system files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

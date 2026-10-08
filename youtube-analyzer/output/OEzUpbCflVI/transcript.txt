@@ -1,0 +1,224 @@
+Este tutorial lo voy a dedicar a mostrarte
+un sistema muy sencillo para hacer una
+plataforma giratoria utilizando dos
+tableros de DM, con un eje central y un
+sistema muy curioso que te voy a mostrar
+para que giren bien los tableros, sin
+desestabilizarse, que se deslicen con facilidad y que queden bien
+apoyados.
+Lo primero que vamos a hacer es marcar
+el centro de los dos tableros.
+Estamos marcándolo porque en uno de los
+tableros
+vamos a hacer un canal circular y en el otro vamos a
+hacer un apoyo para unas bolas.
+Éste es el punto donde vamos a montar el
+eje para que los tableros giren por
+igual.
+En mi caso lo estoy haciendo con dos piezas
+rectangulares. Voy a hacer una plataforma
+y no quiero que te fijes en la forma que
+tienen mis tableros. Lo que quiero es que
+te quede bien claro y que te fijes bien en
+el sistema que voy a utilizar para
+conseguir lo que te decía antes: que los
+tableros tengan un buen apoyo y que
+giren con mucha facilidad.
+Vamos a trazarlo con ayuda de una
+escuadra. Este tipo de plataformas son muy
+útiles para cualquier cosa
+en la que necesites mover un objeto. Las puedes emplear dándole el uso que tú quieras.
+Vamos a retirar uno de los tableros.
+Y preparamos el primero.
+Colocamos un mártir, como siempre, para
+no dañar el banco de trabajo. Ahora lo que
+tenemos que hacer es un círculo
+perfecto. Para ello vamos a utilizar
+una fresadora o router. Marcamos con un puntero el centro,
+porque hay necesitamos que se aloje el
+puntero que lleva la fresadora como
+accesorio para conseguir hacer un
+compás.
+Si te fijas, queda un canal que es una
+circunferencia perfecta. Siempre que hagas
+un trabajo de este tipo con la fresadora,
+te aconsejo que,  para limpiarlo,
+utilices una esponja de lija muy fina.
+Ahora pasamos justo este punto del eje a la otra cara
+del tablero.
+Vamos a utilizar una broca fina
+solamente para hacer una marca.
+Sobre este punto que ya tenemos, vamos a
+utilizar otro tipo de broca.
+El eje lo vamos a montar con
+un tornillo de cabeza hexagonal.
+Y en el otro extremo de este "sandwich"
+que vamos a montar vamos a poner una
+tuerca. Lo que vamos a hacer, para que
+ni la tuerca ni el tornillo se claven en
+el DM, es colocar una arandela de
+ala ancha.
+Luego, tenemos que empezar por
+hacer un taladro del diámetro de la
+arandela para que se quede embutida la cabeza y las tablas se queden a ras de
+nuestra mesa de trabajo y no nos molesten.
+Como ves, de esta manera, la arandela quedará perfectamente
+alojada y tendremos sitio para que
+también quede embutida la cabeza del
+tornillo.
+Una vez que tenemos hecho este taladro,
+podemos hacer el interior. Haz siempre
+primero el de la broca de pala, porque si hacemos
+primero el interior, perdemos el
+centro. Si te fijas,  la broca de pala
+tiene una lanza en la punta. Si hacemos
+un taladro de mayor diámetro, perdemos el
+centro y podemos hacer
+el taladro final, el de la broca de pala,
+descentrado. Ahora utilizamos una broca de 10 milímetros, que es
+el diámetro del espárrago del
+tornillo que vamos a utilizar.
+Limpiamos. Y comprobamos,
+antes de nada, que pase el tornillo
+perfectamente con su cabeza. Como ves, ahí queda perfectamente alineado y no va
+a estorbar cuando la pieza esté en su posición.
+Para preparar la siguiente pieza,
+vamos a coger un compás y vamos a tomar
+la medida de la circunferencia que hemos
+hecho.
+Lo colocamos bien en los centros porque
+esta medida la vamos a pasar a la otra
+tabla. Retiramos esta y colocamos la siguiente.
+Sobre ésta lo que tenemos que hacer es marcar el eje.
+Ahora ya trazamos con el
+compás. Fíjate bien, este compás
+de carpintero lo que hace es arañar la madera. No necesitamos
+la pintura del lápiz. Si en alguna ocasión la necesitas,  puedes
+colocarle un lápiz pegado con cinta
+aislante para marcar el trazo.
+Ya lo tenemos.
+¿Qué vamos a marcar ahora?
+Si te fijas, tenemos uno, dos, tres y cuatro puntos, pero queremos darle  otros cuatro puntos
+más de apoyo. Apoyamos el compás en este punto y,
+pinchando aquí, sacamos esta línea. Pinchamos
+aquí y aquí y lo que
+hacemos es sacar esta otra línea.
+Ya tenemos dos puntos más. Vamos a
+hacer otro en este lado para sacar los
+para sacar los otros dos puntos que necesitamos.
+Marcamos aquí. Pinchamos ahí. Y marcamos. Por si no los ves bien,
+voy a marcarlas con el lápiz donde se cruzan.
+Ahí es donde tenemos los ejes, desde ahí
+vamos a trazar.
+Utilizamos la escuadra para unir los puntos. Tendríamos uno aquí donde se cruza con
+la circunferencia y el otro aquí. Para hacer
+el otro lado,  repetimos la misma operación.
+Hacemos coincidir la regla con el
+centro y el punto que hemos trazado.
+Bajamos hasta ahí y lo hacemos pasar
+por aquí también.  Ya tendríamos
+los ocho puntos de referencia. De esta
+forma, están todos distribuidos a la misma
+distancia y en la misma posición. Con la
+broca fina
+vamos a marcar.
+Ya tenemos marcados los ocho puntos.
+Ahora lo que tenemos que hacer es un
+taladro de mayor diámetro. Para ello, en
+lugar de utilizar una broca de metal o
+de madera que son muy rápidas a la hora 
+de actuar y pueden darle mayor
+profundidad de la que quiero,
+voy a utilizar una broca de widia.
+Me va a servir perfectamente para
+rehundir un poco en el DM pero
+va a tener más dificultad para taladrarlo.
+La broca de widia, que es específica
+para pared, tiene esta
+forma en la cabeza lo cual va a evitar
+que taladre rápidamente.
+Lo limpiamos un poco y vamos comprobando qué profundidad estamos dando.
+Estamos haciendo que la cabeza quede a ras de la superficie del tablero.
+Esa es la profundidad que le vamos a dar a todos los taladros.
+Lo lijamos todo por encima y vamos  colocando las bolas para comprobar la
+profundidad que hemos dado a todos los taladros.
+Éstas son las bolas que
+vamos a utilizar en nuestra plataforma,
+unas simples canicas. Las vamos colocando.
+¡Dan ganas de jugar! Pero no, en esta ocasión las vamos a utilizar para otra cosa.
+Comprobamos que están bien todos los taladros.
+Cómo ves, la luz que queda entre una
+canica y otra es paralela al tablero
+en todas ellas. El siguiente paso
+que vamos a hacer (retiramos las canicas)
+es preparar el eje exactamente igual que hicimos con
+la otra pieza de madera.
+Acuérdate. Hacemos primero el
+taladro pequeño.
+A continuación, le damos la vuelta al tablero para trabajar sobre esta cara.
+Siguiente broca que utilizamos:
+la broca de pala.
+Vamos comprobando la profundidad con una tuerca y una arandela.
+Tenemos que profundizar un poquito más
+todavía.
+Vamos a preparar ya esta pieza. Lo último
+que hacemos es pasar el
+taladro central con la broca de 10 mm.
+La sacamos un poco de la mesa para darle
+un poquito de holgura. Al ser de 10 mm
+tanto el tornillo como la broca, entra demasiado justo y nos va a forzar mucho
+el montaje. Aquí tenemos listo el primer eje. Lo sujetamos y le damos la vuelta.
+Como ves, el tornillo no estorba, ni roza. En el centro le vamos a colocar
+otra arandela y una tuerca. Ésta ya  la apretamos con la llave para que no se mueva.
+Vamos a aplicar ahora un elemento que suavice la
+fricción que va a sufrir cada canica
+con el tablero. En este caso, lo que voy a
+utilizar es un lubricante, una
+vaselina.
+Tratándose de una madera cruda, si damos algún tipo de spray, lo va a absorber.
+Además, la vaselina nos va a servir para
+fijar un poquito las canicas.
+Colocamos de nuevo las canicas que van  a girar sobre el canal que hemos hecho
+en la otra pieza. De esta forma quedan fijas y van a girar,
+si te fijas, sobre su propio eje
+pero sin moverse de su sitio.
+Comprobamos que la pieza que vamos a poner
+por encima asienta bien.
+¡Perfecto! Asienta totalmente
+sobre el canal. Pero también
+sobre el canal vamos a aplicar un poco más de vaselina,
+así va a facilitar que el movimiento sea 
+más suave.
+Como te decía antes, lo que quiero que copies de este tutorial
+es el sistema, no la forma de los tableros.
+Los puedes hacer circulares,
+de mayor o menor diámetro...
+Eso sí, cuanto mayor sea el diámetro,
+tendrás que introducir más bolas, para que el apoyo de los dos tableros sea perfecto,
+que esté bien equilibrados y así evitas que
+no se muevan.
+¿Ves? De esta forma corren perfectamente. Voy a poner la tuerca superior, también
+pondremos otra arandela. Como ves, encajan perfectamente y, al haber trabajado
+los ejes en el mismo punto,
+no tenemos ninguna desviación. En mi
+caso estoy poniendo unas tuercas
+normales,
+tú puedes poner unas tuercas autoblocantes y así conseguirás que no se aflojen.
+Ahora le voy a pedir a mi compañero que se acerque
+bien con la cámara para poderte mostrar cómo giran las canicas en
+el interior de los tableros y como
+queda asentado.
+Además le voy a ayudar dándole algo de
+luz.
+Bueno, ya está bien de experimentos. Tan solo nos quedaría hacer una cosa que es
+cortar el espárrago que no sobra del
+tornillo con la ayuda de una radial.
+Nosotros no lo vamos a cortar porque no nos hace falta y, a lo mejor, en tu caso
+lo que necesitas es poner un palo más largo porque vas a poner
+alguna pieza sobre él. En el caso de querer
+utilizar toda la plataforma, que la
+necesites libre, lo que harías sería cortarlo con la radial.
+Espero que este tutorial te sirva de
+mucha ayuda. Si es así,
+gracias por tu "like" y no olvides suscribirte.
+tras las

@@ -1,0 +1,428 @@
+en un tutorial anterior hablábamos del
+
+
+problema que se produce cuando cambiamos
+
+
+eh lámparas led para sustituir a los
+
+
+halógenos antiguos y tenemos como en
+
+
+este caso reguladores de halógeno que
+
+
+hacen que cuando lo apaguemos aunque
+
+
+esté acero nuestro led siga luciendo y
+
+
+dijimos y hablaremos también de más
+
+
+problemas que tenemos a veces con otras
+
+
+lámparas con otras bombillas que se
+
+
+quedan parpadeando que se quedan en un
+
+
+funcionamiento extraño cuando están
+
+
+apagadas buen lo primero de todo que hay
+
+
+que decir es que estos malos
+
+
+funcionamientos primero debemos valorar
+
+
+si no se deben a la propia bombilla
+
+
+Porque con este cambio que hay ahora de
+
+
+normativa y esta irrupción de montones
+
+
+de marcas de marcas blancas y demás de
+
+
+bombillas la verdad es que estamos
+
+
+comprando cosas que no responden a
+
+
+expectativas previstas eh lámparas de
+
+
+bajo consumo que duran mucho menos de lo
+
+
+debido que están negros con muy pocas
+
+
+horas de funcionamiento eh lámparas eh
+
+
+de Led que están dando problemas
+
+
+electrónicos porque los conectamos y
+
+
+están haciendo parpadeos extraños en fin
+
+
+Por eso te digo que lo primero de todo
+
+
+cuando tengas un problema con una
+
+
+bombilla prueba a cambiarla es a veces
+
+
+es auténticamente mano de Santo tú
+
+
+cambias una bombilla que funciona mal
+
+
+por una que sí que funciona bien en el
+
+
+mismo sitio y resulta que deja de
+
+
+parpadear con lo cual la primera prueba
+
+
+siempre es asegúrate de que no te has
+
+
+comprado una bombilla que tiene una
+
+
+electrónica que es un poquito castaña Si
+
+
+eso no funciona como pasa por ejemplo en
+
+
+el caso de esta eh lámpara led que hemos
+
+
+probado aquí y que da problemas sí que
+
+
+tenemos que hacer algún tipo de
+
+
+modificación en el tutorial anterior eh
+
+
+lo que hacíamos era cambiar y poner un
+
+
+interruptor a la entrada antes del
+
+
+regulador que nos daba un corte general
+
+
+y así ya el regulador no se ocupaba
+
+
+cuando estaba cero no se ocupaba el de
+
+
+cortar el paso qué solución tenemos si
+
+
+no queremos hacer esa eh ese colocar ese
+
+
+interruptor antes o cuando se trata de
+
+
+una bombilla que está colocada en otro
+
+
+sitio pues vamos a colocar un
+
+
+condensador esto es una fórmula
+
+
+que habíamos oído hablar de que funciona
+
+
+no lo habíamos probado todavía y lo
+
+
+vamos a hacer
+
+
+hay algunos también algunos colegas que
+
+
+en YouTube nos han dicho Oye este este
+
+
+este sistema funciona así que si sale
+
+
+mal será culpa de ellos de fe de cagiano
+
+
+y de algunos otros amigos que han dicho
+
+
+el condensador funciona Bueno vamos a
+
+
+probar si funciona o
+no Bueno desmontamos nuestra lámpara y
+
+
+vamos a
+
+
+quitar este
+
+
+óptico para tener acceso a la
+
+
+instalación que va por debajo
+
+
+los mosquitos son muy útiles para
+
+
+que podamos tenerlos disponibles para
+
+
+cuando nos hagan falta en fin esto pasa
+
+
+en todas las
+lámparas bueno Tenemos aquí acceso
+
+
+directamente ves a la salida del cable
+
+
+seguramente Ahí vamos a tener una
+
+
+regleta que nos permita conectar
+
+
+directamente el
+condensador un condensador es un
+
+
+dispositivo
+
+
+que lo que hace es que captura la
+
+
+electricidad que
+
+
+circula por sus proximidades y lo
+
+
+acumula de esta manera lo que va a decir
+
+
+la lámpara es Oye pues para que te lo
+
+
+quedes tú me quedo yo con toda esa
+
+
+energía que hay por ahí Sobrante
+
+
+entonces lo que vamos a hacer nos
+
+
+permite como ves doblar las patillas
+
+
+fácilmente para poderlo introducir
+
+
+directamente en esta regleta soltamos
+
+
+los cables de la regleta
+soltar los cables sino sobre todo por
+
+
+hacer sitio a nuestras a las patillas de
+
+
+nuestro
+
+
+condensador Vale pues una vez que
+
+
+tenemos sitio ahí ya para meterlo lo que
+
+
+vamos a hacer es colocar todo junto
+
+
+colocamos esto siempre cerciorate por
+
+
+supuesto cuando estés operando con esto
+
+
+como hemos hecho nosotros de haber
+
+
+desconectado y
+
+
+desenchufado el equipo vamos a meter
+
+
+esta
+
+
+patilla vamos a apretar este
+[Música]
+
+
+comprueba que ha sujetado bien El
+
+
+primero y ahora vamos a por el
+
+
+segundo hacemos lo mismo colocamos
+
+
+bien en su lugar el cable y la
+
+
+[Música]
+
+
+patilla y nos cercioramos de que está en
+
+
+su sitio ahora ya sí que podemos
+
+
+bajar a un sitio que no
+
+
+moleste el el condensador y vamos a
+
+
+colocar en su sitio las
+
+
+cosas asegúrate de que el condensador
+
+
+quede bien aislado si es necesario
+
+
+recórtalo las
+
+
+patillas vamos a meter la
+cubierta vamos a colocar nuestra lámpara
+
+
+y vamos a dar corriente a ver qué pasa
+
+
+no luce estupendo pueden pasar dos cosas
+
+
+o que nos hemos cargado definitivamente
+
+
+la lámpara o que el regulador funciona
+
+
+si es así cuando nosotros lo activemos
+
+
+efectivamente vemos que luce y vemos que
+
+
+cuando lo ponemos absolutamente al
+
+
+mínimo ahora sí que corta totalmente el
+
+
+paso de la corriente y no se enciende la
+
+
+bombilla y no es que esté cortando
+
+
+absolutamente el paso de la corriente
+
+
+porque el regulador sigue siendo el
+
+
+mismo lo que ocurre es que el
+
+
+condensador que hemos puesto sí que es
+
+
+el que se ocupa de retirar esa corriente
+
+
+que estimulaba la bombilla y que hacía
+
+
+que estuviera luciendo en nuestra página
+
+
+web te digo Cuáles son las
+
+
+características del condensador para No
+
+
+decirt aquí de palabra que es mucho más
+
+
+difícil de de recordar muchas gracias
+
+
+por tus likes Muchas gracias por
+
+
+suscribirte a nuestro canal y espero que
+
+
+ahora ya esto de los problemas con las
+
+
+bombillas quede resuelto para
+siempre i

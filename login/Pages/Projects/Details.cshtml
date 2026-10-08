@@ -1,0 +1,88 @@
+@page "{id:guid}"
+@model login.Pages.Projects.DetailsModel
+@{
+    ViewData["Title"] = "Detalle del proyecto";
+    var materials = Model.Project.Recommendations
+        .SelectMany(recommendation => recommendation.Video.Materials)
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .OrderBy(material => material, StringComparer.OrdinalIgnoreCase)
+        .ToArray();
+    var equipment = Model.Project.Recommendations
+        .SelectMany(recommendation => recommendation.Video.Equipment)
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .OrderBy(item => item, StringComparer.OrdinalIgnoreCase)
+        .ToArray();
+}
+
+<h1>Detalle del proyecto</h1>
+<p>@Model.Project.Description</p>
+@if (!string.IsNullOrWhiteSpace(Model.Project.Category))
+{
+    <p><strong>Categoría:</strong> @Model.Project.Category</p>
+}
+<p><strong>Creado:</strong> @Model.Project.CreatedAt.ToLocalTime().ToString("g")</p>
+<p><a asp-page="./Edit" asp-route-id="@Model.Project.Id">Editar proyecto</a></p>
+
+<h2>Inventario mencionado en las transcripciones</h2>
+<p>Elementos identificados en los vídeos recomendados mediante palabras clave; no se infieren cantidades ni se confirma su necesidad visualmente.</p>
+<h3>Materiales</h3>
+@if (materials.Length == 0)
+{
+    <p>No se identificaron materiales.</p>
+}
+else
+{
+    <ul>
+        @foreach (var material in materials)
+        {
+            <li>@material</li>
+        }
+    </ul>
+}
+<h3>Equipos y herramientas</h3>
+@if (equipment.Length == 0)
+{
+    <p>No se identificaron equipos.</p>
+}
+else
+{
+    <ul>
+        @foreach (var item in equipment)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+
+<h2>Vídeos recomendados</h2>
+@if (Model.Project.Recommendations.Count == 0)
+{
+    <p>No hay vídeos que coincidan con este proyecto.</p>
+}
+else
+{
+    <ol>
+        @foreach (var recommendation in Model.Project.Recommendations)
+        {
+            <li class="mb-3">
+                <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
+                     alt="Miniatura del vídeo @recommendation.Video.VideoId"
+                     loading="lazy" />
+                Vídeo @recommendation.Video.VideoId — puntuación @recommendation.Score
+                @if (recommendation.Video.Materials.Count > 0)
+                {
+                    <p><strong>Materiales:</strong> @string.Join(", ", recommendation.Video.Materials)</p>
+                }
+                @if (recommendation.Video.Equipment.Count > 0)
+                {
+                    <p><strong>Equipos:</strong> @string.Join(", ", recommendation.Video.Equipment)</p>
+                }
+                <a asp-page="./OpenVideo"
+                   asp-route-projectId="@Model.Project.Id"
+                   asp-route-videoId="@recommendation.Video.VideoId">Abrir en YouTube</a>
+            </li>
+        }
+    </ol>
+}
+
+<a asp-page="./Index">Volver a mis proyectos</a>

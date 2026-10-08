@@ -1,0 +1,45 @@
+[
+  {
+    "Author": "@antonioruiz1903",
+    "Text": "Hola\nGracias por la información\nBadalona",
+    "Likes": 0,
+    "PublishedAt": "2023-08-02T13:44:30+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@juanmafdezredeslimanservic9440",
+    "Text": "muy bien",
+    "Likes": 1,
+    "PublishedAt": "2015-08-21T19:19:15+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@toniortegaperez3521",
+    "Text": "Enhorabuena, está muy bien explicado, y muy completo, sobre todo por los pequeños detalles que vas comentando, que a la hora de la verdad siempre te salen y es mucho mejor si alguien con experiencia te lo avisa antes.",
+    "Likes": 1,
+    "PublishedAt": "2015-07-01T14:52:35+00:00",
+    "Replies": [
+      {
+        "Author": "@Bricocrack",
+        "Text": "Toni Ortega Pérez  Tienes toda la razón con lo de \u0022los pequeños detalles\u0022. Muchas gracias por tus comentarios. Nos alegra que te haya resultado útil. Saludos!!!",
+        "Likes": 0,
+        "PublishedAt": "2015-07-03T15:41:31+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@ErnestoDJ95",
+    "Text": "Muy buena explicación, mejor que las del vendedor, pues en las instrucciones del birco depôt incompletas y confusas.Me ha servido de mucho",
+    "Likes": 0,
+    "PublishedAt": "2015-06-21T12:52:53+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@pedromprillafernandaz8774",
+    "Text": "megusta",
+    "Likes": 1,
+    "PublishedAt": "2014-07-02T17:52:03+00:00",
+    "Replies": []
+  }
+]

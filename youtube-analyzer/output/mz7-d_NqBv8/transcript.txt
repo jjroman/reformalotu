@@ -1,0 +1,316 @@
+En nuestro Curso de Electricidad Básica, hemos 
+ido viendo en los últimos tutoriales cómo vamos  
+conectando los mecanismos de la casa para gobernar 
+y controlar dispositivos. Lo que vamos a ver en  
+este tutorial es cómo aplicar este mismo criterio 
+de mecanismos conectados en el cuadro  
+para convertirlo en un cuadro conectado, que puede 
+complementar o 
+sustituir a otros dispositivos que tenemos por la casa.
+Como siempre que hablamos de 
+instalación conectada, el primer paso es conectar
+la puerta de enlace, la Gateway.  Nosotros, cuando lo 
+hacemos en el interior de la casa, lo hacemos con  
+este dispositivo y, en el caso del cuadro, también 
+tenemos un dispositivo específico. Si yo ya tengo  
+en mi instalación de la casa una Gateway, no 
+necesito poner ésta. Y, si quiero empezar una  
+instalación nueva en el cuadro, la monto.
+Lo primero que hemos hecho para proteger e independizar los
+mecanismos que vamos a poner de maniobra es poner 
+un automático de 10 A y en él es donde vamos  
+a conectar nuestra Gateway. La vamos a poner aquí, 
+en esta parte del carril. Para hacer la  
+conexión, abrimos presionando aquí el mecanismo y, 
+donde vamos a conectarlo es en estos dos puntos,  
+con sus tornillos. Lo podemos hacer con cable de hasta 2.5 mm. Nosotros vamos a utilizar 
+cable de 1.5 mm. Los cables los recortamos para las punteras dejando 9 mm para la conexión.  
+Al cerrarlo dejamos uno de los 
+cables por cada una de las salidas.
+Recuerda, como siempre, que lo primero de 
+todo es cortar la alimentación de todo el cuadro eléctrico.  
+A continuación, lo que 
+vamos a conectar son dos mecanismos: un telerruptor  
+y un contactor. ¿Para qué nos sirven 
+estos mecanismos? Pues, de la misma manera que, por  
+ejemplo, tenemos interruptores 
+conectados, con el telerruptor lo que tenemos es  
+toda una línea conectada. Imagínate. Si estoy, por 
+ejemplo, trabajando en una tienda y por la noche  
+quiero dejar encendidos los escaparates hasta determinada 
+hora, en vez de tener los mecanismos de luz con  
+cada interruptor independiente, lo 
+tengo todo en la misma línea con este sistema.  
+Contactor. Funciona como el telerruptor pero 
+está dirigido a todos aquellos equipos que tengan  
+cargas más altas, porque tiene más amperaje. 
+Lo vamos a utilizar en toda una línea que  
+tenga enchufes de fuerza o para líneas que tengan 
+electrodomésticos...Para cualquier mecanismo que ya tenga  
+carga, lo hago con este dispositivo. Esto es lo que me 
+simplifica, cuando  
+quiero tener toda una línea conectada, no 
+tener que estar poniendo distintos dispositivos en la casa.
+El primer circuito que vamos a controlar 
+es este de 10 amperios que es el que tenemos para  
+iluminación general y lo vamos a hacer con el 
+telerruptor. El telerruptor es de 16A y lo vamos  
+a conectar al lado de esto. Hemos modificado un poco el 
+cuadro para que se entienda más fácil todo  
+el trabajo. Para instalarlo, tenemos 
+aquí tres conexiones. La conexión load, que es  
+la conexión de carga, es donde vamos a meter el 
+cable de fase que va a salir para alimentar la  
+instalación. ¡Vamos a hacerlo!
+Soltamos el 
+cable de donde estaba en el automático
+y lo traemos a esta posición de aquí 
+debajo que es la que corresponde a este load. 
+Lo introducimos y lo apretamos.  
+Y, ahora, lo que tenemos que hacer es alimentar 
+desde su automático al mecanismo, con lo que vamos  
+a sacar un cable de fase y un cable de neutro 
+que van a poner en contacto los dos mecanismos.  
+Este elemento está autoprotegido. Si no 
+fuera así, tendría que haberlo llevado  
+-como hicimos con la Gateway- a través de 
+un automático independiente que le diera  
+la protección. Pero en este caso no hace falta.
+Vamos a colocar ahora el contactor. Ves que es un
+aparato que tiene hasta 20 amperios, que es 
+lo que necesitaremos para controlar líneas  
+que tengan por ejemplo la carga del coche, 
+electrodomésticos...lo que queramos en esa línea. 
+Como en el caso anterior, ponemos primero 
+el cable de salida de fase que lleva la carga
+y le damos servicio al dispositivo 
+correspondiente, en este caso con  
+cable de 2.5 mm que es el que corresponde 
+al amperaje con el que estamos trabajando.
+Esta salida que tenemos aquí nos permitiría 
+conectarlo, por ejemplo, con un pulsador, si queremos  
+conectarlo y desconectarlo manualmente. Aunque también 
+podemos asociarlo con un mecanismo inalámbrico con el que 
+podemos hacer la misma función.
+Hasta aquí lo que 
+hemos venido hablando es de cómo solucionar el
+control de determinadas fases para encender y 
+apagar. Dentro del concepto del Smart Electrical Panel,  
+no solamente hablamos de control también 
+hablamos de ahorro, que es un factor muy importante.  
+Y el elemento básico que utilizamos para el ahorro 
+-aunque los equipos que nosotros hemos instalado  
+nos dan medida- en este caso también podemos medir 
+lo que estamos consumiendo pero, además de eso, esto  
+es un deslastrador. Es decir, este deslastrador de carga lo que nos permite es que, cuando nosotros  
+estamos superando el consumo debido con todos 
+los dispositivos conectados que tenemos, podemos  
+gestionarlo para que desconecte aquello que no nos 
+haga falta. ¿Qué ventaja nos da esto? Pues, por una  
+parte, no pasarnos del consumo que queremos pero, 
+imagínate, cuando nosotros tenemos contratadas  
+potencias por ejemplo en el cuadro no muy altas 
+porque son más económicas, con este dispositivo lo  
+que hacemos es que, en caso de que tengamos una 
+sobredemanda, pues ya tenemos programado el que  
+desconecte determinadas cosas en la casa para 
+que de esta manera mantengamos el consumo uniforme  
+o estable en lo que nosotros necesitamos.
+Para colocar el deslastrador, nos hemos hecho sitio
+entre estos dos mecanismos y así lo ponemos al 
+lado de este dispositivo del interruptor de  
+10 A que hemos colocado antes y que nos va 
+a servir para conectarlo y para protegerlo.  
+El dispositivo lleva un conector que es extraíble y 
+nosotros hemos aprovechado ya para conectar aquí  
+los cables que vamos a utilizar. Son cables 1.5 mm y así solamente tenemos que, una vez que lo  
+hemos puesto, pincharlo y le damos servicio al 
+interruptor. El deslastrador nos permite trabajar  
+con una intensidad de hasta 80 amperios y podemos, 
+como te decía antes, desconectar a través de  
+la aplicación todas las tomas de corriente que 
+tengamos de fuerza por la casa.
+Vamos a colocar ahora el toroidal o bobina
+y lo vamos a 
+hacer siempre en el cable de fase de entrada.  
+Fíjate en que el toroidal lleva una flecha que nos 
+indica siempre el flujo de corriente.
+Tenemos que respetarla. 
+Si yo puedo desconectar el cuadro desde 
+otro punto, lo puedo hacer en el cable directamente  
+de alimentación del interruptor general y, si 
+no tengo acceso, lo que hago es ponerlo, en vez  
+de por encima, ponerlo por debajo y conectarlo a la 
+salida del interruptor general. Así que vamos a soltar el  
+cable de entrada y pasamos a través de él la bobina, 
+en la posición correcta, y volvemos a cerrarlo. 
+Tenemos otro elemento de la familia Smart Electrical Panel que no hemos traído.
+Es un medidor de carga que funciona igual que 
+el deslastrador pero que solamente nos  
+sirve para medir pero no para deslastrar, con 
+lo cual la instalación es igual y, viendo
+la instalación de éste, ya nos vale. Una 
+vez que tenemos colocados los dispositivos,  
+lo que nos toca es conectar el cuadro y ver 
+si realmente podemos hacer la conexión.  
+Vamos a verificar que está bien hecha la conexión. 
+Para ello, cuando conectamos el cuadro, vemos  
+que se encienden las luces rojas de los tres 
+dispositivos que hemos conectado. También vemos  
+que luce la Gateway. Y ahora comprobamos que 
+funcionan manualmente los dos interruptores.  
+Damos primero el del circuito de la luz y, a 
+continuación, probamos el del circuito de enchufes.
+Como hacemos siempre en las instalaciones 
+conectadas, vamos a crear la red. Lo hacemos  
+aquí conectando la Gateway durante tres segundos. 
+Vamos a ver cómo cambian a verde, primero la Gateway y  
+luego los dispositivos conectados.
+Como en 
+anteriores tutoriales, vamos a trabajar con
+la aplicación Home+Control que ya has visto 
+en otros vídeos cómo se descarga y vamos a seleccionar  
+aquí productos Legrand. Y lo que vamos a empezar 
+por instalar es la Gateway.
+En esta fase vamos siguiendo siempre las instrucciones 
+de la pantalla. Ten cuidado de respetar los tiempos que nos indica  
+en las pulsaciones porque, si pulsamos más tiempo de lo debido,
+puede llegar a resetearse el equipo.
+Si tienes cualquier interrupción 
+durante la instalación, lo que haces  
+es volver a empezar. Quitas la corriente, 
+la vuelves a dar e inicias el proceso.
+Una vez que está activada nuestra 
+Gateway, nos ofrece la App directamente  
+los dispositivos conectados. Los vamos 
+eligiendo y los integramos dentro de  
+la casa que hemos elegido nosotros que, 
+en este caso, es el "tablero eléctrico".
+A continuación, vamos a introducir los parámetros 
+de la tarifa contratada que tenemos nosotros para  
+que podamos hacer de esta manera posteriormente los 
+cálculos de medida y de ahorro.  
+Aquí vemos ya los equipos que tenemos instalados.
+En el caso del contactor o del telerruptor,   
+podemos encenderlos directamente 
+desde el dispositivo o lo podemos hacer desde aquí
+y nos va a indicar además el consumo inmediato 
+que está teniendo cada uno de ellos. Y, aquí arriba,  
+el deslastrador nos está dando el consumo 
+total que tenemos en el cuadro y la potencia  
+instantánea que estamos consumiendo. En caso 
+de que estuviéramos superándola, si tenemos  
+la configuración establecida de cuáles son 
+los dispositivos que vamos apagando,
+lo haría automáticamente.
+¿Has visto que cuando hemos hecho 
+la instalación,
+aunque tenemos aquí más dispositivos, no me aparecen en la pantalla?
+La razón 
+es porque yo ya tengo integrados los dispositivos  
+en otra casa. Cuando ya he integrado los dispositivos,
+no me los vuelve a ofrecer porque, si no, nos  
+quedaríamos también con los dispositivos de los 
+vecinos. Lógicamente, si partiéramos de cero,  
+aparecerían también y los integraríamos dentro del mismo sistema.
+El deslastrador, con independencia de
+esa función que tiene de apagar algunos mecanismos 
+que tengamos nosotros programados, también nos va a  
+mandar un informe al teléfono inmediato siempre 
+que se produzca un consumo por encima de lo que  
+nosotros tengamos previsto. También pasa lo mismo 
+con el medidor de carga, que es el que te decía que  
+se puede poner alternativamente y que nosotros no hemos instalado.
+Y ahora, 
+incidiendo más en el aspecto del ahorro, te voy a
+mostrar otro producto que es mucho más completo 
+desde el punto de vista de controlar de manera  
+detallada cada uno de los circuitos que tenemos en 
+la casa. Es este ecocontador. ¿Para qué nos sirve?  
+Pues nos sirve para medir, en este caso, hasta cinco 
+circuitos. Es decir, que podemos poner el toroidal  
+en el general y otros cuatro más en los circuitos 
+que más nos interese controlar desde el punto  
+de vista de medida. Y podemos, además, integrarlo en 
+un sistema que permita -teniendo contadores por  
+impulso- tener también un seguimiento del gas 
+y del agua fría y caliente.
+Lo primero de todo: hemos cambiado la configuración del cuadro
+para instalar esto, para que lo veamos mejor  
+y por otros aspectos que te voy 
+a explicar ahora. Para hacer la instalación, yo ya  
+he conectado aquí el cable de alimentación 
+neutro y fase que voy a llevar al automático  
+que había preparado en su momento para que 
+me dé servicio y protección a estos equipos.
+Cada una de estas bobinas lleva un conector 
+rápido que enganchamos a esta regleta inferior.  
+Vamos a enganchar primero la que va al 
+general, que es ésta que nos pone aquí total 5.
+Y vamos a colocar ya un par de 
+bobinas más, por ejemplo, para  
+dar servicio a dos circuitos. Podríamos 
+darle servicio hasta cuatro circuitos más.  
+Nos llevaríamos la primera bobina a 
+conectarla, como teníamos antes, siguiendo también  
+siempre la dirección del flujo de corriente. Esto 
+lo vamos a llevar aquí. Recuerda lo que te decía de  
+que, si no podemos desconectar el cuadro, lo 
+llevaremos a la salida inferior de la fase.
+La 1 la voy a llevar a la 
+salida del circuito de alumbrado
+y la 2 a la salida del circuito de 
+enchufes que habíamos estado probando antes.  
+¿Cuál es el criterio de este ecocontador? Pues, 
+básicamente el que, con independencia de que  
+tenemos la posibilidad de hacer una medición 
+mucho más exacta de hasta los cinco circuitos  
+que te decía, del principal y otros 4, es que 
+además es un elemento que se puede instalar de  
+forma independiente a los otros dispositivos 
+que has estado viendo. Y esto es así porque  
+lleva su propio sistema de conexión Wi-Fi que nos 
+proporciona la información sin necesidad de pasar  
+por la Gateway. Esto quiere decir que, para aquellos 
+usuarios que no queráis tener una instalación como  
+estábamos haciendo hasta ahora y queréis solamente 
+disponer de este sistema directo de monitorización  
+del consumo, también lo podéis hacer prescindiendo 
+del resto de los dispositivos.
+Conectamos el cuadro
+y vemos cómo se pone la luz verde y se ilumina.
+Aquí podemos manejar todo el funcionamiento del  
+equipo directamente a través de este  display si queremos. Podemos ver también todos los datos incluyendo  
+el del consumo instantáneo que está está teniendo cada uno de los circuitos. Y, desde aquí, podemos ya  
+establecer todos las selecciones que queramos 
+de los distintos aspectos. Lo podemos hacer aquí  
+o desde la aplicación Home+Control, como prefiramos.
+Para configurar la aplicación, seguimos el mismo
+procedimiento que hicimos antes. Conectamos 
+el dispositivo y seguimos las instrucciones.  
+Encontramos el dispositivo y, desde la 
+aplicación, seleccionamos los circuitos  
+que vamos a programar. Elegimos el primero que es 
+el que corresponde al alumbrado y le vamos a  
+dar esa denominación. Y hacemos lo mismo 
+con el otro de fuerza, llamándole enchufes.
+Y, a través de la aplicación, nos va a estar 
+dando la información de los consumos que  
+hemos tenido diarios, semanales, mensuales...y nos 
+la da tanto en euros como en kilovatios. Esto lo  
+podemos hacer con cada uno de los circuitos que 
+tengamos conectados. Y, si tenemos un contador de  
+impulso que se pueda integrar con esto, nos dará 
+también la información de consumo de agua fría  
+o caliente y de gas. En el caso del agua, tanto 
+en litros como en euros.
+Así que con esto creo que te hemos 
+abierto una expectativa nueva 
+que es las posibilidades de hacer este tipo  
+de instalaciones en el cuadro. Espero que a ti 
+te haya resultado esto tan interesante como a  
+nosotros el ir probando estos mecanismos. Así 
+que lo que nos falta, como siempre, es tu "like", 
+que te suscribas al Canal si no lo estás todavía -acuérdate de dar a la campanita para recibir  
+notificaciones- y que compartas este vídeo con todos tus 
+amigos a los que les guste el mundo del bricolaje.

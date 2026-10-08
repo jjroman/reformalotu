@@ -1,0 +1,255 @@
+En los tutoriales que hemos hecho utilizando 
+espuma adhesiva para construir muretes han  
+surgido dudas, incluso controversias, sobre la 
+resistencia estructural y la resistencia al  
+fuego de este tipo de montajes. Bueno, pues hoy 
+vamos a hacer pruebas para salir de dudas.
+Es verdad que nosotros, hasta ahora, el construir muretes o tabiques con este tipo de espuma  
+lo hemos hecho un poco como un reto para ver 
+cómo funcionaba. Es verdad que tiene grandes ventajas  
+en aquellos casos en los que el usuario no tiene 
+facilidad para manejar mortero o, sencillamente,  
+cuando tenemos que hacer construcciones en zonas 
+donde acarrear todo el material de construcción  
+pesado es realmente difícil. Pero es cierto que 
+todavía no es sencillo cuando estamos trabajando  
+con el modelo actual de ladrillos que están más pensados para el mortero.
+También es verdad que, poco a poco,
+vienen avanzando otros modelos de construcción 
+con ladrillos que tienen un sistema de encaje más  
+sencillo donde la espuma va a ser, sin duda, la 
+gran protagonista del mundo de la construcción.  
+Lo que sí que queríamos ver ya -que es donde surgieron 
+algunas dudas- es si, además de que es muy fácil de  
+aplicar y es muy útil respecto a que no tiene 
+peso para trasladarla, si además nos da  
+consistencia y nos da fuerza estructural como la 
+que nos da el mortero. Así que hemos construido un  
+murete nuevamente utilizando la espuma EasyPega 
+como ya has visto en otro tutorial. Si quieres ver  
+cómo se hace este tipo de construcciones, te 
+dejo aquí el enlace para que puedas ir a ese  
+vídeo y verlo. Y lo hemos preparado con un par de contrafuertes en los laterales para  
+que haga un poco de resistencia para el trabajo 
+que nosotros queremos hacer. Y en paralelo, hemos  
+hecho exactamente igual el mismo murete pero 
+unido con mortero. Y ahora lo que vamos a  
+hacer es someterlos a una prueba de resistencia de derribo. Ves que vamos a colocar aquí en la  
+zona de nuestro polipasto esta estructura 
+que es la de ladrillos hecha con mortero.  
+Y vamos a utilizar para golpearla,  como elemento demoledor, la típica  
+bola de demolición -en este caso a escala- de 2 kg y la vamos a ir lanzando contra la estructura  
+para ver la resistencia en un caso y en otro.
+El procedimiento de derribo para ver la resistencia
+es el de las grandes constructoras, que consiste en una  
+bola pesada y un mecanismo de péndulo que es el 
+que hace que la bola, al coger toda la fuerza  
+que le da el impacto de la gravedad, golpee con 
+mucha fuerza sobre la superficie.  
+Para ir calculando a qué altura la vamos poniendo 
+y luego comparar, vamos a llevarnos esta bola  
+a una altura determinada en un listón y marcamos 
+ahí, en la tensión de la cuerda, el ángulo que le  
+estamos dando en cada caso. Vamos a arrancar 
+lanzándola desde este primer punto. Vemos que el  
+impacto es fuerte, que llega a romper un poco el 
+ladrillo, pero la estructura resiste. Y, así, vamos  
+a ir probando paulatinamente. Volvemos a subir la 
+bola, esta vez un poco más alta. Marcamos la altura  
+a la que estamos y lanzamos. Vamos repitiendo el 
+proceso como ves con distintas alturas, subiendo  
+cada vez más. El ladrillo se va rompiendo 
+poco a poco pero, de momento, la estructura aguanta.
+Vamos a subir este punto más. 
+Vemos que aquí ya el golpe con el  
+que ha impactado la bola ha hecho 
+ya que se mueva la estructura. Vemos  
+que ya prácticamente se ha soltado y se 
+ha despegado el mortero sobre toda esta  
+línea completa de ladrillos. Aun así, como 
+sigue resistiendo, vamos a seguir subiendo  
+la altura. Le damos uno más. Vemos que, 
+aunque está casi suelto, aguanta.
+Más altura...
+y aquí ya vemos que se ha producido el 
+derribo. Ya la estructura no aguanta más y ésta
+es la altura máxima que nos ha dado de péndulo, de fuerza de resistencia en la proyección de  
+esta bola para hacer el derribo.
+Vamos a hacer la misma prueba ahora en el murete que
+hemos preparado con espuma y lo vamos a colocar en la misma posición, 
+exactamente igual, con la bola a la misma altura, 
+y aprovecharemos las marcas que hemos dejado en  
+las anteriores pruebas para ir comparando el 
+lanzamiento. No es una prueba en que sepamos  
+cuánta es la fuerza de impacto que estamos dando, 
+pero lo que nos sirve es comparar los  dos elementos.
+Vamos subiendo y vamos poco 
+a poco cumpliendo con las mismas marcas
+que teníamos en el caso del mortero. Vemos que 
+realmente lo más que conseguimos, a medida que  
+vamos ascendiendo en las marcas, es dañar un poco la superficie, pero no hay   
+ningún movimiento que nos permita pensar que
+está soltándose la adherencia que tienen las juntas.
+Vamos a llegar al máximo, donde conseguimos 
+ya que se empezara a despegar y a romperse  
+prácticamente el ladrillo. Vamos a lanzar desde 
+aquí y vemos que también aguanta. Vamos a llegar  
+al máximo, que es donde ya se rompió completamente 
+la estructura anterior, y vemos que aquí, de momento,  
+esto sigue aguantando y que aquí no pasa nada.
+Bueno, vamos a subir nuevas marcas y lo
+que hacemos es ir creando lanzamientos cada 
+vez más arriba. Vemos que aquí seguimos sin  
+romper. Volvemos a subir y tampoco 
+rompe. Hacemos un último intento y vemos que,  
+efectivamente, no somos capaces con este sistema 
+de bola de derribar esto. A mí la verdad es que
+el resultado no me sorprende porque, como ya me ha 
+tocado derribar muretes hechos con espuma, sé lo  
+que me ha costado arrancar los ladrillos unos 
+de otros en la estructura para luego desmontarla.  
+Así que realmente esto es una situación lógica. 
+Pensemos que, cuando nosotros queremos reforzar  
+mucho un mortero, lo que hacemos generalmente es 
+añadirle resinas. Los morteros con resinas son más  
+resistentes. En este caso estamos trabajando 
+con una carga enorme de resinas que son muy  
+resistentes. Pero, ¿realmente es solo un problema 
+de adherencia lo que estamos proporcionando  
+a la resistencia estructural de nuestro murete? 
+Pues vamos a ver una prueba de resistencia de  
+adherencia para comprobar si esa es la explicación 
+al comportamiento que estamos viendo. 
+Vamos a poner dos ladrillos 
+pegados directamente entre sí con espuma. Lo vamos  
+a hacer como hacemos habitualmente, midiéndolo 
+en nuestro polipasto. Ves que lo que hacemos es  
+colgar con unas gomas desde abajo la parte inferior de los ladrillos y con la otra tiramos  
+desde el propio polipasto. Y vamos midiendo la tensión que vamos creando con esta báscula. 
+La vamos a poner a cero siempre cuando arrancamos. 
+Y, a partir de ahí, vamos tirando hacia arriba  
+con el polipasto y vamos viendo qué resistencia 
+es capaz de soportar la adhesión de nuestros ladrillos.  
+Vemos cómo vamos subiendo poco a poco la 
+tensión que vamos creando. Vamos pasando los 20 kg,   
+los 30, saltamos por encima de los 40 kg y vemos 
+cómo va ascendiendo sin que haya ningún tipo de  
+sensación de rotura por parte de lo que hemos pegado.
+Vemos que llegamos ya a los 100 kg, que los pasamos
+y que aquí no ha ocurrido absolutamente nada.
+Realmente los dos ladrillos han creado una 
+estructura compacta gracias a la espuma.
+Pues vamos a hacer la misma operación pero con los ladrillos pegados con mortero.
+Taramos a cero kilos la báscula para comenzar y vamos tirando para arriba.
+Ves que el proceso que vamos siguiendo es el mismo. Vamos levantando cada vez más la  
+tensión del cable, subiendo la presión y va 
+soportando de momento el mortero sin tener ninguna  
+queja y sigue siendo una adherencia compacta. Y, de hecho, vamos subiendo sin que ocurra nada, salvo  
+alguna pequeña rotura del propio ladrillo con la eslinga, pero ahí no se ha movido absolutamente  
+nada. Y, efectivamente, llegamos y desbordamos los 100 kg sin que se rompa. Yo con esto me quedo  
+conforme. No quiero seguir forzando más porque ya, 
+si forzamos mucho más, como consigamos que salga  
+despedido, no sé dónde va a ir a parar el ladrillo. 
+Pero esto ya nos da una indicación importante. 
+Realmente de lo que estamos hablando es de que 
+el mortero tiene también un enorme adherencia.  
+Lo que diferencia la resistencia, por  tanto, 
+no solamente es la adherencia sino la capacidad  
+de impacto a las vibraciones. Esto quiere decir que la 
+espuma lo que nos proporciona es una adherencia  
+tan buena o mejor que la del mortero pero, además, 
+nos da una cierta elasticidad que ante golpes, ante  
+vibraciones, ante impactos es más resistente. Es lo que deducimos de lo que acabamos de ver.  
+Otra duda que se nos planteaba con EasyPega era su comportamiento ante el fuego, el riesgo  
+de propagación...Ahí había dudas. Como estamos con 
+los temas de incendio -yo creo- todos muy  
+sensibilizados, se planteaba que el deterioro que 
+sufriría una pared que experimentara una carga de  
+calor muy fuerte haría que la espuma se derritiese 
+o, incluso, que fuera generadora o propagadora del  
+incendio. Así que eso también lo hemos probado. Lo 
+que hemos hecho ha sido tomar unos ladrillos,  
+los hemos unido con espuma y, por una de 
+las caras, hemos aplicado un plaste,
+un tendido de yeso para que nos 
+quede cubierto. Exactamente igual de lo que ocurre  
+en una pared cuando tiene que comportarse frente a 
+un incendio. Lo que vamos a hacer es  
+proyectar fuego sobre la zona de unión donde 
+tenemos las juntas de los ladrillos con la espuma  
+y vamos a tener el fuego mantenido durante unos 10 -15 minutos. Ves que la temperatura va  
+elevándose hasta alcanzar un punto en el que ya no 
+es capaz nuestro termómetro ni de medirlo, porque  
+desborda por encima de lo que es capaz de soportar 
+el lector de temperaturas. Estamos sometiendo a un  
+castigo de fuego directo con un soplete, con un gas 
+de alta capacidad calorífica, una zona concreta de  
+la pared. Mucho más de lo que, por supuesto, le toca 
+sufrir en un incendio donde no tiene habitualmente  
+esa proyección tan marcada de un punto de fuego. 
+Seguimos avanzando, ves que empieza ya  
+a dañarse el yeso, algo que 
+es muy difícil porque el yeso es la primera capa  
+de protección fundamental que tenemos siempre en 
+las paredes para resistir este tipo de situaciones  
+de incendio. En este caso, le estamos dando tan duro con el soplete que vemos que empieza ya  
+como a resquebrajarse de alguna forma la capa de 
+yeso y que penetra en el interior el calor.
+Ahí estamos teniendo ya un punto de entrada de fuego dentro de la propia estructura.  
+Bueno ya, como esto parece que no avanza más, vamos a parar y vamos a ver los resultados.
+Para empezar, vamos a ver por la parte de detrás donde tenemos la espuma que sobresale  
+como testigo, y vemos ahí que efectivamente no ha 
+habido ningún cambio en las propiedades físicas  
+de la espuma. Sigue estando la  espuma exactamente 
+igual que estaba. Con lo cual, el calor de alguna  
+manera lo que sí que hemos visto es que no ha 
+generado ningún cambio físico en la espuma.  
+Pero, para entrar más a fondo, vamos a ir retirando directamente la parte de yeso que  
+podamos y vemos que, efectivamente, en la zona donde 
+se ha producido el impacto de fuego directo,   
+ahí sí que ha desaparecido parte de la espuma.
+Pero, como no nos quedamos suficientemente satisfechos con
+esto, vamos a hacer una autopsia completa a nuestro 
+murete a ver lo que ha pasado por el interior.  
+Vamos a ponerle unas cuñas y a golpearlo hasta que 
+consigamos partirlo y ver cómo está el interior.  
+Vemos que, efectivamente, en el interior solo 
+hay cambios en la zona que ha recibido la llama directa.  
+El resto de la espuma se mantiene estable 
+y, a juzgar por lo que nos ha costado romper la  
+unión, no ha perdido nada de su adherencia. En general, por lo tanto, lo que sí que tenemos  
+claro es que el principal elemento 
+de protección que tienen los tabiques, sea cual sea  
+el adhesivo que utilizamos en el interior,
+es el yeso que es el elemento que nos da  
+estabilidad habitualmente frente al fuego. Es 
+lo que vemos como elemento. Y el calor como  
+tal que se propaga a partir del yeso parece 
+que no afecta a nuestra espuma.  
+Pero vamos a hacer una prueba más. Imaginemos que 
+nosotros tenemos zonas donde la espuma desborda.  
+Porque es verdad que la espuma metida en capa 
+muy fina entre los ladrillos es muy difícil que  
+combustione pero, incluso si hacemos la prueba 
+directamente de combustión de esta espuma, como  
+vamos a hacer ahora, vemos que, cuando 
+pegamos fuego directamente sobre la espuma, la  
+espuma se quema pero no es propagadora de llama. EasyPega tiene una certificación B2 que corresponde  
+a productos de construcción que, aunque se 
+queman, no contribuyen significativamente a  
+propagar los incendios.
+Así que, a la pregunta que nos hacíais,
+ésta es la comprobación y el resultado.
+Yo espero que con esto que hemos visto hasta aquí hayan quedado solucionadas todas  
+las dudas que nos planteasteis, aunque os contestamos bastantes de ellas directamente en 
+vuestros mensajes. Sabéis por cierto que contestamos cualquier pregunta que nos  
+hagáis, siempre que la hagáis en el último tutorial que publicamos cada semana. Y que  
+nada mejor para estar al tanto de cuándo podéis 
+hacer preguntas que estar suscritos. Y así veis el
+último tutorial publicado, ahí tus preguntas. 
+Aunque no sean del tema de ese tutorial. 
+No importa. Nosotros cada semana siempre contestamos 
+todo lo que nos formuláis en los comentarios.  
+Así que ya lo único que nos queda, como siempre, es habernos merecido tu "like" 
+y que compartas este vídeo con todos tus amigos 
+a los que les guste el mundo del bricolaje.

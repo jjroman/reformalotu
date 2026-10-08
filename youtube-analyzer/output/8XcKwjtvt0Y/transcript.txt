@@ -1,0 +1,127 @@
+En este tutorial vamos a hablar de las tiras 
+de luces LED decorativas y, concretamente, 
+de un problema que tienen. Porque, cuando 
+tú preguntas si las tiras LED se pueden  
+cortar en la tienda te dicen "sí, claro que se pueden 
+cortar". Y ahí se quedan. Deberían terminar la frase con un  
+"¡Y apáñate como puedas!" 😁 Porque, efectivamente, no 
+tenemos instrucciones. Pero, sí, la buena noticia  
+es que las tiras LED se pueden cortar a la medida que 
+tú quieras y hacer las tiras componiendo de  
+la manera que prefieras todo el juego de luces en 
+tu casa. Vamos a ver primero en qué consiste  
+esto. En principio, cuando tú compras las tiras LED
+pueden venir, como en este caso, varias tiras.  
+Nosotros hemos comprado un juego clásico de tiras 
+LED donde nos vienen en este rollo hasta cinco tiras  
+de un metro. Vienen todas separadas o, mejor dicho, 
+vienen todas juntas pero se pueden separar porque  
+vienen conectadas por este sistema que tiene aquí 
+de conexión pequeña de 4 pines. Así de fácil. 
+Te voy a explicar qué más cosas trae y cómo 
+funcionan por si tienes alguna duda cuando  
+lo compres. Trae un enchufe con un transformador que vamos a enchufar ya. Y, fíjate, tienes aquí  
+dos salidas en este transformador. Una de ellas es 
+donde nosotros vamos a conectar las tiras LED.
+Cuando metas los pines procura  apretarlos 
+bien y, sobre todo, no los fuerces porque, si se doblan,  
+mala cosa. Y esta otra salida, no te preocupes por ella,
+es sencillamente el receptor del mando  
+a distancia con el que activamos la puesta en marcha del dispositivo.  
+Ahora que lo tenemos enchufado es tan 
+sencillo como darle servicio -vamos a conectarlo-, 
+le damos a ON y lo ponemos en marcha. Tienes un 
+mando que te permite distintos juegos de color,
+intensidades,
+parpadeos, etcétera.
+Si yo quiero ampliar mi circuito, uno más tiras 
+LED. Voy tomando tiras, buscando las conexiones  
+y conectando unas a otras. Esto directamente cuando lo active debe hacer que funcionen todas.  
+¿Qué posibilidades tengo para hacer 
+configuraciones con mi luz LED? 
+Puedo meterle distintos sistemas de unión. 
+Además de éste que es para hacer la unión  
+recta que has visto, tengo estos otros 
+que son para hacer codos. Si yo conecto ésta
+y le pongo el codo por aquí,
+puedo componer, por ejemplo, un 
+cuadro. Puede ocurrir que yo lo que tenga que  
+hacer no es un cuadro sino que lo que quiero 
+es llevar por una superficie horizontal  
+mi tira LED y luego pasarla a un plano vertical. 
+En este caso lo que voy a utilizar son estas  
+otras. De esta manera pasaríamos de un plano 
+horizontal a un plano vertical para llevar la luz. 
+Claro, hasta aquí todo es sencillo porque tenemos 
+los dos tipos de conexión que nos resuelven esto.  
+Pero ¿qué hacemos cuando no 
+queremos tener tiras de un metro sino tiras más cortas?  
+¿Cómo se corta, dónde se corta y cómo 
+se pueden unir estos cortes?  
+¡Vamos a verlo! Lo primero de todo 
+te voy a enseñar cómo está montada la LED
+sobre esta tira. La parte de abajo es un 
+adhesivo -que viene con su correspondiente papel  
+protector que retiramos para pegarlo- y, en la 
+parte de arriba, la configuración se mantiene  
+como ves. Empieza siempre con una unión en los 
+bornes de un lado y de otro y vienen 1, 2, 3 LED
+-con sus respectivas resistencias- y empieza la 
+siguiente. Son series de 3 LED lo que vienen  
+en cada una de estas tiras. Nosotros, 
+para poder hacer un corte correcto, tenemos  
+que cortar siempre entre estas dos hileras de 
+bornes, de conexiones, justo en el centro para  
+que de esta manera podamos hacer un corte donde 
+haya luego un empalme posible. ¡Vamos a hacerlo!
+Cuando le cortamos este lado, nos queda sin 
+conexión. Así que necesitamos unirlo a un  
+conector de alguna manera. Y éste es el problema 
+del corte. 
+Cuando preguntamos ¿se puede cortar? Sí, pero y ahora ¿qué hacemos? 😮
+Así que vamos a ver 
+dos soluciones. Una que sería la solución más rigurosa, más formal,
+que es la de hacer una 
+soldadura y, la otra, si no quieres soldar o no tienes soldador,
+vamos a ver cómo se hace 
+algo de andar por casa y a ver si funciona.
+Antes que nada, como esta tira LED puede tener 
+encima un recubrimiento de protección, empezamos  
+por quitarlo de las conexiones con ayuda de un 
+cúter. En la primera opción no me voy a detener mucho  
+porque es la evidente, la que te decía antes 
+que es la más formal, soldar con estaño las tiras a  
+su conector. Está al alcance de quienes tengáis un 
+soldador y un poco de estaño. Lo hacemos soldándolo  
+a la conexión macho porque la que hemos 
+cortado por este lado es la conexión hembra.
+Luego le podemos poner un 
+poco de cinta autoadhesiva  
+blanca para que quede protegida la conexión.
+¿Cómo lo hacemos si no queremos soldar?
+Vamos a retirar el protector 
+de la base del adhesivo
+y ahora vamos a colocar 
+nuestra cinta sobre la mesa.
+Lo apoyamos y sobreponemos el conector.
+Tiene que estar muy bien colocado y 
+tenemos que sujetarlo con la cinta  
+con mucha fuerza porque no debe 
+perder contacto en ningún momento.
+¿Funcionará el experimento? ¡Vamos a probarlo!  
+Conectamos la siguiente tira 
+de LED para ver qué ocurre.
+Bueno, vamos a ver ahora cómo va esto.
+Pues, ¡luce! Puede ser -y a mí me parece que aquí casi 
+casi pasa un poco- que tenga un poco menos  
+de intensidad. Eso quiere decir que no está haciendo un 
+contacto tan preciso. En este caso, ¿qué hacemos? Pues  
+podemos buscar un trozo de cartón que no hayamos utilizado y 
+meterlo directamente debajo de la 
+unión que hemos hecho, le volvemos a dar otra  
+vez cinta y a reapretarlo para que esto vuelva 
+a tener la intensidad suficiente de una tira a otra. 
+Esperamos que los fabricantes algún día, 
+además de decirnos que se puede hacer, nos manden  
+unos pequeños pines que nos resuelvan esto sin 
+necesidad de pelear nosotros con la cinta aislante.

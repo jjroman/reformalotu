@@ -1,0 +1,208 @@
+En esta serie de tutoriales que estamos
+haciendo sobre electricidad, estamos
+recibiendo muchos comentarios vuestros,
+que agradecemos mucho. Unos son mejoras a
+lo que contamos, correcciones,
+ampliaciones que hacen nuestros
+compañeros bricocracks que son
+especialistas en electricidad...
+También recibimos muchas preguntas y nos damos cuenta de que en esas preguntas, a veces,
+lo que queda es algún tipo de duda pero
+por un desconocimiento de base de
+electricidad. Nosotros intentamos evitar
+ser pesados y contar cosas teóricas,
+pero hemos visto que sí que hace falta
+hacer una especie de "número cero" donde
+contemos algunos conceptos básicos.
+Para no aburrirte con grandes teorías que a
+veces son complicadas de entender y que
+llevan mucho tiempo, lo que vamos a hacer
+es establecer una especie de comparación
+con los circuitos de fontanería de la
+casa que son cosas que entendemos más fácilmente todos.
+Lo primero, en nuestra casa,
+para que salga agua por los grifos, 
+necesitamos que haya presión en la
+instalación. En el caso de la electricidad, para que se mueva una carga
+eléctrica, lo que necesitamos es que haya
+una diferencia de potencial entre
+dos puntos conectados.
+Imagínate, por ejemplo, pues un clásico, cuando hay una
+tormenta, vemos cómo hay una carga
+eléctrica en el cielo que, de vez en
+cuando, lanza relámpagos al suelo y ahí
+se transmite una energía eléctrica
+enorme. Eso se produce porque hay
+una diferencia de potencial. Cuando
+hay diferencias de potencial eléctrico, la
+corriente se pone en marcha y tenemos
+electricidad.  Nosotros a esa diferencia de potencial
+que necesitamos, que es la que hay
+entre el cable de fase y el neutro, la
+llamamos tensión. La tensión se mide en voltios y ese dato lo
+tenemos siempre, en las máquinas que
+funcionan de forma eléctrica,
+en el cuadro de especificaciones de funcionamiento y
+nos dice, en este caso, 230 voltios y 50-
+60 hercios. Sobre la frecuencia, no te lo
+voy a explicar ahora porque eso ya es un
+concepto que nos hace menos falta y que
+es un poco más complicado. Pero son dos factores que hacen que esta máquina
+pueda integrarse, o no, gracias a que
+comparte la tensión con la red.
+Del mismo modo que para algunos equipos domésticos
+o de riego usamos reductores de presión
+del agua, para la electricidad, si los
+equipos funcionan con menos voltaje,
+debemos usar transformadores que reducen la tensión.
+Con esto ya tenemos claro lo que es el
+voltaje. El voltaje sencillamente nos
+indica la tensión a la que está
+funcionando una instalación. Cuando
+queremos saber cuánta cantidad de
+electricidad tenemos, es similar a lo que
+sería, en el caso del agua, el caudal de
+agua que nos llega a las tuberías.
+Al caudal de electricidad que
+se mueve por nuestra instalación le
+llamamos intensidad y lo medimos en amperios.
+Los electrones se mueven entre los
+átomos del metal del cable para
+transportar energía. Según el consumo que
+estemos haciendo, obligamos a que
+fluya mayor o menor caudal de corriente.
+¿Qué ocurre? Que el funcionamiento eléctrico no es que los
+electrones vayan con su mochila desde la
+central eléctrica y vayan recorriendo
+todo el circuito. La electricidad no son
+los electrones. Los electrones son los que
+hacen que la energía fluya a través de
+los materiales. Cuando hay muchos
+electrones libres, tenemos muchos pequeños cargadores de esa energía que van
+moviéndose entre átomos y provocando todo ese movimiento de
+energía a través de la instalación.
+¿Qué ocurre? Qué, efectivamente, no todos
+los materiales tienen la misma cantidad
+de electrones libres. Por ejemplo,
+los metales sabemos que sí
+que tienen muchos electrones, en ese caso
+decimos que son muy conductores, y hay
+otros, como el plástico, que no tienen
+electrones libres y por tanto no son
+capaces de transmitir la energía.
+Esto lo veíamos en nuestro tutorial dedicado a las averías eléctricas, en el que
+observábamos que el agua no conduce la 
+electricidad, pero sí lo hace cuando
+ponemos sal. Esto es lo que hacía saltar
+el diferencial.
+Por lo tanto, está muy en relación
+la capacidad que yo tengo de
+tener intensidad eléctrica con el tipo
+de resistencia que yo tenga. Si yo tengo
+un material muy resistente, eso frena
+todo el trabajo de la energía eléctrica
+y su desplazamiento.
+Si tenemos un cable demasiado fino
+para la intensidad de la corriente, los electrones chocan
+desordenadamente con los átomos del
+metal y lo recalientan rápidamente. A la
+dificultad que encuentran los electrones
+para moverse se le llama resistencia y
+se mide en ohmios, con el símbolo de la
+letra o griega, la omega.
+Ese concepto de resistencia
+lo vemos fácilmente si pensamos, por ejemplo, en las antiguas bombillas
+halógenas o en los calentadores eléctricos que van por
+resistencias. Lo que yo estoy haciendo es
+provocar que la electricidad vaya por
+espacios muy pequeños, le cueste mucho
+pasar y, ese trabajo que está haciendo de
+esfuerzo para moverse por donde no puede, hace que haya una pérdida muy
+importante de energía en forma de calor.
+Siempre, cuando estoy estrechando las
+posibilidades de funcionamiento
+eléctrico, lo que hago es generar calor.
+Es la transformación más directa y eso
+lo voy a utilizar para luz, lo utilizo
+para calefacción...pero es un desastre cuando lo tengo en las instalaciones de casa
+porque, si se me calientan los cables sin
+ningún motivo, ahí no lo tengo
+preparado para esos calentones.
+El objetivo es dar servicio a distintos aparatos eléctricos
+que transforman la intensidad de la
+corriente en potencia para funcionar.
+La potencia se mide en vatios con el
+símbolo W (doble uve,  doble u, como lo digamos en cada país).
+Ahora ya sabemos que la intensidad
+depende de la demanda de nuestro consumo.
+Nosotros, cuando abrimos el grifo de casa, sale agua. En este caso, cuando
+ponemos el enchufe
+en casa para conectar una máquina, lo que
+estamos consumiendo es potencia. Estamos consumiendo vatios.
+¿Cómo lo medimos?
+Supongamos que, en un circuito de tomas de enchufe, tengo previsto usar dos
+calentadores que consumen 2.100 vatios
+cada uno, total 4.200 vatios.
+Para saber qué intensidad debe tener el
+circuito, utilizo la fórmula simplificada
+de que esta intensidad la obtengo de
+dividir la potencia en vatios por la
+tensión en voltios.
+Necesito 4.200 vatios y la tensión es de
+230 voltios. Así es que la división me da 18, 26 amperios.
+Por tanto, elegiremos para este
+circuito un automático de 20 amperios.
+Eso, recuerda, que decíamos que lo
+vemos en estas letras que tienen aquí
+los interruptores magnetotérmicos. En éste C16. Ese 16 es el máximo número de
+amperios que está dispuesto a aceptar
+este interruptor. Por encima de ese
+amperaje, lo normal es que acabe por
+desconectarse y nos deje sin corriente o,
+en el caso del limitador general de la
+casa, pasa exactamente lo mismo.
+Pero también hemos dicho que, para evitar recalentamientos, los cables tienen que
+tener un diámetro adecuado para la
+intensidad que vaya a pasar por ellos.
+Cuando hacemos, por tanto, la
+instalación, lo que vamos mirando es
+cuánto consumo voy a tener en cada
+una de las fases y, en función de eso, la dimensiono.
+Por eso tenemos que elegir el
+cable que la normativa nos indique para
+esa intensidad, que sería de 4 milímetros
+cuadrados. Todos estos aspectos forman
+parte de la normativa técnica de cada
+país. En españa, lo tenemos en el Reglamento
+Electrotécnico de Baja Tensión. Del que
+obtenemos, por ejemplo, estos datos de
+configuración básica para la instalación
+de una vivienda.
+Esto lo hemos ido viendo en
+nuestros tutoriales también gracias a la
+ayuda de Legrand que nos ha facilitado
+todos los aparatos y la información que
+hemos ido necesitando. Así que,
+amigos de Legrand, ¡muchas gracias!
+Bueno, espero no haber sido pesado con
+esto que os he venido contando ni
+que esta simplificación pueda
+conducir a errores. ¡Espero que no!
+A lo mejor mis amigos de Legrand,  o los que sois más expertos de estas cosas, me
+decís que he simplificado demasiado. Nosotros intentamos poner siempre un nivel para
+quien se mueve a nivel doméstico y,
+por encima de eso, uno llama al
+electricista y que te arregle las cosas, que
+para eso también están los profesionales.
+Si tenéis consultas que hacer, encantados de ayudaros siempre que
+podamos, tanto nosotros como los más
+expertos que también a veces intervenís
+ayudando a otros bricocracks que
+conocen menos de las cosas y que
+preguntan. Así es cómo intentamos que los comentarios que hay en el Canal nos
+sirvan para ayudarnos unos a otros con todas las dudas que pueden
+ir surgiendo. Y, como siempre, si os ha
+gustado el tutorial, ya sabéis, vuestro
+"like", compartidlo con los amigos y ¿qué
+hacéis que no estáis suscritos todavía al
+Canal de Bricocrack? ¡Hay que estar!

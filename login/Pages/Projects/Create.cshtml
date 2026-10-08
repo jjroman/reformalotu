@@ -1,0 +1,115 @@
+@page
+@model login.Pages.Projects.CreateModel
+@{
+    ViewData["Title"] = "Crear proyecto";
+    var materials = Model.Recommendations
+        .SelectMany(recommendation => recommendation.Video.Materials)
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .OrderBy(material => material, StringComparer.OrdinalIgnoreCase)
+        .ToArray();
+    var equipment = Model.Recommendations
+        .SelectMany(recommendation => recommendation.Video.Equipment)
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .OrderBy(item => item, StringComparer.OrdinalIgnoreCase)
+        .ToArray();
+}
+
+<h1>Crear proyecto</h1>
+<p>Describe tu reforma para encontrar vídeos del catálogo relacionados con el tema.</p>
+
+<form method="post" class="mb-4">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Input.Description" class="form-label">Descripción</label>
+        <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000"></textarea>
+        <span asp-validation-for="Input.Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.Category" class="form-label">Categoría (opcional)</label>
+        <select asp-for="Input.Category" class="form-select">
+            <option value="">Sin categoría</option>
+            @foreach (var category in Model.Categories)
+            {
+                <option value="@category.Name">@category.Name</option>
+            }
+        </select>
+        <span asp-validation-for="Input.Category" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar y buscar vídeos</button>
+</form>
+
+@if (Model.ProjectId is not null)
+{
+    <section aria-live="polite">
+        <h2>Vídeos recomendados</h2>
+        @if (Model.Recommendations.Count == 0)
+        {
+            <p>No encontramos vídeos que coincidan con esta descripción. Puedes editar el proyecto e intentarlo de nuevo.</p>
+        }
+        else
+        {
+            <p>Se encontraron @Model.Recommendations.Count vídeos del catálogo:</p>
+            <h3>Inventario mencionado en las transcripciones</h3>
+            <p>Son elementos identificados por palabras clave; no se infieren cantidades ni se confirma su necesidad visualmente.</p>
+            <h4>Materiales</h4>
+            @if (materials.Length == 0)
+            {
+                <p>No se identificaron materiales.</p>
+            }
+            else
+            {
+                <ul>
+                    @foreach (var material in materials)
+                    {
+                        <li>@material</li>
+                    }
+                </ul>
+            }
+            <h4>Equipos y herramientas</h4>
+            @if (equipment.Length == 0)
+            {
+                <p>No se identificaron equipos.</p>
+            }
+            else
+            {
+                <ul>
+                    @foreach (var item in equipment)
+                    {
+                        <li>@item</li>
+                    }
+                </ul>
+            }
+            <ul>
+                @foreach (var recommendation in Model.Recommendations)
+                {
+                    <li class="mb-3">
+                        <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
+                             alt="Miniatura del vídeo @recommendation.Video.VideoId"
+                             loading="lazy" />
+                        Vídeo @recommendation.Video.VideoId — puntuación @recommendation.Score
+                        @if (recommendation.Video.Materials.Count > 0)
+                        {
+                            <p><strong>Materiales:</strong> @string.Join(", ", recommendation.Video.Materials)</p>
+                        }
+                        @if (recommendation.Video.Equipment.Count > 0)
+                        {
+                            <p><strong>Equipos:</strong> @string.Join(", ", recommendation.Video.Equipment)</p>
+                        }
+                        <a asp-page="./OpenVideo"
+                           asp-route-projectId="@Model.ProjectId"
+                           asp-route-videoId="@recommendation.Video.VideoId">Abrir en YouTube</a>
+                    </li>
+                }
+            </ul>
+        }
+        <a asp-page="./Details" asp-route-id="@Model.ProjectId">Ver proyecto guardado</a>
+        @if (Model.Recommendations.Count == 0)
+        {
+            <span> · </span><a asp-page="./Edit" asp-route-id="@Model.ProjectId">Editar proyecto</a>
+        }
+    </section>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

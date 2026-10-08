@@ -1,0 +1,882 @@
+En el tutorial anterior vimos algunos
+
+
+cambios importantes que se han ido
+
+
+produciendo en las actualizaciones de
+
+
+los sistemas que nos sirven para tener
+
+
+nuestra casa conectada. En este vamos a
+
+
+completar esta información.
+Si quieres dar un vistazo a ese tutorial
+
+
+anterior, en él te contábamos cómo son
+
+
+ahora las puertas de acceso del del
+
+
+sistema, el gateway que ha cambiado y
+
+
+veíamos también un ejemplo de
+
+
+instalación de todo lo que es el
+
+
+cableado y la instalación de los
+
+
+dispositivos para la persiana. En este
+
+
+vamos a resolver en primer lugar cómo
+
+
+hacemos la sustitución de los mecanismos
+
+
+tradicionales que tenían estos sistemas
+
+
+por mecanismos que eran conectados al
+
+
+neutro. Vamos a ver qué modificaciones
+
+
+hacemos en la instalación para poder
+
+
+cablearlo con el cable neutro el
+
+
+dispositivo. Y vamos a ver también un
+
+
+problema que se produce muchas veces,
+
+
+que es el de cómo resolver los
+
+
+cruzamientos, porque a veces es verdad
+
+
+que llegas a algunas instalaciones que
+
+
+se han hecho y que aunque se hayan hecho
+
+
+desde el punto de vista profesional, la
+
+
+verdad es que a veces hay una fiesta de
+
+
+cables por todos los sitios que no hay
+
+
+manera de entenderlo. Bueno, vamos a ver
+
+
+cómo se hace correctamente según la
+
+
+normativa ese tipo de trabajos y también
+
+
+aprovecharemos para ver cómo hacemos la
+
+
+conexión con altavoces inteligentes, con
+
+
+Alexa, Google o Siri. Vamos a hacer
+
+
+ahora la instalación de una tira LED.
+
+
+Las tiras LED a veces dan problemas
+
+
+porque efectivamente, sobre todo cuando
+
+
+son grandes tiras y demás, tienen un
+
+
+consumo alto y en ese sentido siempre es
+
+
+recomendable el que los sistemas sean
+
+
+eficientes para soportar esa mayor
+
+
+consumo y esos arranques más difíciles.
+
+
+Lo vamos a hacer con un eh dispositivo
+
+
+de la nueva serie Light Note de
+
+
+Bitichino. Esta serie vas a ver que
+
+
+cambia algunos criterios desde el punto
+
+
+de vista tecnológico y además cambia
+
+
+también el diseño y aspecto estético.
+
+
+Como ves, una serie especialmente
+
+
+cuidada desde el punto de vista
+
+
+decorativo. Nosotros vamos a hacer, por
+
+
+lo tanto, esta instalación. Vamos a
+
+
+sustituir nuestro interruptor antiguo
+
+
+tradicional y vamos a poner este nuevo
+
+
+mecanismo. ¿Qué es lo que nosotros
+
+
+necesitamos para este mecanismo? Pues
+
+
+necesitamos que directamente ves que
+
+
+nosotros hasta ahora teníamos solamente
+
+
+por este tubo un cable de fase y el
+
+
+cable de vuelta que nos va directamente
+
+
+a la lámpara. Es un interruptor normal.
+
+
+Bueno, este nuevo sistema para que nos
+
+
+dé esta capacidad mayor de resistencia
+
+
+le vamos a meter también directamente el
+
+
+neutro. Así que el único trabajo que
+
+
+tenemos que hacer desde el punto de
+
+
+vista de instalación es llevar un cable
+
+
+neutro desde el registro donde tenemos
+
+
+nuestras conexiones al interruptor. Lo
+
+
+llevamos a través del tubo y vamos a
+
+
+hacer aquí la conexión, como veis, de
+
+
+una manera muy sencilla. Hacemos la
+
+
+instalación primero del neutro,
+
+
+de la fase y la vuelta. Y con esto ya
+
+
+tenemos nuestro interruptor eh listo. Lo
+
+
+vamos a colocar en su sitio y luego
+
+
+haremos eh la configuración exactamente
+
+
+igual que hicimos con los demás
+
+
+sistemas.
+[Música]
+
+
+De lo que te estamos contando, te
+
+
+dejamos abajo el enlace a las páginas de
+
+
+bricolige donde puedes ver los precios,
+
+
+características, todo lo que necesites
+
+
+para conocer o comprar productos. Y si
+
+
+tienes alguna pregunta que hacernos, ya
+
+
+sabes que se pueden hacer siempre en el
+
+
+último tutorial que publicamos cada
+
+
+semana. Si estás suscrito y toda a la
+
+
+campanita, te llegará el aviso de último
+
+
+vídeo de Brico Crack. Pues ahí tu
+
+
+pregunta que siempre la contestamos.
+
+
+Vamos a hacer también una instalación de
+
+
+un enchufe conectado. En este caso no
+
+
+cambia nada respecto de la forma que
+
+
+tenemos de instalarlo, exactamente igual
+
+
+que siempre. Desmontamos el anterior y
+
+
+buscamos los puntos correspondientes del
+
+
+nuevo. Lo único que sí que cambia es que
+
+
+esta nueva serie, la Lightnote, tiene
+
+
+también nuevos diseños en este tipo de
+
+
+dispositivos.
+
+
+Y vamos a otro de los puntos, estos a
+
+
+veces negros en la instalación, porque a
+
+
+veces dan un poco de dificultades y nos
+
+
+quedamos con cables colgando por medio
+
+
+que hacen que eh no funcionen bien estos
+
+
+dispositivos. ¿Cómo hacemos el
+
+
+cruzamiento?
+
+
+En principio, desde el punto de vista de
+
+
+dispositivos, lo vas a ver. Un
+
+
+cruzamiento consta de un interruptor que
+
+
+sí que va directamente cableado y dos
+
+
+interruptores inalámbricos que colocamos
+
+
+en los espacios de los antiguos
+
+
+interruptores o de nosotros queramos.
+
+
+Eso no es obligatorio, por supuesto.
+
+
+Pero lo que sí que es importante es que
+
+
+nosotros controlemos que la instalación
+
+
+que teníamos nos sirva para el nuevo
+
+
+sistema y no dejemos ningún cable suelto
+
+
+que pueda ser peligroso desde el punto
+
+
+de vista también de estar metiendo la
+
+
+mano a la hora de trabajar.
+
+
+¿Qué vamos a hacer? Por lo tanto,
+
+
+nosotros vamos a arrancar primero
+
+
+desmontando el interruptor central donde
+
+
+tiene directamente nuestro cruzamiento,
+
+
+donde tiene el interruptor que es de
+
+
+cruzamiento. Y lo que vamos a hacer es
+
+
+ cada uno de los cables que nos
+
+
+viene de uno de los lados, del que nos
+
+
+vienen los dos interruptores, lo vamos a
+
+
+unir directamente por un lado y lo
+
+
+sujetamos en una clema. Y con los otros
+
+
+dos cables que nos vienen también de
+
+
+cada uno de los lados, hacemos lo mismo
+
+
+por el lado contrario. De esta manera
+
+
+estamos unificando en un solo cable de
+
+
+fase los cuatro cables que tenemos
+
+
+sueltos y de paso los tenemos todos bien
+
+
+enganchaditos y con una eh instalación
+
+
+limpia.
+En el interruptor inicial donde
+
+
+recibíamos la fase desde el cuadro, lo
+
+
+que vamos a hacer es lo mismo. Vamos a
+
+
+ una también una reta, una clema y
+
+
+vamos a interconexionar los cables. Por
+
+
+una parte metemos el que nos viene de la
+
+
+fase del cuadro y por otra parte unimos
+
+
+los dos que lanzábamos al siguiente
+
+
+interruptor y los juntamos también para
+
+
+que estén perfectamente conectados todos
+
+
+la misma borna. Y donde sí que vamos a
+
+
+instalar el dispositivo de control del
+
+
+interruptor, donde vamos a poner nuestro
+
+
+interruptor, es en el tercero. Y aquí lo
+
+
+que vamos a hacer es que lo que me viene
+
+
+directamente de los cables que hemos
+
+
+unido lo voy a tomar como entrada de
+
+
+fase y la vuelta que me iba a la lámpara
+
+
+la sigo manteniendo exactamente igual en
+
+
+su posición de vuelta. En este caso,
+
+
+veis que me ha sobrado un cable porque
+
+
+me venían dos y como no hay mucho
+
+
+espacio para meter dos cables, cuando te
+
+
+pases tú y tengas un cable suelto, lo
+
+
+cortamos y lo metemos directamente, lo
+
+
+embornamos metiéndolo dentro de una
+
+
+regleta sin apretar demasiado para que
+
+
+no corramos el peligro de que el
+
+
+tornillo traspase el plástico y así nos
+
+
+queda perfectamente cerrado y cubierto
+
+
+el el cable que teníamos ahí suelto.
+
+
+En los dos interruptores antiguos que
+
+
+nos quedan los huecos, vamos a utilizar
+
+
+directamente interruptores inalámbricos.
+
+
+Estos interruptores inalámbricos tienen
+
+
+un chasis largo porque está pensado para
+
+
+que pueda servir para el tipo de caja
+
+
+americana más larga o para estas cajas
+
+
+que son más cortas directamente le
+
+
+quitamos los suplementos laterales y lo
+
+
+podemos adaptar perfectamente a este
+
+
+tipo de caja de instalación. Lo que
+
+
+hacemos directamente colocarlos en su
+
+
+sitio con los tornillos y dejarlos en
+
+
+superficie porque como ves son
+
+
+mecanismos inalámbricos que conectaremos
+
+
+a continuación. Para completar la
+
+
+instalación de este cruzamiento o
+
+
+siempre que ponemos una una lámpara de
+
+
+estas características, lo que vamos a
+
+
+ponerle es un filtro que lo colocamos lo
+
+
+más cerca posible a la entrada de la
+
+
+lámpara. Este filtro nos evita tanto las
+
+
+cargas residuales como los parpadeos o
+
+
+directamente que la electrónica pueda
+
+
+estar produciendo cualquier tipo de
+
+
+inestabilidad en nuestro sistema.
+
+
+Una vez que tenemos todo instalado, ves
+
+
+que por una parte nosotros podemos eh
+
+
+utilizar los dispositivos directamente
+
+
+desde los mecanismos de la pared.
+
+
+Podemos en aquellos que son regulables
+
+
+vamos apretando para darle mayor
+
+
+intensidad, menor intensidad y con un
+
+
+solo toque encender o apagar. Siempre
+
+
+cuando volvemos a encender se queda en
+
+
+el punto de intensidad que tenían cuando
+
+
+los apagamos.
+
+
+[Música]
+
+
+En el caso del cruzamiento, lo mismo,
+
+
+vamos jugando con cualquiera de los
+
+
+interruptores, exactamente igual que el
+
+
+cruzamiento que teníamos
+
+
+tradicionalmente.
+
+
+[Música]
+Podemos también, por supuesto, gobernar
+
+
+todos estos dispositivos desde el
+
+
+teléfono, desde cualquier punto del
+
+
+mundo, donde queramos. Ves que
+
+
+directamente la aplicación nos permite
+
+
+ir reconociendo cada uno de las
+
+
+estancias donde tenemos los distintos
+
+
+dispositivos y nos permite conectarlos,
+
+
+desconectarlos y en aquellos casos los
+
+
+que son regulables nos permite también
+
+
+jugar con su regulación.
+Y también, por supuesto, podemos
+
+
+gobernar estos dispositivos desde el
+
+
+altavoz inteligente. Esto no ha cambiado
+
+
+respecto de lo que ya vimos en su
+
+
+momento. Directamente es la propia
+
+
+aplicación del altavoz inteligente que
+
+
+tengas. Son compatibles todos los
+
+
+habituales que existen en el mercado y
+
+
+son los que te van a preguntar qué
+
+
+aplicación estás utilizando para
+
+
+trabajar con los dispositivos
+
+
+electrónicos. directamente se ocupa el
+
+
+propio altavoz de hacer el
+
+
+emparejamiento.
+
+
+Okay, Google, dormitorio
+y el dispositivo downlight encendido.
+
+
+Okay, Google, enciende la cocina.
+De acuerdo, enciendo el dispositivo
+
+
+base.
+
+
+Okay, Google, enciende el salón.
+Y el dispositivo Tiraled encendido.
+
+
+Okay, Google, tíralez al 20%.
+Tira al 20%. Okay, Google, tired al
+
+
+100%.
+
+
+[Música]
+
+
+Y el dispositivo Tiraled al 100%.
+
+
+Okay, Google, apaga todo.
+De acuerdo. Apago cuatro dispositivos.
+
+
+Espero que hayamos resuelto eh los temas
+
+
+fundamentales que siempre vemos que
+
+
+quedaban pendientes con todo esto.
+
+
+Además de eso, si quieres cualquiera de
+
+
+estos productos, quieres más
+
+
+información, yo te dejo abajo el enlace
+
+
+abricoelige.com.
+
+
+Nosotros tenemos dentro de nuestra
+
+
+plataforma Biococrack Pro que está
+
+
+dirigida a aquellos que queráis hacer
+
+
+cosas más cerca de nosotros, una
+
+
+plataforma totalmente gratuita para
+
+
+compartir actividades y demás que vamos
+
+
+a ir poniendo en marcha a lo largo de
+
+
+este año. Vamos con un poco de retraso,
+
+
+pero arrancaremos. Yo te dejo abajo el
+
+
+enlace por si te quieres dar de alta y
+
+
+conseguir así tu cupón, que los os
+
+
+comunicaremos cuál es la contraseña de
+
+
+cupón que tenemos por si queréis hacer
+
+
+compras con un pequeño descuento y que
+
+
+así salga más fácil ir poniendo en
+
+
+marcha todo esto. La verdad es que la
+
+
+ventaja que tiene siempre la electrónica
+
+
+es que esta electrónica profesional es
+
+
+un poco más cara, pero tampoco te obliga
+
+
+a comprarlo todo a la vez. Es una cosa
+
+
+que puedes ir poco a poco haciendo
+
+
+incorporación de nuevos elementos e ir
+
+
+convirtiendo cada día más una casa en
+
+
+esa casa inteligente que todos nos que
+
+
+todos nos apetece tener o en esa casa,
+
+
+digamos vigilada, supervisada donde
+
+
+podemos tener a nuestros mayores o
+
+
+nuestros niños mucho más seguros. Espero
+
+
+como siempre con esto que nos hayamos
+
+
+ganado tu like, que te suscribas al
+
+
+canal si estás todavía te dar la
+
+
+campanita recibir notificaciones y
+
+
+comparte este vídeo con todos que les
+
+
+guste el mundo del bricolaje.
+
+
+[Música]
+[Música]

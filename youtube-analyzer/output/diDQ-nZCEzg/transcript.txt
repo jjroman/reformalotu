@@ -1,0 +1,350 @@
+En esta nueva entrega de Electricidad
+básica, vamos a seguir hablando de
+estos sistemas nuevos, de toda la parte de instalación conectada.
+Una instalación que podemos utilizar
+tanto a través de los mecanismos, como la
+tradicional, como a través de mandos
+inalámbricos, del teléfono o de los
+altavoces inteligentes. Si no has visto
+los dos tutoriales anteriores, te
+recomiendo que eches marcha atrás y los
+veas. Acuérdate siempre de que, cuando tengas que
+buscar cualquier información de
+electricidad en nuestro Canal, la
+manera más sencilla es ir al buscador de YouTube
+y escribir allí Bricocrack electricidad y
+el tema que quieras buscar.
+Lo que vamos a ver hoy es cómo hacemos
+para resolver de una manera sencillísima,
+con estos sistemas conectados, las
+conmutaciones y los cruzamientos. Vas a
+ver que es facilísimo pero también es
+importante que veamos cómo hacemos para
+que, cuando en casa tenemos una
+instalación de ese tipo ya -de un
+cruzamiento o de una de conmutación- 
+hecha con el sistema tradicional,
+podamos acondicionar la instalación y adaptarla al nuevo sistema de interruptores.
+Para que lo veas, hemos preparado todo esto para explicarlo de forma muy didáctica.
+Lo primero de todo, hacemos un repaso.
+Hace dos tutoriales, en el primero que
+hemos dedicado a sistemas conectados, te expliqué cómo se hacían
+las instalaciones conectadas.
+En el anterior, instalamos este interruptor conectado que nos da
+servicio a esta lámpara.
+Recuerda también que hicimos una
+instalación -es importante que la veas- de
+este tipo de interruptores que van
+directamente conectados en la lámpara,
+sin necesidad de que tengamos ningún
+tipo de circuito físico para el comando.
+Eso fue en el capítulo anterior. En éste vamos a trabajar
+partiendo de este interruptor conectado
+y te he preparado también aquí una
+instalación normal con un cruzamiento, una instalación tradicional. Lo he hecho así
+porque es importante que veamos cómo
+lo resolvemos cuando en casa tenemos ya una
+para transformarla con interruptores
+conectados. Porque no vale con ir
+sustituyendo uno por uno los
+interruptores, hay que hacerlo de otra
+manera. Bueno, pues vamos a empezar
+justamente por este aspecto de cómo
+solucionamos el que esta luz, si yo
+quiero tener más de un interruptor, cómo
+hacemos la conmutación. Vimos también el sistema en el tutorial anterior, pero
+es bueno siempre en esto de las instalaciones conectadas, porque es difícil que se
+nos quede el procedimiento porque son
+cosas muy sencillas pero hay que fijarse
+bien en ellas. No te preocupes que,
+cada vez que lo hagamos, yo te lo repito
+y, si no tienes interés en volverlo a ver, 
+saltas un poquito en el vídeo y te vas
+más adelante. Pero es la manera para que
+todos vayamos asegurándonos de que,
+cuando empecemos a trabajar con estos
+equipos, nos funcione maravillosamente
+todo. Mira, para hacer cualquier conexión siempre recuerda que
+tenemos que utilizar el comando general
+de la instalación. Cualquier
+cambio en la instalación lo tenemos que hacer siempre partiendo con
+éste que nos sirve en casa para "entrada-salida" y nos sirve también para comando
+general. Lo primero de todo para hacer
+cualquier modificación, acuérdate,
+es abrir la red y, para abrir la red,
+apretamos durante 6 segundos
+este dispositivo hasta que ya nos dé la
+indicación, poniéndose en verde, de que
+está abierta la red. Y ya, con la red
+abierta, lo que vamos a hacer es lo que
+ya viste en el anterior capítulo. Con un inalámbrico, cuando nosotros lo
+apretamos sobre la parte inferior, damos
+tres golpes
+y vemos cómo hay un parpadeo en azul en
+los dos sistemas que significa que ya
+están asociados. Ahora nosotros ya
+podemos desde este interruptor hacer el
+mismo trabajo que sobre el que está en la
+pared. Apagamos o encendemos. Éste sería
+nuestro interruptor conmutado. Podemos
+por lo tanto, con los stickers que
+tenemos para pegarlo, ponerlo pegado en
+donde queramos. O bien, como ya te enseñé,
+acoplarlo con un marco doble sobre
+cualquier otro interruptor que tengas de
+Valena en cualquier otro sitio de la
+casa, en el sitio donde quieras tener el
+conmutado. ¿Que lo que queremos es un
+cruzamiento? Pues exactamente lo mismo.
+Voy a conseguir mi cruzamiento poniendo
+un dispositivo más. Repito la operación
+de apretar la parte de abajo,
+doy los tres golpecitos, espero a que se
+produzca el parpadeo
+y éste, exactamente igual, lo tengo
+asociado. Ya, desde cualquier punto donde
+quiera trabajar, puedo interactuar con
+tres interruptores, con lo cual mi
+cruzamiento está listo. Como ves, es
+absolutamente sencillo.
+Donde puedo tener alguna dificultad,
+como te decía antes, porque sí que necesito
+hacer una pequeña parte de instalación,
+es cuando yo me encuentro con los
+sistemas tradicionales en los que tengo
+hechos por cable esos cruzamientos.
+Porque, fíjate, la lógica es que yo, para
+trabajar con estos circuitos, lo que hago
+es poner un solo interruptor conectado
+en la pared y los otros dos, aunque los
+ponga también en cajas de registro, son
+inalámbricos. Esto quiere decir que yo no
+puedo tener todas estas conexiones de cables en cada sitio.
+Pues ¡vamos a empezar por el principio! Lo
+primero de todo. Yo solamente voy a dar
+servicio a un cruzamiento o a un
+conmutador con un solo interruptor que
+va puesto en la pared. El otro también
+irá en la pared pero es un inalámbrico, con lo
+cual empezamos por instalar éste. Para hacerlo fácil, para que lo veas
+mejor, vamos a empezar pensando en
+circuitos conmutados que son más
+frecuentes, ¿vale? Voy a hacer desaparecer este cruzamiento para que tú
+lo veas bien, voy a tapar con cinta
+éste y olvídate de que existe. Porque un
+circuito conmutado, recuérdalo y si no
+pues vete al vídeo donde hablamos de él,
+es sencillamente un sistema donde tengo
+un interruptor de entrada en un lado y
+otro interruptor de salida en el otro y
+va unido, como aquí, a través de dos
+cables.
+Ahora tengo que conectar este
+interruptor. ¿Cuál es la única dificultad
+que tengo? ¿Cuál se te ocurre que puede
+ser?
+Lógicamente, la dificultad que tengo es
+saber de dónde viene la
+corriente porque yo, para dar servicio a esto, necesito corriente. En uno de los
+interruptores conmutados, si recuerdas, me llegaba la corriente y en el otro lo
+que hacía era tener la salida para la
+lámpara. Así es que necesito, para hacer esta
+operación, o bien conocer cómo viene el
+circuito o bien tener un buscapolos.
+Sacamos el interruptor. Tengo la corriente dada,
+así que cuando manipulamos estas
+cosas siempre utilizamos un
+destornillador como éste, de electricista.
+Fíjate en que tiene aquí una protección de
+plástico para que yo no tenga ningún
+peligro a la hora de manipular estas cosas.
+Aquí tengo mis conexiones de cable.
+Fíjate en que yo siempre
+sé que la entrada es éste que tiene el color rojo. Un conmutador -esto lo recordarás-
+tiene una entrada con un cable que va a
+esta zona roja y dos salidas que son las
+zonas que no están coloreadas en rojo.
+Entonces, lo que voy a hacer siempre
+es, en el cable que me entra, pinchar con
+el buscapolos
+y apretar para ver si tengo luz.
+Se ilumina una luz naranja.
+Por supuesto que esta prueba la tenemos
+que hacer siempre con la luz apagada.
+¿Cuál es la razón? Lógicamente, si la luz
+está apagada, el cable que va de vuelta
+es el que no lleva corriente pero el
+cable que viene de la fase sí que la trae.
+Lo vamos a ver en éste, fíjate.
+En este caso, como ves, no me está
+dando corriente al hacer la comprobación.
+Por supuesto, si doy al mecanismo
+y enciendo, ahora al abrir el paso, sí que
+me va a dar corriente. Luego, la
+conclusión evidente es que voy a
+instalarlo en éste. Siguiente paso.
+Acuérdate -porque esto es esencial-,
+siempre que instalo mecanismos
+conectados tengo que cortar la luz
+general de la casa porque, si no, luego no
+se van a encontrar unos dispositivos con otros.
+Vamos a empezar por sacar los dos
+cables que van al otro interruptor de
+conmutación y los vamos a trenzar porque lo que
+vamos a hacer es unificarlos en uno solo.
+Y, con ellos trenzados, lo que voy a hacer es traerlos
+a la salida de vuelta que tengo aquí indicada en este mecanismo.
+¿Ves que tengo dos salidas? Yo puedo  utilizar una de ellas, la otra
+está reservada para el neutro en algunos
+sistemas en los que utilizamos también
+el neutro en este interruptor.
+Soltamos el cable que viene de fase
+y lo ponemos en el punto de entrada
+donde pone la "L",
+la entrada para fase.
+Con este conmutador puesto, ahora cuando le dé servicio, ya sé que desde
+este conmutador yo voy a gobernar la luz
+porque, por los dos cables que van hacia
+ese interruptor, siempre va a haber corriente, en el cable 1 y en el cable 2.
+Con lo cual este interruptor, haga lo que haga, como le entra corriente
+por los dos sitios, siempre va a mandar
+corriente a la lámpara. Pero, como yo quiero
+tener un circuito conmutado, este pobre ya
+no me sirve porque éste es incapaz de
+interrumpir el servicio. Como siempre,
+cuando yo quiero integrar un dispositivo
+de éstos, lo que hago es conectar la
+corriente general y voy a apretar
+durante 6 segundos el comando de
+programación para que se vuelva a abrir
+la red y detecte el nuevo elemento que
+he integrado.
+Fíjate en lo que te decía. Cuando yo arranco aquí, como está
+saliendo por los dos cables
+simultáneamente que van al otro
+interruptor corriente, en cualquiera de
+las dos posiciones de este interruptor, en el
+1 le llega la corriente, en el 2 también le llega el corriente.
+Efectivamente ya este conmutador es un
+trasto inútil que no me sirve para nada.
+Con lo cual lo que voy a hacer es poner
+en marcha un interruptor como éste, un
+inalámbrico, y voy a sustituir en el otro
+lado el dispositivo. Pero te voy a
+explicar, cómo te decía, qué hago con los
+cables.
+Ya está listo este interruptor. Ahora, como tengo que trabajar con los cables
+ahí, ahora ya por pura precaución, voy a
+volver a cortar la corriente. Aquí sí que
+puedo cortar solamente la corriente de
+esta fase porque ya la programación está
+hecha. Aquí no tengo nada que resolver
+más pero es una cuestión de
+seguridad a la hora de trabajar.
+Vamos a ver cómo resolvemos lo de los cables.
+¿Qué es lo que necesito hacer? Lógicamente lo que quiero es que siempre
+esté llegando corriente a la lámpara.
+Para que siempre llegue corriente a la
+lámpara, la solución es muy sencilla. Uno
+los tres cables y ¡listo!
+Vamos a trenzarlos.
+Esto lo vamos a guardar en la caja del mecanismo
+y vamos a colocar en su lugar este interruptor.
+Por supuesto, este interruptor lo puedo colocar aquí
+o donde yo quiera porque, como es inalámbrico,
+donde más me guste pero, en este caso, voy respetar la posición.
+Vamos a ver cómo llevamos nuestra
+instalación.
+Con éste podemos encender y apagar, con éste podemos encender y apagar.
+¿Qué pasa en los casos en los que estamos
+trabajando con un cruzamiento? Porque,
+efectivamente, con este sistema, si
+tuviéramos un cruzamiento y hubiéramos respetado el interruptor del centro,
+éste nos ha quedado inutilizado. Luego, en
+los cruzamientos me pasa exactamente lo
+mismo, que tengo que seguir dando
+servicio a toda la instalación pero
+voy a sustituir éste por un inalámbrico. Pues vamos a repetir el proceso.
+Lo primero que vamos a hacer es activar un inalámbrico más. Lo traemos
+aquí y vamos a ver cómo hacemos la
+integración.
+¿Para qué nos sirve tener estos sistemas
+conectados? Pues porque, de esta manera,
+podemos también gobernarlo directamente desde el teléfono, desde los altavoces
+inteligentes, desde donde queramos.  Bueno, fíjate. Aquí tenemos la llegada
+del interruptor que nos viene con la
+corriente en el rojo. Eso quiere decir que
+estos dos vienen con corriente desde el
+primer interruptor. Y éstos que tengo
+aquí marcados en blanco coinciden con
+los de la salida.
+Vamos a desmontarlos y te digo cómo
+los emparejamos.
+Dos cables me venían directamente con el
+cable de fase. Yo los he unificado.
+Éstos vienen realmente juntos porque toman corriente del mismo sitio. Otros dos
+cables me van directamente de vuelta a
+la lámpara. He hecho lo mismo, también
+los he unificado. En realidad, lo que yo quiero es que siempre haya corriente en este
+cable porque, de esta manera, lo gobernaré desde los dispositivos. Podría enlazar,
+efectivamente, un negro y un blanco y,
+como están unidos en todos los sitios,
+me daría corriente pero, claro, lo que no
+voy a hacer es dejar aquí cables sueltos
+en una caja. Con lo cual, voy a juntarlos
+todos, voy a hacer un puente general, y
+así me aseguró de que todos los cables
+llevan corriente. Como tengo sitio de
+sobra en la caja, no me pasa nada porque
+sea
+un poquito más grande la regleta de conexión.
+Introducimos de vuelta la clema en su sitio y, como en el caso anterior,
+vamos a colocar
+el interruptor en su posición.
+Vamos a dar la corriente.
+Algo fundamental, por supuesto que esta
+instalación que estamos haciendo
+acuérdate que tiene que estar siempre
+conectada,
+o asociada mejor dicho, a nuestro gateway.
+Esto es lo que nosotros ponemos con el
+Starter Pack, es el primer elemento
+de arranque de esta red. Esto es lo que
+nos crea esta red zigbee, esta red de radio,
+que hace que todos los dispositivos que
+estamos poniendo se conecten entre sí. Esto es fundamental, acuérdate. Tenemos
+que ir un par de vídeos atrás y hay que
+vérselos bien para que esto funcione.
+Vamos a probar que funciona sin problema nuestro
+cruzamiento. Apagamos...encendemos...
+desde todos los dispositivos, así que
+está funcionando correctamente.
+¿Por dónde vamos a seguir en nuestro próximo tutorial?
+Pues, fíjate, porque es importante. Hasta aquí lo que hemos estado
+viendo es cómo hacemos toda la
+asociación de estos dispositivos dentro
+de la parte eléctrica. Hemos estado
+haciendo todo lo que tiene que ver con
+el cableado.
+En el siguiente tutorial lo que vamos a
+hacer ya es llevarnos esta red zigbee 
+de radio que hemos creado aquí
+a dar el paso siguiente y a conectarla con una aplicación que
+bajamos, una app de Legrand, para que podamos
+hacer un montón de funciones con todos
+estos equipos y vamos a asociarla además
+con los altavoces inteligentes. En este caso, nosotros vamos a
+utilizar el de Amazon pero tienes más
+modelos, tienes el de Apple, tienes el de
+Google, cualquier altavoz inteligente se
+puede conectar. Vamos a ver en este siguiente
+capítulo cómo hacemos esta conexión y
+cómo empezamos ya a avanzar en el
+presente, más que en el futuro, con
+estos nuevos sistemas. Bueno, espero
+que te haya parecido interesante el tutorial,
+que nos hayamos ganado como siempre tu
+"like" y que compartas este tutorial con
+todos tus amigos a los que les gusten
+estos temas que tienen que ver con las
+mejoras domésticas.

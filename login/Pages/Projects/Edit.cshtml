@@ -1,0 +1,32 @@
+@page "{id:guid}"
+@model login.Pages.Projects.EditModel
+@{
+    ViewData["Title"] = "Editar proyecto";
+}
+
+<h1>Editar proyecto</h1>
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Input.Description" class="form-label">Descripción</label>
+        <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000"></textarea>
+        <span asp-validation-for="Input.Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.Category" class="form-label">Categoría (opcional)</label>
+        <select asp-for="Input.Category" class="form-select">
+            <option value="">Sin categoría</option>
+            @foreach (var category in Model.Categories)
+            {
+                <option value="@category.Name">@category.Name</option>
+            }
+        </select>
+        <span asp-validation-for="Input.Category" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar cambios y buscar vídeos</button>
+    <a asp-page="./Details" asp-route-id="@RouteData.Values["id"]" class="btn btn-link">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,948 @@
+Ya en otros tutoriales hemos hablado de
+
+
+los dispositivos conectados para la casa
+
+
+inteligente, pero han surgido nuevos
+
+
+dispositivos y nueva tecnología que
+
+
+tenemos que conocer y además hemos
+
+
+detectado algunos problemas de
+
+
+instalación que tenéis muchas veces y
+
+
+que aquí vamos a resolver.
+[Música]
+
+
+Primero de todo, nosotros siempre
+
+
+hablamos de sistema conectado, a
+
+
+diferencia de dispositivos conectados,
+
+
+porque dispositivos conectados pueden
+
+
+ser dispositivos cada uno de su padre y
+
+
+de su madre que vamos a intentando
+
+
+conciliar pues a través de el altavoz
+
+
+inteligente, de lo que sea. Un sistema
+
+
+conectado como este, que es el que
+
+
+nosotros estamos utilizando, son
+
+
+sistemas que tienen una capacidad de red
+
+
+mucho más precisa. Es decir, cada uno de
+
+
+los aparatos que vamos instalando sirve
+
+
+como repetidor de señal. Y de esta
+
+
+manera nosotros conseguimos que donde
+
+
+haya una red de este tipo, una red cigi,
+
+
+la que hacemos nosotros con estos
+
+
+productos de Legrán y de viticino,
+
+
+podemos hacer que vaya creciendo la red
+
+
+y cada uno de los aparatos sirve como
+
+
+nodo de conexión con el siguiente y de
+
+
+esta forma llegan las redes mucho más
+
+
+lejos y no tenemos limitaciones de
+
+
+contacto. Por otra parte, si se no es
+
+
+que el sistema WiFi, no pasa nada porque
+
+
+cada uno de los elementos de los
+
+
+dispositivos que estamos eh instalando
+
+
+funcionan directamente como un
+
+
+dispositivo normal para que no pare
+
+
+nunca la función que tengan asignada. Es
+
+
+verdad que todavía estos sistemas no
+
+
+están muy implantados, tiene que ver,
+
+
+por una parte con que somos un un país
+
+
+donde la electrónica todavía estamos un
+
+
+poquito verdes en todo eso y donde no
+
+
+acabamos de entender la importancia que
+
+
+tiene este tipo de sistemas. Tenemos que
+
+
+pensar que segundas viviendas que
+
+
+queremos controlar desde la distancia,
+
+
+encender, apagar, mantener vigilancia o
+
+
+directamente cuando queremos hacer
+
+
+videovigilancia, no solamente como
+
+
+protección frente a intrusos, sino
+
+
+cuando tenemos, por ejemplo, personas
+
+
+mayores a las que queremos mantener un
+
+
+sistema de detectores o de avisos que
+
+
+nos permitan estar tranquilos de lo que
+
+
+está pasando en esa casa o directamente,
+
+
+por supuesto, para nuestra propia
+
+
+comodidad y nuestro propio confort
+
+
+también es importante. De esto iremos
+
+
+hablando porque especialmente nosotros
+
+
+en todo lo que tiene que ver con tercera
+
+
+edad nos parece que todo lo que estamos
+
+
+haciendo aquí es clave y conviene cada
+
+
+uno en nuestra casa. Si no queremos
+
+
+depender de quien nos lleven en otros
+
+
+sitios, convendrá que tengamos la casa
+
+
+preparada con este tipo de dispositivos
+
+
+para estar mucho más seguros y cuando
+
+
+aprendemos y cuando estamos todavía a
+
+
+tiempo de hacerlo. Pero entrando en
+
+
+materia, cosas que te decía que han ido
+
+
+cambiando dentro de la oferta que tiene,
+
+
+por ejemplo, Legrá y Viticino, que son
+
+
+un poco los grandes líderes de este de
+
+
+este tipo de productos y que debemos
+
+
+conocer. Para empezar, ha habido algunos
+
+
+cambios con respecto al eh al sistema en
+
+
+cuanto a la gateway, el la puerta de
+
+
+acceso de toda la aplicación. Antes era
+
+
+un sistema, lo veías en un tutorial
+
+
+anterior, que era un enchufe conectado
+
+
+que nosotros empezamos a trabajar con
+
+
+él. Ahora directamente tenemos un
+
+
+dispositivo que sustituye a un
+
+
+interruptor normal y con poniéndole
+
+
+directamente el cable neutro para que lo
+
+
+podamos alimentar, hacemos ahí la
+
+
+entrada de todo el sistema de la casa.
+
+
+Para las conexiones vamos a utilizar
+
+
+siempre el router para la puesta en
+
+
+marcha de los equipos. Es importante que
+
+
+tengamos en cuenta que nosotros la
+
+
+conexión trabajamos siempre con la banda
+
+
+de 2,4 de frecuencia. Una vez que hemos
+
+
+conectado físicamente nuestro gateway,
+
+
+ya podemos volver a dar la luz. Siempre
+
+
+cuando hacemos cualquier operación de
+
+
+estas, cortamos la corriente, por
+
+
+supuesto, y vamos a hacer la
+
+
+instalación. Nosotros utilizamos como
+
+
+como ya habíamos hecho anteriormente
+
+
+este eh comando entrada salida, que es
+
+
+con el que vamos a tener acceso y
+
+
+directamente también con la aplicación
+
+
+que en nuestro caso ya no la hemos
+
+
+bajado para tener la lista. Eso también
+
+
+lo has visto en tutoriales anteriores de
+
+
+todo lo que te estoy contando aquí o de
+
+
+cualquier cosa de bricolaje con la que
+
+
+tengas dudas acuérdate que siempre
+
+
+nosotros en el último vídeo de publicado
+
+
+siempre contestamos las preguntas que
+
+
+nos hagas y para saber cuál es el último
+
+
+vídeo publicado, lo mejor es que estés
+
+
+suscrito, des a la campanita y donde
+
+
+veas la notificación de vídeo nuevo hay
+
+
+tus preguntas que seguro que tienes
+
+
+respuesta. Puede ocurrir a veces que
+
+
+después de sacar nosotros la protección
+
+
+que lleva la pila para que no esté
+
+
+conectada consumiendo antes de tiempo,
+
+
+vemos que no reacciona. Bueno, esto
+
+
+tiene una solución sencilla. Cuando
+
+
+veamos que no nos funciona este comando,
+
+
+lo que hacemos es apretar esta pequeña
+
+
+solapita que tiene la parte superior.
+
+
+Levantamos y aquí ves que tenemos el
+
+
+acceso a la pila para ver que está
+
+
+correctamente situada. Y ahí tenemos el
+
+
+acceso a todo el mecanismo de este
+
+
+dispositivo. Para cerrar, nuevamente
+
+
+volvemos a presionar, apretamos un poco
+
+
+esa pestañita y queda perfectamente
+
+
+encajada.
+
+
+Segundo problema que nos da a veces este
+
+
+dispositivo, que empezamos a a
+
+
+configurarlo y no arrancar la primera se
+
+
+nos queda bloqueado. Bueno, que sepas
+
+
+también que directamente el griway tiene
+
+
+un eh pequeño agujerito que vemos ahí
+
+
+con especie de ruletita alrededor que es
+
+
+una especie de reset que podemos hacer
+
+
+sencillamente con una pulsación. Cuando
+
+
+nosotros apretamos ahí, recuperamos otra
+
+
+vez la luz verde y podemos seguir
+
+
+haciendo la instalación con normalidad.
+
+
+Estos son los dos aspectos, digamos,
+
+
+donde suele haber tropiezos a la hora de
+
+
+hacer esta puesta en marcha del sistema.
+
+
+Todos los dispositivos que estamos
+
+
+utilizando, te vamos a dejar abajo el
+
+
+enlace para que tengas acceso no
+
+
+solamente a las características, sino
+
+
+también a los precios, porque lo vamos a
+
+
+hacer con la página de bricoele.com.
+
+
+tiene una segunda ventaja porque igual
+
+
+que nosotros cuando necesitamos
+
+
+información les llamamos, tú también si
+
+
+necesitas información para comprar ese
+
+
+tipo de productos o ver funcionamiento o
+
+
+ver dónde puedes conseguir unas
+
+
+instrucciones clave de instalación de
+
+
+cada cosa, también te pones en contacto
+
+
+con ellos y son gente estupenda que te
+
+
+lo va a resolver y te va a dar las
+
+
+soluciones para que puedas instalar sin
+
+
+ningún problema todos los productos.
+
+
+Nosotros aquí hemos preparado una
+
+
+maqueta con los elementos que bien por
+
+
+cambios en la tecnología o bien porque
+
+
+son los que más problemas nos dan a la
+
+
+hora de instalar, nos conviene repasar.
+
+
+Ves que por una parte lo que hemos
+
+
+preparado ha sido una eh LED que va
+
+
+directamente a su interruptor.
+Tenemos también nuestra salida
+
+
+directamente a un enchufe convencional,
+
+
+una persiana que vamos a hacer una
+
+
+instalación y ves que tenemos aquí
+
+
+también una instalación de un
+
+
+cruzamiento con tres interruptores que
+
+
+vamos a sustituir por dispositivos
+
+
+conectados.
+En los dispositivos de persiana en
+
+
+general nos dan pereza porque hay que
+
+
+llevar la parte eléctrica hasta la
+
+
+propia persiana, pero vas a ver que esto
+
+
+es mucho más sencillo tanto desde el
+
+
+punto de vista funcional como desde el
+
+
+punto de vista estético. Para empezar
+
+
+vamos a sacar solamente un cable de
+
+
+alimentación que vaya desde el registro
+
+
+más cercano hasta el tambor de nuestra
+
+
+persiana y podemos hacerlo con una
+
+
+canaleta exterior. De esta manera,
+
+
+sencillamente con los dos cables que
+
+
+llevan la corriente metidos en una
+
+
+canaleta, llegamos hasta esta, hacemos
+
+
+un agujerito y pasamos los cables para
+
+
+que pueda funcionar la conexión del
+
+
+micromódulo. Vas a ver que es un aspecto
+
+
+también muy sencillo. Ves que de las
+
+
+entradas que tiene, por una parte, vamos
+
+
+a alimentar el neutro que nos viene
+
+
+desde el cuadro y vamos a juntarlo ya
+
+
+directamente con el neutro que trae
+
+
+nuestra persiana. Damos servicio a la
+
+
+fase que nos viene también del cuadro,
+
+
+en el agujerito que nos pone la L y los
+
+
+otros dos son los dos cables que tiene
+
+
+para la subida y para la bajada, para la
+
+
+carrera. Ahí es donde vamos a meter los
+
+
+dos cables restantes que tiene
+
+
+directamente la persiana en cada uno de
+
+
+los agujeritos. Si ves que luego cuando
+
+
+estés trabajando con el con la subida y
+
+
+la bajada van al revés, quiere decir que
+
+
+tenemos que cambiar de posición los
+
+
+cables y ya está. De esta manera tan
+
+
+sencilla tenemos conectado el
+
+
+micromódulo y lo dejamos dentro del
+
+
+tambor para que no nos estorbe. Vamos a
+
+
+hacer la configuración de este
+
+
+micromódulo para que hagamos un pequeño
+
+
+repaso a cómo se hace todo esto. Es muy
+
+
+sencillo, lo vamos a ver muy por encima
+
+
+porque básicamente el propio la propia
+
+
+aplicación te va preguntando todo. Vamos
+
+
+a dar servicio ya a la instalación.
+
+
+Vamos a conectarlo tabela corriente y
+
+
+nos vamos directamente a nuestro
+
+
+teléfono. Aquí verás que vamos a seguir
+
+
+una secuencia donde lo que vamos
+
+
+haciendo es primero, como ya tenemos
+
+
+instalado el gateway, lo que
+
+
+directamente tenemos que ir buscando sin
+
+
+más es lo que nos ofrece. Vamos a decir,
+
+
+queremos conectar un dispositivo,
+
+
+elegimos la marca que es la marca
+
+
+Legran, vamos a elegir el modelo, que en
+
+
+este caso estamos haciendo un
+
+
+micromódulo e para subir y bajar
+
+
+persianas. Todo esto ves que es muy
+
+
+intuitivo, le va preguntando y es muy
+
+
+fácil irlo completando. Una vez que lo
+
+
+tenemos ya localizado, el modelo de
+
+
+aplicación es el mismo que vimos
+
+
+anteriormente, expulsar la tecla del
+
+
+comando entrada salida y esperar a que
+
+
+se activen los sistemas. Esto
+
+
+directamente va a ser siempre el modelo
+
+
+que sigamos de aplicación para todos los
+
+
+trabajos y como te digo, es seguir las
+
+
+preguntas que nos va haciendo
+
+
+directamente el dispositivo.
+
+
+Vamos a conectar ahora el interruptor
+
+
+para subir y bajar la persiana. Tenemos
+
+
+un módulo justamente que nos permite
+
+
+hacerlo con un interruptor inalámbrico.
+
+
+Esta es la ventaja de este micromódulo.
+
+
+Y de esta manera también tengo que estar
+
+
+haciendo menos instalación física de
+
+
+cables para ir a los sitios. Voy a poner
+
+
+el interruptor donde yo quiera porque
+
+
+sencillamente lo eh pongo por detrás un
+
+
+adhesivo y lo coloco donde más rabia me
+
+
+dé. Y ahora voy a configurar
+
+
+directamente este interruptor. Fíjate
+
+
+que he separado a propósito colocar el
+
+
+micromódulo y hacer luego el interruptor
+
+
+porque en definitiva, aunque vayan el
+
+
+mismo sistema, son dos dispositivos
+
+
+distintos y se pueden instalar a la vez,
+
+
+pero hay que instalar los dos por
+
+
+separado, porque esto vas a ver que
+
+
+cuando vamos nosotros a hacer la
+
+
+instalación se trata de un sistema
+
+
+inalámbrico de interruptor que tiene su
+
+
+propia configuración. Es aquí donde lo
+
+
+activo, donde se pone a hacer la
+
+
+búsqueda el sistema para localizarlo y
+
+
+hago la instalación siguiendo los mismos
+
+
+pasos que me vaya indicando que va a
+
+
+ser, como hice antes con el micromódulo,
+
+
+luces que se encienden, se apagan y
+
+
+demás. En este caso, nosotros estamos
+
+
+viendo que nos cuesta el hacer la
+
+
+instalación, que directamente no
+
+
+engancha el el dispositivo, no lo
+
+
+encuentra. No te preocupes, esto siempre
+
+
+lo que hacemos es volver a empezar y
+
+
+sencillamente con el volver a empezar es
+
+
+tan sencillo como para que al segundo
+
+
+intento, al tercer intento, si las cosas
+
+
+salen mal, acercando más el dispositivo
+
+
+para que funcione, acaba por funcionar
+
+
+sin ninguna dificultad.
+Hasta aquí hemos visto cómo resolver la
+
+
+puerta de entrada de este nuevo sistema
+
+
+y también un ejemplo de cableado y de eh
+
+
+todo lo necesario para instalar una
+
+
+persiana. Siempre es un tema que eh
+
+
+venía siendo un poco conflictivo. En el
+
+
+próximo vídeo lo que vamos a ver ya es
+
+
+cómo resolver la sustitución de algunos
+
+
+elementos de este sistema más
+
+
+actualizados con el neutro y veremos
+
+
+también el problema de los cruzamientos,
+
+
+cómo se resuelven y cómo queda
+
+
+perfectamente todo dispuesto para que
+
+
+funcione. Con esto yo espero como
+
+
+siempre que nos hayamos ganado tu like,
+
+
+que te suscribas al canal si estás
+
+
+todavía acuérdate dar la campanita para
+
+
+recibir notificaciones y comparte este
+
+
+video con todos tus que les guste el
+
+
+mundo del bricolaje.
+
+
+[Música]
+[Música]
