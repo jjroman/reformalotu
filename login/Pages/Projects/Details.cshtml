@@ -14,75 +14,106 @@
         .ToArray();
 }
 
-<h1>Detalle del proyecto</h1>
-<p>@Model.Project.Description</p>
-@if (!string.IsNullOrWhiteSpace(Model.Project.Category))
-{
-    <p><strong>Categoría:</strong> @Model.Project.Category</p>
-}
-<p><strong>Creado:</strong> @Model.Project.CreatedAt.ToLocalTime().ToString("g")</p>
-<p><a asp-page="./Edit" asp-route-id="@Model.Project.Id">Editar proyecto</a></p>
-
-<h2>Inventario mencionado en las transcripciones</h2>
-<p>Elementos identificados en los vídeos recomendados mediante palabras clave; no se infieren cantidades ni se confirma su necesidad visualmente.</p>
-<h3>Materiales</h3>
-@if (materials.Length == 0)
-{
-    <p>No se identificaron materiales.</p>
-}
-else
-{
-    <ul>
-        @foreach (var material in materials)
-        {
-            <li>@material</li>
-        }
-    </ul>
-}
-<h3>Equipos y herramientas</h3>
-@if (equipment.Length == 0)
-{
-    <p>No se identificaron equipos.</p>
-}
-else
-{
-    <ul>
-        @foreach (var item in equipment)
-        {
-            <li>@item</li>
-        }
-    </ul>
-}
-
-<h2>Vídeos recomendados</h2>
-@if (Model.Project.Recommendations.Count == 0)
-{
-    <p>No hay vídeos que coincidan con este proyecto.</p>
-}
-else
-{
-    <ol>
-        @foreach (var recommendation in Model.Project.Recommendations)
-        {
-            <li class="mb-3">
-                <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
-                     alt="Miniatura del vídeo @recommendation.Video.VideoId"
-                     loading="lazy" />
-                Vídeo @recommendation.Video.VideoId — puntuación @recommendation.Score
-                @if (recommendation.Video.Materials.Count > 0)
+<div class="product-page project-detail-page">
+    <header class="project-detail-heading">
+        <div>
+            <span class="product-eyebrow">TU PROYECTO</span>
+            <h1>@Model.Project.Description</h1>
+            <div class="project-detail-meta">
+                @if (!string.IsNullOrWhiteSpace(Model.Project.Category))
                 {
-                    <p><strong>Materiales:</strong> @string.Join(", ", recommendation.Video.Materials)</p>
+                    <span class="project-category">@Model.Project.Category</span>
                 }
-                @if (recommendation.Video.Equipment.Count > 0)
-                {
-                    <p><strong>Equipos:</strong> @string.Join(", ", recommendation.Video.Equipment)</p>
-                }
-                <a asp-page="./OpenVideo"
-                   asp-route-projectId="@Model.Project.Id"
-                   asp-route-videoId="@recommendation.Video.VideoId">Abrir en YouTube</a>
-            </li>
-        }
-    </ol>
-}
+                <span>Creado @Model.Project.CreatedAt.ToLocalTime().ToString("g")</span>
+            </div>
+        </div>
+        <a class="btn btn-outline-secondary" asp-page="./Edit" asp-route-id="@Model.Project.Id">Editar proyecto</a>
+    </header>
 
-<a asp-page="./Index">Volver a mis proyectos</a>
+    <section class="project-inventory" aria-labelledby="detail-inventory-title">
+        <div class="inventory-heading">
+            <span class="product-eyebrow">IDEAS PARA PREPARARTE</span>
+            <h2 id="detail-inventory-title">Mencionado en las transcripciones</h2>
+            <p>Elementos identificados en los vídeos recomendados mediante palabras clave; no se infieren cantidades ni se confirma visualmente su necesidad.</p>
+        </div>
+        <div class="inventory-groups">
+            <div class="inventory-group">
+                <h3>Materiales</h3>
+                @if (materials.Length == 0)
+                {
+                    <p class="inventory-empty">No se identificaron materiales.</p>
+                }
+                else
+                {
+                    <ul class="inventory-list">
+                        @foreach (var material in materials)
+                        {
+                            <li>@material</li>
+                        }
+                    </ul>
+                }
+            </div>
+            <div class="inventory-group">
+                <h3>Equipos y herramientas</h3>
+                @if (equipment.Length == 0)
+                {
+                    <p class="inventory-empty">No se identificaron equipos.</p>
+                }
+                else
+                {
+                    <ul class="inventory-list">
+                        @foreach (var item in equipment)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section class="project-results" aria-labelledby="detail-videos-title">
+        <div class="project-section-heading">
+            <div>
+                <span class="product-eyebrow">INSPIRACIÓN PARA TU REFORMA</span>
+                <h2 id="detail-videos-title">Vídeos recomendados</h2>
+            </div>
+        </div>
+        @if (Model.Project.Recommendations.Count == 0)
+        {
+            <div class="project-inline-empty">
+                <p>No hay vídeos que coincidan con este proyecto.</p>
+            </div>
+        }
+        else
+        {
+            <div class="project-video-list">
+                @foreach (var recommendation in Model.Project.Recommendations)
+                {
+                    <article class="project-video-item">
+                        <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
+                             alt="Miniatura del vídeo @recommendation.Video.VideoId"
+                             loading="lazy" />
+                        <div class="project-video-copy">
+                            <h3>Vídeo @recommendation.Video.VideoId</h3>
+                            <p class="project-video-score">Coincidencia: @recommendation.Score</p>
+                            @if (recommendation.Video.Materials.Count > 0)
+                            {
+                                <p><strong>Materiales mencionados:</strong> @string.Join(", ", recommendation.Video.Materials)</p>
+                            }
+                            @if (recommendation.Video.Equipment.Count > 0)
+                            {
+                                <p><strong>Equipos mencionados:</strong> @string.Join(", ", recommendation.Video.Equipment)</p>
+                            }
+                            <a asp-page="./OpenVideo"
+                               asp-route-projectId="@Model.Project.Id"
+                               asp-route-videoId="@recommendation.Video.VideoId">Abrir en YouTube <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+                }
+            </div>
+        }
+    </section>
+
+    <a class="project-back-link" asp-page="./Index">← Volver a mis proyectos</a>
+</div>

@@ -4,28 +4,38 @@
     ViewData["Title"] = "Editar proyecto";
 }
 
-<h1>Editar proyecto</h1>
-<form method="post">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="mb-3">
-        <label asp-for="Input.Description" class="form-label">Descripción</label>
-        <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000"></textarea>
-        <span asp-validation-for="Input.Description" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Input.Category" class="form-label">Categoría (opcional)</label>
-        <select asp-for="Input.Category" class="form-select">
-            <option value="">Sin categoría</option>
-            @foreach (var category in Model.Categories)
-            {
-                <option value="@category.Name">@category.Name</option>
-            }
-        </select>
-        <span asp-validation-for="Input.Category" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Guardar cambios y buscar vídeos</button>
-    <a asp-page="./Details" asp-route-id="@RouteData.Values["id"]" class="btn btn-link">Cancelar</a>
-</form>
+<div class="product-page project-form-page">
+    <header class="product-page-heading">
+        <div>
+            <span class="product-eyebrow">AJUSTA TU IDEA</span>
+            <h1>Editar proyecto</h1>
+            <p>Al guardar, buscaremos recomendaciones con la descripción actualizada.</p>
+        </div>
+    </header>
+    <form method="post" class="project-form">
+        <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
+        <div class="mb-3">
+            <label asp-for="Input.Description" class="form-label">Descripción</label>
+            <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000"></textarea>
+            <span asp-validation-for="Input.Description" class="text-danger"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Input.Category" class="form-label">Categoría <span class="form-label-optional">(opcional)</span></label>
+            <select asp-for="Input.Category" class="form-select">
+                <option value="">Sin categoría</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.Name">@category.Name</option>
+                }
+            </select>
+            <span asp-validation-for="Input.Category" class="text-danger"></span>
+        </div>
+        <div class="project-form-actions">
+            <button type="submit" class="btn btn-primary">Guardar cambios y buscar vídeos</button>
+            <a asp-page="./Details" asp-route-id="@RouteData.Values["id"]" class="btn btn-outline-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

@@ -4,10 +4,24 @@
     ViewData["Title"] = "Resumen";
 }
 
-<h1>Resumen del POC</h1>
-<dl class="row">
-    <dt class="col-sm-4">Proyectos creados</dt>
-    <dd class="col-sm-8">@Model.ProjectCount</dd>
-    <dt class="col-sm-4">Aperturas de vídeos</dt>
-    <dd class="col-sm-8">@Model.VideoOpenCount</dd>
-</dl>
+<div class="product-page metrics-page">
+    <header class="product-page-heading">
+        <div>
+            <span class="product-eyebrow">ACTIVIDAD</span>
+            <h1>Resumen</h1>
+            <p>Actividad acumulada de proyectos y vídeos en la plataforma.</p>
+        </div>
+    </header>
+    <dl class="metrics-grid">
+        <div class="metric-item">
+            <dt>Proyectos creados</dt>
+            <dd>@Model.ProjectCount</dd>
+            <span>Ideas guardadas</span>
+        </div>
+        <div class="metric-item">
+            <dt>Aperturas de vídeos</dt>
+            <dd>@Model.VideoOpenCount</dd>
+            <span>Visitas a recomendaciones</span>
+        </div>
+    </dl>
+</div>

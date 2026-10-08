@@ -14,101 +14,131 @@
         .ToArray();
 }
 
-<h1>Crear proyecto</h1>
-<p>Describe tu reforma para encontrar vídeos del catálogo relacionados con el tema.</p>
+<div class="product-page project-form-page">
+    <header class="product-page-heading">
+        <div>
+            <span class="product-eyebrow">EMPIEZA POR TU IDEA</span>
+            <h1>Crear proyecto</h1>
+            <p>Cuéntanos qué quieres renovar y buscaremos vídeos del catálogo relacionados.</p>
+        </div>
+    </header>
 
-<form method="post" class="mb-4">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="mb-3">
-        <label asp-for="Input.Description" class="form-label">Descripción</label>
-        <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000"></textarea>
-        <span asp-validation-for="Input.Description" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Input.Category" class="form-label">Categoría (opcional)</label>
-        <select asp-for="Input.Category" class="form-select">
-            <option value="">Sin categoría</option>
-            @foreach (var category in Model.Categories)
-            {
-                <option value="@category.Name">@category.Name</option>
-            }
-        </select>
-        <span asp-validation-for="Input.Category" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Guardar y buscar vídeos</button>
-</form>
+    <form method="post" class="project-form">
+        <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
+        <div class="mb-3">
+            <label asp-for="Input.Description" class="form-label">Descripción</label>
+            <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000" placeholder="Por ejemplo: quiero renovar los muebles y la iluminación de mi cocina."></textarea>
+            <span asp-validation-for="Input.Description" class="text-danger"></span>
+            <div class="form-text">Describe el espacio o los cambios que tienes en mente.</div>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Input.Category" class="form-label">Categoría <span class="form-label-optional">(opcional)</span></label>
+            <select asp-for="Input.Category" class="form-select">
+                <option value="">Sin categoría</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.Name">@category.Name</option>
+                }
+            </select>
+            <span asp-validation-for="Input.Category" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar y buscar vídeos</button>
+    </form>
 
 @if (Model.ProjectId is not null)
 {
-    <section aria-live="polite">
-        <h2>Vídeos recomendados</h2>
+    <section class="project-results" aria-live="polite">
+        <div class="project-section-heading">
+            <div>
+                <span class="product-eyebrow">PARA SEGUIR EXPLORANDO</span>
+                <h2>Vídeos recomendados</h2>
+            </div>
+        </div>
         @if (Model.Recommendations.Count == 0)
         {
-            <p>No encontramos vídeos que coincidan con esta descripción. Puedes editar el proyecto e intentarlo de nuevo.</p>
+            <div class="project-inline-empty">
+                <p>No encontramos vídeos que coincidan con esta descripción. Puedes editar el proyecto e intentarlo de nuevo.</p>
+            </div>
         }
         else
         {
-            <p>Se encontraron @Model.Recommendations.Count vídeos del catálogo:</p>
-            <h3>Inventario mencionado en las transcripciones</h3>
-            <p>Son elementos identificados por palabras clave; no se infieren cantidades ni se confirma su necesidad visualmente.</p>
-            <h4>Materiales</h4>
-            @if (materials.Length == 0)
-            {
-                <p>No se identificaron materiales.</p>
-            }
-            else
-            {
-                <ul>
-                    @foreach (var material in materials)
-                    {
-                        <li>@material</li>
-                    }
-                </ul>
-            }
-            <h4>Equipos y herramientas</h4>
-            @if (equipment.Length == 0)
-            {
-                <p>No se identificaron equipos.</p>
-            }
-            else
-            {
-                <ul>
-                    @foreach (var item in equipment)
-                    {
-                        <li>@item</li>
-                    }
-                </ul>
-            }
-            <ul>
+            <p class="project-results-count">Se encontraron @Model.Recommendations.Count vídeos del catálogo.</p>
+            <section class="project-inventory" aria-labelledby="create-inventory-title">
+                <div class="inventory-heading">
+                    <h3 id="create-inventory-title">Mencionado en las transcripciones</h3>
+                    <p>Elementos identificados por palabras clave; no se infieren cantidades ni se confirma visualmente su necesidad.</p>
+                </div>
+                <div class="inventory-groups">
+                    <div class="inventory-group">
+                        <h4>Materiales</h4>
+                        @if (materials.Length == 0)
+                        {
+                            <p class="inventory-empty">No se identificaron materiales.</p>
+                        }
+                        else
+                        {
+                            <ul class="inventory-list">
+                                @foreach (var material in materials)
+                                {
+                                    <li>@material</li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                    <div class="inventory-group">
+                        <h4>Equipos y herramientas</h4>
+                        @if (equipment.Length == 0)
+                        {
+                            <p class="inventory-empty">No se identificaron equipos.</p>
+                        }
+                        else
+                        {
+                            <ul class="inventory-list">
+                                @foreach (var item in equipment)
+                                {
+                                    <li>@item</li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </section>
+            <div class="project-video-list">
                 @foreach (var recommendation in Model.Recommendations)
                 {
-                    <li class="mb-3">
+                    <article class="project-video-item">
                         <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
                              alt="Miniatura del vídeo @recommendation.Video.VideoId"
                              loading="lazy" />
-                        Vídeo @recommendation.Video.VideoId — puntuación @recommendation.Score
-                        @if (recommendation.Video.Materials.Count > 0)
-                        {
-                            <p><strong>Materiales:</strong> @string.Join(", ", recommendation.Video.Materials)</p>
-                        }
-                        @if (recommendation.Video.Equipment.Count > 0)
-                        {
-                            <p><strong>Equipos:</strong> @string.Join(", ", recommendation.Video.Equipment)</p>
-                        }
-                        <a asp-page="./OpenVideo"
-                           asp-route-projectId="@Model.ProjectId"
-                           asp-route-videoId="@recommendation.Video.VideoId">Abrir en YouTube</a>
-                    </li>
+                        <div class="project-video-copy">
+                            <h3>Vídeo @recommendation.Video.VideoId</h3>
+                            <p class="project-video-score">Coincidencia: @recommendation.Score</p>
+                            @if (recommendation.Video.Materials.Count > 0)
+                            {
+                                <p><strong>Materiales mencionados:</strong> @string.Join(", ", recommendation.Video.Materials)</p>
+                            }
+                            @if (recommendation.Video.Equipment.Count > 0)
+                            {
+                                <p><strong>Equipos mencionados:</strong> @string.Join(", ", recommendation.Video.Equipment)</p>
+                            }
+                            <a asp-page="./OpenVideo"
+                               asp-route-projectId="@Model.ProjectId"
+                               asp-route-videoId="@recommendation.Video.VideoId">Abrir en YouTube <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
                 }
-            </ul>
+            </div>
         }
-        <a asp-page="./Details" asp-route-id="@Model.ProjectId">Ver proyecto guardado</a>
+        <div class="project-result-actions">
+            <a class="btn btn-primary" asp-page="./Details" asp-route-id="@Model.ProjectId">Ver proyecto guardado</a>
         @if (Model.Recommendations.Count == 0)
         {
-            <span> · </span><a asp-page="./Edit" asp-route-id="@Model.ProjectId">Editar proyecto</a>
+                <a class="btn btn-outline-secondary" asp-page="./Edit" asp-route-id="@Model.ProjectId">Editar proyecto</a>
         }
+        </div>
     </section>
 }
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
