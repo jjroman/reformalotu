@@ -28,6 +28,11 @@ public sealed class CreateModel(
 
     public async Task<IActionResult> OnPostAsync(CancellationToken cancellationToken)
     {
+        if (string.IsNullOrWhiteSpace(Input.Name))
+        {
+            ModelState.AddModelError("Input.Name", "Escribe un nombre para el proyecto.");
+        }
+
         if (string.IsNullOrWhiteSpace(Input.Description))
         {
             ModelState.AddModelError("Input.Description", "Escribe una descripción para el proyecto.");
@@ -57,6 +62,7 @@ public sealed class CreateModel(
         {
             Id = Guid.NewGuid(),
             OwnerId = ownerId,
+            Name = Input.Name.Trim(),
             Description = Input.Description.Trim(),
             Category = Input.Category,
             CreatedAt = DateTime.UtcNow
@@ -87,6 +93,10 @@ public sealed class CreateModel(
 
     public sealed class ProjectForm
     {
+        [Required(ErrorMessage = "Escribe un nombre para el proyecto.")]
+        [StringLength(200, ErrorMessage = "El nombre no puede superar los 200 caracteres.")]
+        public string Name { get; set; } = string.Empty;
+
         [Required(ErrorMessage = "Escribe una descripción para el proyecto.")]
         [StringLength(1000, ErrorMessage = "La descripción no puede superar los 1000 caracteres.")]
         public string Description { get; set; } = string.Empty;

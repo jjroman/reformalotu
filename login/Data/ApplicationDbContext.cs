@@ -28,6 +28,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         builder.Entity<ReformProject>(entity =>
         {
             entity.HasKey(project => project.Id);
+            entity.Property(project => project.Name).IsRequired().HasMaxLength(200);
             entity.Property(project => project.Description).IsRequired();
             entity.Property(project => project.OwnerId).IsRequired();
             entity.HasIndex(project => new { project.OwnerId, project.CreatedAt });

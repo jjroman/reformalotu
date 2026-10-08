@@ -30,7 +30,8 @@
             {
                 <a class="project-list-item" asp-page="./Details" asp-route-id="@project.Id">
                     <span class="project-list-copy">
-                        <strong>@project.Description</strong>
+                        <strong>@project.Name</strong>
+                        <span class="project-list-description">@project.Description</span>
                         <span class="project-list-date">Creado @project.CreatedAt.ToLocalTime().ToString("g")</span>
                     </span>
                     <span class="project-list-meta">

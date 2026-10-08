@@ -1,7 +1,7 @@
 @page "{id:guid}"
 @model login.Pages.Projects.DetailsModel
 @{
-    ViewData["Title"] = "Detalle del proyecto";
+    ViewData["Title"] = Model.Project.Name;
     var materials = Model.Project.Recommendations
         .SelectMany(recommendation => recommendation.Video.Materials)
         .Distinct(StringComparer.OrdinalIgnoreCase)
@@ -18,7 +18,7 @@
     <header class="project-detail-heading">
         <div>
             <span class="product-eyebrow">TU PROYECTO</span>
-            <h1>@Model.Project.Description</h1>
+            <h1>@Model.Project.Name</h1>
             <div class="project-detail-meta">
                 @if (!string.IsNullOrWhiteSpace(Model.Project.Category))
                 {
@@ -29,6 +29,11 @@
         </div>
         <a class="btn btn-outline-secondary" asp-page="./Edit" asp-route-id="@Model.Project.Id">Editar proyecto</a>
     </header>
+
+    <section class="project-description" aria-labelledby="project-description-title">
+        <h2 id="project-description-title">Descripción</h2>
+        <div class="project-markdown-content">@Html.Raw(Model.DescriptionHtml)</div>
+    </section>
 
     <section class="project-inventory" aria-labelledby="detail-inventory-title">
         <div class="inventory-heading">

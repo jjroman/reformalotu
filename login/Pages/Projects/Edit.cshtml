@@ -15,9 +15,16 @@
     <form method="post" class="project-form">
         <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
         <div class="mb-3">
+            <label asp-for="Input.Name" class="form-label">Nombre del proyecto</label>
+            <input asp-for="Input.Name" class="form-control" maxlength="200" autocomplete="off" />
+            <span asp-validation-for="Input.Name" class="text-danger"></span>
+            <div class="form-text">Hasta 200 caracteres.</div>
+        </div>
+        <div class="mb-3">
             <label asp-for="Input.Description" class="form-label">Descripción</label>
-            <textarea asp-for="Input.Description" class="form-control" rows="4" maxlength="1000"></textarea>
+            <textarea asp-for="Input.Description" class="form-control" rows="6" maxlength="1000" data-markdown-editor></textarea>
             <span asp-validation-for="Input.Description" class="text-danger"></span>
+            <div class="form-text">Puedes usar Markdown; la barra de formato te ayuda a empezar.</div>
         </div>
         <div class="mb-4">
             <label asp-for="Input.Category" class="form-label">Categoría <span class="form-label-optional">(opcional)</span></label>

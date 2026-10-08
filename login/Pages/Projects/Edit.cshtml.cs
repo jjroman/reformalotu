@@ -31,6 +31,7 @@ public sealed class EditModel(
 
         Input = new ProjectForm
         {
+            Name = project.Name,
             Description = project.Description,
             Category = project.Category
         };
@@ -39,6 +40,11 @@ public sealed class EditModel(
 
     public async Task<IActionResult> OnPostAsync(Guid id, CancellationToken cancellationToken)
     {
+        if (string.IsNullOrWhiteSpace(Input.Name))
+        {
+            ModelState.AddModelError("Input.Name", "Escribe un nombre para el proyecto.");
+        }
+
         if (string.IsNullOrWhiteSpace(Input.Description))
         {
             ModelState.AddModelError("Input.Description", "Escribe una descripción para el proyecto.");
@@ -64,6 +70,7 @@ public sealed class EditModel(
             return NotFound();
         }
 
+        project.Name = Input.Name.Trim();
         project.Description = Input.Description.Trim();
         project.Category = Input.Category;
         await dbContext.SaveChangesAsync(cancellationToken);
@@ -105,6 +112,10 @@ public sealed class EditModel(
 
     public sealed class ProjectForm
     {
+        [Required(ErrorMessage = "Escribe un nombre para el proyecto.")]
+        [StringLength(200, ErrorMessage = "El nombre no puede superar los 200 caracteres.")]
+        public string Name { get; set; } = string.Empty;
+
         [Required(ErrorMessage = "Escribe una descripción para el proyecto.")]
         [StringLength(1000, ErrorMessage = "La descripción no puede superar los 1000 caracteres.")]
         public string Description { get; set; } = string.Empty;

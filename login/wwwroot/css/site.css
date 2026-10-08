@@ -1013,6 +1013,13 @@ a:hover {
   font-weight: 650;
 }
 
+.project-list-description {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  color: var(--landing-muted);
+  font-size: 0.9rem;
+}
+
 .project-list-date,
 .project-detail-meta {
   color: var(--landing-muted);
@@ -1048,6 +1055,74 @@ a:hover {
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 12px 34px rgb(34 62 45 / 5%);
+}
+
+.project-markdown-editor {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.project-markdown-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.project-markdown-toolbar button {
+  min-height: 36px;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #e2e9df;
+  border-radius: 7px;
+  color: var(--landing-ink);
+  background: #f7f8f4;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.project-markdown-toolbar button:hover {
+  border-color: #c8d8cb;
+  background: #eef3eb;
+}
+
+.project-markdown-toolbar button:focus-visible {
+  outline: 2px solid var(--landing-green);
+  outline-offset: 2px;
+}
+
+.project-description {
+  max-width: 820px;
+  margin-bottom: 2rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e9eee7;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.project-description h2 {
+  margin: 0 0 0.75rem;
+  color: var(--landing-ink);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.project-markdown-content {
+  overflow-wrap: anywhere;
+  color: var(--landing-ink);
+}
+
+.project-markdown-content > :last-child {
+  margin-bottom: 0;
+}
+
+.project-markdown-content pre {
+  overflow-x: auto;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background: #f6f7f1;
+}
+
+.project-markdown-content a {
+  color: var(--landing-green-dark);
 }
 
 .project-form-actions,
