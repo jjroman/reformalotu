@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Ganss.Xss;
 using Markdig;
+using login.Services;
 
 namespace login.Pages.Projects;
 
 [Authorize]
-public sealed class DetailsModel(ApplicationDbContext dbContext) : PageModel
+public sealed class DetailsModel(
+    ApplicationDbContext dbContext,
+    VideoRecommendationService recommendationService) : PageModel
 {
     private static readonly MarkdownPipeline MarkdownPipeline = new MarkdownPipelineBuilder()
         .DisableHtml()
@@ -18,6 +21,7 @@ public sealed class DetailsModel(ApplicationDbContext dbContext) : PageModel
     private static readonly HtmlSanitizer HtmlSanitizer = CreateHtmlSanitizer();
 
     public ReformProject Project { get; private set; } = null!;
+    public IReadOnlyList<VideoRecommendation> Recommendations { get; private set; } = [];
     public string DescriptionHtml { get; private set; } = string.Empty;
 
     public async Task<IActionResult> OnGetAsync(Guid id, CancellationToken cancellationToken)
@@ -41,6 +45,12 @@ public sealed class DetailsModel(ApplicationDbContext dbContext) : PageModel
         }
 
         Project = project;
+        Recommendations = project.Recommendations
+            .Select(recommendation => new VideoRecommendation(
+                recommendation.Video,
+                recommendation.Score,
+                recommendationService.ExplainMatch(project.Description, project.Category, recommendation.Video)))
+            .ToArray();
         DescriptionHtml = HtmlSanitizer.Sanitize(Markdown.ToHtml(project.Description, MarkdownPipeline));
         return Page();
     }

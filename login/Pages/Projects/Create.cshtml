@@ -63,12 +63,13 @@
         @if (Model.Recommendations.Count == 0)
         {
             <div class="project-inline-empty">
-                <p>No encontramos vídeos que coincidan con esta descripción. Puedes editar el proyecto e intentarlo de nuevo.</p>
+                <p>No hay vídeos adecuados en el catálogo para este proyecto. Puedes editar la descripción e intentarlo de nuevo.</p>
             </div>
         }
         else
         {
             <p class="project-results-count">Se encontraron @Model.Recommendations.Count vídeos del catálogo.</p>
+            <p class="project-recommendation-note">Estas son las opciones disponibles más relacionadas del catálogo y sirven como referencias parciales; no cubren todas las necesidades del proyecto. Verifica que las técnicas y los materiales sean adecuados para las condiciones concretas de tu proyecto.</p>
             <section class="project-inventory" aria-labelledby="create-inventory-title">
                 <div class="inventory-heading">
                     <h3 id="create-inventory-title">Mencionado en las transcripciones</h3>
@@ -114,11 +115,11 @@
                 {
                     <article class="project-video-item">
                         <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
-                             alt="Miniatura del vídeo @recommendation.Video.VideoId"
+                             alt="Miniatura del vídeo @(string.IsNullOrWhiteSpace(recommendation.Video.Title) ? recommendation.Video.VideoId : recommendation.Video.Title)"
                              loading="lazy" />
                         <div class="project-video-copy">
-                            <h3>Vídeo @recommendation.Video.VideoId</h3>
-                            <p class="project-video-score">Coincidencia: @recommendation.Score</p>
+                            <h3>@(string.IsNullOrWhiteSpace(recommendation.Video.Title) ? recommendation.Video.VideoId : recommendation.Video.Title)</h3>
+                            <p>@recommendation.Explanation</p>
                             @if (recommendation.Video.Materials.Count > 0)
                             {
                                 <p><strong>Materiales mencionados:</strong> @string.Join(", ", recommendation.Video.Materials)</p>

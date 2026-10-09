@@ -1,0 +1,348 @@
+[Música]
+
+
+Los interruptores conutados o conadores
+
+
+nos sirven para encender y apagar las
+
+
+lámparas desde distintos puntos de una
+
+
+habitación. Son perfectos para estancias
+
+
+grandes como pasillos o salones. Hoy
+
+
+vamos a ver cómo se instala un
+
+
+interruptor con mutador y cómo se
+
+
+conectan estos dispositivos entre sí.
+
+
+Para instalar estos dispositivos
+
+
+necesitarás los siguientes materiales y
+
+
+herramientas. Dos interruptores con
+
+
+mutadores. Nosotros hemos elegido uno
+
+
+blanco y otro negro, actual y de
+
+
+tendencia. Cable marrón de 1,5 mm,
+
+
+tijeras,
+
+
+pelacables,
+
+
+guía pasacables,
+
+
+clemas,
+
+
+tinta aislante,
+
+
+destornillador para clemas,
+
+
+destornillador manual.
+
+
+cable negro de 1,5 mm. Para entender
+
+
+mejor cómo funcionan los computadores,
+
+
+fíjate en este esquema.
+
+
+Como verás, lleva una caja de
+
+
+distribución central, dos cajas para los
+
+
+interruptores conutados y un
+
+
+portalámparas con una bombilla.
+
+
+La caja de distribución va conectada a
+
+
+un cuadro eléctrico. El interruptor
+
+
+consta de una caja que se empotra en la
+
+
+pared y un mecanismo que va atornillado.
+
+
+Una vez instalado, el marco ocultará los
+
+
+bordes para lograr un acabado perfecto.
+
+
+Desde el interruptor general, un cable
+
+
+de fase negro llega a la caja de
+
+
+distribución. Allí se conecta con el
+
+
+primer comutador a través de una clema.
+
+
+Los dos computadores se conectan entre
+
+
+sí mediante dos cables. Pueden ser de
+
+
+color marrón, negro o gris. Lo mejor es
+
+
+que sean distintos a los del cableado
+
+
+general para identificarlos mejor. El
+
+
+segundo interruptor se conecta con la
+
+
+lámpara dentro de la caja de
+
+
+distribución mediante un cable de fase
+
+
+marrón y una clema. Por último, de la
+
+
+lámpara sale un cable azul neutro que
+
+
+llega a la caja de distribución.
+
+
+Allí se conecta con un cable similar que
+
+
+regresa al cuadro de distribución
+
+
+cerrando el circuito. En el cableado de
+
+
+las viviendas también se incluye el
+
+
+cable de toma de tierra, obligatorio por
+
+
+seguridad y de color amarillo y verde.
+
+
+Recuerda, cuando instales los
+
+
+computadores, tendrás que conectar este
+
+
+cable en el lugar correspondiente.
+
+
+Empezamos con la instalación. Antes de
+
+
+comenzar recuerda desconectar el
+
+
+interruptor general de tu casa. Con
+
+
+cinta aislante, pega el extremo del
+
+
+cable de fase negro a la guía
+
+
+pasacables. Mete la guía por la caja del
+
+
+primer conutador
+
+
+y saca el cable por la caja de
+
+
+distribución.
+
+
+Suelta la guía y pela al extremo del
+
+
+cable.
+
+
+Conéctalo al cable negro que llega desde
+
+
+el cuadro de mando utilizando una clema.
+
+
+En la caja del primer computador, corta
+
+
+el cable que acabas de introducir, pela
+
+
+el otro extremo y conéctalo con el
+
+
+computador metiéndolo en el orificio
+
+
+correspondiente. Para conectar el
+
+
+segundo computador a la lámpara, pasa un
+
+
+cable marrón desde su caja hasta la caja
+
+
+de distribución. Pela el extremo. Usa
+
+
+clema para conectarlo con el cable de
+
+
+fase que llega de la lámpara.
+
+
+Ahora vuelve a la caja del segundo
+
+
+computador. Corta y pela el cable que
+
+
+has introducido. Conéctalo al
+
+
+dispositivo igual que hiciste con el
+
+
+primero. Si vas a utilizar cable marrón
+
+
+para conectar los conutores entre sí,
+
+
+pega un trozo de cinta aislante en cada
+
+
+extremo del cable junto a la conexión
+
+
+para poderlo identificar más adelante.
+
+
+Ahora vamos a conectar los dos
+
+
+conutadores entre sí. Para ello,
+
+
+utilizaremos dos cables marrones lo
+
+
+suficientemente largos para ir de una
+
+
+caja a otra con holg. Pásalos desde la
+
+
+caja del primer computador hasta la caja
+
+
+de distribución y luego a la caja del
+
+
+segundo computador.
+
+
+Si las cajas de los computadores están
+
+
+comunicadas entre sí por rozas y tubos
+
+
+corrugados, algo muy habitual, puedes
+
+
+conectarlo directamente sin pasar por la
+
+
+caja de distribución. Conecta los
+
+
+extremos de ambos cables en los puntos
+
+
+correspondientes de cada computador.
+
+
+Solo queda fijar los conutadores a sus
+
+
+cajas y colocar los embellecedores.
+Ya hemos terminado nuestra instalación.
+
+
+Ahora veamos si funciona. Vuelve a
+
+
+conectar la corriente en el cuadro de
+
+
+distribución.
+Ahora ya sabes instalar un interruptor
+
+
+con mutador. Un trabajo sencillo con
+
+
+resultados de profesional. Déjanos tu
+
+
+comentario y no te pierdas nuestros
+
+
+próximos vídeos.
+
+
+[Música]

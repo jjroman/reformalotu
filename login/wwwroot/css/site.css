@@ -1241,6 +1241,13 @@ a:hover {
   gap: 0.8rem;
 }
 
+.project-recommendation-note {
+  max-width: 760px;
+  margin: 0 0 1rem;
+  color: var(--landing-muted);
+  font-size: 0.9rem;
+}
+
 .project-video-item {
   display: grid;
   grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);

@@ -18,6 +18,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         {
             entity.HasKey(video => video.VideoId);
             entity.Property(video => video.VideoId).HasMaxLength(11);
+            entity.Property(video => video.Title).IsRequired().HasMaxLength(300).HasDefaultValue(string.Empty);
             entity.Property(video => video.TranscriptText).IsRequired();
             entity.Property(video => video.Categories).IsRequired();
             entity.Property(video => video.Keywords).IsRequired();

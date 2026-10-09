@@ -1,0 +1,9 @@
+[
+  {
+    "Author": "@PCPresupuestos",
+    "Text": "La solución sin gastar dinero para pisos o casas de 1 planta de hasta 120 metros cuadrados es la siguiente.\nColoca el router a 1,5 metros de altura en una habitación centralizada, no lo pongas en un extremo de la casa, no pongas objetos alrededor, aumenta al máximo la potencia de emisión en la configuración del router y configura un canal que no tenga interferencias con los routers de los vecinos, configura la banda de los 2,4GHz. Es algo más lenta que la de 5GHz pero llega más lejos su emisión y recepción. Comprueba el adaptador de red wifi de tu PC y asegúrate de que clicando encima con el botón derecho y abriendo la pestaña de ESTADO la velocidad de red es la que tienes contratada, si no es así desactiva y activa el adaptador y vuelve a comprobar para ver si se ha corregido. Si no se ha corregido puedes configurar en propiedades del adaptador la casilla speed and duplex y la pones en 1GB y si no tienes la opción de 1GB ponla en autonegociación. Si aún la velocidad es menor a la contratada reinicia tu router y vuelve a comprobar.\nPara casas de 2 o más plantas lo ideal es colocar una Red Mesh con tantos aparatos \u0022satélites\u0022 como plantas tengas tal y como se indica en el vídeo, así cuando te muevas de planta a planta con el móvil, un portátil o una tablet no se perderá la conexión y se conecta automáticamente a la red wifi más potente.\nSaludos!",
+    "Likes": 9,
+    "PublishedAt": "2025-03-29T13:50:37+00:00",
+    "Replies": []
+  }
+]

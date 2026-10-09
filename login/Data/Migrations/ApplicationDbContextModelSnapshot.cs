@@ -290,6 +290,13 @@ namespace login.Data.Migrations
                     b.Property<long>("OpenCount")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(300)
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue("");
+
                     b.Property<string>("TranscriptText")
                         .IsRequired()
                         .HasColumnType("TEXT");

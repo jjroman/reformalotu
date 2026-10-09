@@ -84,24 +84,25 @@
                 <h2 id="detail-videos-title">Vídeos recomendados</h2>
             </div>
         </div>
+        <p class="project-recommendation-note">Estas son las opciones disponibles más relacionadas del catálogo y sirven como referencias parciales; no cubren todas las necesidades del proyecto. Verifica que las técnicas y los materiales sean adecuados para las condiciones concretas de tu proyecto.</p>
         @if (Model.Project.Recommendations.Count == 0)
         {
             <div class="project-inline-empty">
-                <p>No hay vídeos que coincidan con este proyecto.</p>
+                <p>No hay vídeos adecuados en el catálogo para este proyecto.</p>
             </div>
         }
         else
         {
             <div class="project-video-list">
-                @foreach (var recommendation in Model.Project.Recommendations)
+                @foreach (var recommendation in Model.Recommendations)
                 {
                     <article class="project-video-item">
                         <img src="@($"https://img.youtube.com/vi/{recommendation.Video.VideoId}/hqdefault.jpg")"
-                             alt="Miniatura del vídeo @recommendation.Video.VideoId"
+                             alt="Miniatura del vídeo @(string.IsNullOrWhiteSpace(recommendation.Video.Title) ? recommendation.Video.VideoId : recommendation.Video.Title)"
                              loading="lazy" />
                         <div class="project-video-copy">
-                            <h3>Vídeo @recommendation.Video.VideoId</h3>
-                            <p class="project-video-score">Coincidencia: @recommendation.Score</p>
+                            <h3>@(string.IsNullOrWhiteSpace(recommendation.Video.Title) ? recommendation.Video.VideoId : recommendation.Video.Title)</h3>
+                            <p>@recommendation.Explanation</p>
                             @if (recommendation.Video.Materials.Count > 0)
                             {
                                 <p><strong>Materiales mencionados:</strong> @string.Join(", ", recommendation.Video.Materials)</p>

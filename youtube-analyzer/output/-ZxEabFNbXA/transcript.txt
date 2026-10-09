@@ -1,0 +1,151 @@
+¿Quién le ha echado una moneda en una
+
+
+máquina de estas? ¿Alguna vez? Siempre
+
+
+quise tener una máquina de estas y
+
+
+además h de las grandes, de las de
+
+
+verdad. Al final estvo un proyecto
+
+
+enorme, entonces decidimos dividirlo en
+
+
+tres partes. Por un lado, la estructura,
+
+
+por otro lado, lo que es la electrónica
+
+
+y por último ya lo que es la decoración
+
+
+y los acabados. A la hora de diseñar la
+
+
+máquina tuvimos mucho en cuenta lo que
+
+
+es el despiece, más que nada para que
+
+
+nos entraran en solo dos tableros. Ya
+
+
+empezamos ahí a economizar gastos. Los
+
+
+laterales los marcamos directamente
+
+
+sobre el tablero con compás y escuadras,
+
+
+que es lo que le da la forma clásica a
+
+
+la máquina. Luego ya lo cortamos con la
+
+
+sierra de cará. Todo está tornillado por
+
+
+dentro utilizando unos rastreles para
+
+
+que así no se vea ningún tornillo por
+
+
+fuera y quede como un acabado más pro.
+
+
+Antes de montar la máquina es muy
+
+
+importante hacer todos los agujeros y
+
+
+sobre todo hacer pruebas para que todo
+
+
+luego encaje perfectamente. Antes de
+
+
+meter nada dentro, lo monté todo fuera.
+
+
+televisor, raspberry, botones, todo para
+
+
+comprobar que todo funcionaba bien, que
+
+
+es más fácil arreglar fuera que no con
+
+
+toda la máquina ya montada. El cerebro
+
+
+de la máquina es esta Raspberry que ya
+
+
+teníamos al igual que teníamos el
+
+
+televisor, los altavoces, lo único que
+
+
+tuvido que comprar son los joystick y
+
+
+los botones que hemos visto delante. Le
+
+
+metimos también sonido 2.1 Uno con dos
+
+
+altavoces arriba, subfer abajo, un
+
+
+ventilador para refrescar la máquina por
+
+
+dentro y dos luces, una en la marquesina
+
+
+arriba y otra abajo en el suelo y un
+
+
+montón de juegos, la ilusión de mis
+
+
+hijos y yo creo que la mía mucho más.
+
+
+Pues subí todo la comunidad porque la
+
+
+verdad máquinas de esta hay miles en
+
+
+internet, en las redes y además si
+
+
+alguien está interesado como los planos
+
+
+son míos, pues nada, ya lo he compartido
+
+
+más de 150 veces. Si tú también tienes
+
+
+un proyecto hace tiempo, empieza hoy y
+
+
+compártelo.
