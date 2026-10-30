@@ -1,10 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Security.Claims;
 using login.Data;
 using login.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
 namespace login.Pages.Projects;
@@ -13,7 +15,8 @@ namespace login.Pages.Projects;
 public sealed class CreateModel(
     ApplicationDbContext dbContext,
     VideoRecommendationService recommendationService,
-    IOptions<VideoCatalogOptions> options) : PageModel
+    IOptions<VideoCatalogOptions> options,
+    ILogger<CreateModel> logger) : PageModel
 {
     [BindProperty]
     public ProjectForm Input { get; set; } = new();
@@ -49,12 +52,16 @@ public sealed class CreateModel(
 
         if (!ModelState.IsValid)
         {
+            logger.LogInformation(
+                "Project creation request failed validation with {ValidationErrorCount} errors.",
+                ModelState.ErrorCount);
             return Page();
         }
 
         var ownerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
         if (ownerId is null)
         {
+            logger.LogWarning("Project creation request has no authenticated owner identifier.");
             return Forbid();
         }
 
@@ -68,12 +75,31 @@ public sealed class CreateModel(
             CreatedAt = DateTime.UtcNow
         };
         dbContext.Projects.Add(project);
-        await dbContext.SaveChangesAsync(cancellationToken);
+        logger.LogInformation("Saving project {ProjectId}.", project.Id);
+        try
+        {
+            await dbContext.SaveChangesAsync(cancellationToken);
+        }
+        catch (DbUpdateException exception)
+        {
+            logger.LogError(exception, "Failed to save project {ProjectId}.", project.Id);
+            throw;
+        }
 
+        logger.LogInformation("Saved project {ProjectId}.", project.Id);
+
+        var recommendationTimer = Stopwatch.StartNew();
+        logger.LogInformation("Starting video recommendation search for project {ProjectId}.", project.Id);
         Recommendations = await recommendationService.RecommendAsync(
             project.Description,
             project.Category,
             cancellationToken);
+        logger.LogInformation(
+            "Video recommendation search for project {ProjectId} completed with {RecommendationCount} results in {ElapsedMilliseconds} ms.",
+            project.Id,
+            Recommendations.Count,
+            recommendationTimer.ElapsedMilliseconds);
+
         for (var index = 0; index < Recommendations.Count; index++)
         {
             var recommendation = Recommendations[index];
@@ -86,7 +112,27 @@ public sealed class CreateModel(
             });
         }
 
-        await dbContext.SaveChangesAsync(cancellationToken);
+        logger.LogInformation(
+            "Saving {RecommendationCount} video recommendations for project {ProjectId}.",
+            Recommendations.Count,
+            project.Id);
+        try
+        {
+            await dbContext.SaveChangesAsync(cancellationToken);
+        }
+        catch (DbUpdateException exception)
+        {
+            logger.LogError(
+                exception,
+                "Failed to save video recommendations for project {ProjectId}.",
+                project.Id);
+            throw;
+        }
+
+        logger.LogInformation(
+            "Saved {RecommendationCount} video recommendations for project {ProjectId}.",
+            Recommendations.Count,
+            project.Id);
         ProjectId = project.Id;
         return Page();
     }

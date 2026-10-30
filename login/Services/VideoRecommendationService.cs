@@ -1,3 +1,4 @@
+using System.Data.Common;
 using System.Text.RegularExpressions;
 using login.Data;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,9 @@ public sealed record VideoRecommendation(VideoCatalogItem Video, int Score, stri
 
 public sealed class VideoRecommendationService(
     ApplicationDbContext dbContext,
-    IOptions<VideoCatalogOptions> options)
+    IOptions<VideoCatalogOptions> options,
+    IOptions<VideoAssessmentOptions> assessmentOptions,
+    ILogger<VideoRecommendationService> logger)
 {
     private const int MinimumRelevanceScore = 7;
 
@@ -72,24 +75,93 @@ public sealed class VideoRecommendationService(
         string? category,
         CancellationToken cancellationToken = default)
     {
-        var intent = GetIntent(description, category);
-        if (intent.Spaces.Count == 0 && intent.Objectives.Count == 0 && intent.Styles.Count == 0)
-        {
-            return [];
-        }
-
-        var videos = await dbContext.Videos.AsNoTracking().ToListAsync(cancellationToken);
-        return videos
-            .Select(video => ScoreVideo(video, intent))
-            .Where(recommendation => recommendation.Score >= MinimumRelevanceScore)
-            .OrderByDescending(recommendation => recommendation.Score)
-            .ThenBy(recommendation => recommendation.Video.VideoId, StringComparer.Ordinal)
+        var recommendations = await GetRankedRecommendationsAsync(
+            description,
+            category,
+            cancellationToken);
+        return recommendations
             .Take(3)
+            .ToArray();
+    }
+
+    public async Task<IReadOnlyList<VideoAssessmentCandidate>> PrepareCandidatesAsync(
+        string description,
+        string? category,
+        CancellationToken cancellationToken = default)
+    {
+        var recommendations = await GetRankedRecommendationsAsync(
+            description,
+            category,
+            cancellationToken);
+        var assessmentSettings = assessmentOptions.Value;
+
+        return recommendations
+            .Take(assessmentSettings.MaxCandidates)
+            .Select(recommendation =>
+            {
+                var video = recommendation.Video;
+                var transcriptLength = Math.Min(
+                    video.TranscriptText.Length,
+                    assessmentSettings.MaxTranscriptCharacters);
+                return new VideoAssessmentCandidate(
+                    video.VideoId,
+                    video.Title,
+                    video.Categories,
+                    video.Keywords,
+                    video.Materials,
+                    video.Equipment,
+                    video.TranscriptText[..transcriptLength]);
+            })
             .ToArray();
     }
 
     public string ExplainMatch(string description, string? category, VideoCatalogItem video) =>
         CreateExplanation(video, GetIntent(description, category));
+
+    private async Task<IReadOnlyList<VideoRecommendation>> GetRankedRecommendationsAsync(
+        string description,
+        string? category,
+        CancellationToken cancellationToken)
+    {
+        var intent = GetIntent(description, category);
+        logger.LogInformation(
+            "Extracted {SpaceCount} space concepts, {ObjectiveCount} objectives, and {StyleCount} style concepts for video search.",
+            intent.Spaces.Count,
+            intent.Objectives.Count,
+            intent.Styles.Count);
+        if (intent.Spaces.Count == 0 && intent.Objectives.Count == 0 && intent.Styles.Count == 0)
+        {
+            logger.LogInformation(
+                "Skipping video catalog search because no recognizable renovation concepts were extracted.");
+            return [];
+        }
+
+        logger.LogInformation("Loading videos from the catalog for recommendation ranking.");
+        List<VideoCatalogItem> videos;
+        try
+        {
+            videos = await dbContext.Videos.AsNoTracking().ToListAsync(cancellationToken);
+        }
+        catch (DbException exception)
+        {
+            logger.LogError(exception, "Failed to load videos from the catalog for recommendation ranking.");
+            throw;
+        }
+
+        logger.LogInformation("Loaded {CatalogVideoCount} videos from the catalog.", videos.Count);
+
+        var recommendations = videos
+            .Select(video => ScoreVideo(video, intent))
+            .Where(recommendation => recommendation.Score >= MinimumRelevanceScore)
+            .OrderByDescending(recommendation => recommendation.Score)
+            .ThenBy(recommendation => recommendation.Video.VideoId, StringComparer.Ordinal)
+            .ToArray();
+        logger.LogInformation(
+            "Video catalog ranking produced {RelevantVideoCount} relevant results from {CatalogVideoCount} videos.",
+            recommendations.Length,
+            videos.Count);
+        return recommendations;
+    }
 
     private static VideoRecommendation ScoreVideo(VideoCatalogItem video, ProjectIntent intent)
     {

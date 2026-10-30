@@ -48,7 +48,11 @@
             </select>
             <span asp-validation-for="Input.Category" class="text-danger"></span>
         </div>
-        <button type="submit" class="btn btn-primary">Guardar y buscar vídeos</button>
+        <button type="submit" class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm me-2 d-none" aria-hidden="true" data-search-spinner></span>
+            <span data-search-label>Guardar y buscar vídeos</span>
+        </button>
+        <span class="visually-hidden" role="status" aria-live="polite" aria-atomic="true" data-search-status></span>
     </form>
 
 @if (Model.ProjectId is not null)
@@ -63,7 +67,7 @@
         @if (Model.Recommendations.Count == 0)
         {
             <div class="project-inline-empty">
-                <p>No hay vídeos adecuados en el catálogo para este proyecto. Puedes editar la descripción e intentarlo de nuevo.</p>
+                <p>No hubo resultados en el catálogo para esta descripción. Prueba a concretar qué espacio quieres cambiar, qué trabajo quieres hacer y qué resultado buscas. Después, edita el proyecto y vuelve a intentarlo.</p>
             </div>
         }
         else
@@ -149,4 +153,20 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        const projectForm = document.querySelector(".project-form");
+        const searchButton = projectForm?.querySelector('button[type="submit"]');
+
+        projectForm?.addEventListener("submit", () => {
+            if (!projectForm.checkValidity() || !searchButton) {
+                return;
+            }
+
+            searchButton.disabled = true;
+            searchButton.setAttribute("aria-busy", "true");
+            searchButton.querySelector("[data-search-spinner]")?.classList.remove("d-none");
+            searchButton.querySelector("[data-search-label]").textContent = "Buscando vídeos...";
+            projectForm.querySelector("[data-search-status]").textContent = "Buscando vídeos. Espera un momento.";
+        });
+    </script>
 }

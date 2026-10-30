@@ -24,12 +24,13 @@ Complete tasks in order. Each task has a bounded change and a completion check. 
 - Add typed request and result models for project description/category, candidate video data, and each assessed match (`VideoId`, score, explanation).
 - Add a small validation step that rejects malformed scores, duplicate IDs, IDs outside the supplied candidate list, empty explanations, and invalid/empty model output.
 - Prepare a small, deterministic set of project/video examples covering strong matches, unrelated videos, and ambiguous descriptions. Use it to choose and document the minimum score before enabling AI results.
+- Use a minimum relevance score of **70/100** for the project “Quiero renovar los muebles de mi cocina y mejorar el almacenamiento” (category: Cocinas): the kitchen-cabinet example scores 91 (strong match), the related-but-not-equivalent kitchen-lighting example scores 58 (ambiguous/weak), and the unrelated patio-floor example scores 12 (no match). These are deterministic contract fixtures, not live model outputs.
 
 **Tests**
 
-- [ ] Valid structured output is accepted and preserves score and explanation.
-- [ ] Invalid JSON, missing fields, out-of-range scores, duplicate/unknown IDs, and empty explanations are rejected.
-- [ ] The curated examples demonstrate expected strong, weak, and no-match outcomes; the chosen minimum-score boundary has tests immediately below and above it.
+- [x] Valid structured output is accepted and preserves score and explanation.
+- [x] Invalid JSON, missing fields, out-of-range scores, duplicate/unknown IDs, and empty explanations are rejected.
+- [x] The curated examples demonstrate expected strong, weak, and no-match outcomes; the chosen minimum-score boundary has tests immediately below and above it.
 
 **Done when:** the contract and response validation can be tested without EF Core or Azure.
 
@@ -44,9 +45,9 @@ Complete tasks in order. Each task has a bounded change and a completion check. 
 
 **Tests**
 
-- [ ] Missing or malformed required configuration produces a clear startup/activation error when AI assessment is enabled.
-- [ ] With AI assessment disabled, the application can still start and use the existing matcher.
-- [ ] Agent construction and request formatting are verifiable without making a live Azure request.
+- [x] Missing or malformed required configuration produces a clear startup/activation error when AI assessment is enabled.
+- [x] With AI assessment disabled, the application can still start and use the existing matcher.
+- [x] Agent construction and request formatting are verifiable without making a live Azure request.
 
 **Done when:** application wiring is isolated from recommendation orchestration and has no secret values in source control.
 
@@ -55,15 +56,15 @@ Complete tasks in order. Each task has a bounded change and a completion check. 
 **Change**
 
 - Separate candidate selection from final recommendation assessment so the current matcher can supply more than its final three results to the AI step.
-- Set and document a bounded candidate limit. Include only fields needed for assessment (video ID, title, catalog metadata, transcript excerpt, and detected materials/equipment).
+- Set and document a bounded candidate limit of 12. Include only fields needed for assessment (video ID, title, catalog metadata, transcript excerpt, and detected materials/equipment).
 - Preserve stable ordering for ties and avoid sending the complete catalog or oversized transcripts.
 
 **Tests**
 
-- [ ] Candidate count never exceeds the configured limit.
-- [ ] Relevant candidates are retained in the expected order for the existing recommendation fixtures.
-- [ ] Empty project intent and an empty catalog return an empty candidate list without an Azure call.
-- [ ] Transcript excerpts respect the configured size limit.
+- [x] Candidate count never exceeds the configured limit.
+- [x] Relevant candidates are retained in the expected order for the existing recommendation fixtures.
+- [x] Empty project intent and an empty catalog return an empty candidate list without an Azure call.
+- [x] Transcript excerpts respect the configured size limit.
 
 **Done when:** candidate preparation is deterministic and has no model dependency.
 

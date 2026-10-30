@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Azure.Identity" Version="1.17.1" />
     <PackageReference Include="Google.Apis.Auth.AspNetCore3" Version="1.77.0" />
     <PackageReference Include="HtmlSanitizer" Version="9.2.1039" />
     <PackageReference Include="Markdig" Version="1.4.0" />
@@ -21,6 +23,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12" PrivateAssets="all" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.24.0" />
   </ItemGroup>
 
 </Project>

@@ -1137,6 +1137,24 @@ a:hover {
   margin-top: 3.25rem;
 }
 
+.catalog-page .catalog-filters,
+.catalog-page .project-results {
+  max-width: none;
+}
+
+.catalog-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.catalog-pagination span {
+  color: var(--landing-muted);
+  font-size: 0.9rem;
+}
+
 .project-section-heading {
   display: flex;
   align-items: flex-end;

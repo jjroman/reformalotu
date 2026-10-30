@@ -2,6 +2,7 @@ using login.Data;
 using login.Services;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Options;
 using Xunit;
 
@@ -110,6 +111,86 @@ public sealed class VideoRecommendationServiceTests
         Assert.Empty(recommendations);
     }
 
+    [Fact]
+    public async Task PrepareCandidatesReturnsTopRankedCandidatesWithinConfiguredLimit()
+    {
+        await using var connection = await CreateConnectionAsync();
+        await using var dbContext = CreateDbContext(connection);
+        dbContext.Videos.AddRange(
+            CreateVideo(
+                "candidate-c",
+                "Muebles de cocina y almacenamiento",
+                "cocina|muebles|almacenamiento",
+                ""),
+            CreateVideo(
+                "candidate-a",
+                "Muebles de cocina y almacenamiento",
+                "cocina|muebles|almacenamiento",
+                ""),
+            CreateVideo(
+                "candidate-b",
+                "Muebles de cocina y almacenamiento",
+                "cocina|muebles|almacenamiento",
+                ""),
+            CreateVideo(
+                "candidate-low",
+                "Iluminación para cocina",
+                "cocina|iluminación",
+                ""));
+        await dbContext.SaveChangesAsync();
+
+        var candidates = await CreateService(
+            dbContext,
+            new VideoAssessmentOptions { MaxCandidates = 2 })
+            .PrepareCandidatesAsync(
+                "Quiero renovar los muebles de mi cocina y mejorar el almacenamiento.",
+                "Cocinas");
+
+        Assert.Equal(
+            ["candidate-a", "candidate-b"],
+            candidates.Select(candidate => candidate.VideoId));
+    }
+
+    [Fact]
+    public async Task PrepareCandidatesTruncatesTranscriptToConfiguredLimit()
+    {
+        await using var connection = await CreateConnectionAsync();
+        await using var dbContext = CreateDbContext(connection);
+        dbContext.Videos.Add(CreateVideo(
+            "kitchenstore",
+            "Muebles de cocina y almacenamiento",
+            "cocina|muebles|almacenamiento",
+            "transcript excerpt that is too long"));
+        await dbContext.SaveChangesAsync();
+
+        var candidate = Assert.Single(await CreateService(
+                dbContext,
+                new VideoAssessmentOptions { MaxTranscriptCharacters = 10 })
+            .PrepareCandidatesAsync(
+                "Quiero renovar los muebles de mi cocina y mejorar el almacenamiento.",
+                "Cocinas"));
+
+        Assert.Equal("transcript", candidate.TranscriptExcerpt);
+    }
+
+    [Fact]
+    public async Task PrepareCandidatesReturnsEmptyForUnrecognizedIntentOrEmptyCatalog()
+    {
+        await using var connection = await CreateConnectionAsync();
+        await using var dbContext = CreateDbContext(connection);
+        var service = CreateService(dbContext);
+
+        var unrecognizedIntent = await service.PrepareCandidatesAsync(
+            "Necesito ayuda con algo",
+            null);
+        var emptyCatalog = await service.PrepareCandidatesAsync(
+            "Quiero renovar los muebles de mi cocina.",
+            "Cocinas");
+
+        Assert.Empty(unrecognizedIntent);
+        Assert.Empty(emptyCatalog);
+    }
+
     private static async Task<SqliteConnection> CreateConnectionAsync()
     {
         var connection = new SqliteConnection("Data Source=:memory:");
@@ -127,13 +208,19 @@ public sealed class VideoRecommendationServiceTests
         return dbContext;
     }
 
-    private static VideoRecommendationService CreateService(ApplicationDbContext dbContext)
+    private static VideoRecommendationService CreateService(
+        ApplicationDbContext dbContext,
+        VideoAssessmentOptions? assessmentOptions = null)
     {
-        var options = Options.Create(new VideoCatalogOptions
+        var catalogOptions = Options.Create(new VideoCatalogOptions
         {
             Categories = [new VideoCategoryOptions { Name = "Cocinas", Keywords = ["cocina"] }]
         });
-        return new VideoRecommendationService(dbContext, options);
+        return new VideoRecommendationService(
+            dbContext,
+            catalogOptions,
+            Options.Create(assessmentOptions ?? new VideoAssessmentOptions()),
+            NullLogger<VideoRecommendationService>.Instance);
     }
 
     private static VideoCatalogItem CreateVideo(
