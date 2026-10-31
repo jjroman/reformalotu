@@ -111,12 +111,14 @@ internal static class VideoOutputCache
         bool transcriptAvailable,
         string outputDirectory,
         JsonSerializerOptions jsonOptions,
+        string channel = "",
         CancellationToken cancellationToken = default)
     {
         var state = new VideoDownloadState
         {
             VideoId = videoId,
-            TranscriptAvailable = transcriptAvailable
+            TranscriptAvailable = transcriptAvailable,
+            Channel = channel
         };
 
         await File.WriteAllTextAsync(

@@ -18,42 +18,47 @@
     <header class="product-page-heading">
         <div>
             <span class="product-eyebrow">EMPIEZA POR TU IDEA</span>
-            <h1>Crear proyecto</h1>
-            <p>Cuéntanos qué quieres renovar y buscaremos vídeos del catálogo relacionados.</p>
+            <h1>@(Model.ProjectId is null ? "Crear proyecto" : "Proyecto guardado")</h1>
+            <p>@(Model.ProjectId is null
+                ? "Cuéntanos qué quieres renovar y buscaremos vídeos del catálogo relacionados."
+                : "Tu idea ya está guardada. Aquí tienes los vídeos relacionados.")</p>
         </div>
     </header>
 
-    <form method="post" class="project-form">
-        <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
-        <div class="mb-3">
-            <label asp-for="Input.Name" class="form-label">Nombre del proyecto</label>
-            <input asp-for="Input.Name" class="form-control" maxlength="200" autocomplete="off" placeholder="Por ejemplo: Renovación de la cocina" />
-            <span asp-validation-for="Input.Name" class="text-danger"></span>
-            <div class="form-text">Hasta 200 caracteres.</div>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Input.Description" class="form-label">Descripción</label>
-            <textarea asp-for="Input.Description" class="form-control" rows="6" maxlength="1000" data-markdown-editor placeholder="Por ejemplo: quiero renovar los muebles y la iluminación de mi cocina."></textarea>
-            <span asp-validation-for="Input.Description" class="text-danger"></span>
-            <div class="form-text">Describe el espacio o los cambios que tienes en mente. Puedes usar Markdown; la barra de formato te ayuda a empezar.</div>
-        </div>
-        <div class="mb-4">
-            <label asp-for="Input.Category" class="form-label">Categoría <span class="form-label-optional">(opcional)</span></label>
-            <select asp-for="Input.Category" class="form-select">
-                <option value="">Sin categoría</option>
-                @foreach (var category in Model.Categories)
-                {
-                    <option value="@category.Name">@category.Name</option>
-                }
-            </select>
-            <span asp-validation-for="Input.Category" class="text-danger"></span>
-        </div>
-        <button type="submit" class="btn btn-primary">
-            <span class="spinner-border spinner-border-sm me-2 d-none" aria-hidden="true" data-search-spinner></span>
-            <span data-search-label>Guardar y buscar vídeos</span>
-        </button>
-        <span class="visually-hidden" role="status" aria-live="polite" aria-atomic="true" data-search-status></span>
-    </form>
+    @if (Model.ProjectId is null)
+    {
+        <form method="post" class="project-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
+            <div class="mb-3">
+                <label asp-for="Input.Name" class="form-label">Nombre del proyecto</label>
+                <input asp-for="Input.Name" class="form-control" maxlength="200" autocomplete="off" placeholder="Por ejemplo: Renovación de la cocina" />
+                <span asp-validation-for="Input.Name" class="text-danger"></span>
+                <div class="form-text">Hasta 200 caracteres.</div>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Input.Description" class="form-label">Descripción</label>
+                <textarea asp-for="Input.Description" class="form-control" rows="6" maxlength="1000" data-markdown-editor placeholder="Por ejemplo: quiero renovar los muebles y la iluminación de mi cocina."></textarea>
+                <span asp-validation-for="Input.Description" class="text-danger"></span>
+                <div class="form-text">Describe el espacio o los cambios que tienes en mente. Puedes usar Markdown; la barra de formato te ayuda a empezar.</div>
+            </div>
+            <div class="mb-4">
+                <label asp-for="Input.Category" class="form-label">Categoría <span class="form-label-optional">(opcional)</span></label>
+                <select asp-for="Input.Category" class="form-select">
+                    <option value="">Sin categoría</option>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.Name">@category.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="Input.Category" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm me-2 d-none" aria-hidden="true" data-search-spinner></span>
+                <span data-search-label>Guardar y buscar vídeos</span>
+            </button>
+            <span class="visually-hidden" role="status" aria-live="polite" aria-atomic="true" data-search-status></span>
+        </form>
+    }
 
 @if (Model.ProjectId is not null)
 {

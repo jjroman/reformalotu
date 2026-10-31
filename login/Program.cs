@@ -7,8 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite(connectionString));
+builder.Services.Configure<SqliteVectorOptions>(builder.Configuration.GetSection("SqliteVector"));
+builder.Services.AddSingleton<SqliteVectorConnectionInterceptor>();
+builder.Services.AddDbContext<ApplicationDbContext>((provider, options) =>
+    options.UseSqlite(connectionString)
+        .AddInterceptors(provider.GetRequiredService<SqliteVectorConnectionInterceptor>()));
 builder.Services.Configure<VideoCatalogOptions>(builder.Configuration.GetSection("VideoCatalog"));
 builder.Services.Configure<VideoInventoryOptions>(builder.Configuration.GetSection("VideoInventory"));
 builder.Services.AddVideoAssessment(builder.Configuration, builder.Environment);

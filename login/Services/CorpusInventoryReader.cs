@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using Microsoft.Extensions.Options;
@@ -10,7 +12,17 @@ public sealed record CorpusVideo(
     string Categories,
     string Keywords,
     IReadOnlyList<string> Materials,
-    IReadOnlyList<string> Equipment);
+    IReadOnlyList<string> Equipment,
+    CorpusSemanticIndex? SemanticIndex = null);
+
+/// <summary>Artifact produced by youtube-analyzer, already validated against the current transcript.</summary>
+public sealed record CorpusSemanticIndex(
+    string Summary,
+    float[] Embedding,
+    string TranscriptHash,
+    string SummaryModel,
+    string EmbeddingModel,
+    DateTimeOffset GeneratedAt);
 
 public sealed record CorpusInventory(
     int FolderCount,
@@ -84,7 +96,8 @@ public sealed class CorpusInventoryReader(
                 string.Join("|", matchedCategories.Distinct(StringComparer.OrdinalIgnoreCase)),
                 string.Join("|", matchedKeywords.Distinct(StringComparer.OrdinalIgnoreCase)),
                 materials,
-                equipment));
+                equipment,
+                ReadSemanticIndex(folder)));
         }
 
         return new CorpusInventory(folders.Length, videos, omitted);
@@ -151,6 +164,69 @@ public sealed class CorpusInventoryReader(
                     ? "empty-transcript"
                     : "transcript-missing";
         return null;
+    }
+
+    /// <summary>
+    /// Reads semantic-index.json and returns it only when it matches the current transcript,
+    /// so stale artifacts are treated as missing.
+    /// </summary>
+    private static CorpusSemanticIndex? ReadSemanticIndex(string folder)
+    {
+        var indexPath = Path.Combine(folder, "semantic-index.json");
+        var transcriptPath = Path.Combine(folder, "transcript.json");
+
+        if (!File.Exists(indexPath) || !File.Exists(transcriptPath))
+        {
+            return null;
+        }
+
+        try
+        {
+            using var transcript = JsonDocument.Parse(File.ReadAllText(transcriptPath));
+            using var index = JsonDocument.Parse(File.ReadAllText(indexPath));
+            var root = index.RootElement;
+
+            if (!transcript.RootElement.TryGetProperty("Segments", out var segments) ||
+                segments.ValueKind != JsonValueKind.Array ||
+                !root.TryGetProperty("Summary", out var summary) || summary.ValueKind != JsonValueKind.String ||
+                !root.TryGetProperty("TranscriptHash", out var hash) || hash.ValueKind != JsonValueKind.String ||
+                !root.TryGetProperty("SummaryModel", out var summaryModel) || summaryModel.ValueKind != JsonValueKind.String ||
+                !root.TryGetProperty("EmbeddingModel", out var embeddingModel) || embeddingModel.ValueKind != JsonValueKind.String ||
+                !root.TryGetProperty("GeneratedAt", out var generatedAt) || !generatedAt.TryGetDateTimeOffset(out var generated) ||
+                !root.TryGetProperty("Embedding", out var embedding) || embedding.ValueKind != JsonValueKind.Array)
+            {
+                return null;
+            }
+
+            // Must stay identical to SemanticIndexService.ComputeTranscriptHash in youtube-analyzer.
+            var text = string.Join(
+                "\n",
+                segments.EnumerateArray().Select(segment =>
+                    segment.ValueKind == JsonValueKind.Object &&
+                    segment.TryGetProperty("Text", out var value) &&
+                    value.ValueKind == JsonValueKind.String
+                        ? value.GetString()
+                        : string.Empty));
+            var currentHash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(text)));
+
+            if (!string.Equals(hash.GetString(), currentHash, StringComparison.OrdinalIgnoreCase) ||
+                string.IsNullOrWhiteSpace(summary.GetString()))
+            {
+                return null;
+            }
+
+            return new CorpusSemanticIndex(
+                summary.GetString()!,
+                embedding.EnumerateArray().Select(value => value.GetSingle()).ToArray(),
+                currentHash,
+                summaryModel.GetString()!,
+                embeddingModel.GetString()!,
+                generated);
+        }
+        catch (Exception exception) when (exception is JsonException or IOException or UnauthorizedAccessException or InvalidOperationException or FormatException)
+        {
+            return null;
+        }
     }
 
     private static string? ReadJsonTranscript(string path)

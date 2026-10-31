@@ -1,9 +1,12 @@
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Encodings.Web;
 using System.Globalization;
 using System.Text;
 using System.Text.Unicode;
 using System.Net.Http;
+using System.ClientModel;
+using Azure;
+using Azure.Identity;
 using Microsoft.Extensions.Configuration;
 using YoutubeAnalyzer.Models;
 using YoutubeAnalyzer.Services;
@@ -14,8 +17,67 @@ var secretConfiguration = new ConfigurationBuilder()
 
 var settingsPath = Path.Combine(AppContext.BaseDirectory, "appsettings.json");
 await using var settingsFile = File.OpenRead(settingsPath);
-var settings = await JsonSerializer.DeserializeAsync<AppSettings>(settingsFile)
+var settings = await JsonSerializer.DeserializeAsync<AppSettings>(
+    settingsFile,
+    new JsonSerializerOptions { ReadCommentHandling = JsonCommentHandling.Skip })
     ?? throw new InvalidDataException("Could not read appsettings.json");
+
+var semanticOnly = settings.SemanticIndexOnly
+    || args.Contains("--semantic-only", StringComparer.OrdinalIgnoreCase);
+
+var jsonOptions = new JsonSerializerOptions
+{
+    WriteIndented = true,
+    Encoder = JavaScriptEncoder.Create(UnicodeRanges.All)
+};
+
+SemanticIndexService? semanticIndexService = null;
+
+if (settings.SemanticIndex.IsConfigured)
+{
+    semanticIndexService = new SemanticIndexService(
+        settings.SemanticIndex,
+        Environment.GetEnvironmentVariable("AZURE_OPENAI_API_KEY")
+            ?? secretConfiguration["AZURE_OPENAI_API_KEY"]);
+}
+else
+{
+    Console.WriteLine("SemanticIndex is not configured; summaries and embeddings will not be generated.");
+}
+
+if (semanticOnly)
+{
+    if (semanticIndexService is null)
+    {
+        Console.Error.WriteLine("--semantic-only requires a configured SemanticIndex section.");
+        Environment.ExitCode = 1;
+        return;
+    }
+
+    // Offline mode: only already-downloaded transcripts are used; YouTube is never contacted.
+    var corpusDirectory = ResolveCorpusDirectory(settings.OutputDirectory);
+
+    if (!Directory.Exists(corpusDirectory))
+    {
+        Console.Error.WriteLine($"Output directory not found: {corpusDirectory}");
+        Environment.ExitCode = 1;
+        return;
+    }
+
+    var directories = Directory.EnumerateDirectories(corpusDirectory).Order(StringComparer.Ordinal).ToArray();
+    var parallelOptions = new ParallelOptions
+    {
+        MaxDegreeOfParallelism = Math.Max(1, settings.SemanticIndex.MaxConcurrency)
+    };
+
+    // The work is network-bound, so concurrent async calls are used instead of dedicated threads.
+    await Parallel.ForEachAsync(
+        directories,
+        parallelOptions,
+        async (directory, _) => await EnsureSemanticIndexAsync(Path.GetFileName(directory), directory));
+
+    return;
+}
 
 var hasVideoId = !string.IsNullOrWhiteSpace(settings.VideoId);
 var hasChannel = !string.IsNullOrWhiteSpace(settings.Channel);
@@ -71,14 +133,13 @@ if (videoIds.Count == 0)
     return;
 }
 
-var jsonOptions = new JsonSerializerOptions
+// Downloads are limited to a small degree of parallelism to stay within YouTube API quotas.
+await Parallel.ForEachAsync(
+    videoIds,
+    new ParallelOptions { MaxDegreeOfParallelism = Math.Max(1, settings.DownloadConcurrency) },
+    async (videoId, cancellationToken) =>
 {
-    WriteIndented = true,
-    Encoder = JavaScriptEncoder.Create(UnicodeRanges.All)
-};
-
-foreach (var videoId in videoIds)
-{
+    var channel = isSingleVideo ? "" : settings.Channel;
     var videoOutputDirectory = isSingleVideo
         ? outputDirectory
         : Path.Combine(outputDirectory, videoId);
@@ -91,7 +152,8 @@ foreach (var videoId in videoIds)
             jsonOptions))
     {
         Console.WriteLine($"Valid output already exists for {videoId}; skipping download.");
-        continue;
+        await EnsureSemanticIndexAsync(videoId, videoOutputDirectory);
+        return;
     }
 
     VideoOutputCache.ClearCompletionState(videoOutputDirectory);
@@ -107,7 +169,7 @@ foreach (var videoId in videoIds)
     {
         Console.Error.WriteLine(
             $"Skipping video {videoId} after network retries failed: {exception.Message}");
-        continue;
+        return;
     }
 
     var analysis = CommentAnalysisService.Analyze(comments);
@@ -132,7 +194,7 @@ foreach (var videoId in videoIds)
     {
         Console.Error.WriteLine(
             $"Comments were saved, but transcript download failed for {videoId}: {exception.Message}");
-        continue;
+        return;
     }
 
     if (transcript is null)
@@ -144,8 +206,9 @@ foreach (var videoId in videoIds)
             videoId,
             transcriptAvailable: false,
             videoOutputDirectory,
-            jsonOptions);
-        continue;
+            jsonOptions,
+            channel);
+        return;
     }
 
     await File.WriteAllTextAsync(
@@ -164,12 +227,80 @@ foreach (var videoId in videoIds)
         videoId,
         transcriptAvailable: true,
         videoOutputDirectory,
-        jsonOptions);
+        jsonOptions,
+        channel);
 
     Console.WriteLine(
         $"Downloaded {analysis.TotalComments} comments and transcript "
         + $"({transcript.LanguageName}, auto-generated: {transcript.IsAutoGenerated}) "
         + $"to {videoOutputDirectory}");
+
+    await EnsureSemanticIndexAsync(videoId, videoOutputDirectory);
+});
+
+// A relative OutputDirectory depends on the working directory, so fall back to the project's own folder.
+static string ResolveCorpusDirectory(string outputDirectory)
+{
+    var fromWorkingDirectory = Path.GetFullPath(outputDirectory);
+
+    if (Path.IsPathRooted(outputDirectory) || Directory.Exists(fromWorkingDirectory))
+    {
+        return fromWorkingDirectory;
+    }
+
+    for (var directory = new DirectoryInfo(AppContext.BaseDirectory);
+        directory is not null;
+        directory = directory.Parent)
+    {
+        if (File.Exists(Path.Combine(directory.FullName, "youtube-analyzer.csproj")))
+        {
+            return Path.GetFullPath(Path.Combine(directory.FullName, outputDirectory));
+        }
+    }
+
+    return fromWorkingDirectory;
+}
+
+// A failure here leaves the artifact missing, so the next run retries only this step.
+async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
+{
+    var transcriptPath = Path.Combine(videoOutputDirectory, "transcript.json");
+
+    if (semanticIndexService is null || !File.Exists(transcriptPath))
+    {
+        return;
+    }
+
+    try
+    {
+        var cachedTranscript = JsonSerializer.Deserialize<VideoTranscript>(
+            await File.ReadAllTextAsync(transcriptPath),
+            jsonOptions);
+
+        if (cachedTranscript is null)
+        {
+            return;
+        }
+
+        var generated = await semanticIndexService.EnsureAsync(
+            videoId,
+            videoOutputDirectory,
+            cachedTranscript,
+            jsonOptions);
+
+        Console.WriteLine(generated
+            ? $"Generated semantic index for {videoId}."
+            : $"Semantic index for {videoId} is up to date.");
+    }
+    catch (Exception exception) when (exception is ClientResultException
+        or RequestFailedException
+        or AuthenticationFailedException
+        or HttpRequestException
+        or JsonException
+        or InvalidOperationException)
+    {
+        Console.Error.WriteLine($"Semantic index failed for {videoId}: {exception.Message}");
+    }
 }
 
 internal sealed class AppSettings
@@ -179,6 +310,9 @@ internal sealed class AppSettings
     public string TranscriptLanguage { get; init; } = "es";
     public string OutputDirectory { get; init; } = "output";
     public bool OverwriteExisting { get; init; }
+    public bool SemanticIndexOnly { get; init; }
+    public int DownloadConcurrency { get; init; } = 2;
+    public SemanticIndexSettings SemanticIndex { get; init; } = new();
 }
 
 internal static class JsonUnicode

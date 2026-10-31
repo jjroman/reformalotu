@@ -7,6 +7,7 @@ namespace login.Data;
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext(options)
 {
     public DbSet<VideoCatalogItem> Videos => Set<VideoCatalogItem>();
+    public DbSet<VideoSemanticIndex> VideoSemanticIndexes => Set<VideoSemanticIndex>();
     public DbSet<ReformProject> Projects => Set<ReformProject>();
     public DbSet<ProjectRecommendation> ProjectRecommendations => Set<ProjectRecommendation>();
 
@@ -24,6 +25,21 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             entity.Property(video => video.Keywords).IsRequired();
             entity.Property(video => video.Materials).IsRequired();
             entity.Property(video => video.Equipment).IsRequired();
+        });
+
+        builder.Entity<VideoSemanticIndex>(entity =>
+        {
+            entity.HasKey(index => index.VideoId);
+            entity.Property(index => index.VideoId).HasMaxLength(11);
+            entity.Property(index => index.Summary).IsRequired();
+            entity.Property(index => index.Embedding).IsRequired();
+            entity.Property(index => index.TranscriptHash).IsRequired().HasMaxLength(64);
+            entity.Property(index => index.SummaryModel).IsRequired().HasMaxLength(200);
+            entity.Property(index => index.EmbeddingModel).IsRequired().HasMaxLength(200);
+            entity.HasOne(index => index.Video)
+                .WithOne()
+                .HasForeignKey<VideoSemanticIndex>(index => index.VideoId)
+                .OnDelete(DeleteBehavior.Cascade);
         });
 
         builder.Entity<ReformProject>(entity =>

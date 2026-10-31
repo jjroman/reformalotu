@@ -306,6 +306,46 @@ namespace login.Data.Migrations
                     b.ToTable("Videos");
                 });
 
+            modelBuilder.Entity("login.Data.VideoSemanticIndex", b =>
+                {
+                    b.Property<string>("VideoId")
+                        .HasMaxLength(11)
+                        .HasColumnType("TEXT");
+
+                    b.Property<byte[]>("Embedding")
+                        .IsRequired()
+                        .HasColumnType("BLOB");
+
+                    b.Property<int>("EmbeddingDimensions")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("EmbeddingModel")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTimeOffset>("GeneratedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Summary")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SummaryModel")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TranscriptHash")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("VideoId");
+
+                    b.ToTable("VideoSemanticIndexes");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -385,6 +425,17 @@ namespace login.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Owner");
+                });
+
+            modelBuilder.Entity("login.Data.VideoSemanticIndex", b =>
+                {
+                    b.HasOne("login.Data.VideoCatalogItem", "Video")
+                        .WithOne()
+                        .HasForeignKey("login.Data.VideoSemanticIndex", "VideoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Video");
                 });
 
             modelBuilder.Entity("login.Data.ReformProject", b =>
