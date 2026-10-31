@@ -37,11 +37,97 @@ internal sealed class SemanticIndexService
 {
     public const string FileName = "semantic-index.json";
 
+    private const int PromptVersion = 2;
+
     private const string SummaryInstructions =
-        "Eres un asistente que resume vídeos de bricolaje y reformas del hogar. "
-        + "Resume el transcript que recibirás en español, en un único párrafo de 80 a 150 palabras, "
-        + "indicando el objetivo, los materiales y herramientas principales y los pasos clave. "
-        + "Usa únicamente la información del transcript y no inventes datos.";
+        "Eres un asistente que analiza vídeos de bricolaje y reformas del hogar para preparar análisis de insumos unitarios. "
+        + "Con el transcript que recibirás devuelve un JSON con: "
+        + "1) 'summary': resumen en español, en un único párrafo de 80 a 150 palabras, con el objetivo, los materiales y herramientas principales y los pasos clave. "
+        + "2) 'materials': todos los materiales con el mayor detalle posible: nombre, marca, especificación (tipo, medidas, color, grado, etc.), cantidad y unidad. "
+        + "3) 'equipment': herramientas y equipos (incluidos los de protección) con nombre, categoría, marca, especificación y cantidad. "
+        + "4) 'labor': la mano de obra necesaria. Indica siempre el rol principal según el oficio (p. ej. trabajo en madera = carpintero; level 'lead') "
+        + "y los ayudantes (level 'helper') con cuántos serían (headcount), sus tareas y, si es razonable, las horas estimadas. "
+        + "Si un insumo no aparece explícito pero se puede inferir razonablemente del trabajo mostrado, inclúyelo con sus datos estimados. "
+        + "A cada insumo asigna 'confidence' de 1 a 10: 1 = completamente inferido, 5 = deducido con apoyo parcial del transcript, 10 = sacado textualmente del transcript. "
+        + "Usa null cuando un dato (marca, cantidad, unidad, etc.) no conste ni pueda estimarse; no inventes marcas. Escribe los textos en español.";
+
+    private static readonly JsonSerializerOptions ResultJsonOptions = new(JsonSerializerDefaults.Web);
+
+    private static readonly BinaryData ResultSchema = BinaryData.FromString(BuildResultSchema());
+
+    private sealed record SummaryResult
+    {
+        public string Summary { get; init; } = "";
+        public IReadOnlyList<MaterialInput> Materials { get; init; } = [];
+        public IReadOnlyList<EquipmentInput> Equipment { get; init; } = [];
+        public IReadOnlyList<LaborInput> Labor { get; init; } = [];
+    }
+
+    private static string BuildResultSchema()
+    {
+        static object Nullable(string type) => new { type = new[] { type, "null" } };
+        var confidence = new { type = "integer", description = "1 = completely inferred, 10 = verbatim from transcript" };
+
+        static object Obj(Dictionary<string, object> properties) => new
+        {
+            type = "object",
+            properties,
+            required = properties.Keys.ToArray(),
+            additionalProperties = false
+        };
+
+        static object Arr(object items) => new { type = "array", items };
+
+        var material = Obj(new()
+        {
+            ["name"] = new { type = "string" },
+            ["brand"] = Nullable("string"),
+            ["specification"] = Nullable("string"),
+            ["quantity"] = Nullable("number"),
+            ["unit"] = Nullable("string"),
+            ["notes"] = Nullable("string"),
+            ["confidence"] = confidence
+        });
+
+        var equipment = Obj(new()
+        {
+            ["name"] = new { type = "string" },
+            ["category"] = new { type = "string", @enum = new[] { "manual_tool", "power_tool", "machinery", "safety", "other" } },
+            ["brand"] = Nullable("string"),
+            ["specification"] = Nullable("string"),
+            ["quantity"] = Nullable("number"),
+            ["notes"] = Nullable("string"),
+            ["confidence"] = confidence
+        });
+
+        var labor = Obj(new()
+        {
+            ["role"] = new { type = "string" },
+            ["level"] = new { type = "string", @enum = new[] { "lead", "helper" } },
+            ["headcount"] = Nullable("integer"),
+            ["tasks"] = Nullable("string"),
+            ["estimatedHours"] = Nullable("number"),
+            ["notes"] = Nullable("string"),
+            ["confidence"] = confidence
+        });
+
+        return JsonSerializer.Serialize(Obj(new()
+        {
+            ["summary"] = new { type = "string" },
+            ["materials"] = Arr(material),
+            ["equipment"] = Arr(equipment),
+            ["labor"] = Arr(labor)
+        }));
+    }
+
+    private static int ClampConfidence(int value) => Math.Clamp(value, 1, 10);
+
+    private static VideoInputs Normalize(SummaryResult result) => new()
+    {
+        Materials = [.. result.Materials.Select(item => item with { Confidence = ClampConfidence(item.Confidence) })],
+        Equipment = [.. result.Equipment.Select(item => item with { Confidence = ClampConfidence(item.Confidence) })],
+        Labor = [.. result.Labor.Select(item => item with { Confidence = ClampConfidence(item.Confidence) })]
+    };
 
     private readonly SemanticIndexSettings _settings;
     private readonly ChatClient _chatClient;
@@ -87,7 +173,8 @@ internal sealed class SemanticIndexService
 
         var summaryCurrent = cached is not null
             && cached.TranscriptHash == transcriptHash
-            && cached.SummaryModel == _settings.SummaryDeployment;
+            && cached.SummaryModel == _settings.SummaryDeployment
+            && cached.PromptVersion == PromptVersion;
         var embeddingCurrent = summaryCurrent
             && cached!.EmbeddingModel == _settings.EmbeddingDeployment
             && cached.EmbeddingDimensions == _settings.EmbeddingDimensions
@@ -98,15 +185,27 @@ internal sealed class SemanticIndexService
             return false;
         }
 
-        var summary = summaryCurrent
-            ? cached!.Summary
-            : await SummarizeAsync(transcript, cancellationToken);
+        string summary;
+        VideoInputs inputs;
+
+        if (summaryCurrent)
+        {
+            summary = cached!.Summary;
+            inputs = cached.Inputs;
+        }
+        else
+        {
+            (summary, inputs) = await AnalyzeAsync(transcript, cancellationToken);
+        }
+
         var embedding = await EmbedAsync(summary, cancellationToken);
 
         var index = new VideoSemanticIndex
         {
             VideoId = videoId,
             Summary = summary,
+            Inputs = inputs,
+            PromptVersion = PromptVersion,
             Embedding = embedding,
             TranscriptHash = transcriptHash,
             SummaryModel = _settings.SummaryDeployment,
@@ -155,7 +254,7 @@ internal sealed class SemanticIndexService
         }
     }
 
-    private async Task<string> SummarizeAsync(
+    private async Task<(string Summary, VideoInputs Inputs)> AnalyzeAsync(
         VideoTranscript transcript,
         CancellationToken cancellationToken)
     {
@@ -166,19 +265,36 @@ internal sealed class SemanticIndexService
             text = text[.._settings.MaxTranscriptCharacters];
         }
 
+        var options = new ChatCompletionOptions
+        {
+            ResponseFormat = ChatResponseFormat.CreateJsonSchemaFormat(
+                "video_analysis",
+                ResultSchema,
+                jsonSchemaIsStrict: true)
+        };
+
         // The OpenAI client already retries transient failures (429, 5xx).
         var response = await _chatClient.CompleteChatAsync(
             [
                 new SystemChatMessage(SummaryInstructions),
                 new UserChatMessage(text)
             ],
-            cancellationToken: cancellationToken);
+            options,
+            cancellationToken);
 
-        var summary = string.Concat(response.Value.Content.Select(part => part.Text)).Trim();
+        var json = string.Concat(response.Value.Content.Select(part => part.Text)).Trim();
 
-        return string.IsNullOrWhiteSpace(summary)
-            ? throw new InvalidOperationException("The summary model returned an empty response.")
-            : summary;
+        if (string.IsNullOrWhiteSpace(json))
+        {
+            throw new InvalidOperationException("The summary model returned an empty response.");
+        }
+
+        var result = JsonSerializer.Deserialize<SummaryResult>(json, ResultJsonOptions)
+            ?? throw new InvalidOperationException("The summary model returned an unreadable response.");
+
+        return string.IsNullOrWhiteSpace(result.Summary)
+            ? throw new InvalidOperationException("The summary model returned an empty summary.")
+            : (result.Summary.Trim(), Normalize(result));
     }
 
     private async Task<float[]> EmbedAsync(string summary, CancellationToken cancellationToken)

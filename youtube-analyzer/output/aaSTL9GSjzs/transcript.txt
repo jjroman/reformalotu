@@ -1,0 +1,1319 @@
+Hola constructover hoy os presentamos un
+
+
+kit de autoconsumo con un microinversor
+
+
+como este que tengo a mi espalda buenas
+
+
+a todos soy Emi Montero Bienvenido a
+
+
+vuestro canal de construcción
+
+
+construyendo casas el vídeo de hoy es
+
+
+una colaboración con almacén
+
+
+fotovoltaico el cual suministra todas y
+
+
+cada una de las piezas del kit que hoy
+
+
+usamos en el vídeo el equipo que
+
+
+presentamos es un microinversor de la
+
+
+marca app System con hasta 1100 vatios
+
+
+en Pico con una potencia máxima de 960
+
+
+vatios el cual lo vamos a alimentar con
+
+
+estas dos placas de 550 vatios cada una
+
+
+que es un micro inversor para un micro
+
+
+inversor es un inversor pequeñito el
+
+
+cual va justamente detrás de las placas
+
+
+solares no hay que bajarlo hacia la
+
+
+vivienda simplemente bajaremos un cable
+
+
+de alimentación el cual su instalación
+
+
+es mucho más sencilla que los típicos
+
+
+inversores con tanto cableado con tantas
+
+
+funciones y tanta dificultad que tiene
+
+
+para la gente que quiere hacerlo en su
+
+
+propia casa con este sistema será mucho
+
+
+más sencillo puesto que el micro
+
+
+inversor lleva una conexión muy muy
+
+
+sencilla que la veremos a continuación y
+
+
+solamente como digo habrá que bajar una
+
+
+manguera a la casa la instalación tiene
+
+
+una serie de ventajas La principal
+
+
+ventaja para nosotros es que el equipo
+
+
+es completamente ampliable si tú tienes
+
+
+un inversor de 3 kilovatios y luego
+
+
+quiere seguir ampliando al final tienes
+
+
+que cambiar el inversor de esta manera
+
+
+siempre que quieras ampliar y poner dos
+
+
+placas más cuatro placas más podrás
+
+
+puesto que cada placa va alimentada con
+
+
+su micro inversor además tiene la
+
+
+ventaja que a la hora de manipularlo las
+
+
+potencias son mucho más reducidas y es
+
+
+más seguro de cara al usuario otra
+
+
+ventaja y muy importante para nosotros
+
+
+es que el típico problema que tenemos de
+
+
+los sombreados en los largos strings de
+
+
+los inversores tradicionales aquí
+
+
+desaparece aquí si se nos sombrea una
+
+
+placa deja de funcionar esa placa y la
+
+
+otra sigue produciendo de otra manera
+
+
+como digo en los streams largos si se lo
+
+
+sombrea una placa o parte de una placa
+
+
+se perjudica todo el String de esta
+
+
+manera podremos tener distintas
+
+
+ubicaciones
+
+
+sin perjudicarnos tanto que a cierta
+
+
+hora de la tarde o a cierta hora de la
+
+
+mañana todavía unas placas no reciban la
+
+
+potencia y la otra Sí incluso podremos
+
+
+trabajar con placas en distintas
+
+
+orientaciones si tenemos una orientación
+
+
+que no es muy favorable podremos
+
+
+trabajar con placas en dos orientaciones
+
+
+puesto que cada una da su potencia por
+
+
+individual así conforme va el sol
+
+
+proyectando su radio sobre las distintas
+
+
+placas todas funcionarán al máximo de
+
+
+potencia en cada es muy sencillo lo
+
+
+tenemos todo sobre la mesa y tenemos los
+
+
+paneles y las estructuras y vamos a ver
+
+
+de qué está compuesto lo primero que
+
+
+tenemos en esta caja es el micro
+
+
+inversor como tal de la marca pesiste el
+
+
+ds3 a continuación Tenemos aquí los dos
+
+
+paneles fotovoltaicos dos paneles de 550
+
+
+vatios de la marca canadian solar los
+
+
+cuales Vienen muy bien embalados Ahora
+
+
+lo abrimos tercer lugar podríamos tener
+
+
+la estructura en este caso una
+
+
+estructura inclinada ya que la vamos a
+
+
+instalar en este en esta terraza una
+
+
+estructura inclinada diseñada para esos
+
+
+dos paneles vale Y por último Tenemos
+
+
+aquí sobre la mesa
+
+
+lo que serían los cables de conexionados
+
+
+terminales que todo lo iremos viendo a
+
+
+lo largo del vídeo un tapón para
+
+
+finalizar la instalación ahora lo vemos
+
+
+también y este aparatito que es la ecub
+
+
+que es un sistema de monitorización para
+
+
+nuestro dispositivo móvil vale con este
+
+
+vamos a controlar y vamos a ver todo lo
+
+
+que está pasando en nuestro kit
+
+
+fotovoltaico vale primer lugar nos vamos
+
+
+a disponer a abrir lo que es el micro
+
+
+inversor como veis viene muy bien
+
+
+embalado
+
+
+y esto que hay aquí lo es todo vale una
+
+
+pieza pesa bastante
+
+
+y viene con todo el conexionado
+
+
+el micro inversor es un micro inversor
+
+
+monofásico es una potencia pico de 1100
+
+
+vatios y una potencia máxima de 960
+
+
+vatios vale para que nos familiaricemos
+
+
+con él
+
+
+no tiene ningún botón no tiene nada va a
+
+
+ir directamente debajo de la estructura
+
+
+tenemos la salida a la vivienda vale por
+
+
+aquí nos vamos a dirigir ya a mandar la
+
+
+corriente a la vivienda y tenemos dos
+
+
+salidas para las dos placas no son
+
+
+String porque van placas individuales
+
+
+vale
+
+
+como decimos tiene 960 vatios de
+
+
+potencia máxima pero la vamos a poner
+
+
+dos paneles de 550 vatios los cuales no
+
+
+hacen los 1100 de pico si añadiéramos
+
+
+más paneles no serviría para nada puesto
+
+
+que lo que limita es siempre el inversor
+
+
+Vale entonces en este caso nunca nos va
+
+
+a dar más de los 960 vatios siempre está
+
+
+bien pues que los paneles vayan un
+
+
+poquito por encima Para que
+
+
+si no tienen la inclinación perfecta si
+
+
+no están recibiendo la potencia máxima
+
+
+nos acerquemos siempre al máximo a los
+
+
+960 que puede gestionar el microinversor
+
+
+vale tu cable de salida ya de corriente
+
+
+alterna tiene una potencia máxima de 4,2
+
+
+amperios y 230 voltios de salida y la
+
+
+entrada de placa como digo para placa
+
+
+individual en corriente continua y una
+
+
+potencia máxima de 20 amperios a
+
+
+continuación procedemos a abrir la caja
+
+
+de las placas son dos placas que vienen
+
+
+embaladas juntas vale
+por aquí tenemos los conectores que van
+
+
+a ir al microinversor vale en positivo y
+
+
+negativo esto no nos debe preocupar
+
+
+porque la clavijas vienen más sembradas
+
+
+y es imposible de equivocarse el modelo
+
+
+de placa una canadian solar High School
+
+
+son placas de 550 vatios vale Y tienen
+
+
+un peso aproximado de unos 27 kilos cada
+
+
+placa vamos a ver si podemos sacar ya
+
+
+una
+aquí estamos viendo la parte delantera
+
+
+del panel Material muy delicado vale son
+
+
+estos son las celdas son paneles de
+
+
+doble celda y el único mantenimiento que
+
+
+tienen estas placas es que siempre las
+
+
+mantengamos limpitas en su parte
+
+
+superior que son las que están captando
+
+
+el sol y el único mantenimiento que
+
+
+vamos a tener sobre este tipo de paneles
+
+
+Es que su superficie siempre esté
+
+
+limpita para que el sol lo reciba con la
+
+
+mayor nitidez posible a continuación
+
+
+vamos a abrir esta caja que nos trae los
+
+
+soportes en este caso es un soporte
+
+
+inclinado para las dos placas todo el
+
+
+aluminio
+
+
+y el kit como veis viene completo
+además de traer toda la perfilería nos
+
+
+trae esta cajita con todos los herrajes
+
+
+tornillería y demás
+
+
+seguimos con más materiales que no
+
+
+incluye el kit que uno de ellos es el
+
+
+cable de alterna el cual va directamente
+
+
+a la clavija que nos trae el inversor
+
+
+y de él iremos directamente a la casa
+
+
+Por qué tenemos aquí un Sobrante por si
+
+
+queremos seguir ampliando en
+
+
+microinversores porque los micro
+
+
+inversores podemos poner tantos como
+
+
+queramos en serio vale siempre y cuando
+
+
+si vamos aumentando mucho en
+
+
+microinversores habrá que ampliar la
+
+
+sección de la manguera pero para poner
+
+
+dos tres cuatro pues Seguiremos usando
+
+
+este tipo de cables y iríamos uniendo
+
+
+uno con otro en el caso de ya no tener
+
+
+que usar más micro inversores ser el
+
+
+último de la serie nos trae esta pieza
+
+
+que la vamos a ver ahora cómo la ponemos
+
+
+aquí que es un tapón un tapón el cual ya
+
+
+nos va a separar los cables y nos los va
+
+
+a dejar estancos y sellados a la lluvia
+
+
+y demás inclemencias del tiempo vale Y
+
+
+por otro lado tenemos estas dos clavijas
+
+
+unas Machos otras hembras
+
+
+estaba con este
+y
+
+
+esta
+
+
+esta es macho esta hembra y tiene su
+
+
+postura única la cual vamos a ponerla la
+
+
+haremos el clic enroscaremos y también
+
+
+se nos queda estanca a la lluvia vale
+
+
+dónde van estas dos Pues en la parte que
+
+
+ya va a ir a la vivienda de la casa una
+
+
+la pondremos directamente en el cable y
+
+
+la otra en una manguera que nosotros nos
+
+
+vamos a llevar hasta el cuadro de
+
+
+nuestra casa podríamos enchufar
+
+
+directamente la salida a la casa a un
+
+
+enchufe de la vivienda a un enchufe de
+
+
+fuerza Sí pero la normativa nos dice que
+
+
+a partir de 800 vatios No se puede usar
+
+
+este sistema está prohibido vale por
+
+
+consecuencia como nuestro inversor es de
+
+
+960 deberemos llevarlo directamente al
+
+
+cuadro de la vivienda como vamos a ver
+
+
+después a continuación con todo el
+
+
+conexionado visto que nos queda por ver
+
+
+que no incluye el kit pues la eqb que es
+
+
+el aparatito encargado de monitorizar
+
+
+toda la información que nos da
+
+
+el inversor el micro inversor vale
+
+
+esto lo vamos a poner dentro de la
+
+
+vivienda vamos a hacer una conexión
+
+
+directa a internet en la casa y con una
+
+
+antenitas que las tenemos aquí
+
+
+se nos va a comunicar con el micro
+
+
+inversor vale
+
+
+Así que con todo el material hemos
+
+
+abierto todas las cajas hemos visto todo
+
+
+lo que nos trae nuestro aquí nos vamos a
+
+
+poner manos a la obra y vamos a empezar
+
+
+por montar la estructura
+
+
+[Música]
+[Música]
+tenemos la estructura completamente
+
+
+terminada la hemos ubicado en el sitio
+
+
+evidentemente Le faltaría hacerle la
+
+
+soportación la fijación al suelo en este
+
+
+caso no lo vamos a hacer porque quizás
+
+
+no sea el sitio definitivo de esta placa
+
+
+pero bueno para que se entienda la
+
+
+estructura está terminada y ahora
+
+
+tocaría montar las placas encima Pero
+
+
+antes vamos a fijar el micro inversor en
+
+
+la parte superior de la parte inferior
+
+
+de la parte alta de la estructura
+
+
+tengo que hacer muy sencillo porque
+
+
+tenemos aquí una zona donde podemos
+
+
+meterle un tornillo vamos a preparar el
+
+
+tornillo
+y con ese tornillo será suficiente
+
+
+puesto que pese es muy rígido el
+
+
+material y está perfectamente Ahora sí
+
+
+vamos a echar las placas sobre la
+
+
+estructura
+
+
+puede entrar dentro
+aquí me llega la estructura arriba y
+
+
+abajo
+
+
+para que llegue al centro que eso te voy
+
+
+a colocar en el centro eso va al revés
+
+
+Sí
+
+
+pero eso no lo apretamos hasta que
+
+
+pongamos la otra ahora sujeta la placa y
+
+
+yo pongo los de este lado
+bueno Más o menos ahora Yo mido aquí
+
+
+que está eso en la junta de los perfiles
+
+
+no
+por la otra y ahora yo no sé si uno de
+
+
+arriba y uno de abajo mejor
+[Música]
+estamos
+por la llave estamos terminando de fijar
+
+
+las placas y para que veáis cómo lo
+
+
+hacemos tienen estas piezas que el
+
+
+tornillo entra en forma de canal por la
+
+
+propia estructura
+
+
+Y luego tiene distintas opciones por si
+
+
+la placa se puede ser más grande Vale
+
+
+pero no esta es la opción más baja entra
+
+
+carril lo aproximamos ya simplemente
+
+
+pues apretamos
+
+
+esto se puede apretar fuertecito tampoco
+
+
+hace falta que sea mucho pero como no
+
+
+interfieren en el cristal solo en la
+
+
+perfilería de aluminio
+la esquina esto ya está sujeto nos
+
+
+faltaría apretar aquellos tornillos del
+
+
+centro que las va unificando y las
+
+
+placas se pueden dar por instaladas en
+
+
+la estructura
+ahora empezaríamos con la parte de
+
+
+conexionado y lo que podría parecerlo
+
+
+primero sería que las Placas cada una
+
+
+tiene sus dos cables ya que salen de
+
+
+ella propia y cada una va a su macho y a
+
+
+su hembra vale Pero esto lo vamos a
+
+
+instalar lo último puesto que una vez
+
+
+que conectemos
+
+
+las clavijas microinversor la corriente
+
+
+continua ya estaría pasándola al micro
+
+
+inversor Y como tenemos que manipular
+
+
+eso no nos interesa vale esto lo vamos a
+
+
+conectar lo último Tenemos aquí las
+
+
+conexiones de una placa Esta que está a
+
+
+la izquierda a la izquierda y esta que
+
+
+está aquí a la derecha la podríamos a
+
+
+continuación vale en sus dos puertos o
+
+
+en sus dos clavijas
+
+
+y lo que sí vamos a dejar de hacer todo
+
+
+el conexionado de la parte de alterna
+
+
+que ya sale por aquí la manguera que
+
+
+antes hemos presentado encaja tal que
+
+
+así y la podemos dejar coleccionada
+
+
+puesto que no nos está demandando
+
+
+corriente Ya que no tenemos conectadas
+
+
+las placas vale
+cosa importante de este conexionado
+
+
+necesitamos Sí o sí que tenga toma
+
+
+tierra vale igual que en otro tipo de
+
+
+con los inversores normales baja siempre
+
+
+solo las dos el positivo el negativo
+
+
+está el inversor aquí directamente
+
+
+Tendremos que meter tierra hasta la toma
+
+
+de tierra de nuestra casa si no la
+
+
+tenemos si hay suficiente habrá que
+
+
+hacer una toma de tierra específica para
+
+
+las placas vale
+
+
+nosotros hoy vamos a usar un solo micro
+
+
+inversor por consecuencia tenemos este
+
+
+que lo vamos a mandar hacia la casa y
+
+
+este que es lo primero que vamos a hacer
+
+
+que lo vamos a taponar Tenemos aquí el
+
+
+taponcito que nos suministran que es muy
+
+
+sencillo simplemente lo abrimos ahí
+
+
+dentro tiene cuatro
+departamentos
+
+
+independientes todo en plástico por
+
+
+consecuencias no hay conducción y vamos
+
+
+a pelar la manguera
+
+
+tenemos la pieza redondita está aquí la
+
+
+gomita también
+
+
+se puede cortar
+y ahora nos separamos sin un poquito
+
+
+fijándonos ahí un poco dentro a ver si
+
+
+lo voy yo lo hacemos una toma
+no sé si llega a ver como lo he separado
+
+
+vale
+al fondo metemos la gomita aquí dentro
+Y nada solo apretar esto bien fuerte
+la otra parte de el cable vamos a poner
+
+
+ya uno de los conectores en este caso
+
+
+voy a poner el macho y la hembra irá en
+
+
+la manguera que vaya hacia la casa hacia
+
+
+el cuadro de la vivienda
+aquí tenemos las tres clavijas marcadas
+
+
+tierra la línea y el neutro vamos a
+
+
+respetar siempre el neutro que es el
+
+
+azul
+la Tierra y la fase normalmente la
+
+
+tenemos en las mangueras en marrón
+
+
+Aunque bien puede ser el negro también
+
+
+vale Lo importante es que el neutro
+
+
+vamos a usar el azul
+para hacerlo estancos solamente apretar
+
+
+esta rosca de aquí
+giro
+
+
+y para dejar las cosas un poquito
+
+
+organizada pues esto lo podemos dejar
+
+
+por aquí fijado con una brida
+hemos instalado la manguera que va hacia
+
+
+la vivienda igual
+tenemos el click
+
+
+La goma para hacer los tacos y sus
+
+
+roscas
+ya sólo nos quedaría conectar estos dos
+
+
+pero antes nos vamos a ir al cuadro
+
+
+eléctrico de la vivienda y vamos a
+
+
+conectar nuestra manguera tenemos el
+
+
+cable fijaros un tubo ya había preparado
+
+
+para ello y lo vamos a conectar
+
+
+directamente a un térmico en este caso
+
+
+de 16 cable dos y medio a 16 lo ideal
+
+
+que hubiera uno independiente para las
+
+
+plagas que lo pondremos después por aquí
+
+
+pero hoy lo vamos a dejar conectado a
+
+
+este de aquí quitamos corriente del
+
+
+General
+
+
+y vamos a pelar
+siguiente paso antes de darle corriente
+
+
+vamos a enchufar las placas al inversor
+
+
+esta clavija la que ya tiene corriente
+
+
+abajo pero recordad que hemos dejado el
+
+
+térmico bajado Simplemente nos ponemos
+
+
+hacemos La media vuelta
+
+
+y esta fijación también está estanca la
+
+
+vamos a dejar también aquí bien ubicada
+
+
+para que está más todo organizado que va
+
+
+mejor empezar a conectar placas
+y la segunda
+
+
+postura única
+ahora esto también lo pondremos unas
+
+
+bridas para que se quede aquí un poquito
+
+
+más recogido una cosa más o menos así
+una brida a cada lado y se queda en
+
+
+condiciones y nos vamos abajo a darle al
+
+
+térmico y ya para ponerlo en marcha
+
+
+totalmente damos la corriente de la
+
+
+vivienda con su térmico arriba y ya todo
+
+
+el sol que hoy tenemos un muy buen día
+
+
+de sol está produciendo electricidad que
+
+
+va directamente al consumo de esta
+
+
+vivienda Yo creo que con la orientación
+
+
+que hemos dado y la altura del sol
+
+
+estaremos prácticamente al 90% de
+
+
+producción de esas dos placas Aunque la
+
+
+instalación está completamente terminada
+
+
+pues quedaría instalar la eqb que es el
+
+
+sistema para monitorizar el rendimiento
+
+
+de las placas en este caso es la unidad
+
+
+más básica la cual Sólo nos va a decir
+
+
+la potencia que están produciendo la
+
+
+placa y la que consumimos de ella en
+
+
+ningún momento nos va a dar datos de la
+
+
+que vertimos a red ni de la que estamos
+
+
+consumiendo de la red para eso tendremos
+
+
+otro aparatito similar que sería la eqc
+
+
+el cual ya podremos adquirirlo también
+
+
+instalarlo y darnos toda la información
+
+
+que estamos comentando vale
+y directo a un enchufe con esto ahora
+
+
+habría que hacer el sistema de puertas
+
+
+en marcha el cual hay que bajarse una
+
+
+aplicación ahora dejaremos por aquí el
+
+
+enlace para la aplicación y es muy
+
+
+conveniente siempre que estamos poniendo
+
+
+cada microinversor tiene un código QR
+
+
+dejarle una fotografía ya guardada en
+
+
+nuestro teléfono móvil o en algún sitio
+
+
+para a la hora de la puesta en marcha
+
+
+nos va a pedir todos esos códigos vale
+
+
+si tenemos un solo como en este caso por
+
+
+su foto Ahora cuando lo pongamos en
+
+
+marcha nos pedirá el código QR de el
+
+
+micro inversor si tenemos varios micro
+
+
+inversores tener en cuenta que cada
+
+
+micro inversor tiene un código QR
+
+
+diferente y hay que hacer un mapa de
+
+
+posiciones el 1 el 2 al 3 entonces pues
+
+
+con una libretita un papel ponemos el
+
+
+uno tal código el 2 en fin o en el móvil
+
+
+no lo ordenamos de alguna manera de
+
+
+manera que cuando vayamos a hacer la
+
+
+puesta en marcha de la aplicación pues
+
+
+podamos darle la información correcta
+
+
+vale Pero bueno eso ya seguramente habrá
+
+
+otro vídeo en le demos toda la puesta en
+
+
+marcha de este sistema de monitorización
+
+
+y del más avanzado y a pesar de que
+
+
+hemos dicho de que el sistema funciona
+
+
+sin tener instalada la ecub es
+
+
+completamente obligatorio adquirir como
+
+
+mínimo la ecub para que El fabricante de
+
+
+las garantías necesarias en el equipo
+
+
+fotovoltaico
+
+
+[Música]

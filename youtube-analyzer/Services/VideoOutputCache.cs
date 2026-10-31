@@ -106,19 +106,62 @@ internal static class VideoOutputCache
         }
     }
 
+    /// <summary>
+    /// True when YouTube reports a comment count that differs from the cached total
+    /// and from the count seen the last time the video was downloaded.
+    /// </summary>
+    public static async Task<bool> HasCommentCountChangedAsync(
+        string outputDirectory,
+        long remoteCommentCount,
+        JsonSerializerOptions jsonOptions,
+        CancellationToken cancellationToken = default)
+    {
+        var analysisPath = Path.Combine(outputDirectory, AnalysisFileName);
+        var statePath = Path.Combine(outputDirectory, StateFileName);
+
+        try
+        {
+            var analysis = JsonSerializer.Deserialize<AnalysisResult>(
+                await File.ReadAllTextAsync(analysisPath, cancellationToken),
+                jsonOptions);
+
+            if (analysis is null || analysis.TotalComments == remoteCommentCount)
+            {
+                return false;
+            }
+
+            if (!File.Exists(statePath))
+            {
+                return true;
+            }
+
+            var state = JsonSerializer.Deserialize<VideoDownloadState>(
+                await File.ReadAllTextAsync(statePath, cancellationToken),
+                jsonOptions);
+
+            return state?.RemoteCommentCount != remoteCommentCount;
+        }
+        catch (JsonException)
+        {
+            return true;
+        }
+    }
+
     public static async Task MarkCompleteAsync(
         string videoId,
         bool transcriptAvailable,
         string outputDirectory,
         JsonSerializerOptions jsonOptions,
         string channel = "",
+        long? remoteCommentCount = null,
         CancellationToken cancellationToken = default)
     {
         var state = new VideoDownloadState
         {
             VideoId = videoId,
             TranscriptAvailable = transcriptAvailable,
-            Channel = channel
+            Channel = channel,
+            RemoteCommentCount = remoteCommentCount
         };
 
         await File.WriteAllTextAsync(

@@ -45,8 +45,17 @@ public sealed class SqliteVectorConnectionInterceptor(
             return;
         }
 
-        sqlite.EnableExtensions(true);
-        sqlite.LoadExtension(libraryPath);
+        try
+        {
+            sqlite.EnableExtensions(true);
+            sqlite.LoadExtension(libraryPath);
+        }
+        catch (SqliteException exception)
+        {
+            // The app must keep working without vector search; semantic search falls back to an in-memory scan.
+            logger.LogError(exception, "sqlite-vector could not be loaded from {LibraryPath}.", libraryPath);
+            return;
+        }
 
         using var exists = sqlite.CreateCommand();
         exists.CommandText = "select 1 from sqlite_master where type = 'table' and name = 'VideoSemanticIndexes'";

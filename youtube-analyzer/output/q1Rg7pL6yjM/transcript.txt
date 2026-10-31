@@ -1,0 +1,763 @@
+luego la constructura en el vídeo de hoy
+
+
+vamos a enseñar cómo soldar tira al led
+
+
+como unirlas entre ellas y también cómo
+
+
+calcular el transformador que
+
+
+necesitamos para alimentar las además al
+
+
+final del vídeo ya enseñar esta otra
+
+
+piececita que nos va a permitir empalmar
+
+
+las tiras y también conectarla sin
+
+
+necesidad de soldar bueno a todos soy el
+
+
+mismo pero bienvenidos a vuestro canal
+
+
+de construcción construyendo casas sobre
+
+
+la mesa
+
+
+tengo el material justo y necesario para
+
+
+aprender a hacer las conexiones entre
+
+
+las muy ahora de moda tiran led y el
+
+
+cableado además aquí tenemos una fuente
+
+
+de alimentación o transformador que
+
+
+vamos a aprender ahora cómo calcular qué
+
+
+tamaño de fuente de alimentación
+
+
+necesitamos según los metros de tirán
+
+
+line
+
+
+lo primero siguiendo al grano
+
+
+directamente vamos a aprender
+
+
+a soldar este tipo de tirarles este tipo
+
+
+de tirarles vienen pre marcadas en cada
+
+
+10 centímetros con una zona de cubrir en
+
+
+la que permite hacer los cortes
+
+
+además es la zona por la que vamos
+
+
+siempre a alimentar la sal es lo primero
+
+
+que vamos a hacer es quitarle el trozo
+
+
+de silicona que envuelve las conexiones
+
+
+de cobre vale con un cortecito aquí sin
+
+
+llegar a cortar abajo sobre la silicona
+
+
+y ya lo quebramos y así
+y los quedan completamente desnuda y
+
+
+limpios
+
+
+siempre que tengamos la posibilidad no
+
+
+lo vamos a fijar de alguna manera
+
+
+a una superficie no vamos a soltar
+
+
+porque es mucho mucho más sencillo
+
+
+en este caso con un simple trozo de
+
+
+cinta yo me la fijo y así
+y ya la tengo conectado
+y estable que vamos a usar este caso un
+
+
+cable de un medio para alguno y medio y
+
+
+lo estaba usando de colores le vamos a
+
+
+pelar una zona pequeñita
+ha recordado brevemente que ya tenéis
+
+
+varios vídeos en el canal en el que
+
+
+podéis ver en instalaciones de tirarles
+
+
+una instalación en cocina una
+
+
+instalación en un fosado y una
+
+
+instalación en una estantería para
+
+
+terminarla vamos a poner un trocito de
+
+
+funda termo retráctil si lo tenemos un
+
+
+cable largo y es la tira de más larga lo
+
+
+correcto sería meter se lo lleva al
+
+
+introducirle al trocito
+
+
+así la funda tenemos retráctil y casi me
+
+
+quedo al argillo
+
+
+introducimos aquí
+
+
+y lo dejamos aquí un poquito más para
+
+
+atrás para que la calor de la soldadura
+
+
+no le afecte
+estas puntitas son las que vamos a bajar
+
+
+en la grasita y fijar las dos partes
+
+
+vamos a ponerle una gotita aquí el
+
+
+soldador el soldador aquí
+no
+y así quedaría soldar
+no derretido un poquito y el plástico
+
+
+porque el soldador es que es demasiado
+
+
+fuerte y vales
+
+
+y ahora para terminar cogeríamos la
+
+
+funda tenemos retráctil que la tenemos
+
+
+bies
+la pasamos hasta ahí
+le damos un poquito de calor
+y si ha quedado protegido sin necesidad
+
+
+de usar la cinta aislante la funda termo
+
+
+retráctil está nosotros voy a trabajo
+
+
+aquí para vender en barritas de 1 metro
+
+
+pero hay unos estuches muy prácticos que
+
+
+traen de todas las medidas y así vienen
+
+
+ya cortados en estas trocitos y viene
+
+
+muy bien para todo este tipo de trabajo
+
+
+vale para la soldadura y todo eso y esta
+
+
+sería la forma de hacerlo con soldadura
+
+
+vale y ahora vamos a pasar a ver cómo
+
+
+hacer lo mismo pero si no tenemos el
+
+
+soldador eléctrico este el soldador de
+
+
+estaño igual perderíamos la parte de las
+
+
+trocitos de cobre y este tipo de piezas
+
+
+fijaros que encaja perfectamente hay
+
+
+esto bien serviría para
+
+
+empalmar dos tiras de leds que tuvieran
+
+
+una con otra
+
+
+queremos más de los cinco metros que nos
+
+
+suministra fabricante y los empalmados
+
+
+con esto cometido simplemente bajamos
+
+
+esta pieza
+cuando haber clic eso se queda ya ha
+
+
+cogido vale ahora aquí bien si queremos
+
+
+poner el cable citó lo que yo suelo
+
+
+hacer levantó un poco las pestañas de
+
+
+éstas porque lo que cabe así
+
+
+así
+
+
+negativo lo tenemos en este lado que es
+
+
+negro
+y el positivo a este
+
+
+y ahí tuve ningún pelo todo se nos vaya
+
+
+a pal lado
+igual pensamos aquí así hasta que él
+
+
+está aquí
+
+
+como presionar bien para que el clic no
+
+
+se nos escape
+
+
+y vale ya es cuestión de probar lo vale
+
+
+pues tenemos un sistema y tenemos el
+
+
+soldado siempre que podamos hacerlo así
+
+
+evidentemente para mí es mucho mejor que
+
+
+otro sistema simplemente una solución
+
+
+para así tipo doméstico poder hacerlo si
+
+
+no tenemos la máquina vale ahora podemos
+
+
+pasar a hablar de la fuente de
+
+
+alimentación vale lo primero cuando
+
+
+vamos a instalar una tira de leer en
+
+
+nuestra casa tenemos que haber
+
+
+lo primero el largo de la tira cuantos
+
+
+metros de tiras vamos a llevar y los
+
+
+segundos a cuántos voltios va esa tira
+
+
+las tenemos a 12 pero estaremos también
+
+
+a 24 en este caso son de 24 para ello lo
+
+
+que tenemos que hacer es irnos al
+
+
+embalaje a la cajita donde viene nuestra
+
+
+tira ley y no a buscar
+
+
+el voltaje en este caso a 24 voltios
+
+
+vale entonces ya sabemos que nuestro
+
+
+transformador nuestras fuentes de
+
+
+alimentación va a ser de 24 voltios y
+
+
+ahora hay que calcular los vatios los
+
+
+vatios igual aquí si nos venimos en este
+
+
+caso nosotros hemos trabajando con la
+
+
+calidad que ésta nos dice que tiene 6
+
+
+vatios por metro y es tan sencillo como
+
+
+hacer una multi círculo multiplicación
+
+
+sí tenemos 5 metros por 6 vatios
+
+
+ya sabemos que este transformador va a
+
+
+tener 30 vatios voy a necesitar un
+
+
+trasformador 30 vatios no se los queda
+
+
+corto vale siempre hay que sumarle a la
+
+
+multiplicación un 20% adicional tampoco
+
+
+tiene que ser la medida exacta puesto
+
+
+que esto lo venden por saltos a lo mejor
+
+
+un 25 50 75 pues nos vamos a ir al
+
+
+inmediatamente superior
+
+
+la cuenta que nos salga si nosotros
+
+
+vamos a alimentar 30 vatios
+
+
+nos vamos mínimos a uno de 50 o de 45 si
+
+
+no tuviéramos vale siempre por encima
+
+
+eso no es malo porque porque si nos
+
+
+vamos muy justos va a que tener mucha
+
+
+caída de tensión y los leds nos van a
+
+
+iluminar con toda su intensidad para
+
+
+estar más apagadito vale de hecho
+
+
+nosotros cuando montamos tiras de muchos
+
+
+metros por ejemplo un salón entero que
+
+
+los vamos a perimetrar con un foso
+
+
+intentamos nunca poner más de siete u
+
+
+ocho metros si por ejemplo tenemos 14
+
+
+metros me intentó alimentar por dos
+
+
+puntas y ser dos encendidos dentro del
+
+
+mismo circuito para que enciendan a la
+
+
+vez pero cada uno con sus siete metros y
+
+
+así tenemos la intensidad completa en
+
+
+todo el perímetro vale lo hay hay
+
+
+transformadores que dan para hacer siete
+
+
+metros de tirar leds 14 y los que
+
+
+queramos pero nosotros lo solemos decir
+
+
+siempre y cuando se pueda entonces
+
+
+elegimos el voltaje de la tira leds en
+
+
+24 12 en este caso 24 tenemos que elegir
+
+
+el alimentador de 24 y multiplicamos los
+
+
+vatios por metros por los metros que
+
+
+tengamos y se le añade un 20%
+
+
+aproximadamente a la cuenta que nos
+
+
+salga con eso podremos elegir el
+
+
+alimentador y ahora por último vamos a
+
+
+ver el coleccionado vale y para hacer el
+
+
+conexionado pues fácil de seguir no sé
+
+
+si se apreciará las indicaciones queda
+
+
+en la misma fuente
+
+
+aquí tenemos lo que sería el hace que la
+
+
+alterna y vamos a respetar la polaridad
+
+
+vale tenemos el neutro que nosotros lo
+
+
+siempre trabajamos con el azul
+y por otro lado la fase
+
+
+ahora línea más por aquí l de línea a la
+
+
+fase
+aquí nos quedaría espacio para una toma
+
+
+de tierra que iría a la tierra de la
+
+
+casa y luego aquí fijaros que tiene una
+
+
+pila de de entrada es porque este
+
+
+transformador da para tres líneas de los
+
+
+otros de este caso tenemos dos porque
+
+
+hemos hecho dos sistemas distintos los
+
+
+como sería el negro y los demás serían
+
+
+los rojos vale entonces yo lo que voy a
+
+
+hacer es respetar las posiciones si me
+
+
+pongo este en el primero de los demás
+
+
+este me lo pongo en el primero de los el
+
+
+supone con él
+ah
+a continuación este es el segundo
+
+
+sistema que hemos hecho o en este caso
+
+
+el primero que ver que hemos soldado con
+
+
+este año o poner en el segundo
+y
+y ahí estaría solo para alimentarlo y
+
+
+con todo conectado con su famosa
+
+
+corriente y perfecto de ahí sistema con
+
+
+la princesita está
+
+
+soldado
+aquí tienen también un regulador de
+
+
+intensidad
+los demás
+a tope que se vea bien queda decir
+
+
+también que este tipo de tirarlas
+
+
+siempre siempre siempre debe insertada
+
+
+en una tira de aluminio tipo está la y
+
+
+de muchos tipos la hay
+
+
+planas y de encastrar como estas las hay
+
+
+de esquina porque porque el aluminio
+
+
+hace de disipador de laca los que
+
+
+producen los puntitos led y esto es muy
+
+
+conveniente porque si no empiezan a
+
+
+fundirse porque cogen demasiada
+
+
+temperatura de esta manera se metería
+
+
+aquí y será incluso el atrapado y mañana
+
+
+este difusor o este plástico protector
+
+
+que si por ejemplo las luces van a ir en
+
+
+un posado o en algún sitio que no se
+
+
+vean las tenemos este mismo tipo de
+
+
+tapaderas pero sin el plástico la
+
+
+función del aluminio básicamente es ser
+
+
+el disipador de la calor que producen
+
+
+las tiran de lo claro el plástico es un
+
+
+difusor para que los led no dañen tanto
+
+
+la vista y también a modo decorativo
+
+
+bueno pues hasta aquí lo que ha sido la
+
+
+instalación de como soldar las tiras
+
+
+line cómo calcular la fuente
+
+
+alimentación quiero dejar claro que
+
+
+nosotros no somos electricistas pero que
+
+
+intentamos hacer llegar a todos vosotros
+
+
+una forma de trabajarlo en plan
+
+
+doméstico en plan hacerlo en casa de
+
+
+alguna manera
+
+
+como las cosas acaban funcionando así
+
+
+que nada espero que os haya gustado el
+
+
+vídeo y que haya sido de vuestro interés
+
+
+sin más me despido como siempre
+
+
+recordaros que podéis seguirnos en
+
+
+nuestras redes sociales en instagram y
+
+
+ahora también estamos en tick tock si ha
+
+
+gustado el vídeo como siempre dando un
+
+
+like suscribiros al canal y activar la
+
+
+campanita para no perderos ninguno de
+
+
+nuestros vídeos poco más nos vemos en
+
+
+los próximos vídeos hasta luego
+
+
+constructura
+[Música]

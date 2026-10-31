@@ -1,0 +1,39 @@
+[
+  {
+    "Author": "@ManuelGarcia-gv9xr",
+    "Text": "Deseando conocer todos los detalles. Felicidades",
+    "Likes": 0,
+    "PublishedAt": "2024-11-24T09:48:05+00:00",
+    "Replies": []
+  },
+  {
+    "Author": "@juliaisabelmartinez9103",
+    "Text": "Felicitaciones siempre el trabajo de ustedes son de lujo.",
+    "Likes": 0,
+    "PublishedAt": "2024-11-21T18:52:42+00:00",
+    "Replies": [
+      {
+        "Author": "@ConstruyendoCasas",
+        "Text": "Gracias 😊",
+        "Likes": 0,
+        "PublishedAt": "2024-11-21T19:11:45+00:00",
+        "Replies": []
+      }
+    ]
+  },
+  {
+    "Author": "@adri-can4664",
+    "Text": "Informacion por favor",
+    "Likes": 0,
+    "PublishedAt": "2024-11-18T16:23:58+00:00",
+    "Replies": [
+      {
+        "Author": "@ConstruyendoCasas",
+        "Text": "El domingo 24 vamos a hacer un directo en Youtube, donde hablaremos a fondo sobre todo esto, será a las 19:00 👍",
+        "Likes": 0,
+        "PublishedAt": "2024-11-18T16:41:14+00:00",
+        "Replies": []
+      }
+    ]
+  }
+]

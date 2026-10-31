@@ -1,5 +1,7 @@
+using Google;
 using Google.Apis.Services;
 using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
 using YoutubeAnalyzer.Models;
 using YoutubeApiService = Google.Apis.YouTube.v3.YouTubeService;
 
@@ -31,19 +33,29 @@ internal sealed class YoutubeService : IDisposable
 
         do
         {
-            var response = await NetworkRetry.ExecuteAsync(
-                async retryToken =>
-                {
-                    var request = _youtube.CommentThreads.List("snippet");
-                    request.VideoId = videoId;
-                    request.MaxResults = 100;
-                    request.PageToken = nextPageToken;
-                    request.TextFormat = CommentThreadsResource.ListRequest.TextFormatEnum.PlainText;
+            CommentThreadListResponse response;
 
-                    return await request.ExecuteAsync(retryToken);
-                },
-                $"fetching comments for video {videoId}",
-                cancellationToken);
+            try
+            {
+                response = await NetworkRetry.ExecuteAsync(
+                    async retryToken =>
+                    {
+                        var request = _youtube.CommentThreads.List("snippet");
+                        request.VideoId = videoId;
+                        request.MaxResults = 100;
+                        request.PageToken = nextPageToken;
+                        request.TextFormat = CommentThreadsResource.ListRequest.TextFormatEnum.PlainText;
+
+                        return await request.ExecuteAsync(retryToken);
+                    },
+                    $"fetching comments for video {videoId}",
+                    cancellationToken);
+            }
+            catch (GoogleApiException exception) when (IsCommentsDisabled(exception))
+            {
+                Console.WriteLine($"Comments are disabled for video {videoId}; continuing without them.");
+                return comments;
+            }
 
             foreach (var item in response.Items ?? [])
             {
@@ -75,6 +87,100 @@ internal sealed class YoutubeService : IDisposable
         while (!string.IsNullOrEmpty(nextPageToken));
 
         return comments;
+    }
+
+    /// <summary>
+    /// Returns the comment count YouTube reports for the video (replies included),
+    /// or 0 when the video hides it because comments are disabled. Costs 1 quota unit.
+    /// </summary>
+    public async Task<long> GetCommentCountAsync(
+        string videoId,
+        CancellationToken cancellationToken = default)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(videoId);
+
+        var response = await NetworkRetry.ExecuteAsync(
+            retryToken =>
+            {
+                var request = _youtube.Videos.List("statistics");
+                request.Id = videoId;
+
+                return request.ExecuteAsync(retryToken);
+            },
+            $"fetching comment count for video {videoId}",
+            cancellationToken);
+
+        return (long?)response.Items?.FirstOrDefault()?.Statistics?.CommentCount ?? 0L;
+    }
+
+    internal static bool IsQuotaExceeded(GoogleApiException exception) =>
+        exception.Error?.Errors?.Any(error => error.Reason is "quotaExceeded" or "dailyLimitExceeded") == true;
+
+    /// <summary>The daily quota resets at midnight Pacific Time.</summary>
+    internal static DateTimeOffset GetNextQuotaReset()
+    {
+        TimeZoneInfo pacific;
+
+        try
+        {
+            pacific = TimeZoneInfo.FindSystemTimeZoneById("America/Los_Angeles");
+        }
+        catch (TimeZoneNotFoundException)
+        {
+            pacific = TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time");
+        }
+
+        var nowPacific = TimeZoneInfo.ConvertTime(DateTimeOffset.UtcNow, pacific);
+        var midnight = new DateTime(nowPacific.Year, nowPacific.Month, nowPacific.Day).AddDays(1);
+
+        return new DateTimeOffset(midnight, pacific.GetUtcOffset(midnight));
+    }
+
+    private static bool IsCommentsDisabled(GoogleApiException exception) =>
+        exception.Error?.Errors?.Any(error => error.Reason == "commentsDisabled") == true;
+
+    /// <summary>Fetches title and channel metadata in batches of 50 (1 quota unit per batch).</summary>
+    public async Task<List<VideoMetadata>> GetVideoMetadataAsync(
+        IReadOnlyCollection<string> videoIds,
+        CancellationToken cancellationToken = default)
+    {
+        ArgumentNullException.ThrowIfNull(videoIds);
+
+        var result = new List<VideoMetadata>();
+
+        foreach (var batch in videoIds.Chunk(50))
+        {
+            var response = await NetworkRetry.ExecuteAsync(
+                retryToken =>
+                {
+                    var request = _youtube.Videos.List("snippet");
+                    request.Id = string.Join(',', batch);
+                    request.MaxResults = 50;
+
+                    return request.ExecuteAsync(retryToken);
+                },
+                "fetching video metadata",
+                cancellationToken);
+
+            foreach (var item in response.Items ?? [])
+            {
+                if (string.IsNullOrWhiteSpace(item.Id) || item.Snippet is null)
+                {
+                    continue;
+                }
+
+                result.Add(new VideoMetadata
+                {
+                    VideoId = item.Id,
+                    Title = item.Snippet.Title ?? "",
+                    ChannelId = item.Snippet.ChannelId ?? "",
+                    ChannelTitle = item.Snippet.ChannelTitle ?? "",
+                    PublishedAt = item.Snippet.PublishedAtDateTimeOffset
+                });
+            }
+        }
+
+        return result;
     }
 
     public async Task<List<string>> GetVideoIdsForChannelAsync(

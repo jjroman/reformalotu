@@ -15,6 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>((provider, options) =>
 builder.Services.Configure<VideoCatalogOptions>(builder.Configuration.GetSection("VideoCatalog"));
 builder.Services.Configure<VideoInventoryOptions>(builder.Configuration.GetSection("VideoInventory"));
 builder.Services.AddVideoAssessment(builder.Configuration, builder.Environment);
+builder.Services.AddSemanticSearch(builder.Configuration, builder.Environment);
 builder.Services.AddSingleton<CorpusInventoryReader>();
 builder.Services.AddScoped<VideoCatalogImporter>();
 builder.Services.AddScoped<VideoRecommendationService>();

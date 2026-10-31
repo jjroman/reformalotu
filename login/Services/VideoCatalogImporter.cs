@@ -53,6 +53,7 @@ public sealed class VideoCatalogImporter(
                 dbContext.Videos.Add(new VideoCatalogItem
                 {
                     VideoId = item.VideoId,
+                    Title = item.Title,
                     TranscriptText = item.TranscriptText,
                     Categories = item.Categories,
                     Keywords = item.Keywords,
@@ -62,6 +63,7 @@ public sealed class VideoCatalogImporter(
                 inserted++;
             }
             else if (existing.TranscriptText == item.TranscriptText &&
+                existing.Title == item.Title &&
                 existing.Categories == item.Categories &&
                 existing.Keywords == item.Keywords &&
                 existing.Materials.SequenceEqual(item.Materials, StringComparer.Ordinal) &&
@@ -72,6 +74,7 @@ public sealed class VideoCatalogImporter(
             else
             {
                 transcriptChanged = existing.TranscriptText != item.TranscriptText;
+                existing.Title = item.Title;
                 existing.TranscriptText = item.TranscriptText;
                 existing.Categories = item.Categories;
                 existing.Keywords = item.Keywords;

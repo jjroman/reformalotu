@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.ClientModel;
 using Azure;
 using Azure.Identity;
+using Google;
 using Microsoft.Extensions.Configuration;
 using YoutubeAnalyzer.Models;
 using YoutubeAnalyzer.Services;
@@ -32,6 +33,7 @@ var jsonOptions = new JsonSerializerOptions
 };
 
 SemanticIndexService? semanticIndexService = null;
+IConsoleReporter semanticReporter = new PlainConsoleReporter();
 
 if (settings.SemanticIndex.IsConfigured)
 {
@@ -70,19 +72,32 @@ if (semanticOnly)
         MaxDegreeOfParallelism = Math.Max(1, settings.SemanticIndex.MaxConcurrency)
     };
 
+    var consoleMode = args.Contains("--progress", StringComparer.OrdinalIgnoreCase) ? "Progress"
+        : args.Contains("--plain", StringComparer.OrdinalIgnoreCase) ? "Plain"
+        : settings.ConsoleMode;
+    semanticReporter = ConsoleReporterFactory.Create(consoleMode);
+
+    semanticReporter.Begin(directories.Length, parallelOptions.MaxDegreeOfParallelism);
+
     // The work is network-bound, so concurrent async calls are used instead of dedicated threads.
     await Parallel.ForEachAsync(
         directories,
         parallelOptions,
         async (directory, _) => await EnsureSemanticIndexAsync(Path.GetFileName(directory), directory));
 
+    semanticReporter.End();
+
     return;
 }
 
+var metadataOnly = settings.MetadataOnly
+    || args.Contains("--metadata-only", StringComparer.OrdinalIgnoreCase);
+var verifyCommentCount = settings.VerifyCommentCount
+    || args.Contains("--verify-comments", StringComparer.OrdinalIgnoreCase);
 var hasVideoId = !string.IsNullOrWhiteSpace(settings.VideoId);
 var hasChannel = !string.IsNullOrWhiteSpace(settings.Channel);
 
-if (!hasVideoId && !hasChannel)
+if (!metadataOnly && !hasVideoId && !hasChannel)
 {
     Console.Error.WriteLine("Set either VideoId or Channel in appsettings.json.");
     Environment.ExitCode = 1;
@@ -96,6 +111,29 @@ if (string.IsNullOrWhiteSpace(apiKey))
 {
     Console.Error.WriteLine("Missing YOUTUBE_API_KEY");
     Environment.ExitCode = 1;
+    return;
+}
+
+var quotaReported = 0;
+using var quotaCancellation = new CancellationTokenSource();
+
+if (metadataOnly)
+{
+    // Only videos.list is called (1 quota unit per 50 videos); no comments, transcripts or channel listing.
+    var metadataCorpus = ResolveCorpusDirectory(settings.OutputDirectory);
+
+    if (!Directory.Exists(metadataCorpus))
+    {
+        Console.Error.WriteLine($"Output directory not found: {metadataCorpus}");
+        Environment.ExitCode = 1;
+        return;
+    }
+
+    using var metadataYoutube = new YoutubeService(apiKey);
+    var corpusEntries = Directory.EnumerateDirectories(metadataCorpus)
+        .Select(directory => (VideoId: Path.GetFileName(directory), Directory: directory));
+
+    await WriteMissingMetadataAsync(metadataYoutube, corpusEntries);
     return;
 }
 
@@ -121,6 +159,11 @@ catch (HttpRequestException exception)
     Environment.ExitCode = 1;
     return;
 }
+catch (GoogleApiException exception) when (YoutubeService.IsQuotaExceeded(exception))
+{
+    ReportQuotaExceeded();
+    return;
+}
 
 if (hasVideoId && hasChannel)
 {
@@ -133,10 +176,31 @@ if (videoIds.Count == 0)
     return;
 }
 
+// Writes metadata.json for every video that lacks it, including already-downloaded ones.
+await WriteMissingMetadataAsync(
+    youtubeService,
+    videoIds
+        .Select(id => (VideoId: id, Directory: isSingleVideo ? outputDirectory : Path.Combine(outputDirectory, id)))
+        .Concat(isSingleVideo
+            ? []
+            : Directory.EnumerateDirectories(outputDirectory)
+                .Select(directory => (VideoId: Path.GetFileName(directory), Directory: directory))));
+
+if (quotaReported == 1)
+{
+    return;
+}
+
 // Downloads are limited to a small degree of parallelism to stay within YouTube API quotas.
+try
+{
 await Parallel.ForEachAsync(
     videoIds,
-    new ParallelOptions { MaxDegreeOfParallelism = Math.Max(1, settings.DownloadConcurrency) },
+    new ParallelOptions
+    {
+        MaxDegreeOfParallelism = Math.Max(1, settings.DownloadConcurrency),
+        CancellationToken = quotaCancellation.Token
+    },
     async (videoId, cancellationToken) =>
 {
     var channel = isSingleVideo ? "" : settings.Channel;
@@ -145,7 +209,35 @@ await Parallel.ForEachAsync(
         : Path.Combine(outputDirectory, videoId);
     Directory.CreateDirectory(videoOutputDirectory);
 
+    long? remoteCommentCount = null;
+
+    if (verifyCommentCount)
+    {
+        try
+        {
+            remoteCommentCount = await youtubeService.GetCommentCountAsync(videoId, cancellationToken);
+        }
+        catch (HttpRequestException exception)
+        {
+            Console.Error.WriteLine(
+                $"Could not verify the comment count for {videoId}: {exception.Message}");
+        }
+            catch (GoogleApiException exception) when (YoutubeService.IsQuotaExceeded(exception))
+            {
+                ReportQuotaExceeded();
+                return;
+            }
+    }
+
+    var commentCountChanged = remoteCommentCount is { } remoteCount
+        && await VideoOutputCache.HasCommentCountChangedAsync(
+            videoOutputDirectory,
+            remoteCount,
+            jsonOptions,
+            cancellationToken);
+
     if (!settings.OverwriteExisting
+        && !commentCountChanged
         && await VideoOutputCache.IsCompleteAsync(
             videoId,
             videoOutputDirectory,
@@ -156,6 +248,11 @@ await Parallel.ForEachAsync(
         return;
     }
 
+    if (commentCountChanged)
+    {
+        Console.WriteLine($"Comment count changed for {videoId} (YouTube reports {remoteCommentCount}); downloading again.");
+    }
+
     VideoOutputCache.ClearCompletionState(videoOutputDirectory);
     Console.WriteLine($"Processing video {videoId}...");
 
@@ -163,7 +260,16 @@ await Parallel.ForEachAsync(
 
     try
     {
-        comments = await youtubeService.GetCommentsAsync(videoId);
+        comments = await youtubeService.GetCommentsAsync(videoId, cancellationToken);
+    }
+    catch (GoogleApiException exception) when (YoutubeService.IsQuotaExceeded(exception))
+    {
+        ReportQuotaExceeded();
+        return;
+    }
+    catch (OperationCanceledException) when (quotaCancellation.IsCancellationRequested)
+    {
+        return;
     }
     catch (HttpRequestException exception)
     {
@@ -207,7 +313,8 @@ await Parallel.ForEachAsync(
             transcriptAvailable: false,
             videoOutputDirectory,
             jsonOptions,
-            channel);
+            channel,
+            remoteCommentCount);
         return;
     }
 
@@ -228,7 +335,8 @@ await Parallel.ForEachAsync(
         transcriptAvailable: true,
         videoOutputDirectory,
         jsonOptions,
-        channel);
+        channel,
+        remoteCommentCount);
 
     Console.WriteLine(
         $"Downloaded {analysis.TotalComments} comments and transcript "
@@ -237,6 +345,70 @@ await Parallel.ForEachAsync(
 
     await EnsureSemanticIndexAsync(videoId, videoOutputDirectory);
 });
+}
+catch (OperationCanceledException) when (quotaCancellation.IsCancellationRequested)
+{
+    // The quota message was already reported; unfinished videos are retried on the next run.
+}
+
+void ReportQuotaExceeded()
+{
+    if (Interlocked.Exchange(ref quotaReported, 1) == 1)
+    {
+        return;
+    }
+
+    quotaCancellation.Cancel();
+    Console.WriteLine(
+        "YouTube API daily quota reached. Processing stopped; videos already downloaded were kept.");
+    Console.WriteLine(
+        $"The quota resets at midnight Pacific Time; try again after {YoutubeService.GetNextQuotaReset().ToLocalTime():yyyy-MM-dd HH:mm} (local time).");
+}
+
+async Task WriteMissingMetadataAsync(
+    YoutubeService youtube,
+    IEnumerable<(string VideoId, string Directory)> entries)
+{
+    try
+    {
+        var missing = entries
+            .DistinctBy(entry => entry.VideoId)
+            .Where(entry => !File.Exists(Path.Combine(entry.Directory, "metadata.json")))
+            .ToDictionary(entry => entry.VideoId, entry => entry.Directory);
+
+        if (missing.Count == 0)
+        {
+            Console.WriteLine("All videos already have metadata.json.");
+            return;
+        }
+
+        Console.WriteLine($"Fetching metadata for {missing.Count} videos...");
+        var items = await youtube.GetVideoMetadataAsync(missing.Keys.ToList());
+
+        foreach (var metadata in items)
+        {
+            if (!missing.TryGetValue(metadata.VideoId, out var directory))
+            {
+                continue;
+            }
+
+            Directory.CreateDirectory(directory);
+            await File.WriteAllTextAsync(
+                Path.Combine(directory, "metadata.json"),
+                JsonUnicode.UnescapeSurrogatePairs(JsonSerializer.Serialize(metadata, jsonOptions)));
+        }
+
+        Console.WriteLine($"Metadata written for {items.Count} of {missing.Count} videos.");
+    }
+    catch (HttpRequestException exception)
+    {
+        Console.Error.WriteLine($"Could not retrieve video metadata after retries: {exception.Message}");
+    }
+    catch (GoogleApiException exception) when (YoutubeService.IsQuotaExceeded(exception))
+    {
+        ReportQuotaExceeded();
+    }
+}
 
 // A relative OutputDirectory depends on the working directory, so fall back to the project's own folder.
 static string ResolveCorpusDirectory(string outputDirectory)
@@ -268,8 +440,12 @@ async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
 
     if (semanticIndexService is null || !File.Exists(transcriptPath))
     {
+        semanticReporter.VideoCompleted(VideoOutcome.Skipped, "");
         return;
     }
+
+    var videoStartedAt = DateTimeOffset.Now;
+    var videoStopwatch = System.Diagnostics.Stopwatch.StartNew();
 
     try
     {
@@ -279,6 +455,7 @@ async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
 
         if (cachedTranscript is null)
         {
+            semanticReporter.VideoCompleted(VideoOutcome.Skipped, "");
             return;
         }
 
@@ -288,9 +465,12 @@ async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
             cachedTranscript,
             jsonOptions);
 
-        Console.WriteLine(generated
-            ? $"Generated semantic index for {videoId}."
-            : $"Semantic index for {videoId} is up to date.");
+        semanticReporter.VideoCompleted(
+            generated ? VideoOutcome.Generated : VideoOutcome.UpToDate,
+            generated
+                ? $"Generated semantic index for {videoId}. Started {videoStartedAt:HH:mm:ss}, took {videoStopwatch.Elapsed:mm\\:ss\\.f}."
+                : $"Semantic index for {videoId} is up to date.",
+            videoStopwatch.Elapsed);
     }
     catch (Exception exception) when (exception is ClientResultException
         or RequestFailedException
@@ -299,7 +479,9 @@ async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
         or JsonException
         or InvalidOperationException)
     {
-        Console.Error.WriteLine($"Semantic index failed for {videoId}: {exception.Message}");
+        semanticReporter.VideoCompleted(
+            VideoOutcome.Failed,
+            $"Semantic index failed for {videoId} (started {videoStartedAt:HH:mm:ss}, after {videoStopwatch.Elapsed:mm\\:ss\\.f}): {exception.Message}");
     }
 }
 
@@ -311,6 +493,11 @@ internal sealed class AppSettings
     public string OutputDirectory { get; init; } = "output";
     public bool OverwriteExisting { get; init; }
     public bool SemanticIndexOnly { get; init; }
+
+    /// <summary>"Plain" (one line per video) or "Progress" (live progress bar) for --semantic-only.</summary>
+    public string ConsoleMode { get; init; } = "Plain";
+    public bool MetadataOnly { get; init; }
+    public bool VerifyCommentCount { get; init; }
     public int DownloadConcurrency { get; init; } = 2;
     public SemanticIndexSettings SemanticIndex { get; init; } = new();
 }

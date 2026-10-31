@@ -7,6 +7,10 @@ public sealed record VideoSemanticIndex
     public float[] Embedding { get; init; } = [];
     public string TranscriptHash { get; init; } = "";
     public string SummaryModel { get; init; } = "";
+
+    /// <summary>Version of the summary/inputs prompt and schema that produced this artifact.</summary>
+    public int PromptVersion { get; init; }
+    public VideoInputs Inputs { get; init; } = new();
     public string EmbeddingModel { get; init; } = "";
     public int EmbeddingDimensions { get; init; }
     public DateTimeOffset GeneratedAt { get; init; }

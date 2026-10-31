@@ -8,6 +8,7 @@ namespace login.Services;
 
 public sealed record CorpusVideo(
     string VideoId,
+    string Title,
     string TranscriptText,
     string Categories,
     string Keywords,
@@ -92,6 +93,7 @@ public sealed class CorpusInventoryReader(
             var equipment = FindInventoryTerms(normalizedText, inventoryOptions.Value.Equipment);
             videos.Add(new CorpusVideo(
                 videoId,
+                ReadTitle(folder),
                 transcript,
                 string.Join("|", matchedCategories.Distinct(StringComparer.OrdinalIgnoreCase)),
                 string.Join("|", matchedKeywords.Distinct(StringComparer.OrdinalIgnoreCase)),
@@ -101,6 +103,21 @@ public sealed class CorpusInventoryReader(
         }
 
         return new CorpusInventory(folders.Length, videos, omitted);
+    }
+
+    private static string ReadTitle(string folder)
+    {
+        var metadataPath = Path.Combine(folder, "metadata.json");
+        if (!File.Exists(metadataPath))
+        {
+            return string.Empty;
+        }
+
+        using var metadata = JsonDocument.Parse(File.ReadAllText(metadataPath));
+        return metadata.RootElement.TryGetProperty("Title", out var title) &&
+            title.ValueKind == JsonValueKind.String
+                ? title.GetString()?.Trim() ?? string.Empty
+                : string.Empty;
     }
 
     private static string? ReadTranscript(string folder, out string reason)

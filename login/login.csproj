@@ -10,7 +10,8 @@
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
     <!-- Native sqlite-vector binaries (vector.dll / vector.so) are copied when present in the project folder. -->
-    <None Include="vector.dll;vector.so" Condition="Exists('vector.dll') Or Exists('vector.so')" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="vector.dll" Condition="Exists('vector.dll')" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="vector.so" Condition="Exists('vector.so')" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>

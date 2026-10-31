@@ -1,5 +1,21 @@
 # Instrucciones del repositorio
 
+## README.md de los proyectos
+
+Al crear o actualizar el `README.md` de un proyecto, divídelo en dos secciones principales: **Usuario** y **Desarrollador**.
+
+### Usuario
+
+- Resume brevemente qué hace el proyecto y cómo se utiliza.
+- Documenta la superficie de uso que corresponda: parámetros con ejemplos, endpoints o las páginas de la aplicación y su función.
+
+### Desarrollador
+
+- Describe la aplicación por módulos y modelos, explicando brevemente la función de cada namespace.
+- Enumera los requisitos especiales que se deben tener en cuenta para desarrollar, ejecutar, probar o publicar el proyecto.
+
+Cuando una funcionalidad quede terminada y cambie de forma relevante el uso o la estructura del proyecto, sugiere actualizar el `README.md`. No lo sugieras automáticamente al terminar cada funcionalidad.
+
 ## sqlite-vector (búsqueda vectorial en SQLite)
 
 Validado en Windows x64 con `Microsoft.EntityFrameworkCore.Sqlite` 10.0.12 (net10.0, SQLite 3.53.3) y `sqlite-vector` 1.1.2 (https://github.com/sqliteai/sqlite-vector).
