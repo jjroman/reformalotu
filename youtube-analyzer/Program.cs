@@ -463,7 +463,8 @@ async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
             videoId,
             videoOutputDirectory,
             cachedTranscript,
-            jsonOptions);
+            jsonOptions,
+            semanticReporter.WriteDiagnostic);
 
         semanticReporter.VideoCompleted(
             generated ? VideoOutcome.Generated : VideoOutcome.UpToDate,

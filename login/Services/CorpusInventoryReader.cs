@@ -166,8 +166,7 @@ public sealed class CorpusInventoryReader(
         }
 
         transcript = transcript?.Trim();
-        if (!string.IsNullOrWhiteSpace(transcript) &&
-            Regex.IsMatch(Regex.Replace(transcript, @"\[Música\]", " ", RegexOptions.IgnoreCase), @"\p{L}{3,}"))
+        if (!string.IsNullOrWhiteSpace(transcript) && HasSpokenContent(transcript))
         {
             reason = string.Empty;
             return transcript;
@@ -181,6 +180,17 @@ public sealed class CorpusInventoryReader(
                     ? "empty-transcript"
                     : "transcript-missing";
         return null;
+    }
+
+    /// <summary>
+    /// Ignores bracketed sound annotations ([Música], [Music]...) and the placeholder words the
+    /// speech recognizer emits when nothing is said, so music-only videos are not imported.
+    /// </summary>
+    private static bool HasSpokenContent(string transcript)
+    {
+        var spoken = Regex.Replace(transcript, @"\[[^\]]*\]", " ");
+        spoken = Regex.Replace(spoken, @"\b(foreign|thank you|thanks|gracias)\b", " ", RegexOptions.IgnoreCase);
+        return Regex.IsMatch(spoken, @"\p{L}{3,}");
     }
 
     /// <summary>

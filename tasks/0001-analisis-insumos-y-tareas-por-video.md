@@ -4,7 +4,7 @@
 |---|---|
 | **Proyectos a modificar** | `youtube-analyzer` |
 | **Proyectos que no se modifican** | `login`, `login.Tests` (la importación a base de datos queda fuera de esta tarea) |
-| **Estado** | Pendiente |
+| **Estado** | Finalizada |
 
 ## Contexto
 Hoy el analyzer genera por video un resumen con embedding y, desde `promptVersion` 2, un bloque `inputs` con materiales, equipos y mano de obra. No hay secuencia de pasos para ejecutar la actividad, ni se sabe qué insumo se usa en qué paso. Sin eso no se puede calcular un análisis de insumos unitarios.

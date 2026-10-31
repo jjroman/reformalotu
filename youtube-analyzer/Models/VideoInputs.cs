@@ -13,6 +13,7 @@ public sealed record VideoInputs
 
 public sealed record MaterialInput
 {
+    public string Id { get; init; } = "";
     public string Name { get; init; } = "";
     public string? Brand { get; init; }
 
@@ -28,6 +29,7 @@ public sealed record MaterialInput
 
 public sealed record EquipmentInput
 {
+    public string Id { get; init; } = "";
     public string Name { get; init; } = "";
 
     /// <summary>manual_tool, power_tool, machinery, safety or other.</summary>
@@ -41,14 +43,27 @@ public sealed record EquipmentInput
 
 public sealed record LaborInput
 {
+    public string Id { get; init; } = "";
+
     /// <summary>Trade, e.g. carpintero, albañil, electricista.</summary>
     public string Role { get; init; } = "";
 
     /// <summary>"lead" for the main trade, "helper" for assistants.</summary>
     public string Level { get; init; } = "lead";
     public int? Headcount { get; init; }
-    public string? Tasks { get; init; }
     public double? EstimatedHours { get; init; }
     public string? Notes { get; init; }
+    public int Confidence { get; init; }
+}
+
+public sealed record VideoTask
+{
+    public int Order { get; init; }
+    public string Title { get; init; } = "";
+    public string Description { get; init; } = "";
+    public double? EstimatedMinutes { get; init; }
+    public IReadOnlyList<string> MaterialIds { get; init; } = [];
+    public IReadOnlyList<string> EquipmentIds { get; init; } = [];
+    public IReadOnlyList<string> LaborIds { get; init; } = [];
     public int Confidence { get; init; }
 }

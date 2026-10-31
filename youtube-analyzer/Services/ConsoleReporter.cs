@@ -15,6 +15,7 @@ internal enum VideoOutcome
 internal interface IConsoleReporter
 {
     void Begin(int total, int concurrency);
+    void WriteDiagnostic(string message);
     void VideoCompleted(VideoOutcome outcome, string message, TimeSpan? duration = null);
     void End();
 }
@@ -50,6 +51,8 @@ internal sealed class PlainConsoleReporter : IConsoleReporter
         var writer = outcome == VideoOutcome.Failed ? Console.Error : Console.Out;
         writer.WriteLine(message);
     }
+
+    public void WriteDiagnostic(string message) => Console.Error.WriteLine(message);
 
     public void End()
     {
@@ -115,6 +118,16 @@ internal sealed class ProgressBarConsoleReporter : IConsoleReporter
                 (outcome == VideoOutcome.Failed ? Console.Error : Console.Out).WriteLine(message);
             }
 
+            Render();
+        }
+    }
+
+    public void WriteDiagnostic(string message)
+    {
+        lock (_gate)
+        {
+            ClearLine();
+            Console.Error.WriteLine(message);
             Render();
         }
     }
