@@ -24,7 +24,10 @@ public sealed class VideoCatalogImporter(
     public async Task<VideoCatalogImportSummary> ImportAsync(CancellationToken cancellationToken = default)
     {
         var inventory = inventoryReader.Read();
-        var existingVideos = await dbContext.Videos.ToDictionaryAsync(
+        var existingVideos = await dbContext.Videos
+            .Include(video => video.Inputs)
+            .Include(video => video.Tasks)
+            .ToDictionaryAsync(
             video => video.VideoId,
             cancellationToken);
         // Projection without the embedding blob keeps the startup scan cheap.
@@ -33,6 +36,7 @@ public sealed class VideoCatalogImporter(
             .Select(index => new ExistingIndex(
                 index.VideoId,
                 index.TranscriptHash,
+                index.PromptVersion,
                 index.SummaryModel,
                 index.EmbeddingModel,
                 index.GeneratedAt))
@@ -47,27 +51,25 @@ public sealed class VideoCatalogImporter(
         foreach (var item in inventory.Videos)
         {
             var transcriptChanged = false;
-
             if (!existingVideos.TryGetValue(item.VideoId, out var existing))
             {
-                dbContext.Videos.Add(new VideoCatalogItem
+                existing = new VideoCatalogItem
                 {
                     VideoId = item.VideoId,
                     Title = item.Title,
                     TranscriptText = item.TranscriptText,
                     Categories = item.Categories,
-                    Keywords = item.Keywords,
-                    Materials = item.Materials.ToList(),
-                    Equipment = item.Equipment.ToList()
-                });
+                    Keywords = item.Keywords
+                };
+                ApplyAnalysis(existing, item.SemanticIndex);
+                dbContext.Videos.Add(existing);
+                existingVideos.Add(existing.VideoId, existing);
                 inserted++;
             }
             else if (existing.TranscriptText == item.TranscriptText &&
                 existing.Title == item.Title &&
                 existing.Categories == item.Categories &&
-                existing.Keywords == item.Keywords &&
-                existing.Materials.SequenceEqual(item.Materials, StringComparer.Ordinal) &&
-                existing.Equipment.SequenceEqual(item.Equipment, StringComparer.Ordinal))
+                existing.Keywords == item.Keywords)
             {
                 skipped++;
             }
@@ -78,9 +80,18 @@ public sealed class VideoCatalogImporter(
                 existing.TranscriptText = item.TranscriptText;
                 existing.Categories = item.Categories;
                 existing.Keywords = item.Keywords;
-                existing.Materials = item.Materials.ToList();
-                existing.Equipment = item.Equipment.ToList();
+                if (transcriptChanged && item.SemanticIndex is null)
+                {
+                    ApplyAnalysis(existing, null);
+                }
                 updated++;
+            }
+
+            if (item.SemanticIndex is { } analysis &&
+                (existing.AnalysisTranscriptHash != analysis.TranscriptHash ||
+                 existing.AnalysisPromptVersion != analysis.PromptVersion))
+            {
+                ApplyAnalysis(existing, analysis);
             }
 
             // The semantic index is reconciled even when the catalog row did not change,
@@ -91,7 +102,7 @@ public sealed class VideoCatalogImporter(
             {
                 if (currentIndex is not null && transcriptChanged)
                 {
-                    dbContext.VideoSemanticIndexes.Remove(new VideoSemanticIndex { VideoId = item.VideoId });
+                    RemoveSemanticIndex(item.VideoId);
                     indexesRemoved++;
                     currentIndex = null;
                 }
@@ -117,6 +128,7 @@ public sealed class VideoCatalogImporter(
 
             if (currentIndex is not null &&
                 currentIndex.TranscriptHash == artifact.TranscriptHash &&
+                currentIndex.PromptVersion == artifact.PromptVersion &&
                 currentIndex.SummaryModel == artifact.SummaryModel &&
                 currentIndex.EmbeddingModel == artifact.EmbeddingModel &&
                 currentIndex.GeneratedAt == artifact.GeneratedAt)
@@ -130,6 +142,7 @@ public sealed class VideoCatalogImporter(
                 Summary = artifact.Summary,
                 Embedding = MemoryMarshal.AsBytes(artifact.Embedding.AsSpan()).ToArray(),
                 TranscriptHash = artifact.TranscriptHash,
+                PromptVersion = artifact.PromptVersion,
                 SummaryModel = artifact.SummaryModel,
                 EmbeddingModel = artifact.EmbeddingModel,
                 EmbeddingDimensions = artifact.Embedding.Length,
@@ -139,6 +152,11 @@ public sealed class VideoCatalogImporter(
             if (currentIndex is null)
             {
                 dbContext.VideoSemanticIndexes.Add(entity);
+            }
+            else if (dbContext.ChangeTracker.Entries<VideoSemanticIndex>()
+                         .FirstOrDefault(entry => entry.Entity.VideoId == item.VideoId) is { } trackedIndex)
+            {
+                trackedIndex.CurrentValues.SetValues(entity);
             }
             else
             {
@@ -184,7 +202,71 @@ public sealed class VideoCatalogImporter(
     private sealed record ExistingIndex(
         string VideoId,
         string TranscriptHash,
+        int PromptVersion,
         string SummaryModel,
         string EmbeddingModel,
         DateTimeOffset GeneratedAt);
+
+    private static void ApplyAnalysis(VideoCatalogItem video, CorpusSemanticIndex? analysis)
+    {
+        video.Inputs.Clear();
+        video.Tasks.Clear();
+        video.AnalysisTranscriptHash = analysis?.TranscriptHash;
+        video.AnalysisPromptVersion = analysis?.PromptVersion;
+
+        if (analysis is null)
+        {
+            return;
+        }
+
+        foreach (var input in analysis.Inputs)
+        {
+            video.Inputs.Add(new VideoInput
+            {
+                VideoId = video.VideoId,
+                SourceId = input.SourceId,
+                Kind = input.Kind,
+                Name = input.Name,
+                Brand = input.Brand,
+                Specification = input.Specification,
+                Quantity = input.Quantity,
+                Unit = input.Unit,
+                Category = input.Category,
+                Level = input.Level,
+                Headcount = input.Headcount,
+                EstimatedHours = input.EstimatedHours,
+                Notes = input.Notes,
+                Confidence = input.Confidence
+            });
+        }
+
+        foreach (var task in analysis.Tasks)
+        {
+            video.Tasks.Add(new VideoTaskDefinition
+            {
+                VideoId = video.VideoId,
+                Order = task.Order,
+                Title = task.Title,
+                Description = task.Description,
+                EstimatedMinutes = task.EstimatedMinutes,
+                MaterialIds = task.MaterialIds.ToList(),
+                EquipmentIds = task.EquipmentIds.ToList(),
+                LaborIds = task.LaborIds.ToList(),
+                Confidence = task.Confidence
+            });
+        }
+    }
+
+    private void RemoveSemanticIndex(string videoId)
+    {
+        var trackedIndex = dbContext.ChangeTracker.Entries<VideoSemanticIndex>()
+            .FirstOrDefault(entry => entry.Entity.VideoId == videoId);
+        if (trackedIndex is not null)
+        {
+            trackedIndex.State = EntityState.Deleted;
+            return;
+        }
+
+        dbContext.VideoSemanticIndexes.Remove(new VideoSemanticIndex { VideoId = videoId });
+    }
 }

@@ -12,9 +12,32 @@ public sealed record CorpusVideo(
     string TranscriptText,
     string Categories,
     string Keywords,
-    IReadOnlyList<string> Materials,
-    IReadOnlyList<string> Equipment,
     CorpusSemanticIndex? SemanticIndex = null);
+
+public sealed record CorpusVideoInput(
+    string SourceId,
+    string Kind,
+    string Name,
+    string? Brand,
+    string? Specification,
+    double? Quantity,
+    string? Unit,
+    string? Category,
+    string? Level,
+    int? Headcount,
+    double? EstimatedHours,
+    string? Notes,
+    int Confidence);
+
+public sealed record CorpusVideoTask(
+    int Order,
+    string Title,
+    string Description,
+    double? EstimatedMinutes,
+    IReadOnlyList<string> MaterialIds,
+    IReadOnlyList<string> EquipmentIds,
+    IReadOnlyList<string> LaborIds,
+    int Confidence);
 
 /// <summary>Artifact produced by youtube-analyzer, already validated against the current transcript.</summary>
 public sealed record CorpusSemanticIndex(
@@ -23,7 +46,10 @@ public sealed record CorpusSemanticIndex(
     string TranscriptHash,
     string SummaryModel,
     string EmbeddingModel,
-    DateTimeOffset GeneratedAt);
+    DateTimeOffset GeneratedAt,
+    int PromptVersion,
+    IReadOnlyList<CorpusVideoInput> Inputs,
+    IReadOnlyList<CorpusVideoTask> Tasks);
 
 public sealed record CorpusInventory(
     int FolderCount,
@@ -33,8 +59,7 @@ public sealed record CorpusInventory(
 public sealed class CorpusInventoryReader(
     IWebHostEnvironment environment,
     IConfiguration configuration,
-    IOptions<VideoCatalogOptions> options,
-    IOptions<VideoInventoryOptions> inventoryOptions)
+    IOptions<VideoCatalogOptions> options)
 {
     private static readonly Regex VideoIdPattern = new("^[A-Za-z0-9_-]{11}$", RegexOptions.Compiled);
 
@@ -89,16 +114,12 @@ public sealed class CorpusInventoryReader(
                 matchedKeywords.AddRange(categoryMatches);
             }
 
-            var materials = FindInventoryTerms(normalizedText, inventoryOptions.Value.Materials);
-            var equipment = FindInventoryTerms(normalizedText, inventoryOptions.Value.Equipment);
             videos.Add(new CorpusVideo(
                 videoId,
                 ReadTitle(folder),
                 transcript,
                 string.Join("|", matchedCategories.Distinct(StringComparer.OrdinalIgnoreCase)),
                 string.Join("|", matchedKeywords.Distinct(StringComparer.OrdinalIgnoreCase)),
-                materials,
-                equipment,
                 ReadSemanticIndex(folder)));
         }
 
@@ -219,6 +240,7 @@ public sealed class CorpusInventoryReader(
                 !root.TryGetProperty("TranscriptHash", out var hash) || hash.ValueKind != JsonValueKind.String ||
                 !root.TryGetProperty("SummaryModel", out var summaryModel) || summaryModel.ValueKind != JsonValueKind.String ||
                 !root.TryGetProperty("EmbeddingModel", out var embeddingModel) || embeddingModel.ValueKind != JsonValueKind.String ||
+                !root.TryGetProperty("PromptVersion", out var promptVersion) || !promptVersion.TryGetInt32(out var version) ||
                 !root.TryGetProperty("GeneratedAt", out var generatedAt) || !generatedAt.TryGetDateTimeOffset(out var generated) ||
                 !root.TryGetProperty("Embedding", out var embedding) || embedding.ValueKind != JsonValueKind.Array)
             {
@@ -242,13 +264,18 @@ public sealed class CorpusInventoryReader(
                 return null;
             }
 
+            var inputs = version >= 3 ? ReadInputs(root) : [];
+            var tasks = version >= 3 ? ReadTasks(root) : [];
             return new CorpusSemanticIndex(
                 summary.GetString()!,
                 embedding.EnumerateArray().Select(value => value.GetSingle()).ToArray(),
                 currentHash,
                 summaryModel.GetString()!,
                 embeddingModel.GetString()!,
-                generated);
+                generated,
+                version,
+                inputs,
+                tasks);
         }
         catch (Exception exception) when (exception is JsonException or IOException or UnauthorizedAccessException or InvalidOperationException or FormatException)
         {
@@ -279,15 +306,173 @@ public sealed class CorpusInventoryReader(
         !string.IsNullOrWhiteSpace(normalizedTerm) &&
         $" {normalizedText} ".Contains($" {normalizedTerm} ", StringComparison.Ordinal);
 
-    private static IReadOnlyList<string> FindInventoryTerms(
-        string normalizedText,
-        IEnumerable<VideoInventoryTermOptions> terms) =>
-        terms
-            .Where(term => term.Keywords.Any(keyword =>
-                ContainsTerm(normalizedText, NormalizeForMatching(keyword))))
-            .Select(term => term.Name)
-            .Distinct(StringComparer.OrdinalIgnoreCase)
-            .ToArray();
+    private static IReadOnlyList<CorpusVideoInput> ReadInputs(JsonElement root)
+    {
+        if (!root.TryGetProperty("Inputs", out var inputs) ||
+            inputs.ValueKind != JsonValueKind.Object)
+        {
+            return [];
+        }
+
+        var result = new List<CorpusVideoInput>();
+        AddInputs(inputs, "Materials", "material", result, item => new CorpusVideoInput(
+            RequiredString(item, "Id"),
+            "material",
+            RequiredString(item, "Name"),
+            OptionalString(item, "Brand"),
+            OptionalString(item, "Specification"),
+            OptionalDouble(item, "Quantity"),
+            OptionalString(item, "Unit"),
+            null,
+            null,
+            null,
+            null,
+            OptionalString(item, "Notes"),
+            OptionalInt(item, "Confidence")));
+        AddInputs(inputs, "Equipment", "equipment", result, item => new CorpusVideoInput(
+            RequiredString(item, "Id"),
+            "equipment",
+            RequiredString(item, "Name"),
+            OptionalString(item, "Brand"),
+            OptionalString(item, "Specification"),
+            OptionalDouble(item, "Quantity"),
+            null,
+            OptionalString(item, "Category"),
+            null,
+            null,
+            null,
+            OptionalString(item, "Notes"),
+            OptionalInt(item, "Confidence")));
+        AddInputs(inputs, "Labor", "labor", result, item => new CorpusVideoInput(
+            RequiredString(item, "Id"),
+            "labor",
+            RequiredString(item, "Role"),
+            null,
+            null,
+            null,
+            null,
+            null,
+            OptionalString(item, "Level"),
+            OptionalInt(item, "Headcount"),
+            OptionalDouble(item, "EstimatedHours"),
+            OptionalString(item, "Notes"),
+            OptionalInt(item, "Confidence")));
+
+        if (result.Any(input => string.IsNullOrWhiteSpace(input.SourceId) || string.IsNullOrWhiteSpace(input.Name)) ||
+            result.Select(input => input.SourceId).Distinct(StringComparer.Ordinal).Count() != result.Count)
+        {
+            throw new JsonException("Semantic index input IDs must be unique and input names must not be empty.");
+        }
+
+        return result;
+    }
+
+    private static void AddInputs(
+        JsonElement inputs,
+        string propertyName,
+        string kind,
+        ICollection<CorpusVideoInput> destination,
+        Func<JsonElement, CorpusVideoInput> create)
+    {
+        if (!inputs.TryGetProperty(propertyName, out var array))
+        {
+            return;
+        }
+
+        if (array.ValueKind != JsonValueKind.Array)
+        {
+            throw new JsonException($"Semantic index Inputs.{propertyName} must be an array.");
+        }
+
+        foreach (var item in array.EnumerateArray())
+        {
+            if (item.ValueKind != JsonValueKind.Object)
+            {
+                throw new JsonException($"Semantic index Inputs.{propertyName} entries must be objects.");
+            }
+
+            var input = create(item);
+            destination.Add(input with { Kind = kind });
+        }
+    }
+
+    private static IReadOnlyList<CorpusVideoTask> ReadTasks(JsonElement root)
+    {
+        if (!root.TryGetProperty("Tasks", out var tasks))
+        {
+            return [];
+        }
+
+        if (tasks.ValueKind != JsonValueKind.Array)
+        {
+            throw new JsonException("Semantic index Tasks must be an array.");
+        }
+
+        var result = tasks.EnumerateArray().Select(task =>
+        {
+            if (task.ValueKind != JsonValueKind.Object ||
+                !task.TryGetProperty("Order", out var order) || !order.TryGetInt32(out var taskOrder))
+            {
+                throw new JsonException("Semantic index task entries must contain an order.");
+            }
+
+            return new CorpusVideoTask(
+                taskOrder,
+                RequiredString(task, "Title"),
+                OptionalString(task, "Description") ?? string.Empty,
+                OptionalDouble(task, "EstimatedMinutes"),
+                ReadStringArray(task, "MaterialIds"),
+                ReadStringArray(task, "EquipmentIds"),
+                ReadStringArray(task, "LaborIds"),
+                OptionalInt(task, "Confidence"));
+        }).OrderBy(task => task.Order).ToArray();
+
+        if (result.Any(task => task.Order < 1 || string.IsNullOrWhiteSpace(task.Title)) ||
+            result.Select(task => task.Order).Distinct().Count() != result.Length)
+        {
+            throw new JsonException("Semantic index task orders must be positive, unique, and have titles.");
+        }
+
+        return result;
+    }
+
+    private static List<string> ReadStringArray(JsonElement element, string propertyName)
+    {
+        if (!element.TryGetProperty(propertyName, out var value))
+        {
+            return [];
+        }
+
+        if (value.ValueKind != JsonValueKind.Array)
+        {
+            throw new JsonException($"Semantic index {propertyName} must be an array.");
+        }
+
+        return value.EnumerateArray()
+            .Where(item => item.ValueKind == JsonValueKind.String)
+            .Select(item => item.GetString()!)
+            .ToList();
+    }
+
+    private static string RequiredString(JsonElement element, string propertyName) =>
+        OptionalString(element, propertyName)
+        ?? throw new JsonException($"Semantic index field {propertyName} must be a non-empty string.");
+
+    private static string? OptionalString(JsonElement element, string propertyName) =>
+        element.TryGetProperty(propertyName, out var value) && value.ValueKind == JsonValueKind.String
+            ? value.GetString()
+            : null;
+
+    private static double? OptionalDouble(JsonElement element, string propertyName) =>
+        element.TryGetProperty(propertyName, out var value) && value.ValueKind == JsonValueKind.Number &&
+        value.TryGetDouble(out var number)
+            ? number
+            : null;
+
+    private static int OptionalInt(JsonElement element, string propertyName) =>
+        element.TryGetProperty(propertyName, out var value) && value.TryGetInt32(out var number)
+            ? number
+            : 0;
 
     private static string NormalizeForMatching(string value) =>
         Regex.Replace(TextNormalizer.Normalize(value), @"[^\p{L}\p{N}]+", " ").Trim();

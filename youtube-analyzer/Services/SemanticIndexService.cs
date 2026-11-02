@@ -21,8 +21,12 @@ internal sealed class SemanticIndexSettings
     /// <summary>Videos processed at the same time in --semantic-only mode.</summary>
     public int MaxConcurrency { get; init; } = 4;
 
+    /// <summary>Network timeout per attempt; structured output over long transcripts can exceed the 100 s default.</summary>
+    public int RequestTimeoutSeconds { get; init; } = 300;
+
     public bool IsConfigured =>
         Uri.TryCreate(Endpoint, UriKind.Absolute, out var uri)
+        && RequestTimeoutSeconds > 0
         && uri.Scheme == Uri.UriSchemeHttps
         && !string.IsNullOrWhiteSpace(SummaryDeployment)
         && !string.IsNullOrWhiteSpace(EmbeddingDeployment)
@@ -311,9 +315,13 @@ internal sealed class SemanticIndexService
         _settings = settings;
         var endpoint = new Uri(settings.Endpoint);
         // Falls back to Entra ID (az login) when no API key is provided.
+        var clientOptions = new AzureOpenAIClientOptions
+        {
+            NetworkTimeout = TimeSpan.FromSeconds(settings.RequestTimeoutSeconds)
+        };
         var client = string.IsNullOrWhiteSpace(apiKey)
-            ? new AzureOpenAIClient(endpoint, new DefaultAzureCredential())
-            : new AzureOpenAIClient(endpoint, new ApiKeyCredential(apiKey));
+            ? new AzureOpenAIClient(endpoint, new DefaultAzureCredential(), clientOptions)
+            : new AzureOpenAIClient(endpoint, new ApiKeyCredential(apiKey), clientOptions);
         _chatClient = client.GetChatClient(settings.SummaryDeployment);
         _embeddingClient = client.GetEmbeddingClient(settings.EmbeddingDeployment);
     }

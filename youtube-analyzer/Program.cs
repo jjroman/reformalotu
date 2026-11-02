@@ -473,6 +473,16 @@ async Task EnsureSemanticIndexAsync(string videoId, string videoOutputDirectory)
                 : $"Semantic index for {videoId} is up to date.",
             videoStopwatch.Elapsed);
     }
+    // The client's retry policy wraps exhausted timeouts in an AggregateException; no cancellation token is
+    // passed in this mode, so any cancellation here is a request timeout and must not stop the whole batch.
+    catch (Exception exception) when (exception is OperationCanceledException
+        or AggregateException { InnerExceptions: [OperationCanceledException, ..] })
+    {
+        semanticReporter.VideoCompleted(
+            VideoOutcome.Failed,
+            $"Semantic index timed out for {videoId} (started {videoStartedAt:HH:mm:ss}, after {videoStopwatch.Elapsed:mm\\:ss\\.f}). "
+            + "Rerun to retry it, or lower SemanticIndex:MaxConcurrency / MaxTranscriptCharacters, or raise RequestTimeoutSeconds.");
+    }
     catch (Exception exception) when (exception is ClientResultException
         or RequestFailedException
         or AuthenticationFailedException

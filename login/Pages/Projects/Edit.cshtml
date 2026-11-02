@@ -9,7 +9,7 @@
         <div>
             <span class="product-eyebrow">AJUSTA TU IDEA</span>
             <h1>Editar proyecto</h1>
-            <p>Al guardar, buscaremos recomendaciones con la descripción actualizada.</p>
+            <p>Actualiza el nombre, la descripción o la categoría de tu proyecto.</p>
         </div>
     </header>
     <form method="post" class="project-form">
@@ -38,7 +38,7 @@
             <span asp-validation-for="Input.Category" class="text-danger"></span>
         </div>
         <div class="project-form-actions">
-            <button type="submit" class="btn btn-primary">Guardar cambios y buscar vídeos</button>
+            <button type="submit" class="btn btn-primary">Guardar cambios</button>
             <a asp-page="./Details" asp-route-id="@RouteData.Values["id"]" class="btn btn-outline-secondary">Cancelar</a>
         </div>
     </form>

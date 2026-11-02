@@ -44,6 +44,34 @@ public sealed class SemanticVideoSearchServiceTests
         Assert.Equal(0d, result.BestSimilarity!.Value, 3);
     }
 
+    [Fact]
+    public async Task SearchPageReturnsStableResultsWithoutRepeatingVideos()
+    {
+        await using var connection = await CreateConnectionAsync();
+        await using var dbContext = CreateDbContext(connection);
+        foreach (var id in new[] { "near-a", "near-b", "near-c", "near-d" })
+        {
+            var vector = new[] { 1f, 0f, 0f };
+            dbContext.Videos.Add(new VideoCatalogItem { VideoId = id, Title = id });
+            dbContext.VideoSemanticIndexes.Add(new VideoSemanticIndex
+            {
+                VideoId = id,
+                Summary = $"Resumen {id}",
+                Embedding = MemoryMarshal.AsBytes(vector.AsSpan()).ToArray()
+            });
+        }
+        await dbContext.SaveChangesAsync();
+
+        var service = CreateService(dbContext, [1f, 0f, 0f]);
+        var firstPage = await service.SearchPageAsync("cocina", 0, 3);
+        var secondPage = await service.SearchPageAsync("cocina", 3, 3);
+
+        Assert.Equal(["near-a", "near-b", "near-c"], firstPage.Matches.Select(match => match.VideoId));
+        Assert.True(firstPage.HasMore);
+        Assert.Equal(["near-d"], secondPage.Matches.Select(match => match.VideoId));
+        Assert.False(secondPage.HasMore);
+    }
+
     private static SemanticVideoSearchService CreateService(ApplicationDbContext dbContext, float[] queryVector) =>
         new(
             dbContext,
@@ -82,4 +110,3 @@ public sealed class SemanticVideoSearchServiceTests
         return dbContext;
     }
 }
-

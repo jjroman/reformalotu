@@ -4,7 +4,7 @@ public sealed class SemanticSearchOptions
 {
     public const string SectionName = "SemanticSearch";
 
-    /// <summary>Azure OpenAI endpoint; falls back to the VideoAssessment endpoint when empty.</summary>
+    /// <summary>Azure OpenAI endpoint; falls back to the ProjectAi endpoint when empty.</summary>
     public string? Endpoint { get; init; }
 
     /// <summary>Embedding deployment; must be the same model that generated the stored vectors.</summary>

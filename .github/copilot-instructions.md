@@ -16,6 +16,24 @@ Al crear o actualizar el `README.md` de un proyecto, divídelo en dos secciones 
 
 Cuando una funcionalidad quede terminada y cambie de forma relevante el uso o la estructura del proyecto, sugiere actualizar el `README.md`. No lo sugieras automáticamente al terminar cada funcionalidad.
 
+## Requerimientos (tareas)
+
+Cada requerimiento es un archivo `tasks/NNNN-slug-en-kebab-case.md` con numeración correlativa de cuatro dígitos. Antes de crearlo, revisa el código actual y las tareas previas, y detecta lo que ya existe para no duplicarlo.
+
+Estructura, en español y concisa:
+
+1. Título `# NNNN - ...` y tabla con **Proyectos a modificar**, **Proyectos que no se modifican** y **Estado** (Pendiente / En curso / Finalizada).
+2. **Contexto:** situación actual verificada en el código.
+3. **Historia de usuario:** «Como … quiero … para …».
+4. **Alcance:** subsecciones **Entra** y **No entra**.
+5. **Reglas** (seguridad, portabilidad, UX, datos) cuando apliquen.
+6. **Criterios de aceptación** verificables.
+7. **Validación:** pruebas automáticas y revisión manual.
+8. **Preguntas abiertas**, si las hay; se resuelven antes de implementar.
+9. **Definición de terminado.**
+
+Una tarea define el qué, no el cómo; no incluye código. Actualiza su **Estado** al avanzar.
+
 ## sqlite-vector (búsqueda vectorial en SQLite)
 
 Validado en Windows x64 con `Microsoft.EntityFrameworkCore.Sqlite` 10.0.12 (net10.0, SQLite 3.53.3) y `sqlite-vector` 1.1.2 (https://github.com/sqliteai/sqlite-vector).

@@ -27,10 +27,13 @@ Edita `appsettings.json` para seleccionar un vídeo o un canal. `VideoId` tiene 
     "EmbeddingDeployment": "",
     "EmbeddingDimensions": 1536,
     "MaxTranscriptCharacters": 60000,
-    "MaxConcurrency": 4
+    "MaxConcurrency": 4,
+    "RequestTimeoutSeconds": 300
   }
 }
 ```
+
+`RequestTimeoutSeconds` es el timeout de red por intento (por defecto 300). Si un vídeo agota los reintentos, se marca como fallido y el lote continúa; vuelve a ejecutar para reintentarlo.
 
 Configura al menos `VideoId` o `Channel`. Para un canal se acepta el ID, el identificador o el handle de YouTube. El índice semántico se genera solo si `SemanticIndex` tiene un endpoint HTTPS y ambos despliegues configurados.
 

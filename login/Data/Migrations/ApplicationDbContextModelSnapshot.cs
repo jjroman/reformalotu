@@ -209,28 +209,106 @@ namespace login.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("login.Data.ProjectRecommendation", b =>
+            modelBuilder.Entity("ProjectInputProjectTask", b =>
                 {
+                    b.Property<Guid>("InputsId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("TasksId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("InputsId", "TasksId");
+
+                    b.HasIndex("TasksId");
+
+                    b.ToTable("ProjectTaskInputs", (string)null);
+                });
+
+            modelBuilder.Entity("login.Data.ProjectInput", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Brand")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Category")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("EstimatedHours")
+                        .HasColumnType("REAL");
+
+                    b.Property<int?>("Headcount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("IsManual")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Level")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("TEXT");
+
                     b.Property<Guid>("ProjectId")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("VideoId")
+                    b.Property<double?>("Quantity")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("Specification")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Position")
+                    b.Property<string>("Unit")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProjectId");
+
+                    b.ToTable("ProjectInputs");
+                });
+
+            modelBuilder.Entity("login.Data.ProjectTask", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDone")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Score")
+                    b.Property<int>("Order")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("ProjectId", "VideoId");
+                    b.Property<Guid>("ProjectId")
+                        .HasColumnType("TEXT");
 
-                    b.HasIndex("VideoId");
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("TEXT");
 
-                    b.HasIndex("ProjectId", "Position")
-                        .IsUnique();
+                    b.HasKey("Id");
 
-                    b.ToTable("ProjectRecommendations");
+                    b.HasIndex("ProjectId");
+
+                    b.ToTable("ProjectTasks");
                 });
 
             modelBuilder.Entity("login.Data.ReformProject", b =>
@@ -258,7 +336,15 @@ namespace login.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("SelectedVideoId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WorkDescription")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("SelectedVideoId");
 
                     b.HasIndex("OwnerId", "CreatedAt");
 
@@ -271,19 +357,17 @@ namespace login.Data.Migrations
                         .HasMaxLength(11)
                         .HasColumnType("TEXT");
 
+                    b.Property<int?>("AnalysisPromptVersion")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AnalysisTranscriptHash")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Categories")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.PrimitiveCollection<string>("Equipment")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Keywords")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.PrimitiveCollection<string>("Materials")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -304,6 +388,59 @@ namespace login.Data.Migrations
                     b.HasKey("VideoId");
 
                     b.ToTable("Videos");
+                });
+
+            modelBuilder.Entity("login.Data.VideoInput", b =>
+                {
+                    b.Property<string>("VideoId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SourceId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Brand")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Category")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Confidence")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<double?>("EstimatedHours")
+                        .HasColumnType("REAL");
+
+                    b.Property<int?>("Headcount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Level")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("Quantity")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("Specification")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Unit")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("VideoId", "SourceId");
+
+                    b.ToTable("VideoInputs");
                 });
 
             modelBuilder.Entity("login.Data.VideoSemanticIndex", b =>
@@ -327,6 +464,9 @@ namespace login.Data.Migrations
                     b.Property<DateTimeOffset>("GeneratedAt")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("PromptVersion")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Summary")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -344,6 +484,46 @@ namespace login.Data.Migrations
                     b.HasKey("VideoId");
 
                     b.ToTable("VideoSemanticIndexes");
+                });
+
+            modelBuilder.Entity("login.Data.VideoTaskDefinition", b =>
+                {
+                    b.Property<string>("VideoId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Confidence")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EquipmentIds")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("EstimatedMinutes")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("LaborIds")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("MaterialIds")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("VideoId", "Order");
+
+                    b.ToTable("VideoTaskDefinitions");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -397,23 +577,41 @@ namespace login.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("login.Data.ProjectRecommendation", b =>
+            modelBuilder.Entity("ProjectInputProjectTask", b =>
+                {
+                    b.HasOne("login.Data.ProjectInput", null)
+                        .WithMany()
+                        .HasForeignKey("InputsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("login.Data.ProjectTask", null)
+                        .WithMany()
+                        .HasForeignKey("TasksId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("login.Data.ProjectInput", b =>
                 {
                     b.HasOne("login.Data.ReformProject", "Project")
-                        .WithMany("Recommendations")
+                        .WithMany("Inputs")
                         .HasForeignKey("ProjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("login.Data.VideoCatalogItem", "Video")
-                        .WithMany()
-                        .HasForeignKey("VideoId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                    b.Navigation("Project");
+                });
+
+            modelBuilder.Entity("login.Data.ProjectTask", b =>
+                {
+                    b.HasOne("login.Data.ReformProject", "Project")
+                        .WithMany("Tasks")
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Project");
-
-                    b.Navigation("Video");
                 });
 
             modelBuilder.Entity("login.Data.ReformProject", b =>
@@ -424,14 +622,43 @@ namespace login.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("login.Data.VideoCatalogItem", "SelectedVideo")
+                        .WithMany()
+                        .HasForeignKey("SelectedVideoId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.Navigation("Owner");
+
+                    b.Navigation("SelectedVideo");
+                });
+
+            modelBuilder.Entity("login.Data.VideoInput", b =>
+                {
+                    b.HasOne("login.Data.VideoCatalogItem", "Video")
+                        .WithMany("Inputs")
+                        .HasForeignKey("VideoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Video");
                 });
 
             modelBuilder.Entity("login.Data.VideoSemanticIndex", b =>
                 {
                     b.HasOne("login.Data.VideoCatalogItem", "Video")
-                        .WithOne()
+                        .WithOne("SemanticIndex")
                         .HasForeignKey("login.Data.VideoSemanticIndex", "VideoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Video");
+                });
+
+            modelBuilder.Entity("login.Data.VideoTaskDefinition", b =>
+                {
+                    b.HasOne("login.Data.VideoCatalogItem", "Video")
+                        .WithMany("Tasks")
+                        .HasForeignKey("VideoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -440,7 +667,18 @@ namespace login.Data.Migrations
 
             modelBuilder.Entity("login.Data.ReformProject", b =>
                 {
-                    b.Navigation("Recommendations");
+                    b.Navigation("Inputs");
+
+                    b.Navigation("Tasks");
+                });
+
+            modelBuilder.Entity("login.Data.VideoCatalogItem", b =>
+                {
+                    b.Navigation("Inputs");
+
+                    b.Navigation("SemanticIndex");
+
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }

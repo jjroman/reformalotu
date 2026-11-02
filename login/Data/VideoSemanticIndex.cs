@@ -9,6 +9,7 @@ public sealed class VideoSemanticIndex
     public byte[] Embedding { get; set; } = [];
 
     public string TranscriptHash { get; set; } = string.Empty;
+    public int PromptVersion { get; set; }
     public string SummaryModel { get; set; } = string.Empty;
     public string EmbeddingModel { get; set; } = string.Empty;
     public int EmbeddingDimensions { get; set; }

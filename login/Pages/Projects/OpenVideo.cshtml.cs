@@ -21,12 +21,12 @@ public sealed class OpenVideoModel(ApplicationDbContext dbContext) : PageModel
             return Forbid();
         }
 
-        var belongsToProject = await dbContext.ProjectRecommendations
+        var belongsToProject = await dbContext.Projects
             .AnyAsync(
-                recommendation =>
-                    recommendation.ProjectId == projectId &&
-                    recommendation.VideoId == videoId &&
-                    recommendation.Project.OwnerId == ownerId,
+                project =>
+                    project.Id == projectId &&
+                    project.SelectedVideoId == videoId &&
+                    project.OwnerId == ownerId,
                 cancellationToken);
         if (!belongsToProject)
         {

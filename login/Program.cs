@@ -10,15 +10,13 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.Configure<SqliteVectorOptions>(builder.Configuration.GetSection("SqliteVector"));
 builder.Services.AddSingleton<SqliteVectorConnectionInterceptor>();
 builder.Services.AddDbContext<ApplicationDbContext>((provider, options) =>
-    options.UseSqlite(connectionString)
+    options.UseSqlite(connectionString, sqlite => sqlite.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery))
         .AddInterceptors(provider.GetRequiredService<SqliteVectorConnectionInterceptor>()));
 builder.Services.Configure<VideoCatalogOptions>(builder.Configuration.GetSection("VideoCatalog"));
-builder.Services.Configure<VideoInventoryOptions>(builder.Configuration.GetSection("VideoInventory"));
-builder.Services.AddVideoAssessment(builder.Configuration, builder.Environment);
 builder.Services.AddSemanticSearch(builder.Configuration, builder.Environment);
+builder.Services.AddProjectAi(builder.Configuration, builder.Environment);
 builder.Services.AddSingleton<CorpusInventoryReader>();
 builder.Services.AddScoped<VideoCatalogImporter>();
-builder.Services.AddScoped<VideoRecommendationService>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>

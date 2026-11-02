@@ -43,8 +43,7 @@ public sealed class CorpusInventoryReaderTests
         var reader = new CorpusInventoryReader(
             new TestWebHostEnvironment(),
             configuration,
-            Options.Create(new VideoCatalogOptions()),
-            Options.Create(new VideoInventoryOptions()));
+            Options.Create(new VideoCatalogOptions()));
 
         return reader.Read();
     }

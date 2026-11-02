@@ -13,7 +13,6 @@ namespace login.Pages.Projects;
 [Authorize]
 public sealed class EditModel(
     ApplicationDbContext dbContext,
-    VideoRecommendationService recommendationService,
     IOptions<VideoCatalogOptions> options) : PageModel
 {
     [BindProperty]
@@ -74,24 +73,6 @@ public sealed class EditModel(
         project.Description = Input.Description.Trim();
         project.Category = Input.Category;
         await dbContext.SaveChangesAsync(cancellationToken);
-
-        var recommendations = await recommendationService.RecommendAsync(
-            project.Description,
-            project.Category,
-            cancellationToken);
-        dbContext.ProjectRecommendations.RemoveRange(project.Recommendations);
-        for (var index = 0; index < recommendations.Count; index++)
-        {
-            dbContext.ProjectRecommendations.Add(new ProjectRecommendation
-            {
-                ProjectId = project.Id,
-                VideoId = recommendations[index].Video.VideoId,
-                Position = index + 1,
-                Score = recommendations[index].Score
-            });
-        }
-
-        await dbContext.SaveChangesAsync(cancellationToken);
         return RedirectToPage("./Details", new { id });
     }
 
@@ -104,7 +85,6 @@ public sealed class EditModel(
         }
 
         return dbContext.Projects
-            .Include(project => project.Recommendations)
             .FirstOrDefaultAsync(
                 project => project.Id == id && project.OwnerId == ownerId,
                 cancellationToken);

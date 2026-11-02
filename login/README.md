@@ -1,67 +1,67 @@
 # login
 
-Aplicación web ASP.NET Core Razor Pages para registro e inicio de sesión y para gestionar proyectos de reforma de ReformaloTu. Cada usuario puede guardar proyectos con una descripción y recibir vídeos relacionados del catálogo.
+## Usuario
 
-## Funcionalidades
+ReformaloTu permite organizar proyectos de reforma, buscar vídeos relacionados mediante búsqueda semántica y llevar listas propias de materiales, equipos, mano de obra y tareas.
 
-- Registro e inicio de sesión con ASP.NET Core Identity; inicio de sesión con Google cuando se configura OAuth.
-- Creación, consulta, edición y eliminación de proyectos del usuario.
-- Catálogo de vídeos indexados desde el corpus de `youtube-analyzer`, con filtros de texto y palabras clave.
-- Recomendación de vídeos para un proyecto, con búsqueda semántica y evaluación de relevancia mediante Azure OpenAI cuando están configuradas.
-- Persistencia local con SQLite y migraciones de Entity Framework Core.
+### Páginas
 
-## Requisitos
+- **Crear proyecto (`/Projects/Create`):** indica nombre, descripción y categoría, busca vídeos relevantes en tandas de tres y elige una referencia o crea el proyecto sin vídeo. El proyecto solo se guarda al elegir un vídeo o continuar sin él.
+- **Mis proyectos (`/Projects/Index`):** consulta los proyectos de la cuenta autenticada.
+- **Detalle (`/Projects/Details/{id}`):** consulta la descripción, el vídeo seleccionado y su propuesta de trabajo; añade o elimina elementos de las listas, marca tareas como hechas, y cambia o quita el vídeo. Al reemplazarlo se pide confirmación y las listas actuales se sustituyen.
+- **Editar proyecto (`/Projects/Edit/{id}`):** actualiza el nombre, la descripción y la categoría.
+- **Abrir vídeo (`/Projects/OpenVideo`):** abre en YouTube el vídeo asociado al proyecto.
+- **Prueba de búsqueda (`/Interno/SearchTest`):** herramienta interna para comprobar la búsqueda semántica.
+- **Acceso:** registro e inicio de sesión; el acceso con Google está disponible al configurar OAuth.
+
+Los materiales, equipos, oficios y tareas se importan del análisis del vídeo y se copian al proyecto para que sus cambios no afecten al catálogo ni a otros proyectos. Las cantidades u horas no informadas se muestran como no indicadas; el contenido detectado no garantiza una lista completa ni asesoramiento profesional. La descripción de trabajo generada con IA es opcional: si falla, el vídeo y las listas se conservan y se puede reintentar.
+
+## Desarrollador
+
+### Módulos y modelos
+
+- `login.Pages`: páginas Razor para autenticación, proyectos y herramientas internas. Las operaciones de proyecto están autorizadas y restringidas al propietario.
+- `login.Data`: `ReformProject` y sus entidades editables (`ProjectInput`, `ProjectTask`); catálogo (`VideoCatalogItem`, `VideoInput`, `VideoTaskDefinition`) e índice semántico (`VideoSemanticIndex`). `ApplicationDbContext` configura persistencia relacional compatible con SQLite y PostgreSQL.
+- `login.Services`: lectura e importación reejecutable del análisis, búsqueda semántica paginada, asociación/copia de vídeo a proyectos y generación opcional de la descripción de trabajo.
+- `login.Tests`: pruebas de importación, paginación semántica y ciclo de vida de vídeos, insumos y tareas.
+- `youtube-analyzer`: proyecto relacionado que produce el catálogo e índices semánticos; esta funcionalidad consume `Inputs` y `Tasks` del índice v3.
+
+### Requisitos y configuración
 
 - .NET 10 SDK.
-- Azure CLI (`az login`) para usar Azure OpenAI con las credenciales de desarrollo cuando la evaluación o la búsqueda semántica estén habilitadas.
-- Opcional: credenciales OAuth de Google para habilitar ese proveedor de inicio de sesión.
-- Opcional: la extensión nativa `sqlite-vector` (`vector.dll` en Windows o `vector.so` en Linux) para búsquedas vectoriales. Si no está disponible, la aplicación conserva la búsqueda semántica mediante el recorrido alternativo en memoria.
+- Azure OpenAI con un despliegue de embeddings para la búsqueda semántica. En desarrollo se pueden usar las credenciales de Azure CLI (`az login`); fuera de desarrollo se usa `DefaultAzureCredential`. Si la búsqueda no está disponible, se informa del error y se puede crear el proyecto sin vídeo.
+- La generación de la descripción de trabajo usa `ProjectAi:Enabled`, `ProjectAi:Endpoint` y `ProjectAi:Deployment`. Se puede deshabilitar; al habilitarla en desarrollo se autentica con Azure CLI.
+- Opcional: credenciales OAuth de Google.
+- Opcional: extensión nativa `sqlite-vector` (`vector.dll` en Windows o `vector.so` en Linux). La búsqueda semántica cuenta con un recorrido alternativo en memoria si la extensión no está disponible.
 
-## Configuración local
-
-La configuración general está en `appsettings.json`. La aplicación usa por defecto `DataSource=app.db;Cache=Shared`, así que la base de datos local se crea en la carpeta del proyecto.
-
-No guardes claves ni secretos en archivos versionados. Para configurar Google OAuth, ejecuta desde la carpeta `login`:
+La configuración general está en `appsettings.json`. La base predeterminada usa SQLite (`DataSource=app.db;Cache=Shared`). No guardes claves ni secretos en archivos versionados. Configura OAuth con User Secrets desde la carpeta `login`:
 
 ```powershell
 dotnet user-secrets set "Authentication:Google:ClientId" "tu-client-id"
 dotnet user-secrets set "Authentication:Google:ClientSecret" "tu-client-secret"
 ```
 
-En desarrollo, Azure Identity utiliza las credenciales de Azure CLI. Inicia sesión con `az login` y comprueba que la cuenta tenga acceso al recurso y a los despliegues configurados en `VideoAssessment` y `SemanticSearch`. Si se requiere una clave de Azure OpenAI, se puede proporcionar mediante User Secrets con `VideoAssessment:ApiKey` o `SemanticSearch:ApiKey`.
-
-Algunos ajustes disponibles:
+Opciones principales:
 
 | Sección | Propósito |
 | --- | --- |
-| `ConnectionStrings:DefaultConnection` | Ruta y opciones de conexión SQLite. |
-| `VideoCatalog:Categories` | Categorías y palabras clave del catálogo. |
-| `VideoInventory:Materials` y `VideoInventory:Equipment` | Materiales y herramientas que se detectan en el contenido de los vídeos. |
-| `VideoAssessment` | Activación, endpoint y límites para evaluar la relevancia de candidatos con Azure OpenAI. |
-| `SemanticSearch` | Despliegue de embeddings, similitud mínima y máximo de resultados. |
+| `ConnectionStrings:DefaultConnection` | Proveedor y conexión de la base de datos. |
+| `VideoCatalog:Categories` | Categorías ofrecidas al crear un proyecto y sus términos asociados. |
+| `SemanticSearch:Endpoint`, `EmbeddingDeployment`, `MinimumSimilarity`, `MaxResults` | Despliegue de embeddings y umbral de búsqueda; el endpoint puede reutilizar `ProjectAi:Endpoint`. |
+| `ProjectAi:Enabled`, `Endpoint`, `Deployment` | Generación de la descripción de trabajo y endpoint compartido opcional. |
 | `SqliteVector:Dimensions` | Dimensión de los embeddings; debe coincidir con el modelo utilizado. |
-| `BootstrapAdmin:Email` | Correo opcional al que se asigna el rol `Admin` cuando esa cuenta ya existe. |
+| `BootstrapAdmin:Email` | Correo al que asignar el rol `Admin` cuando esa cuenta ya existe. |
 
-Para usar `sqlite-vector`, coloca el binario nativo compatible con el sistema operativo en la carpeta del proyecto (`login`) antes de ejecutar o publicar la aplicación. El proyecto lo copia al directorio de salida y al de publicación cuando está presente. Se puede definir `SqliteVector:LibraryPath` para indicar una ruta alternativa.
+Para usar `sqlite-vector`, coloca el binario nativo compatible en `login` o configura `SqliteVector:LibraryPath`. El proyecto copia el binario al directorio de salida y publicación cuando está presente.
 
-## Ejecutar
+### Ejecutar, probar y migrar
 
 Desde la raíz del repositorio:
 
 ```powershell
 dotnet run --project .\login\login.csproj
-```
-
-En el arranque, la aplicación aplica las migraciones de EF Core e importa el catálogo configurado. En desarrollo, las cuentas no requieren confirmar el correo; fuera de desarrollo, Identity exige confirmación.
-
-## Pruebas
-
-Desde la raíz del repositorio:
-
-```powershell
 dotnet test .\login.Tests\login.Tests.csproj
+dotnet ef database update --project .\login\login.csproj --startup-project .\login\login.csproj
 ```
 
-## Fuentes del catálogo
-
-El importador de vídeos lee los artefactos preparados por `youtube-analyzer`. Consulta `VideoCatalog` y `VideoInventory` en `appsettings.json` para configurar categorías, materiales y equipos usados durante la clasificación. El catálogo requiere transcripciones y, para búsqueda semántica, los índices generados en `semantic-index.json`.
+Al arrancar, la aplicación aplica las migraciones de EF Core e importa el catálogo configurado. El importador lee `semantic-index.json`; la versión del análisis y el hash de la transcripción determinan si los insumos y tareas deben sincronizarse. En desarrollo, las cuentas no requieren confirmar el correo; fuera de desarrollo, Identity exige confirmación.

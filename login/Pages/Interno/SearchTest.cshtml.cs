@@ -1,21 +1,17 @@
 using System.Globalization;
-using login.Data;
 using login.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
 namespace login.Pages.Interno;
 
 public sealed record SearchTestResult(string VideoId, string Title, string Score, string Summary);
 
-/// <summary>Standalone sandbox to compare semantic and current search. Stores nothing.</summary>
+/// <summary>Standalone sandbox to calibrate semantic search. Stores nothing.</summary>
 [Authorize(Roles = "Admin")]
 public sealed class SearchTestModel(
-    ApplicationDbContext dbContext,
-    VideoRecommendationService recommendationService,
     IServiceProvider services,
     IOptions<SemanticSearchOptions> options,
     ILogger<SearchTestModel> logger) : PageModel
@@ -24,9 +20,6 @@ public sealed class SearchTestModel(
 
     [BindProperty(SupportsGet = true)]
     public string? Q { get; set; }
-
-    [BindProperty(SupportsGet = true)]
-    public bool Semantic { get; set; }
 
     /// <summary>Optional threshold override (cosine similarity) used to calibrate the default.</summary>
     [BindProperty(SupportsGet = true)]
@@ -57,13 +50,11 @@ public sealed class SearchTestModel(
         Searched = true;
         try
         {
-            Results = Semantic
-                ? await SearchSemanticAsync(query, cancellationToken)
-                : await SearchCurrentAsync(query, cancellationToken);
+            Results = await SearchSemanticAsync(query, cancellationToken);
         }
         catch (Exception exception) when (exception is not OperationCanceledException)
         {
-            logger.LogError(exception, "Search test failed (semantic: {Semantic}).", Semantic);
+            logger.LogError(exception, "Semantic search test failed.");
             ErrorMessage = "No se pudo completar la búsqueda. Revisa los registros del servidor.";
             Results = [];
         }
@@ -88,26 +79,6 @@ public sealed class SearchTestModel(
                 match.Title,
                 match.Similarity.ToString("0.000", CultureInfo.InvariantCulture),
                 match.Summary))
-            .ToArray();
-    }
-
-    private async Task<IReadOnlyList<SearchTestResult>> SearchCurrentAsync(
-        string query,
-        CancellationToken cancellationToken)
-    {
-        var recommendations = await recommendationService.RecommendAsync(query, null, cancellationToken);
-        var ids = recommendations.Select(item => item.Video.VideoId).ToArray();
-        var summaries = await dbContext.VideoSemanticIndexes
-            .AsNoTracking()
-            .Where(index => ids.Contains(index.VideoId))
-            .ToDictionaryAsync(index => index.VideoId, index => index.Summary, StringComparer.Ordinal, cancellationToken);
-
-        return recommendations
-            .Select(item => new SearchTestResult(
-                item.Video.VideoId,
-                item.Video.Title,
-                item.Score.ToString(CultureInfo.InvariantCulture),
-                summaries.GetValueOrDefault(item.Video.VideoId, item.Explanation)))
             .ToArray();
     }
 }

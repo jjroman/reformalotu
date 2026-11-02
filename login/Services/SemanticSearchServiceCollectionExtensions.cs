@@ -10,7 +10,7 @@ public static class SemanticSearchServiceCollectionExtensions
 {
     /// <summary>
     /// Registers semantic search. The query embedding client is only available when a valid
-    /// HTTPS endpoint is configured (SemanticSearch:Endpoint or VideoAssessment:Endpoint).
+    /// HTTPS endpoint is configured (SemanticSearch:Endpoint or ProjectAi:Endpoint).
     /// </summary>
     public static IServiceCollection AddSemanticSearch(
         this IServiceCollection services,
@@ -27,21 +27,22 @@ public static class SemanticSearchServiceCollectionExtensions
                 options => options.MinimumSimilarity is >= -1 and <= 1 && options.MaxResults > 0,
                 "SemanticSearch:MinimumSimilarity must be within [-1, 1] and MaxResults must be positive.")
             .ValidateOnStart();
-        services.AddScoped<SemanticVideoSearchService>();
 
         var endpointValue = configuration[$"{SemanticSearchOptions.SectionName}:Endpoint"];
         if (string.IsNullOrWhiteSpace(endpointValue))
         {
-            endpointValue = configuration[$"{VideoAssessmentOptions.SectionName}:Endpoint"];
+            endpointValue = configuration[$"{ProjectAiOptions.SectionName}:Endpoint"];
         }
 
         if (Uri.TryCreate(endpointValue, UriKind.Absolute, out var endpoint) &&
             endpoint.Scheme == Uri.UriSchemeHttps &&
             string.IsNullOrEmpty(endpoint.UserInfo))
         {
-            // Reuses the VideoAssessment key (same Azure OpenAI resource); never committed.
+            services.AddScoped<SemanticVideoSearchService>();
+
+            // SemanticSearch:ApiKey takes priority; otherwise reuses the shared Azure OpenAI key.
             var apiKey = configuration[$"{SemanticSearchOptions.SectionName}:ApiKey"]
-                ?? configuration[$"{VideoAssessmentOptions.SectionName}:ApiKey"];
+                ?? configuration[$"{ProjectAiOptions.SectionName}:ApiKey"];
             services.AddSingleton<IQueryEmbeddingClient>(provider =>
             {
                 AzureOpenAIClient client;
