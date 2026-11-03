@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Proyectos a modificar** | `youtube-analyzer` |
-| **Proyectos que no se modifican** | `login`, `login.Tests` |
+| **Proyectos que no se modifican** | `ReformApp`, `ReformApp.Tests` |
 | **Estado** | Pendiente |
 
 ## Contexto

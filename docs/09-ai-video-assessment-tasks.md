@@ -2,7 +2,7 @@
 
 This is a follow-up to the existing project recommendation flow. It replaces the final keyword-only assessment with an Azure Foundry-backed assessment while preserving the current project, catalog, and recommendation pages.
 
-The app currently runs on .NET 10, uses Razor Pages and EF Core, and has focused xUnit tests in `login.Tests/`. The current matcher is `VideoRecommendationService`. The reference sample is [04-dotnet-agent-framework.cs](E:/Backup/zeus/ai/ai-agents-for-beginners/04-tool-use/code_samples/04-dotnet-agent-framework.cs).
+The app currently runs on .NET 10, uses Razor Pages and EF Core, and has focused xUnit tests in `ReformApp.Tests/`. The current matcher is `VideoRecommendationService`. The reference sample is [04-dotnet-agent-framework.cs](E:/Backup/zeus/ai/ai-agents-for-beginners/04-tool-use/code_samples/04-dotnet-agent-framework.cs).
 
 ## Implementation approach
 
@@ -116,7 +116,7 @@ Complete tasks in order. Each task has a bounded change and a completion check. 
 
 - [ ] With valid local Azure authentication and a configured deployment, creating a project produces a structured assessment or an explicit, logged fallback.
 - [ ] With AI disabled or unavailable, project creation still completes using the existing matcher.
-- [ ] `dotnet test .\login.Tests\login.Tests.csproj` passes without Azure credentials.
-- [ ] `dotnet build .\login\login.csproj` succeeds.
+- [ ] `dotnet test .\ReformApp.Tests\ReformApp.Tests.csproj` passes without Azure credentials.
+- [ ] `dotnet build .\reformapp\ReformApp.csproj` succeeds.
 
 **Done when:** the normal automated checks are repeatable offline, and the live Foundry path has a documented manual check.

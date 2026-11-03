@@ -1,0 +1,97 @@
+@page
+@model ReformApp.Pages.Projects.IndexModel
+@{
+    ViewData["Title"] = "Mis proyectos";
+}
+
+<div class="product-page project-list-page">
+    <header class="product-page-heading">
+        <div>
+            <span class="product-eyebrow">TU ESPACIO DE IDEAS</span>
+            <h1>Mis proyectos</h1>
+            <p>Vuelve a tus ideas y recomendaciones cuando quieras.</p>
+        </div>
+        <a class="btn btn-primary" asp-page="./Create">Crear proyecto</a>
+    </header>
+
+    @if (Model.HasProjectsOverall)
+    {
+        <form class="project-search" method="get" role="search" asp-page="./Index">
+            <label class="visually-hidden" for="project-search-input">Buscar proyectos</label>
+            <input id="project-search-input" class="form-control" type="search" name="q" value="@Model.Search"
+                   maxlength="100" placeholder="Buscar por nombre, descripción o categoría" autocomplete="off" />
+            <button type="submit" class="btn btn-primary">Buscar</button>
+            @if (!string.IsNullOrEmpty(Model.Search))
+            {
+                <a class="btn project-search-clear" asp-page="./Index">Limpiar</a>
+            }
+        </form>
+        <p class="project-search-status" role="status">
+            @(Model.TotalCount == 1 ? "1 proyecto" : $"{Model.TotalCount} proyectos")@(string.IsNullOrEmpty(Model.Search) ? "" : $" para «{Model.Search}»")
+        </p>
+    }
+
+    @if (!Model.HasProjectsOverall)
+    {
+        <section class="product-empty-state" aria-labelledby="projects-empty-title">
+            <span class="product-empty-mark" aria-hidden="true">✳</span>
+            <h2 id="projects-empty-title">Tu próximo proyecto empieza con una idea</h2>
+            <p>Aún no tienes proyectos guardados. Describe qué te gustaría renovar para encontrar vídeos relacionados.</p>
+            <a class="btn btn-primary" asp-page="./Create">Crear mi primer proyecto</a>
+        </section>
+    }
+    else if (Model.Projects.Count == 0)
+    {
+        <section class="product-empty-state" aria-labelledby="projects-noresults-title">
+            <span class="product-empty-mark" aria-hidden="true">✳</span>
+            <h2 id="projects-noresults-title">No encontramos proyectos</h2>
+            <p>Prueba con otras palabras o limpia la búsqueda para ver todos tus proyectos.</p>
+            <a class="btn btn-primary" asp-page="./Index">Ver todos</a>
+        </section>
+    }
+    else
+    {
+        <section class="project-list" aria-label="Proyectos guardados">
+            @foreach (var project in Model.Projects)
+            {
+                <a class="project-list-item" asp-page="./Details" asp-route-id="@project.Id">
+                    <span class="project-list-copy">
+                        <strong>@project.Name</strong>
+                        <span class="project-list-description">@project.Description</span>
+                        <span class="project-list-date">Creado @project.CreatedAt.ToLocalTime().ToString("g")</span>
+                    </span>
+                    <span class="project-list-meta">
+                        @if (!string.IsNullOrWhiteSpace(project.Category))
+                        {
+                            <span class="project-category">@project.Category</span>
+                        }
+                        <span class="project-list-arrow" aria-hidden="true">→</span>
+                    </span>
+                </a>
+            }
+        </section>
+
+        @if (Model.TotalPages > 1)
+        {
+            <nav class="project-pagination" aria-label="Paginación de proyectos">
+                @if (Model.PageNumber > 1)
+                {
+                    <a class="btn project-page-link" asp-page="./Index" asp-route-q="@Model.Search" asp-route-p="@(Model.PageNumber - 1)" rel="prev">← Anterior</a>
+                }
+                else
+                {
+                    <span class="btn project-page-link disabled" aria-disabled="true">← Anterior</span>
+                }
+                <span class="project-page-status">Página @Model.PageNumber de @Model.TotalPages</span>
+                @if (Model.PageNumber < Model.TotalPages)
+                {
+                    <a class="btn project-page-link" asp-page="./Index" asp-route-q="@Model.Search" asp-route-p="@(Model.PageNumber + 1)" rel="next">Siguiente →</a>
+                }
+                else
+                {
+                    <span class="btn project-page-link disabled" aria-disabled="true">Siguiente →</span>
+                }
+            </nav>
+        }
+    }
+</div>

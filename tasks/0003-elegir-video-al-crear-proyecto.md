@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Proyectos a modificar** | `login`, `login.Tests` |
+| **Proyectos a modificar** | `ReformApp`, `ReformApp.Tests` |
 | **Proyectos que no se modifican** | `youtube-analyzer` (ya genera `Inputs` y `Tasks` con `promptVersion` 3; ver tareas 0001 y 0002) |
 | **Estado** | Completada |
 
@@ -79,4 +79,4 @@
 
 ## Definición de terminado
 
-El flujo completo funciona con datos importados, las pruebas pasan, las preguntas abiertas están resueltas y el `README.md` de `login` documenta las páginas y el modelo nuevos.
+El flujo completo funciona con datos importados, las pruebas pasan, las preguntas abiertas están resueltas y el `README.md` de `ReformApp` documenta las páginas y el modelo nuevos.

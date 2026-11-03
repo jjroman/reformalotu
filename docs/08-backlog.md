@@ -45,4 +45,4 @@ Este es el backlog vivo del producto, no el plan de ejecución del POC. Se ampli
 - Si los usuarios necesitan cantidades desde el primer plan o si basta con identificar los materiales.
 - Si el historial aporta valor y cómo encaja con el modelo gratuito o Premium.
 - Qué información del vídeo y qué fragmentos ayudan realmente a ejecutar la tarea.
-- Qué partes del proyecto `login/` y de la arquitectura del POC conviene mantener o sustituir para el producto.
+- Qué partes del proyecto `reformapp/` y de la arquitectura del POC conviene mantener o sustituir para el producto.

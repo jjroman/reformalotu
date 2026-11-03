@@ -9,9 +9,9 @@ Use this skill for visual or interaction changes anywhere in the ReformaloTu web
 
 ## Source of truth
 
-- The current web application is the Razor Pages project in `login/`. Inspect the relevant page and its PageModel, plus the shared shell [`login/Pages/Shared/_Layout.cshtml`](../../../login/Pages/Shared/_Layout.cshtml) and navigation partial [`login/Pages/Shared/_LoginPartial.cshtml`](../../../login/Pages/Shared/_LoginPartial.cshtml), before changing a site surface.
-- The shared stylesheet is [`login/wwwroot/css/site.css`](../../../login/wwwroot/css/site.css). The shared layout loads Bootstrap first, then `site.css`, then generated page styles. Keep this load order and avoid adding a second global stylesheet, inline `<style>` blocks, or duplicated component rules.
-- The landing page [`login/Pages/Index.cshtml`](../../../login/Pages/Index.cshtml) is the visual reference, not the only page this skill covers. Reuse its palette, type, whitespace, surface, control, and interaction language in appropriate forms across the product.
+- The current web application is the Razor Pages project in `reformapp/`. Inspect the relevant page and its PageModel, plus the shared shell [`reformapp/Pages/Shared/_Layout.cshtml`](../../../reformapp/Pages/Shared/_Layout.cshtml) and navigation partial [`reformapp/Pages/Shared/_LoginPartial.cshtml`](../../../reformapp/Pages/Shared/_LoginPartial.cshtml), before changing a site surface.
+- The shared stylesheet is [`reformapp/wwwroot/css/site.css`](../../../reformapp/wwwroot/css/site.css). The shared layout loads Bootstrap first, then `site.css`, then generated page styles. Keep this load order and avoid adding a second global stylesheet, inline `<style>` blocks, or duplicated component rules.
+- The landing page [`reformapp/Pages/Index.cshtml`](../../../reformapp/Pages/Index.cshtml) is the visual reference, not the only page this skill covers. Reuse its palette, type, whitespace, surface, control, and interaction language in appropriate forms across the product.
 - Before editing, locate existing components and CSS for the page, reuse them, and keep selectors scoped to the smallest relevant surface. Use `landing-` only for elements that are truly specific to the marketing landing. For shared site components use clear shared names; for product-only features use a feature/page prefix such as `project-` or `metrics-`.
 - Do not apply marketing-hero layouts, oversized editorial headings, decorative preview illustrations, or conversion CTA treatments indiscriminately to operational screens. Product pages should share the brand tone while keeping information dense enough to complete tasks efficiently.
 - Keep existing application behavior, Razor routes, validation, Identity security, and accessibility intact while styling. Never hide authorization or validation messages as a visual shortcut.
@@ -85,6 +85,6 @@ Current supporting colors include white `#fff`, sage/cream hero stops `#f5f7f1`,
 1. Identify the affected page, its PageModel, shared layout, partials, and existing CSS. Read those before editing; do not assume all pages use the same content pattern.
 2. Reuse the shared palette, typography, spacing, controls, and page shell. Use `landing-` only for landing-only markup; scope new page-specific rules and avoid unrelated global restyling.
 3. Preserve functionality, authorization, validation, real route destinations, and truthful product copy. Confirm that unauthenticated and authenticated navigation remain appropriate.
-4. Build the app with `dotnet build .\login\login.csproj`.
+4. Build the app with `dotnet build .\reformapp\ReformApp.csproj`.
 5. If a browser is available, inspect the affected page at desktop, tablet, and mobile widths. Check overflow, navigation, CTA destinations, form errors/empty states, keyboard focus, and the final rendered typography.
 6. Check the final change for duplicate CSS, unused selectors, broken Razor markup, inaccessible states, and accidental changes to shared styles.

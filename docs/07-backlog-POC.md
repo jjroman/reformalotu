@@ -1,6 +1,6 @@
 # Backlog-POC
 
-Este backlog describe un experimento acotado, no el backlog definitivo del producto. El objetivo es reutilizar el proyecto `login/` para validar el flujo de acceso, creación de proyectos, persistencia en SQLite y asociación de proyectos con vídeos que ya existen en `youtube-analyzer/output`.
+Este backlog describe un experimento acotado, no el backlog definitivo del producto. El objetivo es reutilizar el proyecto `reformapp/` para validar el flujo de acceso, creación de proyectos, persistencia en SQLite y asociación de proyectos con vídeos que ya existen en `youtube-analyzer/output`.
 
 ## Objetivo del POC
 
@@ -8,7 +8,7 @@ Comprobar que una persona puede iniciar sesión, describir una tarea de mejora d
 
 ## Decisiones de alcance
 
-- Partir del proyecto existente `login/` (`Microsoft.NET.Sdk.Web`, .NET 10, Razor Pages, ASP.NET Core Identity y EF Core SQLite); no crear una SPA ni separar frontend y API.
+- Partir del proyecto existente `reformapp/` (`Microsoft.NET.Sdk.Web`, .NET 10, Razor Pages, ASP.NET Core Identity y EF Core SQLite); no crear una SPA ni separar frontend y API.
 - Reutilizar las páginas de autenticación de Identity y la configuración de inicio de sesión existente. Validar email/contraseña; probar Google OAuth si la configuración de desarrollo ya está disponible.
 - Usar la base de datos SQLite mediante migraciones de EF Core. No depender de datos locales preexistentes de `app.db` para preparar el POC.
 - Usar como fuente de vídeos el corpus local `youtube-analyzer/output`, organizado en carpetas por `videoId`.
@@ -20,10 +20,10 @@ Comprobar que una persona puede iniciar sesión, describir una tarea de mejora d
 
 ### P0 — Arrancar y reutilizar el proyecto
 
-1. **Verificar el arranque del proyecto `login/`**
+1. **Verificar el arranque del proyecto `reformapp/`**
    - Confirmar que restaura y compila con .NET 10.
    - Confirmar que inicia en desarrollo y que las migraciones existentes crean el esquema de Identity en SQLite.
-   - Criterio de aceptación: se puede iniciar la aplicación desde `login/` en una instalación limpia, sin depender de una base de datos personal ya creada.
+   - Criterio de aceptación: se puede iniciar la aplicación desde `reformapp/` en una instalación limpia, sin depender de una base de datos personal ya creada.
 
 2. **Dejar operativo el acceso existente**
    - Reutilizar registro, inicio y cierre de sesión de ASP.NET Core Identity.

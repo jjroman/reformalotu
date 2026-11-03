@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Proyectos a modificar** | `youtube-analyzer` |
-| **Proyectos que no se modifican** | `login`, `login.Tests` (la importación a base de datos queda fuera de esta tarea) |
+| **Proyectos que no se modifican** | `ReformApp`, `ReformApp.Tests` (la importación a base de datos queda fuera de esta tarea) |
 | **Estado** | Finalizada |
 
 ## Contexto
@@ -20,7 +20,7 @@ Hoy el analyzer genera por video un resumen con embedding y, desde `promptVersio
 - Documentar el formato en el README de `youtube-analyzer`.
 
 **No entra**
-- Importar los datos a la base de datos de `login`.
+- Importar los datos a la base de datos de `ReformApp`.
 - Mostrarlos en la web.
 - Precios, rendimientos o cálculo de costos.
 
