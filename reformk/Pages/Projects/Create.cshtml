@@ -1,0 +1,319 @@
+@page
+@model Reformk.Pages.Projects.CreateModel
+@{
+    ViewData["Title"] = Model.IsChangingVideo ? "Cambiar vídeo" : "Crear proyecto";
+}
+
+<div class="product-page project-form-page">
+    <header class="product-page-heading">
+        <div>
+            <span class="product-eyebrow">@(Model.IsChangingVideo ? "ACTUALIZA TU REFERENCIA" : "EMPIEZA POR TU IDEA")</span>
+            <h1>@(Model.IsChangingVideo ? "Cambiar vídeo del proyecto" : "Crear proyecto")</h1>
+            <p>@(Model.IsChangingVideo
+                ? "Busca otra referencia para tu proyecto. Al elegirla se reemplazarán sus insumos y tareas."
+                : "Describe lo que quieres hacer para encontrar vídeos relacionados. El proyecto se guardará cuando elijas un vídeo o decidas continuar sin él.")</p>
+        </div>
+    </header>
+
+    <form method="post" class="project-form" id="project-create-form">
+        <input asp-for="ExistingProjectId" type="hidden" />
+        <div asp-validation-summary="ModelOnly" class="text-danger validation-summary" data-confirmation-summary></div>
+        @if (Model.IsChangingVideo)
+        {
+            <input asp-for="ConfirmReplacement" type="hidden" value="false" data-confirm-replacement />
+        }
+        <div class="mb-3">
+            <label asp-for="Input.Name" class="form-label">Nombre del proyecto</label>
+            <input asp-for="Input.Name" class="form-control" maxlength="200" autocomplete="off" placeholder="Por ejemplo: Renovación de la cocina" />
+            <span asp-validation-for="Input.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Input.Description" class="form-label">Descripción</label>
+            <textarea asp-for="Input.Description" class="form-control" rows="5" maxlength="1000" data-markdown-editor placeholder="Por ejemplo: quiero renovar los muebles y la iluminación de mi cocina."></textarea>
+            <span asp-validation-for="Input.Description" class="text-danger"></span>
+            <div class="form-text">Describe el espacio, el trabajo y el resultado que tienes en mente.</div>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Input.Category" class="form-label">Categoría <span class="form-label-optional">(opcional)</span></label>
+            <select asp-for="Input.Category" class="form-select">
+                <option value="">Sin categoría</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.Name">@category.Name</option>
+                }
+            </select>
+            <span asp-validation-for="Input.Category" class="text-danger"></span>
+        </div>
+
+        <div class="project-form-actions">
+            <button type="submit" class="btn btn-primary" asp-page-handler="Search" data-search-submit>
+                <span class="spinner-border spinner-border-sm me-2 d-none" aria-hidden="true" data-search-spinner></span>
+                <span data-search-label>Buscar vídeos</span>
+            </button>
+            @if (!Model.IsChangingVideo)
+            {
+                <button type="submit" class="btn btn-outline-secondary" asp-page-handler="WithoutVideo">Crear sin vídeo</button>
+            }
+            else
+            {
+                <a class="btn btn-outline-secondary" asp-page="./Details" asp-route-id="@Model.ExistingProjectId">Cancelar</a>
+            }
+        </div>
+        <span class="visually-hidden" role="status" aria-live="polite" aria-atomic="true" data-search-status></span>
+
+        @if (Model.SearchPerformed)
+        {
+            <section class="project-results project-search-results" aria-labelledby="video-search-title">
+                <div class="project-section-heading">
+                    <div>
+                        <span class="product-eyebrow">SELECCIÓN DEL CATÁLOGO</span>
+                        <h2 id="video-search-title">Vídeos relacionados</h2>
+                    </div>
+                </div>
+                @if (Model.SearchMessage is not null)
+                {
+                    <div class="project-inline-empty" role="status"><p>@Model.SearchMessage</p></div>
+                }
+                @if (Model.Matches.Count > 0)
+                {
+                    <p class="project-results-count">Elige un vídeo para crear o actualizar el proyecto. La similitud orienta la búsqueda; revisa el contenido antes de usarlo.</p>
+                    <div class="project-video-list" data-video-results>
+                        @foreach (var match in Model.Matches)
+                        {
+                            <article class="project-video-item project-candidate-item">
+                                <img src="@($"https://img.youtube.com/vi/{match.VideoId}/hqdefault.jpg")"
+                                     alt="Miniatura del vídeo @match.Title"
+                                     loading="lazy" />
+                                <div class="project-video-copy">
+                                    <h3>@(string.IsNullOrWhiteSpace(match.Title) ? match.VideoId : match.Title)</h3>
+                                    <p>@match.Summary</p>
+                                    <p class="project-candidate-counts">
+                                        Similitud: @match.Similarity.ToString("P0") ·
+                                        Materiales: @match.MaterialCount · Equipos: @match.EquipmentCount · Mano de obra: @match.LaborCount
+                                    </p>
+                                    <div class="project-candidate-actions">
+                                        <button type="submit" class="btn btn-primary btn-sm" asp-page-handler="Choose"
+                                                name="selectedVideoId" value="@match.VideoId" data-choose-video>
+                                            <span class="spinner-border spinner-border-sm me-2 d-none" aria-hidden="true" data-choose-spinner></span>
+                                            <span data-choose-label>Elegir este vídeo</span>
+                                        </button>
+                                        <a href="https://www.youtube.com/watch?v=@Uri.EscapeDataString(match.VideoId)"
+                                           target="_blank" rel="noopener noreferrer">
+                                            Ver en YouTube <span aria-hidden="true">↗</span><span class="visually-hidden"> (se abre en una pestaña nueva)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        }
+                    </div>
+                    @if (Model.HasMore)
+                    {
+                        <button type="submit" class="btn btn-outline-secondary project-load-more"
+                                asp-page-handler="More" name="offset" value="@Model.NextOffset"
+                                data-more-videos data-next-offset="@Model.NextOffset">
+                            Buscar más vídeos
+                        </button>
+                    }
+                }
+            </section>
+        }
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const projectForm = document.querySelector("#project-create-form");
+        const searchButton = projectForm?.querySelector("[data-search-submit]");
+        const isChangingVideo = @(Model.IsChangingVideo ? "true" : "false");
+        let pendingConfirmation = null;
+
+        function resetPendingConfirmation() {
+            if (!pendingConfirmation) {
+                return;
+            }
+
+            if (pendingConfirmation.timer) {
+                clearTimeout(pendingConfirmation.timer);
+            }
+            const button = pendingConfirmation.button;
+            button.disabled = false;
+            button.removeAttribute("aria-busy");
+            delete button.dataset.confirmationReady;
+            button.querySelector("[data-choose-spinner]")?.classList.add("d-none");
+            button.querySelector("[data-choose-label]").textContent = "Elegir este vídeo";
+            pendingConfirmation = null;
+        }
+
+        projectForm?.addEventListener("click", (event) => {
+            const button = event.target.closest("[data-choose-video]");
+            if (!button || !isChangingVideo) {
+                return;
+            }
+
+            if (button.dataset.confirmationReady === "true") {
+                projectForm.querySelector("[data-confirm-replacement]").value = "true";
+                pendingConfirmation = null;
+                return;
+            }
+
+            event.preventDefault();
+            resetPendingConfirmation();
+            button.dataset.confirmationReady = "false";
+            button.disabled = true;
+            button.setAttribute("aria-busy", "true");
+            const confirmation = { button, timer: null };
+            pendingConfirmation = confirmation;
+            confirmation.timer = window.setTimeout(() => {
+                if (pendingConfirmation !== confirmation) {
+                    return;
+                }
+
+                button.disabled = false;
+                button.removeAttribute("aria-busy");
+                button.dataset.confirmationReady = "true";
+                button.querySelector("[data-choose-spinner]")?.classList.add("d-none");
+                const status = projectForm.querySelector("[data-search-status]");
+                if (status) {
+                    status.textContent = "Ya puedes confirmar el cambio de vídeo.";
+                }
+            }, 3000);
+
+            button.querySelector("[data-choose-label]")?.replaceChildren("Confirmar");
+            button.querySelector("[data-choose-spinner]")?.classList.remove("d-none");
+            const summary = projectForm.querySelector("[data-confirmation-summary]");
+            if (summary) {
+                const summaryList = document.createElement("ul");
+                const summaryMessage = document.createElement("li");
+                summaryMessage.textContent = "Confirma que quieres cambiar el vídeo y reemplazar todos los insumos y tareas del proyecto.";
+                summaryList.append(summaryMessage);
+                summary.replaceChildren(summaryList);
+                summary.classList.remove("validation-summary-valid");
+                summary.classList.add("validation-summary-errors");
+                summary.setAttribute("role", "alert");
+            }
+            const status = projectForm.querySelector("[data-search-status]");
+            if (status) {
+                status.textContent = "El botón Confirmar estará disponible en tres segundos.";
+            }
+        });
+
+        projectForm?.addEventListener("submit", (event) => {
+            const submitter = event.submitter;
+            if (submitter?.hasAttribute("data-more-videos")) {
+                return;
+            }
+            if (submitter?.name === "selectedVideoId" || submitter?.getAttribute("formaction")?.includes("WithoutVideo")) {
+                return;
+            }
+            if (!projectForm.checkValidity() || !searchButton) {
+                return;
+            }
+
+            searchButton.disabled = true;
+            searchButton.setAttribute("aria-busy", "true");
+            searchButton.querySelector("[data-search-spinner]")?.classList.remove("d-none");
+            searchButton.querySelector("[data-search-label]").textContent = "Buscando vídeos...";
+            projectForm.querySelector("[data-search-status]").textContent = "Buscando vídeos. Espera un momento.";
+        });
+
+        projectForm?.addEventListener("click", async (event) => {
+            const button = event.target.closest("[data-more-videos]");
+            if (!button) {
+                return;
+            }
+            event.preventDefault();
+            button.disabled = true;
+            button.setAttribute("aria-busy", "true");
+            const status = projectForm.querySelector("[data-search-status]");
+            status.textContent = "Buscando más vídeos.";
+            const data = new FormData(projectForm);
+            data.set("offset", button.dataset.nextOffset);
+            data.set("append", "true");
+            const token = projectForm.querySelector('input[name="__RequestVerificationToken"]')?.value;
+            const url = new URL(projectForm.action, window.location.href);
+            url.searchParams.set("handler", "More");
+            url.searchParams.set("append", "true");
+
+            try {
+                const response = await fetch(url, {
+                    method: "POST",
+                    body: data,
+                    headers: { "RequestVerificationToken": token ?? "" }
+                });
+                const result = await response.json();
+                if (!response.ok) {
+                    throw new Error(result.error ?? "No se pudo completar la búsqueda.");
+                }
+
+                const list = projectForm.querySelector("[data-video-results]");
+                for (const match of result.matches) {
+                    const article = document.createElement("article");
+                    article.className = "project-video-item project-candidate-item";
+                    const image = document.createElement("img");
+                    image.src = `https://img.youtube.com/vi/${encodeURIComponent(match.videoId)}/hqdefault.jpg`;
+                    image.alt = `Miniatura del vídeo ${match.title}`;
+                    image.loading = "lazy";
+                    const copy = document.createElement("div");
+                    copy.className = "project-video-copy";
+                    const title = document.createElement("h3");
+                    title.textContent = match.title || match.videoId;
+                    const summary = document.createElement("p");
+                    summary.textContent = match.summary;
+                    const counts = document.createElement("p");
+                    counts.className = "project-candidate-counts";
+                    counts.textContent = `Similitud: ${match.score}% · Materiales: ${match.materialCount} · Equipos: ${match.equipmentCount} · Mano de obra: ${match.laborCount}`;
+                    const choose = document.createElement("button");
+                    choose.type = "submit";
+                    choose.name = "selectedVideoId";
+                    choose.value = match.videoId;
+                    choose.className = "btn btn-primary btn-sm";
+                    choose.dataset.chooseVideo = "";
+                    const chooseSpinner = document.createElement("span");
+                    chooseSpinner.className = "spinner-border spinner-border-sm me-2 d-none";
+                    chooseSpinner.setAttribute("aria-hidden", "true");
+                    chooseSpinner.dataset.chooseSpinner = "";
+                    const chooseLabel = document.createElement("span");
+                    chooseLabel.dataset.chooseLabel = "";
+                    chooseLabel.textContent = "Elegir este vídeo";
+                    choose.append(chooseSpinner, chooseLabel);
+                    choose.formAction = "?handler=Choose";
+                    const watch = document.createElement("a");
+                    watch.href = `https://www.youtube.com/watch?v=${encodeURIComponent(match.videoId)}`;
+                    watch.target = "_blank";
+                    watch.rel = "noopener noreferrer";
+                    watch.append("Ver en YouTube ");
+                    const arrow = document.createElement("span");
+                    arrow.setAttribute("aria-hidden", "true");
+                    arrow.textContent = "↗";
+                    const hint = document.createElement("span");
+                    hint.className = "visually-hidden";
+                    hint.textContent = " (se abre en una pestaña nueva)";
+                    watch.append(arrow, hint);
+                    const actions = document.createElement("div");
+                    actions.className = "project-candidate-actions";
+                    actions.append(choose, watch);
+                    copy.append(title, summary, counts, actions);
+                    article.append(image, copy);
+                    list.append(article);
+                }
+
+                if (result.hasMore) {
+                    button.dataset.nextOffset = result.nextOffset;
+                    button.value = result.nextOffset;
+                    button.disabled = false;
+                    button.removeAttribute("aria-busy");
+                } else {
+                    button.remove();
+                }
+                status.textContent = result.matches.length
+                    ? `Se añadieron ${result.matches.length} vídeos.`
+                    : "No hay más vídeos relacionados.";
+            } catch (error) {
+                button.disabled = false;
+                button.removeAttribute("aria-busy");
+                status.textContent = error.message || "No se pudo completar la búsqueda.";
+            }
+        });
+    </script>
+}

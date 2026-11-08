@@ -3,14 +3,14 @@
 | | |
 |---|---|
 | **Proyectos a modificar** | `youtube-analyzer` |
-| **Proyectos que no se modifican** | `ReformApp`, `ReformApp.Tests` (la importación a base de datos queda fuera de esta tarea) |
+| **Proyectos que no se modifican** | `Reformk`, `Reformk.Tests` (la importación a base de datos queda fuera de esta tarea) |
 | **Estado** | Finalizada |
 
 ## Contexto
 Hoy el analyzer genera por video un resumen con embedding y, desde `promptVersion` 2, un bloque `inputs` con materiales, equipos y mano de obra. No hay secuencia de pasos para ejecutar la actividad, ni se sabe qué insumo se usa en qué paso. Sin eso no se puede calcular un análisis de insumos unitarios.
 
 ## Historia de usuario
-**Como** analista de costos de ReformaloTu, **quiero** que cada video tenga un resumen fiel al transcript, sus insumos estructurados y una lista ordenada de tareas ligada a esos insumos, **para** estimar insumos unitarios por actividad y saber qué tan fiable es cada dato.
+**Como** analista de costos de Reformk, **quiero** que cada video tenga un resumen fiel al transcript, sus insumos estructurados y una lista ordenada de tareas ligada a esos insumos, **para** estimar insumos unitarios por actividad y saber qué tan fiable es cada dato.
 
 ## Alcance
 **Entra**
@@ -20,7 +20,7 @@ Hoy el analyzer genera por video un resumen con embedding y, desde `promptVersio
 - Documentar el formato en el README de `youtube-analyzer`.
 
 **No entra**
-- Importar los datos a la base de datos de `ReformApp`.
+- Importar los datos a la base de datos de `Reformk`.
 - Mostrarlos en la web.
 - Precios, rendimientos o cálculo de costos.
 

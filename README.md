@@ -1,8 +1,8 @@
-# ReformaloTu
+# Reformk
 
 ## Reforma tu hogar con confianza
 
-ReformaloTu es una plataforma que ayuda a propietarios de viviendas a realizar proyectos de mejora del hogar mediante planes paso a paso generados con inteligencia artificial.
+Reformk es una plataforma que ayuda a propietarios de viviendas a realizar proyectos de mejora del hogar mediante planes paso a paso generados con inteligencia artificial.
 
 Los usuarios describen lo que quieren hacer y reciben:
 

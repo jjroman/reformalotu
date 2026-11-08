@@ -18,7 +18,7 @@ internal sealed class YoutubeService : IDisposable
         _youtube = new YoutubeApiService(new BaseClientService.Initializer
         {
             ApiKey = apiKey,
-            ApplicationName = "ReformaloTu-CustomerDiscovery"
+            ApplicationName = "Reformk-CustomerDiscovery"
         });
     }
 

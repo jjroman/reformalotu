@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Proyectos a modificar** | `youtube-analyzer` |
-| **Proyectos que no se modifican** | `ReformApp`, `ReformApp.Tests` |
+| **Proyectos que no se modifican** | `Reformk`, `Reformk.Tests` |
 | **Estado** | Pendiente |
 
 ## Contexto
@@ -12,7 +12,7 @@ El análisis semántico genera los oficios de `inputs.labor` a partir de una tra
 
 ## Historia de usuario
 
-**Como** analista de costos de ReformaloTu, **quiero** que los oficios generados en mano de obra utilicen nombres estandarizados, **para** agrupar, comparar y procesar las estimaciones de distintos vídeos de forma coherente.
+**Como** analista de costos de Reformk, **quiero** que los oficios generados en mano de obra utilicen nombres estandarizados, **para** agrupar, comparar y procesar las estimaciones de distintos vídeos de forma coherente.
 
 ## Alcance
 

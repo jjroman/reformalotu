@@ -1,0 +1,79 @@
+@page "/interno/catalogo-videos"
+@model Reformk.Pages.Interno.VideosModel
+@{
+    ViewData["Title"] = "Catálogo de vídeos";
+}
+
+<div class="product-page catalog-page">
+    <header class="product-page-heading">
+        <div>
+            <span class="product-eyebrow">INTERNO</span>
+            <h1>Catálogo de vídeos</h1>
+            <p>Busca por texto (título y transcripción) y filtra por palabras clave.</p>
+        </div>
+    </header>
+
+    <form method="get" class="project-form catalog-filters">
+        <div class="mb-3">
+            <label for="q" class="form-label">Buscar texto</label>
+            <input id="q" name="q" type="search" class="form-control" value="@Model.Q" autocomplete="off" />
+        </div>
+        <div class="mb-3">
+            <label for="k" class="form-label">Palabras clave</label>
+            <select id="k" name="k" class="form-select" multiple size="8" aria-describedby="k-help">
+                @foreach (var keyword in Model.AllKeywords)
+                {
+                    <option value="@keyword" selected="@Model.IsSelected(keyword)">@keyword</option>
+                }
+            </select>
+            <div id="k-help" class="form-text">Selecciona varias con Ctrl o Cmd; el vídeo debe tener todas las seleccionadas.</div>
+        </div>
+        <div class="project-form-actions">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+            <a class="btn btn-outline-secondary" asp-page="./Videos">Limpiar</a>
+        </div>
+    </form>
+
+    <section class="project-results" aria-labelledby="catalog-results">
+        <div class="project-section-heading">
+            <h2 id="catalog-results">Resultados</h2>
+            <span class="project-results-count">@Model.TotalMatches</span>
+        </div>
+        @if (Model.Videos.Count == 0)
+        {
+            <div class="project-inline-empty"><p>No hay vídeos que coincidan.</p></div>
+        }
+        else
+        {
+            <div class="project-video-list">
+                @foreach (var video in Model.Videos)
+                {
+                    var title = string.IsNullOrWhiteSpace(video.Title) ? video.VideoId : video.Title;
+                    <article class="project-video-item">
+                        <img src="https://img.youtube.com/vi/@video.VideoId/hqdefault.jpg" alt="Miniatura del vídeo @title" loading="lazy" />
+                        <div class="project-video-copy">
+                            <h3>@title</h3>
+                            @if (video.Keywords.Length > 0)
+                            {
+                                <p>@string.Join(" · ", video.Keywords)</p>
+                            }
+                            <a href="https://www.youtube.com/watch?v=@Uri.EscapeDataString(video.VideoId)" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
+                        </div>
+                    </article>
+                }
+            </div>
+        }
+        @if (Model.TotalPages > 1)
+        {
+            <nav class="catalog-pagination" aria-label="Paginación del catálogo">
+                <a class="btn btn-outline-secondary @(Model.PageNumber == 1 ? "disabled" : "")"
+                   href="@Url.Page("./Videos", new { q = Model.Q, k = Model.K, page = Model.PageNumber - 1 })"
+                   aria-disabled="@(Model.PageNumber == 1)">Anterior</a>
+                <span>Página @Model.PageNumber de @Model.TotalPages</span>
+                <a class="btn btn-outline-secondary @(Model.PageNumber == Model.TotalPages ? "disabled" : "")"
+                   href="@Url.Page("./Videos", new { q = Model.Q, k = Model.K, page = Model.PageNumber + 1 })"
+                   aria-disabled="@(Model.PageNumber == Model.TotalPages)">Siguiente</a>
+            </nav>
+        }
+    </section>
+</div>

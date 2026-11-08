@@ -1,0 +1,315 @@
+@page "{id:guid}"
+@model Reformk.Pages.Projects.DetailsModel
+@{
+    ViewData["Title"] = Model.Project.Name;
+    var workDescriptionNotice = Model.WorkDescriptionNotice ?? TempData["WorkDescriptionNotice"] as string;
+}
+
+<div class="product-page project-detail-page">
+    <div asp-validation-summary="All" class="text-danger validation-summary"></div>
+    <header class="project-detail-heading">
+        <div>
+            <span class="product-eyebrow">TU PROYECTO</span>
+            <h1>@Model.Project.Name</h1>
+            <div class="project-detail-meta">
+                @if (!string.IsNullOrWhiteSpace(Model.Project.Category))
+                {
+                    <span class="project-category">@Model.Project.Category</span>
+                }
+                <span>Creado @Model.Project.CreatedAt.ToLocalTime().ToString("g")</span>
+            </div>
+        </div>
+        <div class="project-detail-actions">
+            <a class="btn btn-outline-secondary" asp-page="./Edit" asp-route-id="@Model.Project.Id">Editar proyecto</a>
+            <form method="post" asp-page-handler="DeleteProject" asp-route-id="@Model.Project.Id"
+                  onsubmit="return confirm('¿Eliminar este proyecto con sus insumos y tareas? Esta acción no se puede deshacer.');">
+                <button class="btn btn-outline-danger" type="submit">Eliminar proyecto</button>
+            </form>
+        </div>
+    </header>
+
+    @if (workDescriptionNotice is not null)
+    {
+        <div class="project-inline-empty" role="status">
+            <p>@workDescriptionNotice</p>
+        </div>
+    }
+
+    <section class="project-description" aria-labelledby="project-description-title">
+        <h2 id="project-description-title">Descripción</h2>
+        <div class="project-markdown-content">@Html.Raw(Model.DescriptionHtml)</div>
+    </section>
+
+    @if (Model.Project.SelectedVideo is { } video)
+    {
+        <section class="project-work-description" aria-labelledby="work-description-title">
+            <div class="project-section-heading">
+                <div>
+                    <span class="product-eyebrow">PROPUESTA DE TRABAJO</span>
+                    <h2 id="work-description-title">Descripción del trabajo</h2>
+                </div>
+            </div>
+            @if (string.IsNullOrWhiteSpace(Model.Project.WorkDescription))
+            {
+                <p>Aún no se ha podido generar la descripción del trabajo.</p>
+                <form method="post" asp-page-handler="RetryWorkDescription">
+                    <button class="btn btn-outline-secondary" type="submit">Reintentar generación</button>
+                </form>
+            }
+            else
+            {
+                <p>@Model.Project.WorkDescription</p>
+            }
+        </section>
+
+    }
+
+    <section class="project-inputs-section" aria-labelledby="project-inputs-title">
+        <div class="project-section-heading">
+            <div>
+                <span class="product-eyebrow">LISTAS EDITABLES</span>
+                <h2 id="project-inputs-title">Insumos y tareas</h2>
+            </div>
+        </div>
+        <p class="project-data-note">Los datos copiados del vídeo se pueden complementar en este proyecto sin modificar el catálogo.</p>
+
+        <ul class="nav project-tabs" id="project-tabs" role="tablist">
+            <li class="nav-item" role="presentation"><button class="nav-link active" id="tab-tasks" data-bs-toggle="tab" data-bs-target="#pane-tasks" type="button" role="tab" aria-controls="pane-tasks" aria-selected="true">Tareas <span class="project-tab-count">@Model.Project.Tasks.Count</span></button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="tab-materials" data-bs-toggle="tab" data-bs-target="#pane-materials" type="button" role="tab" aria-controls="pane-materials" aria-selected="false">Materiales <span class="project-tab-count">@Model.Materials.Count</span></button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="tab-equipment" data-bs-toggle="tab" data-bs-target="#pane-equipment" type="button" role="tab" aria-controls="pane-equipment" aria-selected="false">Equipos y herramientas <span class="project-tab-count">@Model.Equipment.Count</span></button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="tab-labor" data-bs-toggle="tab" data-bs-target="#pane-labor" type="button" role="tab" aria-controls="pane-labor" aria-selected="false">Mano de obra <span class="project-tab-count">@Model.Labor.Count</span></button></li>
+        </ul>
+
+        <div class="tab-content project-tab-content">
+            <section class="project-checklist tab-pane fade show active" id="pane-tasks" role="tabpanel" aria-labelledby="tab-tasks">
+                <h3 id="tasks-title">Tareas</h3>
+                @if (Model.Project.Tasks.Count == 0) { <p class="inventory-empty">No hay tareas añadidas.</p> }
+                <ol>
+                    @foreach (var task in Model.Project.Tasks.OrderBy(task => task.Order))
+                    {
+                        <li class="@(task.IsDone ? "is-done" : null)">
+                            <div class="project-task-row">
+                                <div class="project-task-content">
+                                    <strong>@task.Title</strong>
+                                    @if (!string.IsNullOrWhiteSpace(task.Description)) { <p>@task.Description</p> }
+                                </div>
+                                <div class="project-task-actions">
+                                    <form method="post" asp-page-handler="ToggleTask">
+                                        <input type="hidden" name="taskId" value="@task.Id" />
+                                        <button type="submit" class="btn btn-sm btn-outline-secondary project-icon-button">
+                                            <span>@(task.IsDone ? "Marcar pendiente" : "Marcar hecha")</span>
+                                            @if (task.IsDone)
+                                            {
+                                                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 5.5A5 5 0 1 1 3 9" /><path d="M3.5 2.5v3h3" /></svg>
+                                            }
+                                            else
+                                            {
+                                                <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5" /><path d="m5.5 8 1.7 1.7 3.4-3.5" /></svg>
+                                            }
+                                        </button>
+                                    </form>
+                                    <form method="post" asp-page-handler="DeleteTask">
+                                        <input type="hidden" name="taskId" value="@task.Id" />
+                                        <button type="submit" class="btn btn-sm btn-outline-secondary project-icon-button" aria-label="Eliminar tarea @task.Title">
+                                            <span>Eliminar</span>
+                                            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4h11M6 4V2.5h4V4m-6.5 0 .6 9h5.8l.6-9M6.5 7v4m3-4v4" /></svg>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                </ol>
+                <form method="post" asp-page-handler="AddTask" class="project-add-form">
+                    <div class="project-add-field project-add-field-grow"><label asp-for="TaskInput.Title">Añadir tarea</label><input asp-for="TaskInput.Title" class="form-control" maxlength="300" required /></div>
+                    <div class="project-add-field project-add-field-grow"><label asp-for="TaskInput.Description">Descripción (opcional)</label><input asp-for="TaskInput.Description" class="form-control" maxlength="4000" /></div>
+                    <button type="submit" class="btn btn-outline-secondary project-icon-button">
+                        <span>Añadir tarea</span>
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
+                    </button>
+                </form>
+            </section>
+            <section class="project-checklist tab-pane fade" id="pane-materials" role="tabpanel" aria-labelledby="tab-materials">
+                <h3 id="materials-title">Materiales</h3>
+                <div class="table-responsive project-materials-table-wrap">
+                    <table class="table project-materials-table">
+                        <caption class="visually-hidden">Materiales del proyecto con sus cantidades y unidades</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Material</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Unidad</th>
+                                <th scope="col"><span class="visually-hidden">Acciones</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.Materials.Count == 0)
+                            {
+                                <tr><td class="project-materials-empty" colspan="4">No hay materiales añadidos.</td></tr>
+                            }
+                            @foreach (var input in Model.Materials)
+                            {
+                                <tr>
+                                    <th scope="row">
+                                        <span class="project-material-name">@input.Name</span>
+                                        <small>@(input.IsManual ? "Añadido por ti" : "Del vídeo")</small>
+                                    </th>
+                                    <td>@(input.Quantity?.ToString("0.##") ?? "—")</td>
+                                    <td>@(string.IsNullOrWhiteSpace(input.Unit) ? "—" : input.Unit)</td>
+                                    <td class="project-materials-actions">
+                                        <form method="post" asp-page-handler="DeleteInput">
+                                            <input type="hidden" name="inputId" value="@input.Id" />
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary project-icon-button" aria-label="Eliminar @input.Name">
+                                                <span>Eliminar</span>
+                                                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4h11M6 4V2.5h4V4m-6.5 0 .6 9h5.8l.6-9M6.5 7v4m3-4v4" /></svg>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <form method="post" asp-page-handler="AddInput" class="project-add-form">
+                    <input type="hidden" asp-for="Input.Kind" value="material" />
+                    <div class="project-add-field project-add-field-grow"><label asp-for="Input.Name">Añadir material</label><input asp-for="Input.Name" class="form-control" maxlength="300" required /></div>
+                    <div class="project-add-field"><label asp-for="Input.Quantity">Cantidad (opcional)</label><input asp-for="Input.Quantity" class="form-control" min="0" step="any" /></div>
+                    <div class="project-add-field"><label asp-for="Input.Unit">Unidad (opcional)</label><input asp-for="Input.Unit" class="form-control" maxlength="100" /></div>
+                    <button type="submit" class="btn btn-outline-secondary project-icon-button">
+                        <span>Añadir material</span>
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
+                    </button>
+                </form>
+            </section>
+
+            <section class="project-checklist tab-pane fade" id="pane-equipment" role="tabpanel" aria-labelledby="tab-equipment">
+                <h3 id="equipment-title">Equipos y herramientas</h3>
+                @if (Model.Equipment.Count == 0) { <p class="inventory-empty">No hay equipos añadidos.</p> }
+                <ul>
+                    @foreach (var input in Model.Equipment)
+                    {
+                        <li>
+                            <span><strong>@input.Name</strong>@if (input.IsManual) { <small>Añadido por ti</small> } else { <small>Del vídeo</small> }</span>
+                            <form method="post" asp-page-handler="DeleteInput"><input type="hidden" name="inputId" value="@input.Id" /><button type="submit" class="btn btn-sm btn-outline-secondary project-icon-button" aria-label="Eliminar @input.Name"><span>Eliminar</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4h11M6 4V2.5h4V4m-6.5 0 .6 9h5.8l.6-9M6.5 7v4m3-4v4" /></svg></button></form>
+                        </li>
+                    }
+                </ul>
+                <form method="post" asp-page-handler="AddInput" class="project-add-form">
+                    <input type="hidden" asp-for="Input.Kind" value="equipment" />
+                    <div class="project-add-field project-add-field-grow"><label asp-for="Input.Name">Añadir equipo</label><input asp-for="Input.Name" class="form-control" maxlength="300" required /></div>
+                    <button type="submit" class="btn btn-outline-secondary project-icon-button">
+                        <span>Añadir equipo</span>
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
+                    </button>
+                </form>
+            </section>
+
+            <section class="project-checklist tab-pane fade" id="pane-labor" role="tabpanel" aria-labelledby="tab-labor">
+                <h3 id="labor-title">Mano de obra</h3>
+                @if (Model.Labor.Count == 0) { <p class="inventory-empty">No hay mano de obra añadida.</p> }
+                <ul>
+                    @foreach (var input in Model.Labor
+                        .OrderBy(input => string.Equals(input.Level, "lead", StringComparison.OrdinalIgnoreCase) ? 0 : 1)
+                        .ThenBy(input => input.Name, StringComparer.OrdinalIgnoreCase))
+                    {
+                        <li>
+                            <span>
+                                @if (string.Equals(input.Level, "lead", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    <strong>@input.Name</strong>
+                                }
+                                else
+                                {
+                                    @input.Name
+                                }
+                                @if (input.IsManual) { <small>Añadido por ti</small> } else { <small>Del vídeo</small> }
+                            </span>
+                            <form method="post" asp-page-handler="DeleteInput"><input type="hidden" name="inputId" value="@input.Id" /><button type="submit" class="btn btn-sm btn-outline-secondary project-icon-button" aria-label="Eliminar @input.Name"><span>Eliminar</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4h11M6 4V2.5h4V4m-6.5 0 .6 9h5.8l.6-9M6.5 7v4m3-4v4" /></svg></button></form>
+                        </li>
+                    }
+                </ul>
+                <form method="post" asp-page-handler="AddInput" class="project-add-form">
+                    <input type="hidden" asp-for="Input.Kind" value="labor" />
+                    <div class="project-add-field project-add-field-grow"><label asp-for="Input.Name">Añadir oficio</label><input asp-for="Input.Name" class="form-control" maxlength="300" required /></div>
+                    <div class="project-add-field"><label asp-for="Input.Level">Nivel</label><select asp-for="Input.Level" class="form-select"><option value="">No indicado</option><option value="lead">Principal</option><option value="helper">Ayudante</option></select></div>
+                    <button type="submit" class="btn btn-outline-secondary project-icon-button">
+                        <span>Añadir oficio</span>
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
+                    </button>
+                </form>
+            </section>
+
+        </div>
+    </section>
+
+    @if (Model.Project.SelectedVideo is { } selectedVideo)
+    {
+        <section class="project-video-section" aria-labelledby="selected-video-title">
+            <article class="project-selected-video">
+                <div>
+                    <span class="product-eyebrow">VÍDEO ELEGIDO</span>
+                    <h2 id="selected-video-title">@selectedVideo.Title</h2>
+                    <p>@(selectedVideo.SemanticIndex?.Summary ?? "No hay un resumen disponible para este vídeo.")</p>
+                    <a asp-page="./OpenVideo" asp-route-videoId="@selectedVideo.VideoId" asp-route-projectId="@Model.Project.Id"
+                       target="_blank" rel="noopener noreferrer">
+                        Abrir vídeo en YouTube <span aria-hidden="true">↗</span>
+                        <span class="visually-hidden">(se abre en una pestaña nueva)</span>
+                    </a>
+                </div>
+            </article>
+            <div class="project-video-change-actions">
+                <a class="btn btn-outline-secondary" asp-page="./Create" asp-route-projectId="@Model.Project.Id">Cambiar vídeo</a>
+                <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#remove-video-modal">
+                    Quitar vídeo
+                </button>
+            </div>
+        </section>
+
+        <div class="modal fade project-remove-video-modal" id="remove-video-modal" tabindex="-1"
+             aria-labelledby="remove-video-title" aria-describedby="remove-video-description" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="remove-video-title">¿Quitar el vídeo del proyecto?</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="remove-video-description">También se eliminarán del proyecto los materiales, equipos, mano de obra y tareas, incluidos los cambios manuales. Esta acción no se puede deshacer.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <form method="post" asp-page-handler="RemoveVideo" asp-route-id="@Model.Project.Id">
+                            <input type="hidden" name="ConfirmRemoval" value="true" />
+                            <button class="btn btn-outline-danger" type="submit">Quitar vídeo y listas</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <section class="project-inline-empty project-no-video" aria-labelledby="no-video-title">
+            <h2 id="no-video-title">Aún no has elegido un vídeo</h2>
+            <p>Busca una referencia para copiar su análisis de insumos y tareas al proyecto. También puedes seguir sin vídeo.</p>
+            <a class="btn btn-primary" asp-page="./Create" asp-route-projectId="@Model.Project.Id">Buscar y elegir vídeo</a>
+        </section>
+    }
+
+    <a class="project-back-link" asp-page="./Index">← Volver a mis proyectos</a>
+</div>
+
+@section Scripts {
+    <script>
+        (() => {
+            const key = 'project-inputs-tab-v2';
+            const stored = sessionStorage.getItem(key);
+            const stale = stored && document.querySelector(`#project-tabs [data-bs-target="${stored}"]`);
+            if (stale) {
+                bootstrap.Tab.getOrCreateInstance(stale).show();
+            }
+            document.querySelectorAll('#project-tabs [data-bs-toggle="tab"]').forEach(tab =>
+                tab.addEventListener('shown.bs.tab', () => sessionStorage.setItem(key, tab.dataset.bsTarget)));
+        })();
+    </script>
+}

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Proyectos a modificar** | `ReformApp`, `ReformApp.Tests` |
+| **Proyectos a modificar** | `Reformk`, `Reformk.Tests` |
 | **Proyectos que no se modifican** | `youtube-analyzer` (ya genera `Inputs` y `Tasks` con `promptVersion` 3; ver tareas 0001 y 0002) |
 | **Estado** | Completada |
 
@@ -46,7 +46,7 @@
 - La búsqueda semántica queda tras una abstracción que no obligue a `sqlite-vector` en el modelo de datos del proyecto.
 - Solo el dueño del proyecto puede elegir o cambiar el video. El servidor valida que el video exista. Los POST llevan antiforgery.
 - Los datos mostrados salen de la base de datos, nunca del cliente.
-- Interfaz y descripción generada en español, con el estilo de la skill `reformalotu-site-style`.
+- Interfaz y descripción generada en español, con el estilo de la skill `reformk-site-style`.
 - Datos no informados (cantidad, unidad, horas) se muestran como «no indicado», sin inventarlos.
 
 ## Criterios de aceptación
@@ -79,4 +79,4 @@
 
 ## Definición de terminado
 
-El flujo completo funciona con datos importados, las pruebas pasan, las preguntas abiertas están resueltas y el `README.md` de `ReformApp` documenta las páginas y el modelo nuevos.
+El flujo completo funciona con datos importados, las pruebas pasan, las preguntas abiertas están resueltas y el `README.md` de `Reformk` documenta las páginas y el modelo nuevos.

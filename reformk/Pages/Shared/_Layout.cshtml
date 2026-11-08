@@ -1,0 +1,95 @@
+@{
+    var isIdentityLoginPage =
+        string.Equals(ViewContext.RouteData.Values["area"]?.ToString(), "Identity", StringComparison.OrdinalIgnoreCase) &&
+        string.Equals(ViewContext.RouteData.Values["page"]?.ToString(), "/Account/Login", StringComparison.OrdinalIgnoreCase);
+    var isIdentityRegisterPage =
+        string.Equals(ViewContext.RouteData.Values["area"]?.ToString(), "Identity", StringComparison.OrdinalIgnoreCase) &&
+        string.Equals(ViewContext.RouteData.Values["page"]?.ToString(), "/Account/Register", StringComparison.OrdinalIgnoreCase);
+    var identityPage = ViewContext.RouteData.Values["page"]?.ToString();
+    var isIdentityManagePage =
+        string.Equals(ViewContext.RouteData.Values["area"]?.ToString(), "Identity", StringComparison.OrdinalIgnoreCase) &&
+        identityPage?.StartsWith("/Account/Manage", StringComparison.OrdinalIgnoreCase) == true;
+    var isIdentityPersonalDataPage =
+        string.Equals(ViewContext.RouteData.Values["area"]?.ToString(), "Identity", StringComparison.OrdinalIgnoreCase) &&
+        string.Equals(identityPage, "/Account/Manage/PersonalData", StringComparison.OrdinalIgnoreCase);
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Reformk</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Reformk.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/png" href="~/images/reformk-logo.png" asp-append-version="true" />
+</head>
+<body class="@(isIdentityLoginPage ? "identity-login-page" : isIdentityRegisterPage ? "identity-register-page" : isIdentityManagePage ? "identity-manage-page" : null)">
+    <header>
+        <nav class="site-navbar navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
+            <div class="container">
+                <a class="site-brand navbar-brand" asp-area="" asp-page="/Index">
+                    <img class="site-brand-mark" src="~/images/reformk-logo.png" alt="" />
+                    <span>Reformk</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav site-nav-links flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Inicio</a>
+                        </li>
+                        @if (User.Identity?.IsAuthenticated == true)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/Projects/Create">Crear proyecto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/Projects/Index">Mis proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-page="/Metrics">Resumen</a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container site-main-container">
+        <main role="main" class="site-main pb-3 @(isIdentityLoginPage ? "identity-login-main" : isIdentityRegisterPage ? "identity-register-main" : isIdentityPersonalDataPage ? "identity-manage-main identity-personal-data-main" : isIdentityManagePage ? "identity-manage-main" : null)">
+            @if (isIdentityLoginPage)
+            {
+                <a class="identity-login-brand" asp-area="" asp-page="/Index">
+                    <img class="identity-login-mark" src="~/images/reformk-logo.png" alt="" />
+                    <span>Reformk</span>
+                </a>
+            }
+            else if (isIdentityRegisterPage)
+            {
+                <a class="identity-register-brand" asp-area="" asp-page="/Index">
+                    <img class="identity-register-mark" src="~/images/reformk-logo.png" alt="" />
+                    <span>Reformk</span>
+                </a>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            &copy; 2026 - Reformk - <a asp-area="" asp-page="/Privacy">Privacidad</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

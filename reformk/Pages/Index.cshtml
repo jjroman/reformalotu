@@ -1,0 +1,157 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Tu proyecto DIY, a partir de un vídeo de YouTube";
+    var primaryLabel = User.Identity?.IsAuthenticated == true
+        ? "Buscar vídeos"
+        : "Crea tu cuenta";
+}
+
+<div class="landing-page">
+    <section class="landing-hero" aria-labelledby="hero-title">
+        <div class="landing-hero-copy">
+            <span class="landing-eyebrow">
+                <span class="landing-eyebrow-dot" aria-hidden="true"></span>
+                DIY CON APOYO DE IA
+            </span>
+            <h1 id="hero-title">De YouTube a <span>tu proyecto DIY.</span></h1>
+            <p class="landing-lead">
+                Describe lo que quieres hacer y elige un vídeo relacionado. La IA organiza su análisis
+                en materiales, herramientas, mano de obra y tareas para que puedas empezar.
+            </p>
+            <div class="landing-actions">
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    <a class="landing-button landing-button-primary" asp-page="/Projects/Create">
+                        @primaryLabel <span aria-hidden="true">→</span>
+                    </a>
+                }
+                else
+                {
+                    <a class="landing-button landing-button-primary" asp-area="Identity" asp-page="/Account/Register">
+                        @primaryLabel <span aria-hidden="true">→</span>
+                    </a>
+                }
+                @if (User.Identity?.IsAuthenticated != true)
+                {
+                    <a class="landing-button landing-button-secondary" asp-area="Identity" asp-page="/Account/Login">
+                        Ya tengo cuenta
+                    </a>
+                }
+                else
+                {
+                    <a class="landing-button landing-button-secondary" asp-page="/Projects/Index">
+                        Ver mis proyectos
+                    </a>
+                }
+            </div>
+            <p class="landing-reassurance">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10 3.2 3.2L15.5 6" /></svg>
+                Vídeos disponibles en el catálogo; listas editables en tu proyecto.
+            </p>
+        </div>
+
+        <div class="landing-visual" aria-label="Vista previa de un proyecto y sus recomendaciones">
+            <div class="landing-orbit landing-orbit-one"></div>
+            <div class="landing-orbit landing-orbit-two"></div>
+            <div class="project-preview">
+                <div class="preview-topline">
+                    <span class="preview-label">VISTA ILUSTRATIVA</span>
+                    <span class="preview-status"><span></span> PROYECTO DIY</span>
+                </div>
+                <h2>Tu proyecto DIY</h2>
+                <p class="preview-description">Elige un vídeo y revisa lo que se ha detectado.</p>
+                <div class="preview-divider"></div>
+                <div class="preview-section-heading">
+                    <span>Vídeo de YouTube</span>
+                    <span class="preview-count">ANÁLISIS CON IA</span>
+                </div>
+                <div class="preview-video">
+                    <div class="preview-video-art preview-video-art-one">
+                        <span class="preview-play" aria-hidden="true">▶</span>
+                    </div>
+                    <div class="preview-video-copy">
+                        <span class="preview-video-kicker">VÍDEO ELEGIDO</span>
+                        <span class="preview-video-line"></span>
+                        <span class="preview-video-line preview-video-line-short"></span>
+                    </div>
+                    <span class="preview-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="preview-inventory">
+                    <div class="preview-inventory-title">
+                        <span class="preview-inventory-icon" aria-hidden="true">✳</span>
+                        <span>La IA organiza el análisis en</span>
+                    </div>
+                    <span class="preview-chip">Materiales</span>
+                    <span class="preview-chip">Herramientas</span>
+                    <span class="preview-chip">Mano de obra</span>
+                    <span class="preview-chip">Tareas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-benefits" aria-label="Qué incluye tu proyecto">
+        <div class="landing-benefit">
+            <span class="benefit-icon benefit-icon-sage" aria-hidden="true">01</span>
+            <span><strong>Un vídeo relacionado</strong><small>Elige una referencia de YouTube entre los resultados disponibles.</small></span>
+        </div>
+        <div class="landing-benefit">
+            <span class="benefit-icon benefit-icon-sand" aria-hidden="true">02</span>
+            <span><strong>Insumos detectados</strong><small>Materiales, herramientas y mano de obra asociados al vídeo.</small></span>
+        </div>
+        <div class="landing-benefit">
+            <span class="benefit-icon benefit-icon-lilac" aria-hidden="true">03</span>
+            <span><strong>Tareas para organizarte</strong><small>Revisa y edita la propuesta en tu proyecto.</small></span>
+        </div>
+    </section>
+
+    <section class="landing-how" aria-labelledby="how-title">
+        <div class="landing-how-heading">
+            <span class="landing-eyebrow">ASÍ DE SIMPLE</span>
+            <h2 id="how-title">De tu idea a un plan DIY,<br /><span>en tres pasos.</span></h2>
+            <p>Empieza con lo que quieres hacer y ajusta las listas a tu proyecto.</p>
+        </div>
+        <div class="landing-steps">
+            <article class="landing-step">
+                <span class="step-number">01</span>
+                <h3>Describe tu proyecto</h3>
+                <p>Cuéntanos qué quieres hacer.</p>
+            </article>
+            <article class="landing-step">
+                <span class="step-number">02</span>
+                <h3>Elige un vídeo</h3>
+                <p>Encuentra una referencia relacionada en YouTube.</p>
+            </article>
+            <article class="landing-step">
+                <span class="step-number">03</span>
+                <h3>Revisa el plan</h3>
+                <p>Organiza materiales, herramientas, mano de obra y tareas.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="landing-final-cta" aria-labelledby="final-cta-title">
+        <div>
+            <span class="landing-eyebrow">EMPIEZA CON TU IDEA</span>
+            <h2 id="final-cta-title">Encuentra un vídeo para tu proyecto.</h2>
+            <p>Elige una referencia y convierte su análisis en un punto de partida.</p>
+        </div>
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <a class="landing-button landing-button-light" asp-page="/Projects/Create">
+                @primaryLabel <span aria-hidden="true">→</span>
+            </a>
+        }
+        else
+        {
+            <a class="landing-button landing-button-light" asp-area="Identity" asp-page="/Account/Register">
+                @primaryLabel <span aria-hidden="true">→</span>
+            </a>
+        }
+    </section>
+    <p class="landing-disclaimer">
+        La información depende del análisis disponible para cada vídeo. Revísala: puede estar incompleta
+        y las cantidades o requisitos de trabajo no siempre se indican.
+    </p>
+</div>

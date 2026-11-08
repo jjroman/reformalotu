@@ -90,7 +90,7 @@ En `semantic-index.json`, `summary` contiene un párrafo en español y es el ún
 
 `tasks` es una lista ordenada de pasos. Cada tarea contiene `order`, título, descripción, duración estimada, confianza y listas `materialIds`, `equipmentIds` y `laborIds` que apuntan a los insumos utilizados. Se extraen como tareas todas las acciones prácticas que el vídeo muestra, explica o recomienda (obra, pero también decorar, plantar, abonar, limpiar...); la lista queda vacía solo si el vídeo es puramente informativo o no tiene contenido hablado. Las listas de insumos y tareas pueden estar vacías; las marcas no se inventan y los datos que no constan ni pueden estimarse son `null`. Los materiales y equipos son elementos mencionados o detectados en el texto de la transcripción: no garantizan una lista de compra completa, cantidades exactas ni idoneidad profesional.
 
-Los vídeos cuya transcripción solo contiene anotaciones (`[Music]`, `[Música]`) o palabras de relleno del reconocedor (`foreign`, `thank you`, `thanks`, `gracias`) no se consideran con transcripción útil: el proyecto `ReformApp` los omite al importar el catálogo (motivo `empty-transcript`). Su `semantic-index.json`, si existe, no se usa.
+Los vídeos cuya transcripción solo contiene anotaciones (`[Music]`, `[Música]`) o palabras de relleno del reconocedor (`foreign`, `thank you`, `thanks`, `gracias`) no se consideran con transcripción útil: el proyecto `Reformk` los omite al importar el catálogo (motivo `empty-transcript`). Su `semantic-index.json`, si existe, no se usa.
 
 `confidence` es un entero de 1 a 10: 1 indica un dato completamente inferido, 5 una deducción con apoyo parcial y 10 un dato textual. Las inferencias deben leerse teniendo en cuenta su confianza; las estimaciones no son precios ni rendimientos.
 
@@ -109,8 +109,8 @@ La versión de prompt y contrato está en `SemanticIndexService`. El modo semán
 - Compilar: `dotnet build .\youtube-analyzer\youtube-analyzer.csproj`.
 - En modo `Progress`, los mensajes emitidos durante el procesamiento deben pasar por `IConsoleReporter.WriteDiagnostic`, no escribirse directamente en consola; el reporter sincroniza la salida y mantiene la barra como última línea.
 - Validar índices v3 (ids canónicos, `order` consecutivo, referencias de tareas, un único lead, rangos de confianza): `& .\youtube-analyzer\scripts\Validate-SemanticIndex.ps1 -Path .\youtube-analyzer\output [-VideoId id1,id2]` (PowerShell 7; devuelve código de salida 1 si hay fallos). Llámalo con `&`, no con `pwsh -File`, para que `-VideoId` reciba la lista.
-- `semantic-index.json` conserva claves PascalCase porque el proyecto `ReformApp` lo lee con `JsonDocument` sensible a mayúsculas.
-- `ReformApp` decide qué vídeos importar en `CorpusInventoryReader`; el filtro de transcripciones sin contenido hablado debe mantenerse alineado con lo descrito en Resultados. Sus pruebas están en `ReformApp.Tests\Services\CorpusInventoryReaderTests.cs`.
+- `semantic-index.json` conserva claves PascalCase porque el proyecto `Reformk` lo lee con `JsonDocument` sensible a mayúsculas.
+- `Reformk` decide qué vídeos importar en `CorpusInventoryReader`; el filtro de transcripciones sin contenido hablado debe mantenerse alineado con lo descrito en Resultados. Sus pruebas están en `Reformk.Tests\Services\CorpusInventoryReaderTests.cs`.
 - La solución usa .NET 10, nullable reference types y dependencias NuGet declaradas en `youtube-analyzer.csproj`.
 - No se requiere base de datos. El índice se guarda como JSON portable, apto para almacenarse posteriormente como JSON o JSONB.
 - La generación semántica requiere acceso al recurso Azure OpenAI y puede incurrir en coste. Valida primero una muestra pequeña; no lances el lote completo hasta revisar manualmente el resumen, las inferencias y la confianza.

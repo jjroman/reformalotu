@@ -326,7 +326,7 @@ internal sealed class SemanticIndexService
         _embeddingClient = client.GetEmbeddingClient(settings.EmbeddingDeployment);
     }
 
-    /// <summary>Hash of the transcript text; must match the one computed by the ReformApp project.</summary>
+    /// <summary>Hash of the transcript text; must match the one computed by the Reformk project.</summary>
     public static string ComputeTranscriptHash(VideoTranscript transcript)
     {
         ArgumentNullException.ThrowIfNull(transcript);
@@ -349,7 +349,7 @@ internal sealed class SemanticIndexService
     {
         var path = Path.Combine(videoOutputDirectory, FileName);
         var transcriptHash = ComputeTranscriptHash(transcript);
-        // The ReformApp project reads this file with PascalCase keys, so the written format must not change.
+        // The Reformk project reads this file with PascalCase keys, so the written format must not change.
         var readOptions = new JsonSerializerOptions(jsonOptions) { PropertyNameCaseInsensitive = true };
         var cached = await TryReadAsync(videoId, path, readOptions, writeDiagnostic, cancellationToken);
 

@@ -1,4 +1,4 @@
-# ReformaloTu - Estrategia MVP basada en Bricocrack
+# Reformk - Estrategia MVP basada en Bricocrack
 
 ## Introducción
 
@@ -29,11 +29,11 @@ Los usuarios:
 
 ---
 
-# Posicionamiento de ReformaloTu
+# Posicionamiento de Reformk
 
-ReformaloTu no es un buscador de vídeos.
+Reformk no es un buscador de vídeos.
 
-ReformaloTu es un copiloto digital para reformas y bricolaje.
+Reformk es un copiloto digital para reformas y bricolaje.
 
 Su objetivo es transformar una idea o necesidad en un plan ejecutable.
 
@@ -63,11 +63,11 @@ Debe recopilar información de múltiples fuentes y tomar decisiones por sí mis
 
 # Propuesta de Valor
 
-ReformaloTu transforma este proceso en:
+Reformk transforma este proceso en:
 
 Idea
 ↓
-ReformaloTu
+Reformk
 ↓
 Plan de ejecución
 ↓
@@ -303,7 +303,7 @@ Vídeos recomendados
 
 # Visión
 
-ReformaloTu ayuda a los propietarios a entender, planificar, ejecutar y supervisar proyectos de mejora del hogar.
+Reformk ayuda a los propietarios a entender, planificar, ejecutar y supervisar proyectos de mejora del hogar.
 
 Nuestra hipótesis es:
 

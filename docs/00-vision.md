@@ -6,7 +6,7 @@ Convertirnos en el asistente digital de referencia para cualquier persona que qu
 
 Ayudar a las personas a ejecutar proyectos de mejora del hogar proporcionando orientación práctica, personalizada y accesible.
 
-ReformaloTu transforma una intención en un plan de acción.
+Reformk transforma una intención en un plan de acción.
 
 ## Eslogan
 
