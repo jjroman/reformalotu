@@ -14,8 +14,8 @@ public sealed class MetricsModel(ApplicationDbContext dbContext) : PageModel
     public async Task OnGetAsync(CancellationToken cancellationToken)
     {
         ProjectCount = await dbContext.Projects.LongCountAsync(cancellationToken);
-        VideoOpenCount = await dbContext.Videos
-            .Select(video => (long?)video.OpenCount)
+        VideoOpenCount = await dbContext.VideoOpenCounts
+            .Select(video => (long?)video.Count)
             .SumAsync(cancellationToken) ?? 0;
     }
 }

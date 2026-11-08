@@ -106,7 +106,7 @@ public sealed class VideoCatalogImporterTests
         }
     }
 
-    private static VideoCatalogImporter CreateImporter(string corpusPath, ApplicationDbContext dbContext)
+    private static VideoCatalogImporter CreateImporter(string corpusPath, VideoCatalogDbContext dbContext)
     {
         var configuration = new ConfigurationBuilder()
             .AddInMemoryCollection(new Dictionary<string, string?> { ["Corpus:Path"] = corpusPath })
@@ -125,12 +125,12 @@ public sealed class VideoCatalogImporterTests
             NullLogger<VideoCatalogImporter>.Instance);
     }
 
-    private static ApplicationDbContext CreateDbContext(SqliteConnection connection)
+    private static VideoCatalogDbContext CreateDbContext(SqliteConnection connection)
     {
-        var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+        var options = new DbContextOptionsBuilder<VideoCatalogDbContext>()
             .UseSqlite(connection)
             .Options;
-        var dbContext = new ApplicationDbContext(options);
+        var dbContext = new VideoCatalogDbContext(options);
         dbContext.Database.EnsureCreated();
         return dbContext;
     }

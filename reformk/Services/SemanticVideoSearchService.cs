@@ -25,7 +25,7 @@ public sealed record SemanticSearchResult(
     bool HasMore = false);
 
 public sealed class SemanticVideoSearchService(
-    ApplicationDbContext dbContext,
+    VideoCatalogDbContext dbContext,
     IQueryEmbeddingClient embeddingClient,
     IOptions<SemanticSearchOptions> options,
     ILogger<SemanticVideoSearchService> logger)

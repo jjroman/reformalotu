@@ -9,7 +9,7 @@ namespace Reformk.Pages.Interno;
 public sealed record VideoListItem(string VideoId, string Title, string[] Keywords);
 
 [Authorize]
-public sealed class VideosModel(ApplicationDbContext dbContext) : PageModel
+public sealed class VideosModel(VideoCatalogDbContext dbContext) : PageModel
 {
     private const int PageSize = 10;
 

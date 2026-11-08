@@ -40,6 +40,7 @@ public sealed class DetailsModel(
     public ReformProject Project { get; private set; } = null!;
     public string DescriptionHtml { get; private set; } = string.Empty;
     public string? WorkDescriptionNotice { get; private set; }
+    public bool VideoCatalogUnavailable { get; private set; }
     public IReadOnlyList<ProjectInput> Materials => Project.Inputs
         .Where(input => input.Kind == "material")
         .OrderBy(input => input.Name, StringComparer.OrdinalIgnoreCase)
@@ -232,6 +233,11 @@ public sealed class DetailsModel(
 
         if (Project.SelectedVideo is null)
         {
+            if (VideoCatalogUnavailable)
+            {
+                WorkDescriptionNotice = "El catálogo de vídeos no está disponible. Inténtalo de nuevo más tarde.";
+                return Page();
+            }
             return NotFound();
         }
         if (workDescriptionGenerator is null)
@@ -272,18 +278,25 @@ public sealed class DetailsModel(
                 .ThenInclude(input => input.Tasks)
             .Include(item => item.Tasks)
                 .ThenInclude(task => task.Inputs)
-            .Include(item => item.SelectedVideo)
-                .ThenInclude(video => video!.Inputs)
-            .Include(item => item.SelectedVideo)
-                .ThenInclude(video => video!.Tasks)
-            .Include(item => item.SelectedVideo)
-                .ThenInclude(video => video!.SemanticIndex)
             .FirstOrDefaultAsync(
                 item => item.Id == id && item.OwnerId == ownerId,
                 cancellationToken);
         if (project is null)
         {
             return false;
+        }
+
+        if (project.SelectedVideoId is { } videoId)
+        {
+            try
+            {
+                project.SelectedVideo = await projectVideoService.FindVideoAsync(videoId, cancellationToken);
+            }
+            catch (SqliteException exception)
+            {
+                logger.LogError(exception, "Could not load catalog video {VideoId} for project {ProjectId}.", videoId, id);
+                VideoCatalogUnavailable = true;
+            }
         }
 
         Project = project;

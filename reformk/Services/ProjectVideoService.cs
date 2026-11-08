@@ -3,11 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Reformk.Services;
 
-public sealed class ProjectVideoService(ApplicationDbContext dbContext)
+public sealed class ProjectVideoService(ApplicationDbContext dbContext, VideoCatalogDbContext catalogContext)
 {
     public async Task<VideoCatalogItem?> FindVideoAsync(string videoId, CancellationToken cancellationToken)
     {
-        return await dbContext.Videos
+        return await catalogContext.Videos
+            .AsNoTracking()
             .Include(video => video.Inputs)
             .Include(video => video.Tasks)
             .Include(video => video.SemanticIndex)

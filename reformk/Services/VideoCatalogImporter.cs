@@ -16,7 +16,7 @@ public sealed record VideoCatalogImportSummary(
 
 public sealed class VideoCatalogImporter(
     CorpusInventoryReader inventoryReader,
-    ApplicationDbContext dbContext,
+    VideoCatalogDbContext dbContext,
     IWebHostEnvironment environment,
     IOptions<SqliteVectorOptions> vectorOptions,
     ILogger<VideoCatalogImporter> logger)

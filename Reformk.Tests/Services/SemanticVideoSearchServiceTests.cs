@@ -92,11 +92,11 @@ public sealed class SemanticVideoSearchServiceTests
         Assert.Equal(0, embeddingClient.CallCount);
     }
 
-    private static SemanticVideoSearchService CreateService(ApplicationDbContext dbContext, float[] queryVector) =>
+    private static SemanticVideoSearchService CreateService(VideoCatalogDbContext dbContext, float[] queryVector) =>
         CreateService(dbContext, new FakeEmbeddingClient(queryVector));
 
     private static SemanticVideoSearchService CreateService(
-        ApplicationDbContext dbContext,
+        VideoCatalogDbContext dbContext,
         FakeEmbeddingClient embeddingClient) =>
         new(
             dbContext,
@@ -104,7 +104,7 @@ public sealed class SemanticVideoSearchServiceTests
             Options.Create(new SemanticSearchOptions { MinimumSimilarity = 0.5, MaxResults = 3 }),
             NullLogger<SemanticVideoSearchService>.Instance);
 
-    private static async Task SeedAsync(ApplicationDbContext dbContext)
+    private static async Task SeedAsync(VideoCatalogDbContext dbContext)
     {
         foreach (var (id, vector) in new[] { ("near", new[] { 1f, 0f, 0f }), ("far", new[] { 0f, 1f, 0f }) })
         {
@@ -127,10 +127,10 @@ public sealed class SemanticVideoSearchServiceTests
         return connection;
     }
 
-    private static ApplicationDbContext CreateDbContext(SqliteConnection connection)
+    private static VideoCatalogDbContext CreateDbContext(SqliteConnection connection)
     {
-        var options = new DbContextOptionsBuilder<ApplicationDbContext>().UseSqlite(connection).Options;
-        var dbContext = new ApplicationDbContext(options);
+        var options = new DbContextOptionsBuilder<VideoCatalogDbContext>().UseSqlite(connection).Options;
+        var dbContext = new VideoCatalogDbContext(options);
         dbContext.Database.EnsureCreated();
         return dbContext;
     }

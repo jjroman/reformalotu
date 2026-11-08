@@ -40,7 +40,7 @@
         <div class="project-markdown-content">@Html.Raw(Model.DescriptionHtml)</div>
     </section>
 
-    @if (Model.Project.SelectedVideo is { } video)
+    @if (Model.Project.SelectedVideoId is not null)
     {
         <section class="project-work-description" aria-labelledby="work-description-title">
             <div class="project-section-heading">
@@ -52,9 +52,12 @@
             @if (string.IsNullOrWhiteSpace(Model.Project.WorkDescription))
             {
                 <p>Aún no se ha podido generar la descripción del trabajo.</p>
-                <form method="post" asp-page-handler="RetryWorkDescription">
-                    <button class="btn btn-outline-secondary" type="submit">Reintentar generación</button>
-                </form>
+                @if (Model.Project.SelectedVideo is not null)
+                {
+                    <form method="post" asp-page-handler="RetryWorkDescription">
+                        <button class="btn btn-outline-secondary" type="submit">Reintentar generación</button>
+                    </form>
+                }
             }
             else
             {
@@ -242,19 +245,27 @@
         </div>
     </section>
 
-    @if (Model.Project.SelectedVideo is { } selectedVideo)
+    @if (Model.Project.SelectedVideoId is not null)
     {
         <section class="project-video-section" aria-labelledby="selected-video-title">
             <article class="project-selected-video">
                 <div>
                     <span class="product-eyebrow">VÍDEO ELEGIDO</span>
-                    <h2 id="selected-video-title">@selectedVideo.Title</h2>
-                    <p>@(selectedVideo.SemanticIndex?.Summary ?? "No hay un resumen disponible para este vídeo.")</p>
-                    <a asp-page="./OpenVideo" asp-route-videoId="@selectedVideo.VideoId" asp-route-projectId="@Model.Project.Id"
-                       target="_blank" rel="noopener noreferrer">
-                        Abrir vídeo en YouTube <span aria-hidden="true">↗</span>
-                        <span class="visually-hidden">(se abre en una pestaña nueva)</span>
-                    </a>
+                    @if (Model.Project.SelectedVideo is { } selectedVideo)
+                    {
+                        <h2 id="selected-video-title">@selectedVideo.Title</h2>
+                        <p>@(selectedVideo.SemanticIndex?.Summary ?? "No hay un resumen disponible para este vídeo.")</p>
+                        <a asp-page="./OpenVideo" asp-route-videoId="@selectedVideo.VideoId" asp-route-projectId="@Model.Project.Id"
+                           target="_blank" rel="noopener noreferrer">
+                            Abrir vídeo en YouTube <span aria-hidden="true">↗</span>
+                            <span class="visually-hidden">(se abre en una pestaña nueva)</span>
+                        </a>
+                    }
+                    else
+                    {
+                        <h2 id="selected-video-title">@(Model.VideoCatalogUnavailable ? "Catálogo de vídeos no disponible" : "Vídeo no disponible en el catálogo")</h2>
+                        <p>La referencia @Model.Project.SelectedVideoId y los datos del proyecto se conservan. Puedes cambiar o quitar el vídeo.</p>
+                    }
                 </div>
             </article>
             <div class="project-video-change-actions">

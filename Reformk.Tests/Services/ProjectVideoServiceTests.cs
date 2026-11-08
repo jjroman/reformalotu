@@ -14,7 +14,7 @@ public sealed class ProjectVideoServiceTests
     {
         await using var connection = new SqliteConnection("Data Source=:memory:");
         await connection.OpenAsync();
-        await using var dbContext = CreateDbContext(connection);
+        await using var dbContext = CreateCatalogDbContext(connection);
         var video = CreateVideo("video-one");
         video.Tasks.Add(new VideoTaskDefinition
         {
@@ -42,6 +42,9 @@ public sealed class ProjectVideoServiceTests
         await using var connection = new SqliteConnection("Data Source=:memory:");
         await connection.OpenAsync();
         await using var dbContext = CreateDbContext(connection);
+        await using var catalogConnection = new SqliteConnection("Data Source=:memory:");
+        await catalogConnection.OpenAsync();
+        await using var catalogContext = CreateCatalogDbContext(catalogConnection);
         var owner = new IdentityUser { Id = "owner", UserName = "owner", NormalizedUserName = "OWNER" };
         var firstVideo = CreateVideo("video-one");
         firstVideo.Inputs.Add(new VideoInput
@@ -78,7 +81,8 @@ public sealed class ProjectVideoServiceTests
             Name = "Barniz"
         });
         dbContext.Users.Add(owner);
-        dbContext.Videos.AddRange(firstVideo, secondVideo);
+        catalogContext.Videos.AddRange(firstVideo, secondVideo);
+        await catalogContext.SaveChangesAsync();
         var project = new ReformProject
         {
             Id = Guid.NewGuid(),
@@ -90,7 +94,7 @@ public sealed class ProjectVideoServiceTests
         dbContext.Projects.Add(project);
         await dbContext.SaveChangesAsync();
 
-        var service = new ProjectVideoService(dbContext);
+        var service = new ProjectVideoService(dbContext, catalogContext);
         service.ReplaceVideo(project, await service.FindVideoAsync(firstVideo.VideoId, default));
         await dbContext.SaveChangesAsync();
 
@@ -106,7 +110,7 @@ public sealed class ProjectVideoServiceTests
 
         copiedMaterial.Name = "Pintura modificada en el proyecto";
         await dbContext.SaveChangesAsync();
-        Assert.Equal("Pintura", (await dbContext.VideoInputs.SingleAsync(input => input.SourceId == "m1")).Name);
+        Assert.Equal("Pintura", (await catalogContext.VideoInputs.SingleAsync(input => input.SourceId == "m1")).Name);
 
         dbContext.ProjectInputs.Remove(copiedMaterial);
         await dbContext.SaveChangesAsync();
@@ -155,6 +159,14 @@ public sealed class ProjectVideoServiceTests
     {
         var options = new DbContextOptionsBuilder<ApplicationDbContext>().UseSqlite(connection).Options;
         var dbContext = new ApplicationDbContext(options);
+        dbContext.Database.EnsureCreated();
+        return dbContext;
+    }
+
+    private static VideoCatalogDbContext CreateCatalogDbContext(SqliteConnection connection)
+    {
+        var options = new DbContextOptionsBuilder<VideoCatalogDbContext>().UseSqlite(connection).Options;
+        var dbContext = new VideoCatalogDbContext(options);
         dbContext.Database.EnsureCreated();
         return dbContext;
     }

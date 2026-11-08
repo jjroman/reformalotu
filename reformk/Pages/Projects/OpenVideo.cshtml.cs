@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Reformk.Pages.Projects;
 
 [Authorize]
-public sealed class OpenVideoModel(ApplicationDbContext dbContext) : PageModel
+public sealed class OpenVideoModel(ApplicationDbContext dbContext, VideoCatalogDbContext catalogContext) : PageModel
 {
     public async Task<IActionResult> OnGetAsync(
         Guid projectId,
@@ -33,16 +33,17 @@ public sealed class OpenVideoModel(ApplicationDbContext dbContext) : PageModel
             return NotFound();
         }
 
-        var updatedRows = await dbContext.Videos
-            .Where(video => video.VideoId == videoId)
-            .ExecuteUpdateAsync(
-                updates => updates.SetProperty(video => video.OpenCount, video => video.OpenCount + 1),
-                cancellationToken);
-        if (updatedRows != 1)
+        if (!await catalogContext.Videos.AnyAsync(video => video.VideoId == videoId, cancellationToken))
         {
             return NotFound();
         }
 
+        await dbContext.Database.ExecuteSqlInterpolatedAsync(
+            $"""
+            INSERT INTO VideoOpenCounts (VideoId, Count) VALUES ({videoId}, 1)
+            ON CONFLICT (VideoId) DO UPDATE SET Count = Count + 1
+            """,
+            cancellationToken);
         return Redirect($"https://www.youtube.com/watch?v={Uri.EscapeDataString(videoId)}");
     }
 }

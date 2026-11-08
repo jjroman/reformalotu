@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.Sqlite;
 using System.Globalization;
 using Reformk.Data;
 using Reformk.Identity;
@@ -10,10 +11,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var catalogConnectionString = builder.Configuration.GetConnectionString("VideoCatalog");
+if (string.IsNullOrWhiteSpace(catalogConnectionString))
+{
+    var catalogBuilder = new SqliteConnectionStringBuilder(connectionString);
+    if (string.IsNullOrWhiteSpace(catalogBuilder.DataSource) || catalogBuilder.DataSource == ":memory:")
+    {
+        throw new InvalidOperationException("Configure ConnectionStrings:VideoCatalog for a separate, persistent SQLite database.");
+    }
+    catalogBuilder.DataSource = Path.Combine(Path.GetDirectoryName(catalogBuilder.DataSource) ?? string.Empty, "video-catalog.db");
+    catalogConnectionString = catalogBuilder.ToString();
+}
 builder.Services.Configure<SqliteVectorOptions>(builder.Configuration.GetSection("SqliteVector"));
 builder.Services.AddSingleton<SqliteVectorConnectionInterceptor>();
 builder.Services.AddDbContext<ApplicationDbContext>((provider, options) =>
-    options.UseSqlite(connectionString, sqlite => sqlite.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery))
+    options.UseSqlite(connectionString, sqlite => sqlite.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery)));
+builder.Services.AddDbContext<VideoCatalogDbContext>((provider, options) =>
+    options.UseSqlite(catalogConnectionString, sqlite => sqlite.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery))
         .AddInterceptors(provider.GetRequiredService<SqliteVectorConnectionInterceptor>()));
 builder.Services.Configure<VideoCatalogOptions>(builder.Configuration.GetSection("VideoCatalog"));
 builder.Services.AddSemanticSearch(builder.Configuration, builder.Environment);
@@ -73,7 +87,8 @@ const string adminRole = "Admin";
 await using (var scope = app.Services.CreateAsyncScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    await dbContext.Database.MigrateAsync();
+    var catalogContext = scope.ServiceProvider.GetRequiredService<VideoCatalogDbContext>();
+    await VideoCatalogDatabaseMigration.MigrateAsync(dbContext, catalogContext);
     await scope.ServiceProvider.GetRequiredService<VideoCatalogImporter>().ImportAsync();
 
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
