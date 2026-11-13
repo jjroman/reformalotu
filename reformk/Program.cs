@@ -19,7 +19,7 @@ if (string.IsNullOrWhiteSpace(catalogConnectionString))
     {
         throw new InvalidOperationException("Configure ConnectionStrings:VideoCatalog for a separate, persistent SQLite database.");
     }
-    catalogBuilder.DataSource = Path.Combine(Path.GetDirectoryName(catalogBuilder.DataSource) ?? string.Empty, "video-catalog.db");
+    catalogBuilder.DataSource = Path.Combine(Path.GetDirectoryName(catalogBuilder.DataSource) ?? string.Empty, "video.db");
     catalogConnectionString = catalogBuilder.ToString();
 }
 builder.Services.Configure<SqliteVectorOptions>(builder.Configuration.GetSection("SqliteVector"));
@@ -35,6 +35,20 @@ builder.Services.AddProjectAi(builder.Configuration, builder.Environment);
 builder.Services.AddSingleton<CorpusInventoryReader>();
 builder.Services.AddScoped<VideoCatalogImporter>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+var mailSenderOptions = builder.Services.AddOptions<MailSenderOptions>()
+    .Bind(builder.Configuration.GetSection(MailSenderOptions.SectionName))
+    .ValidateDataAnnotations();
+if (!builder.Environment.IsDevelopment())
+{
+    mailSenderOptions.ValidateOnStart();
+}
+
+builder.Services.AddTransient<MailerSendIdentityEmailSender>();
+builder.Services.AddTransient<Microsoft.AspNetCore.Identity.IEmailSender<IdentityUser>>(
+    services => services.GetRequiredService<MailerSendIdentityEmailSender>());
+builder.Services.AddTransient<Microsoft.AspNetCore.Identity.UI.Services.IEmailSender>(
+    services => services.GetRequiredService<MailerSendIdentityEmailSender>());
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
         options.SignIn.RequireConfirmedAccount = !builder.Environment.IsDevelopment())

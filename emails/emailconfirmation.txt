@@ -1,0 +1,13 @@
+Subject: Confirm your email address
+
+Hi {{name}},
+
+Thanks for registering for {{app_name}}. Please confirm your email address by clicking the button below:
+
+Confirm my email address
+{{confirmation_url}}
+
+This link expires in {{expiration_period}}. If you didn’t create an account, you can ignore this email.
+
+Thanks,
+The {{app_name}} team
